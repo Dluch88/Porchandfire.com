@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" width="420" height="120">
+  <defs>
+    <linearGradient id="fireGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#e63900;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff7a00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffd000;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a0a00" />
+      <stop offset="100%" style="stop-color:#3d1a00" />
+    </linearGradient>
+  </defs>
+
+  <!-- Porch roof / overhang shape -->
+  <polygon points="10,72 60,40 110,72" fill="#3d1a00" />
+  <rect x="10" y="70" width="100" height="5" fill="#3d1a00" rx="1"/>
+
+  <!-- Porch columns -->
+  <rect x="20" y="74" width="8" height="32" fill="#5c2e00" rx="2"/>
+  <rect x="92" y="74" width="8" height="32" fill="#5c2e00" rx="2"/>
+
+  <!-- Porch floor -->
+  <rect x="10" y="104" width="100" height="6" fill="#3d1a00" rx="2"/>
+
+  <!-- Fire flame in porch opening -->
+  <!-- Outer flame -->
+  <path d="M60,100 C48,88 44,78 50,68 C52,64 54,68 54,72 C54,62 58,52 60,44 C62,52 66,62 66,72 C66,68 68,64 70,68 C76,78 72,88 60,100Z" fill="url(#fireGrad)" opacity="0.9"/>
+  <!-- Inner flame -->
+  <path d="M60,96 C53,86 51,78 55,72 C56,69 57,72 57,75 C57,68 59,60 60,54 C61,60 63,68 63,75 C63,72 64,69 65,72 C69,78 67,86 60,96Z" fill="#ffd000" opacity="0.85"/>
+
+  <!-- Wordmark -->
+  <text x="128" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="700" fill="url(#textGrad)" letter-spacing="1">Porch</text>
+  <text x="128" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="700" fill="#e63900" letter-spacing="1">&amp; Fire</text>
+
+  <!-- Decorative underline -->
+  <line x1="128" y1="114" x2="400" y2="114" stroke="#e63900" stroke-width="2" opacity="0.3"/>
+</svg>

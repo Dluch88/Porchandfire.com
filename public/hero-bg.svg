@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="40%" stop-color="#1a1025"/>
+      <stop offset="100%" stop-color="#2d1810"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0f08"/>
+      <stop offset="100%" stop-color="#0d0806"/>
+    </linearGradient>
+    <radialGradient id="fireGlow" cx="50%" cy="60%" r="40%">
+      <stop offset="0%" stop-color="#ff6a00" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#c23200" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fireCore" cx="50%" cy="80%" r="20%">
+      <stop offset="0%" stop-color="#fff0a0" stop-opacity="0.9"/>
+      <stop offset="30%" stop-color="#ff8c00" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ff3300" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Stars -->
+    <radialGradient id="star" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Night sky -->
+  <rect width="1600" height="700" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <circle cx="120" cy="60" r="1.2" fill="white" opacity="0.8"/>
+  <circle cx="280" cy="40" r="0.8" fill="white" opacity="0.6"/>
+  <circle cx="420" cy="90" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="600" cy="30" r="1" fill="white" opacity="0.7"/>
+  <circle cx="750" cy="70" r="0.8" fill="white" opacity="0.5"/>
+  <circle cx="900" cy="45" r="1.2" fill="white" opacity="0.8"/>
+  <circle cx="1050" cy="80" r="1" fill="white" opacity="0.6"/>
+  <circle cx="1200" cy="35" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="1380" cy="65" r="0.8" fill="white" opacity="0.7"/>
+  <circle cx="200" cy="110" r="0.8" fill="white" opacity="0.5"/>
+  <circle cx="500" cy="120" r="1" fill="white" opacity="0.6"/>
+  <circle cx="850" cy="100" r="0.8" fill="white" opacity="0.4"/>
+  <circle cx="1100" cy="120" r="1.2" fill="white" opacity="0.7"/>
+  <circle cx="1450" cy="95" r="0.9" fill="white" opacity="0.6"/>
+  <circle cx="350" cy="150" r="0.7" fill="white" opacity="0.4"/>
+  <circle cx="680" cy="140" r="1" fill="white" opacity="0.5"/>
+  <circle cx="1300" cy="130" r="0.8" fill="white" opacity="0.6"/>
+
+  <!-- Distant treeline -->
+  <ellipse cx="100" cy="400" rx="120" ry="160" fill="#0d0a08"/>
+  <ellipse cx="220" cy="380" rx="100" ry="180" fill="#0f0c09"/>
+  <ellipse cx="380" cy="390" rx="140" ry="170" fill="#0d0a08"/>
+  <ellipse cx="520" cy="370" rx="110" ry="190" fill="#0f0c09"/>
+  <ellipse cx="1080" cy="370" rx="110" ry="190" fill="#0f0c09"/>
+  <ellipse cx="1220" cy="380" rx="140" ry="175" fill="#0d0a08"/>
+  <ellipse cx="1380" cy="390" rx="100" ry="165" fill="#0f0c09"/>
+  <ellipse cx="1520" cy="400" rx="130" ry="160" fill="#0d0a08"/>
+
+  <!-- Ground/patio -->
+  <rect x="0" y="500" width="1600" height="200" fill="url(#ground)"/>
+  <rect x="0" y="495" width="1600" height="12" fill="#231510" opacity="0.8"/>
+
+  <!-- Firepit glow on ground -->
+  <ellipse cx="800" cy="540" rx="320" ry="80" fill="#ff4500" opacity="0.12"/>
+  <ellipse cx="800" cy="530" rx="200" ry="50" fill="#ff6a00" opacity="0.15"/>
+
+  <!-- Big glow around fire -->
+  <ellipse cx="800" cy="420" rx="500" ry="300" fill="url(#fireGlow)"/>
+
+  <!-- Fire pit bowl -->
+  <ellipse cx="800" cy="510" rx="90" ry="22" fill="#1a0e0a"/>
+  <rect x="718" y="490" width="164" height="25" rx="4" fill="#261510"/>
+  <ellipse cx="800" cy="490" rx="82" ry="18" fill="#1f1108"/>
+
+  <!-- Glowing coals -->
+  <ellipse cx="800" cy="488" rx="65" ry="12" fill="#8b2000" opacity="0.8"/>
+  <ellipse cx="785" cy="487" rx="30" ry="7" fill="#cc3300" opacity="0.9"/>
+  <ellipse cx="815" cy="486" rx="25" ry="6" fill="#ff4400" opacity="0.8"/>
+
+  <!-- Fire core glow -->
+  <ellipse cx="800" cy="460" rx="200" ry="150" fill="url(#fireCore)"/>
+
+  <!-- Flame shapes -->
+  <path d="M780 490 C775 460 768 430 778 400 C782 385 790 395 792 410 C793 395 798 370 800 345 C802 370 807 395 808 410 C810 395 818 385 822 400 C832 430 825 460 820 490 Z" fill="#ff8c00" opacity="0.9"/>
+  <path d="M790 490 C785 462 780 438 788 415 C791 405 796 412 797 422 C798 408 801 385 803 368 C805 385 808 408 809 422 C810 412 815 405 818 415 C826 438 821 462 816 490 Z" fill="#ffb347" opacity="0.85"/>
+  <path d="M796 490 C793 468 790 448 795 430 C797 422 800 428 801 436 C802 424 803 408 804 395 C805 408 806 424 807 436 C808 428 811 422 813 430 C818 448 815 468 812 490 Z" fill="#ffd700" opacity="0.8"/>
+  <!-- Inner bright flame -->
+  <path d="M798 490 C796 472 794 456 798 443 C800 436 802 441 803 448 C804 438 804 425 805 415 C806 425 806 438 807 448 C808 441 810 436 812 443 C816 456 814 472 812 490 Z" fill="#fff0a0" opacity="0.7"/>
+
+  <!-- Firepit legs/stand -->
+  <rect x="730" y="508" width="12" height="35" rx="3" fill="#1a0e08" transform="rotate(-8 736 510)"/>
+  <rect x="858" y="508" width="12" height="35" rx="3" fill="#1a0e08" transform="rotate(8 864 510)"/>
+  <rect x="794" y="510" width="12" height="32" rx="3" fill="#1a0e08"/>
+
+  <!-- Seating silhouettes -->
+  <!-- Left chairs -->
+  <rect x="500" y="490" width="80" height="8" rx="3" fill="#120c08" opacity="0.9"/>
+  <rect x="505" y="498" width="70" height="30" rx="2" fill="#150e0a" opacity="0.8"/>
+  <rect x="500" y="488" width="12" height="50" rx="2" fill="#100b07" opacity="0.9"/>
+  <rect x="568" y="488" width="12" height="50" rx="2" fill="#100b07" opacity="0.9"/>
+  <!-- Back of chair -->
+  <rect x="500" y="465" width="80" height="28" rx="3" fill="#130d09" opacity="0.85"/>
+
+  <!-- Right chairs -->
+  <rect x="1020" y="490" width="80" height="8" rx="3" fill="#120c08" opacity="0.9"/>
+  <rect x="1025" y="498" width="70" height="30" rx="2" fill="#150e0a" opacity="0.8"/>
+  <rect x="1020" y="488" width="12" height="50" rx="2" fill="#100b07" opacity="0.9"/>
+  <rect x="1088" y="488" width="12" height="50" rx="2" fill="#100b07" opacity="0.9"/>
+  <rect x="1020" y="465" width="80" height="28" rx="3" fill="#130d09" opacity="0.85"/>
+
+  <!-- Person silhouette left -->
+  <ellipse cx="555" cy="458" rx="18" ry="20" fill="#0d0805"/>
+  <rect x="537" y="475" width="36" height="45" rx="8" fill="#0d0805"/>
+
+  <!-- Person silhouette right -->
+  <ellipse cx="1050" cy="455" rx="18" ry="20" fill="#0d0805"/>
+  <rect x="1032" y="472" width="36" height="45" rx="8" fill="#0d0805"/>
+
+  <!-- Warm light on people from fire -->
+  <ellipse cx="555" cy="470" rx="22" ry="28" fill="#ff6a00" opacity="0.08"/>
+  <ellipse cx="1050" cy="468" rx="22" ry="28" fill="#ff6a00" opacity="0.08"/>
+
+  <!-- String lights -->
+  <line x1="300" y1="300" x2="800" y2="330" stroke="#6b4c2a" stroke-width="1.5" opacity="0.6"/>
+  <line x1="800" y1="330" x2="1300" y2="300" stroke="#6b4c2a" stroke-width="1.5" opacity="0.6"/>
+  <!-- Light bulbs -->
+  <circle cx="370" cy="305" r="4" fill="#ffe080" opacity="0.9"/>
+  <circle cx="440" cy="310" r="4" fill="#ffe080" opacity="0.85"/>
+  <circle cx="510" cy="313" r="4" fill="#ffd060" opacity="0.9"/>
+  <circle cx="580" cy="317" r="4" fill="#ffe080" opacity="0.85"/>
+  <circle cx="650" cy="320" r="4" fill="#ffd060" opacity="0.9"/>
+  <circle cx="720" cy="324" r="4" fill="#ffe080" opacity="0.85"/>
+  <circle cx="800" cy="330" r="4" fill="#ffd060" opacity="0.9"/>
+  <circle cx="880" cy="324" r="4" fill="#ffe080" opacity="0.85"/>
+  <circle cx="950" cy="320" r="4" fill="#ffd060" opacity="0.9"/>
+  <circle cx="1020" cy="316" r="4" fill="#ffe080" opacity="0.85"/>
+  <circle cx="1090" cy="312" r="4" fill="#ffd060" opacity="0.9"/>
+  <circle cx="1160" cy="308" r="4" fill="#ffe080" opacity="0.85"/>
+  <circle cx="1230" cy="304" r="4" fill="#ffd060" opacity="0.9"/>
+  <!-- Glow around bulbs -->
+  <circle cx="650" cy="320" r="10" fill="#ffe080" opacity="0.12"/>
+  <circle cx="800" cy="330" r="12" fill="#ffe080" opacity="0.15"/>
+  <circle cx="950" cy="320" r="10" fill="#ffe080" opacity="0.12"/>
+</svg>
