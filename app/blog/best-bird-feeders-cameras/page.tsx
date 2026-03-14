@@ -27,7 +27,7 @@ const picks = [
       'Plastic construction looks less premium than metal',
       'Tube design limits seed types to sunflower and mixes',
     ],
-    asin: 'B000HHHEF0',
+    asin: 'B00ABGSX4S',
     verdict:
       "I've tried a lot of \"squirrel-proof\" feeders and most of them aren't. This one actually is. When a squirrel climbs on, its weight closes the seed ports. Simple, mechanical, no batteries needed. My parents have had theirs for six years and it still works perfectly. Start here if you're new to bird feeding.",
   },
@@ -90,7 +90,7 @@ const picks = [
       'Copper finish fades over time',
       'Smaller capacity needs frequent refilling',
     ],
-    asin: 'B00GPI71KQ',
+    asin: 'B0079GHJXY',
     verdict:
       "For twenty bucks, this is a great way to find out if bird feeding is your thing before committing to a $200 smart feeder. The copper finish genuinely looks nice hanging in a garden, and the panorama design means you'll see birds feeding from every angle. Keep it stocked with black oil sunflower seeds and you'll have visitors within a day or two.",
   },
@@ -111,7 +111,7 @@ const picks = [
       'Only attracts hummingbirds (by design)',
       'Red color fades after a few seasons in sun',
     ],
-    asin: 'B001BQYVNI',
+    asin: 'B093QHLGPH',
     verdict:
       "Hummingbird feeders are a different game — you're filling them with sugar water, not seed, and cleaning matters a lot more. The HummZinger makes cleaning dead simple (it comes apart fully and is dishwasher safe) and the built-in ant moat is a feature most cheap feeders skip. Hang it near a window and prepare to be mesmerized.",
   },
@@ -132,7 +132,7 @@ const picks = [
       'Open design means seed gets rained on',
       'Needs cleaning more often than enclosed feeders',
     ],
-    asin: 'B004ISXHM0',
+    asin: 'B002W8PVWK',
     verdict:
       "If your goal is maximum bird variety, a platform feeder is the way to go. Tube feeders attract small songbirds, but platforms bring in cardinals, blue jays, mourning doves, and other species that can't cling to a tube. Yes, squirrels will find it. Think of it as feeding the whole backyard. The recycled plastic build means it won't rot like wood versions.",
   },
@@ -206,6 +206,13 @@ export default function BestBirdFeedersArticle() {
       <div className="space-y-8">
         {picks.map((pick) => (
           <div key={pick.rank} className="bg-white rounded-2xl shadow-sm p-6">
+            <div className="mb-4 flex justify-center">
+              <img
+                src={`/api/product-image/${pick.asin}`}
+                alt={pick.name}
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between mb-3">
               <span className="bg-orange-100 text-orange-700 text-xs font-body font-bold px-3 py-1 rounded-full">{pick.badge}</span>
               <span className="font-body font-bold text-charcoal">{pick.price}</span>

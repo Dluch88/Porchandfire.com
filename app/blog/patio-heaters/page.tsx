@@ -16,7 +16,7 @@ const picks = [
       'The AZ Patio Heater is the benchmark for propane tower heaters. At 46,000 BTU it heats a 10-foot radius, runs about 10 hours on a standard 20-lb propane tank, and the stainless steel dome is built to last through several seasons. Simple tilt sensor safety shutoff, easy ignition, and an included cover.',
     pros: ['46,000 BTU heats large area', '10-hour run time per tank', 'Stainless dome and pole', 'Includes a cover'],
     cons: ['Propane tank not included', 'Tall profile tips in wind without securing', 'Propane running cost adds up'],
-    asin: 'B001KZODRM',
+    asin: 'B00LILH3V4',
   },
   {
     rank: 2,
@@ -38,7 +38,7 @@ const picks = [
       'For a covered patio with an outlet nearby, a wall-mount infrared heater is the cleanest solution — no tanks, no propane smell, just instant warmth when you flip a switch. The Fire Sense 1500W model mounts in minutes, uses a standard 120V outlet, and covers a 6-foot radius comfortably.',
     pros: ['No propane required', 'Instant heat, no warm-up', 'Easy wall mount', 'Very affordable'],
     cons: ['Covers a smaller area than propane', 'Only works near an outlet', 'Not as effective in open windy spaces'],
-    asin: 'B002MUVZTO',
+    asin: 'B001WH0924',
   },
   {
     rank: 4,
@@ -60,7 +60,7 @@ const picks = [
       'The pyramid flame heater combines function with visual drama — a tall glass tube with a visible flame column running up the center, 40,000 BTU output, and a design that draws attention and starts conversations. Less practical than a standard tower heater but genuinely beautiful on a patio.',
     pros: ['Striking visual design with flame column', '40,000 BTU output', 'Wheels for portability', 'Anchors easily with fill tube'],
     cons: ['Glass tube can crack if knocked over', 'Less heat per dollar than standard towers', 'Heavier than average'],
-    asin: 'B001KZODWK',
+    asin: 'B01I5KHQKI',
   },
 ]
 
@@ -113,6 +113,13 @@ export default function BestPatioHeaters() {
         <h2 className="text-2xl font-bold text-gray-900">Our Top Picks</h2>
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
+            <div className="mb-4 flex justify-center">
+              <img
+                src={`/api/product-image/${pick.asin}`}
+                alt={pick.name}
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between mb-3">
               <div>
                 <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">

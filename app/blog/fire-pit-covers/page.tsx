@@ -16,7 +16,7 @@ const picks = [
       'Classic Accessories dominates the outdoor cover market for good reason. The Ravenna line uses a durable woven polyester top with a water-resistant coating and a breathable backing that prevents mildew buildup. Fits most round pits 28–44 inches. Elastic hem keeps it snug in wind.',
     pros: ['Water-resistant and breathable', 'Elastic hem stays put', 'Multiple sizes available', 'Budget-friendly'],
     cons: ['Fades slightly over multiple seasons', 'Not UV-rated for desert climates'],
-    asin: 'B078BJTSVT',
+    asin: 'B00D2VUOSM',
   },
   {
     rank: 2,
@@ -27,7 +27,7 @@ const picks = [
       'Designed specifically for Solo Stove pits, the Shelter is a hard-shell lid that sits on top of your Bonfire or Ranger and keeps water, debris, and critters out. Far more durable than a fabric cover. Just lift it off and set it aside when you fire up.',
     pros: ['Perfect fit for Solo Stove', 'Hard shell is very durable', 'Clean, minimal look', 'Doubles as a spark screen lid'],
     cons: ['Only fits Solo Stove pits', 'Pricey for what it is', 'Not windproof for the sides'],
-    asin: 'B08CZQ8LXV',
+    asin: 'B07QT79GLB',
   },
   {
     rank: 3,
@@ -38,7 +38,7 @@ const picks = [
       'The Duck Covers Elite is the cover you want if you live somewhere with serious precipitation. It uses a triple-layer fabric system with a waterproof outer shell, insulating mid-layer, and soft interior lining. Significantly heavier duty than standard covers.',
     pros: ['Triple-layer waterproof construction', 'Padded interior protects finish', 'Wind-resistant tie-down straps', 'Extended hem covers legs too'],
     cons: ['Heavier and bulkier to store', 'Higher price point', 'Slower to dry if soaked'],
-    asin: 'B07GVTYQZP',
+    asin: 'B01JAGG2MO',
   },
   {
     rank: 4,
@@ -60,7 +60,7 @@ const picks = [
       'Breeo makes a fitted cover for their X and Y Series pits in a waxed canvas style that matches the premium look of the pit itself. It keeps water and debris out while letting the corten steel breathe — which is important for preventing moisture buildup inside.',
     pros: ['Designed to fit Breeo pits exactly', 'Waxed canvas is durable and attractive', 'Breathable design suits corten steel', 'Extends over the legs'],
     cons: ['Only fits Breeo pits', 'Premium price for a cover', 'Canvas needs occasional re-waxing'],
-    asin: 'B09HGSQ2MT',
+    asin: 'B0BG3FQNL2',
   },
 ]
 
@@ -104,6 +104,13 @@ export default function FirePitCovers() {
         <h2 className="text-2xl font-bold text-gray-900">Our Top Picks</h2>
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
+            <div className="mb-4 flex justify-center">
+              <img
+                src={`/api/product-image/${pick.asin}`}
+                alt={pick.name}
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between mb-3">
               <div>
                 <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">

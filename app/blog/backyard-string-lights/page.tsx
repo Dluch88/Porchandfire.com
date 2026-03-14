@@ -16,7 +16,7 @@ const picks = [
       'Brightech dominates this category for good reason. The Ambience Pro uses commercial-grade wire rated for permanent outdoor installation, warm 2200K Edison-style LED bulbs that dim beautifully, and a waterproof rating that handles genuine rain and snow. These look expensive and install easily.',
     pros: ['Commercial-grade wiring', 'Warm 2200K dimming LEDs', 'Truly weatherproof', 'Multiple lengths available (24 ft to 96 ft)'],
     cons: ['Slightly pricier than basic options', 'Requires separate dimmer for full effect'],
-    asin: 'B01DKFXB3S',
+    asin: 'B00WVOV3W2',
   },
   {
     rank: 2,
@@ -27,7 +27,7 @@ const picks = [
       'If you want to control your patio lights from your phone — schedule them, dim them, change colors — Govee is the brand to know. Their outdoor smart string lights connect to WiFi and the Govee app, work with Alexa and Google Home, and still have the warm bulb look you want for a fire pit area.',
     pros: ['App-controlled with scheduling', 'Works with Alexa and Google Home', 'Color-changing option available', 'Good weatherproofing'],
     cons: ['Requires WiFi and app setup', 'Color-changing mode looks less warm and cozy', 'App can have bugs'],
-    asin: 'B09SLJSBLJ',
+    asin: 'B088K4QSRV',
   },
   {
     rank: 3,
@@ -38,7 +38,7 @@ const picks = [
       'For a backyard strung with lights on a budget, Newhouse hits the marks: 48 feet, classic globe bulbs, weatherproof construction, and E26 sockets you can replace if a bulb blows. Not as refined as Brightech but an honest performer at a hard-to-argue-with price.',
     pros: ['Very affordable for 48 ft', 'Replaceable E26 bulbs', 'Classic globe style', 'Weatherproof rating'],
     cons: ['Wire quality is thinner', 'Bulbs are incandescent (higher energy use)', 'Not dimmable out of the box'],
-    asin: 'B00B4PKHTM',
+    asin: 'B07DM7551L',
   },
   {
     rank: 4,
@@ -49,7 +49,7 @@ const picks = [
       'Feit makes quality LED globe lights that use a fraction of the electricity of incandescent bulbs while delivering a warm, flattering glow. The 48-foot strand covers most average-size patios, and the shatter-resistant LED globes mean you are not replacing bulbs every season.',
     pros: ['LED energy efficiency', 'Shatter-resistant globes', 'Long LED lifespan', 'Warm 2700K color temperature'],
     cons: ['Slightly bluer than true Edison-style bulbs', 'Fixed bulbs (not replaceable)'],
-    asin: 'B07MLKXF87',
+    asin: 'B07GH7RKB9',
   },
   {
     rank: 5,
@@ -60,7 +60,7 @@ const picks = [
       'For areas without a convenient outlet, solar string lights have genuinely improved. The Maggift 100-foot solar set runs on a separate solar panel you stake in a sunny spot, and the LED globes glow for 6–8 hours after a full day of sun. No extension cord required.',
     pros: ['No outlet required', '100 feet of coverage', 'Auto-on at dusk', 'Low operating cost'],
     cons: ['Performance depends on sunlight', 'Not as bright as hardwired sets', 'Panel needs good sun placement'],
-    asin: 'B075F73X8H',
+    asin: 'B07XC78KJC',
   },
 ]
 
@@ -111,6 +111,13 @@ export default function BestBackyardStringLights() {
         <h2 className="text-2xl font-bold text-gray-900">Our Top Picks</h2>
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
+            <div className="mb-4 flex justify-center">
+              <img
+                src={`/api/product-image/${pick.asin}`}
+                alt={pick.name}
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between mb-3">
               <div>
                 <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">

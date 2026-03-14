@@ -16,7 +16,7 @@ const picks = [
       "The gold standard in smokeless fire pits. The double-wall airflow design burns so cleanly you'll spend entire evenings without adjusting your seat. Lightweight stainless steel, easy ash dump, and a lifetime warranty seal the deal.",
     pros: ['Near-zero smoke after warm-up', 'Lightweight at 19.8 lbs', 'Gorgeous brushed stainless look', 'Lifetime warranty'],
     cons: ['Higher price for the size', 'Gets very hot to the touch', 'Grill grate sold separately'],
-    asin: 'B08DC4MLP4',
+    asin: 'B0B7BFJ5Y6',
   },
   {
     rank: 2,
@@ -27,7 +27,7 @@ const picks = [
       'If you want smokeless performance AND the ability to cook, the Breeo X24 is your pit. The built-in sear plate gets screaming hot. Corten steel develops a gorgeous rust patina over time and this thing is built like a tank.',
     pros: ['Integrated sear plate', 'Corten steel ages beautifully', 'Wide 24-inch bowl', 'Extremely durable'],
     cons: ['Heavy at 57 lbs', 'Premium price', 'Patina takes a season to develop'],
-    asin: 'B09HGRQM8W',
+    asin: 'B09WG9DDPS',
   },
   {
     rank: 3,
@@ -38,7 +38,7 @@ const picks = [
       'A built-in battery-powered fan force-feeds air to the fire — and you can control burn intensity from your phone. Great for small patios. Also doubles as a grill and has a USB charging port on the side.',
     pros: ['App-controlled airflow', 'Works as a grill', 'USB charging port', 'Very effective smoke reduction'],
     cons: ['Needs battery charging', 'Smaller capacity', 'More industrial aesthetic'],
-    asin: 'B075TT5KBQ',
+    asin: 'B08BCTC22X',
   },
   {
     rank: 4,
@@ -49,7 +49,7 @@ const picks = [
       'Tiki brought their torch expertise to fire pits and the secondary combustion genuinely works — at nearly half the Solo Stove price. The 25-inch bowl fits a real fire and the powder coat holds up season after season.',
     pros: ['Excellent value', 'Wide 25-inch bowl', 'Weather-resistant coating', 'Easy assembly'],
     cons: ['Heavier construction', 'Less refined finish', 'Ash dump is messier'],
-    asin: 'B09F7YJZB4',
+    asin: 'B082XHVGZM',
   },
   {
     rank: 5,
@@ -60,7 +60,7 @@ const picks = [
       "Same Solo Stove engineering in a compact 15-inch form. Perfect for apartment patios, camping trips, or smaller backyards. Light enough to carry to the beach or a campsite.",
     pros: ['Highly portable at 15 lbs', 'Same airflow tech as Bonfire', 'Fits on small patios', 'Lifetime warranty'],
     cons: ['Small fire capacity', 'Burns through wood faster', 'Less heat output'],
-    asin: 'B07VDTL9TB',
+    asin: 'B0B7BG9YPW',
   },
 ]
 
@@ -105,6 +105,13 @@ export default function BestSmokelessFirePits() {
         <h2 className="text-2xl font-bold text-gray-900">Our Top Picks</h2>
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
+            <div className="mb-4 flex justify-center">
+              <img
+                src={`/api/product-image/${pick.asin}`}
+                alt={pick.name}
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between mb-3">
               <div>
                 <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">

@@ -69,7 +69,7 @@ const picks = [
       'Needs an outdoor outlet or extension cord',
       'Takes longer to reach high heat',
     ],
-    asin: 'B00KDOLG1Q',
+    asin: 'B00004W499',
     verdict:
       "Let's be real — this isn't going to taste like a charcoal grill. But if your building bans open flames (and most do), this is your ticket to grilling on your balcony without getting evicted. It heats up enough to get decent marks on a steak and the removable stand is genuinely clever. Sometimes the best grill is the one you're actually allowed to use.",
   },
@@ -111,7 +111,7 @@ const picks = [
       'No ash catcher — cleanup is messier',
       'Legs feel a bit wobbly',
     ],
-    asin: 'B000W06GWG',
+    asin: 'B0DQLSBYG3',
     verdict:
       "This is the grill that lives in the back of my car from April to October. Beach day? Bring the grill. Park picnic? Bring the grill. Spontaneous camping trip? Already packed. It's not the best at any one thing, but it's the most likely to actually get used because it goes wherever you go.",
   },
@@ -182,6 +182,13 @@ export default function BestPortableGrillsArticle() {
       <div className="space-y-8">
         {picks.map((pick) => (
           <div key={pick.rank} className="bg-white rounded-2xl shadow-sm p-6">
+            <div className="mb-4 flex justify-center">
+              <img
+                src={`/api/product-image/${pick.asin}`}
+                alt={pick.name}
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between mb-3">
               <span className="bg-orange-100 text-orange-700 text-xs font-body font-bold px-3 py-1 rounded-full">{pick.badge}</span>
               <span className="font-body font-bold text-charcoal">{pick.price}</span>

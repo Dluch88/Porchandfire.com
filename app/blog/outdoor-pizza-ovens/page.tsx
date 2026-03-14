@@ -16,7 +16,7 @@ const picks = [
       'The Ooni Karu 16 is the most versatile outdoor pizza oven on the market. It runs on wood, charcoal, or propane (with a separate gas burner attachment) and reaches 950°F in 15 minutes. The 16-inch stone fits large pizzas and most flatbreads. A genuinely impressive piece of cooking gear.',
     pros: ['Runs on wood, charcoal, or gas', 'Reaches 950°F in 15 minutes', 'Fits 16-inch pizza', 'Premium insulated design'],
     cons: ['Premium price', 'Gas burner attachment sold separately', 'Heavy at 62 lbs'],
-    asin: 'B08DJDBGNG',
+    asin: 'B095CJ5KSD',
   },
   {
     rank: 2,
@@ -27,7 +27,7 @@ const picks = [
       'If you want the convenience of gas without the fire management of wood, the Koda 16 is the answer. Connects to a standard propane tank, reaches 950°F in 20 minutes, and the L-shaped flame gives better heat distribution than center-burner designs. Simpler to use than the Karu.',
     pros: ['Propane-powered — instant and controllable', 'Reaches 950°F', 'L-flame for even heat', 'No wood management required'],
     cons: ['Propane only — no wood option', 'Propane running cost', 'Gas flavor is different from wood'],
-    asin: 'B08DK2GKGV',
+    asin: 'B085LGV57D',
   },
   {
     rank: 3,
@@ -38,7 +38,7 @@ const picks = [
       'Gozney built the Roccbox for people who genuinely care about Neapolitan-style pizza. The rolling flame burner, professional-grade stone, and thick insulation produce bakery-level crusts. It runs on gas or wood with swappable burners. Professionals use the full-size Gozney Dome; the Roccbox brings that level of performance to a portable form.',
     pros: ['Restaurant-grade build quality', 'Excellent stone for crust', 'Gas or wood with burner swap', 'Stays cool on outside for safety'],
     cons: ['Heavy — not truly portable', 'Higher price', 'Wood burner is small'],
-    asin: 'B07CHQKKJX',
+    asin: 'B07TJ81FSC',
   },
   {
     rank: 4,
@@ -49,7 +49,7 @@ const picks = [
       'The Bertello runs on wood, charcoal, wood pellets, or propane — more fuel flexibility than most competitors at this price. It reaches 900°F and fits a 12-inch pizza. A good step-up from entry-level ovens for people who want real fire-cooking flexibility without going full Ooni Karu.',
     pros: ['Widest fuel flexibility', 'Reaches 900°F', 'Good price for multi-fuel capability', 'Good-looking design'],
     cons: ['12-inch max pizza size', 'Cooking surface smaller than competitors', 'Gas attachment is extra'],
-    asin: 'B07XNJMB8Y',
+    asin: 'B097HNBS1D',
   },
   {
     rank: 5,
@@ -60,7 +60,7 @@ const picks = [
       'The Fyra 12 is the entry point into real pizza oven cooking — a wood pellet-fueled oven that reaches 950°F and makes genuinely excellent pizza. The pellet hopper feeds automatically so you are not constantly adding wood. Lighter and more portable than the Karu, and a natural complement to a fire pit setup.',
     pros: ['Most affordable serious pizza oven', 'Wood pellets self-feed from hopper', 'Lightweight and portable', 'Reaches 950°F'],
     cons: ['12-inch max pizza', 'Wood pellets only — no gas option', 'Smaller fire capacity'],
-    asin: 'B08DJFBZMR',
+    asin: 'B088385N9Z',
   },
 ]
 
@@ -105,6 +105,13 @@ export default function BestOutdoorPizzaOvens() {
         <h2 className="text-2xl font-bold text-gray-900">Our Top Picks</h2>
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
+            <div className="mb-4 flex justify-center">
+              <img
+                src={`/api/product-image/${pick.asin}`}
+                alt={pick.name}
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between mb-3">
               <div>
                 <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">

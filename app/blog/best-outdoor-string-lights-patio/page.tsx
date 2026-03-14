@@ -90,7 +90,7 @@ const picks = [
       'Plastic bulbs look slightly less premium',
       'Light color is a touch cooler than incandescent',
     ],
-    asin: 'B08G4W1Q8W',
+    asin: 'B0B62QLMLX',
     verdict:
       "The remote control changes everything. Movie night? Dim to 20%. Dinner party? Crank to 80%. The timer is a great touch too — set it once and your lights turn on and off at the same time every night without you lifting a finger.",
   },
@@ -182,6 +182,13 @@ export default function BestStringLightsArticle() {
       <div className="space-y-8">
         {picks.map((pick) => (
           <div key={pick.rank} className="bg-white rounded-2xl shadow-sm p-6">
+            <div className="mb-4 flex justify-center">
+              <img
+                src={`/api/product-image/${pick.asin}`}
+                alt={pick.name}
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between mb-3">
               <span className="bg-orange-100 text-orange-700 text-xs font-body font-bold px-3 py-1 rounded-full">{pick.badge}</span>
               <span className="font-body font-bold text-charcoal">{pick.price}</span>

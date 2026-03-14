@@ -16,7 +16,7 @@ const picks = [
       'The Outpost is Breeo\'s dedicated cooking system — a height-adjustable swing-arm grill that attaches to a stake driven next to your fire pit. You swing the grill over the fire to cook and swing it out to add wood or let the fire breathe. Compatible with any fire pit, not just Breeo pits.',
     pros: ['Swing-arm is incredibly practical', 'Height adjustable for temperature control', 'Works with any fire pit', 'Heavy duty stainless construction'],
     cons: ['Requires driving a stake into the ground', 'Expensive for a grill grate', 'Takes up extra footprint'],
-    asin: 'B09HGVQP3R',
+    asin: 'B0886ZQJBY',
   },
   {
     rank: 2,
@@ -27,7 +27,7 @@ const picks = [
       'If you have a Solo Stove Bonfire, the Grill Top sits directly on the rim and lets you cook over the fire pit without any additional setup. Stainless steel, dishwasher safe, fits perfectly. The heat from a Bonfire at full burn is intense enough for real searing.',
     pros: ['Designed for Solo Stove fit', 'Easy on/off setup', 'Stainless steel, dishwasher safe', 'Excellent value for Solo Stove owners'],
     cons: ['Only fits Solo Stove Bonfire', 'No height adjustment', 'Gets extremely hot to the touch'],
-    asin: 'B08DCBR1KZ',
+    asin: 'B09GPZJY4F',
   },
   {
     rank: 3,
@@ -60,7 +60,7 @@ const picks = [
       'The Titan Outdoors swivel grill clamps to the side of most standard ring fire pits and swings the cooking surface directly over the fire. A great solution for people who already have a ring-style pit and want to add cooking without buying a whole new setup.',
     pros: ['Clamps to standard ring fire pits', 'Swivel arm for easy access', 'Large 30" cooking surface', 'Adjustable height'],
     cons: ['Only fits ring-style pits', 'Clamp can wiggle on thicker rims', 'Grill surface is basic steel, not stainless'],
-    asin: 'B01MZ0EIJL',
+    asin: 'B01D93XEKC',
   },
 ]
 
@@ -109,6 +109,13 @@ export default function FirePitCookingGrates() {
         <h2 className="text-2xl font-bold text-gray-900">Our Top Picks</h2>
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
+            <div className="mb-4 flex justify-center">
+              <img
+                src={`/api/product-image/${pick.asin}`}
+                alt={pick.name}
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between mb-3">
               <div>
                 <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">

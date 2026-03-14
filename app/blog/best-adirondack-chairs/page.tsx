@@ -16,7 +16,7 @@ const picks = [
       'POLYWOOD is the benchmark for high-quality poly lumber Adirondack chairs. Made from recycled HDPE plastic, these chairs genuinely never rot, splinter, or need painting. The Classic Folding model stores flat in winter, comes in 20+ colors, and carries a 20-year warranty. This is the chair you buy once.',
     pros: ['Never needs painting, staining, or sealing', 'Folds flat for storage', '20-year warranty', '20+ color options'],
     cons: ['Premium price', 'Heavier than wood', 'Plastic feel to the touch'],
-    asin: 'B001EBJLBA',
+    asin: 'B001VNCJ36',
   },
   {
     rank: 2,
@@ -27,7 +27,7 @@ const picks = [
       'Lifetime makes solid poly Adirondack chairs at a price that makes buying two or four at once easy. UV-protected and waterproof, they hold up well and come in a 2-pack. Not as refined as POLYWOOD, but a huge step up from wood at this price.',
     pros: ['Affordable 2-pack pricing', 'UV-protected HDPE', 'No maintenance required', 'Widely available'],
     cons: ['Fewer color options', 'Not as polished as POLYWOOD', 'Fixed (does not fold)'],
-    asin: 'B005FRDXCY',
+    asin: 'B01MYBZJCQ',
   },
   {
     rank: 3,
@@ -38,7 +38,7 @@ const picks = [
       'If you want the real wood warmth of a classic Adirondack, teak is the right choice. Teak is naturally oil-rich and resists rot, insects, and moisture better than cedar or pine. The Leisure Season chair is well-constructed, comfortable, and ages to a beautiful silver-gray if left untreated.',
     pros: ['Natural teak warmth and beauty', 'Ages to silver-gray patina naturally', 'Sturdy, traditional construction', 'Comfortable deep seat'],
     cons: ['Needs occasional oiling to maintain color', 'Heavy', 'More expensive than poly at same size'],
-    asin: 'B07BFGVSFL',
+    asin: 'B0DCK2Z7JQ',
   },
   {
     rank: 4,
@@ -49,7 +49,7 @@ const picks = [
       'Serwall hits a sweet spot of quality and price with their folding HDPE Adirondack set. The contoured seat is more ergonomic than flat models, and the quick-fold mechanism means setup and takedown take under 10 seconds. Good for families that move chairs around regularly.',
     pros: ['Contoured ergonomic seat', 'Fast fold for storage', 'Set of 2 at a good price', 'Cup holder in armrest'],
     cons: ['Hinge can loosen over time', 'Slightly narrower than classic sizing'],
-    asin: 'B07DHQJM8W',
+    asin: 'B08JYCJLVT',
   },
   {
     rank: 5,
@@ -60,7 +60,7 @@ const picks = [
       'For backyard overflow seating or a first-season test of the Adirondack style, the Adams Quik-Fold gets the job done without a big investment. Resin construction, folds in seconds, and stacks four high. Not a forever chair, but absolutely fine for casual use.',
     pros: ['Under $100', 'Folds and stacks easily', 'Lightweight at 10 lbs', 'Good for guests or extras'],
     cons: ['Resin, not HDPE — less durable', 'Basic look', 'Not as comfortable long-term'],
-    asin: 'B000BVMZ4Q',
+    asin: 'B0000CBIU2',
   },
 ]
 
@@ -111,6 +111,13 @@ export default function BestAdirondackChairs() {
         <h2 className="text-2xl font-bold text-gray-900">Our Top Picks</h2>
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
+            <div className="mb-4 flex justify-center">
+              <img
+                src={`/api/product-image/${pick.asin}`}
+                alt={pick.name}
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between mb-3">
               <div>
                 <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">

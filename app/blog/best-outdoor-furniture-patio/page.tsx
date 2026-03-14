@@ -27,7 +27,7 @@ const picks = [
       'Cushions need to be stored or covered in heavy rain',
       'Coffee table is on the smaller side',
     ],
-    asin: 'B007FG79L0',
+    asin: 'B07CH1W94X',
     verdict:
       "This is the set I'd recommend to most people. It sits well, looks great, and holds up through seasons without babying. The wicker doesn't fade or crack like cheaper sets I've seen. At under $400 for a full 4-piece, the value is hard to argue with.",
   },
@@ -163,6 +163,13 @@ export default function BestOutdoorFurnitureArticle() {
       <div className="space-y-8">
         {picks.map((pick) => (
           <div key={pick.rank} className="bg-white rounded-2xl shadow-sm p-6">
+            <div className="mb-4 flex justify-center">
+              <img
+                src={`/api/product-image/${pick.asin}`}
+                alt={pick.name}
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between mb-3">
               <span className="bg-orange-100 text-orange-700 text-xs font-body font-bold px-3 py-1 rounded-full">{pick.badge}</span>
               <span className="font-body font-bold text-charcoal">{pick.price}</span>

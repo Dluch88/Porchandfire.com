@@ -27,7 +27,7 @@ const categories = [
       'A spark screen is non-negotiable for wood fire pits near a deck, furniture, or dry grass. The Sunnydaze 36-inch domed screen fits over most standard round fire pits and catches embers before they drift. The lift handle lets you add wood without removing the whole screen.',
     pros: ['Fits most standard 36-inch pits', 'Dome shape lets flames breathe', 'Lift handle for wood access', 'Very affordable'],
     cons: ['Not designed for smokeless pits (no rim to rest on)', 'Wire mesh is basic gauge', 'Does not seal against all embers'],
-    asin: 'B076MBKKLC',
+    asin: 'B00KQRWB5O',
   },
   {
     title: 'Best Log Rack',
@@ -38,7 +38,7 @@ const categories = [
       'Keeping firewood off the ground on a proper rack prevents rot, allows airflow to continue seasoning the wood, and keeps your woodpile tidy. The Woodhaven 5-foot rack is the benchmark in this category — welded steel, a 10-year warranty, and holds a full face cord. Buy it once.',
     pros: ['10-year warranty', 'Holds a full face cord', 'Keeps wood off the ground and dry', 'Simple assembly'],
     cons: ['Cover sold separately', 'Larger footprint than smaller racks'],
-    asin: 'B0000BVMX6',
+    asin: 'B0009JMDB6',
   },
   {
     title: 'Best Ash Removal Tool',
@@ -60,7 +60,7 @@ const categories = [
       'If your fire pit sits on a wood deck or composite decking, you need an ember mat underneath it. The Killarney Ember Mat is a heavy-duty fireproof pad that catches sparks, embers, and hot ash droppings. It protects your deck surface and satisfies most deck manufacturer warranties for outdoor fire use.',
     pros: ['Protects wood and composite decks from embers', 'Fireproof construction', 'Satisfies many deck manufacturer requirements', 'Easy to clean'],
     cons: ['Not decorative — purely functional', 'Can curl at edges over time', 'Needs to be sized to your pit diameter'],
-    asin: 'B01LZGV2QL',
+    asin: 'B07QD1HC7T',
   },
   {
     title: 'Best Firewood Carrier',
@@ -82,7 +82,7 @@ const categories = [
       'Fatwood — resin-saturated heartwood — is the most reliable all-natural fire starter available. Two or three sticks under a log pile and a single match and your fire is going. No lighter fluid smell, no chemical aftertaste, just fast and reliable ignition even in damp conditions.',
     pros: ['All-natural, no chemicals', 'Lights in one match', 'Works in damp conditions', 'Bulk bags are economical'],
     cons: ['Produces more smoke on initial ignition than the fire itself', 'Can be sticky to handle'],
-    asin: 'B00004RAFP',
+    asin: 'B00CGTTK5Y',
   },
   {
     title: 'Best Outdoor Side Table for Fire Pit',
@@ -93,7 +93,7 @@ const categories = [
       'Every chair around a fire pit needs a surface for a drink. The Keter side table is a weather-proof resin table that stacks flat when not in use, handles drinks and plates without wobbling, and costs almost nothing. Simple, functional, and you can buy 4 without thinking twice about the budget.',
     pros: ['Weather-resistant resin', 'Stacks flat for storage', 'Very affordable', 'Stable on uneven ground'],
     cons: ['Basic plastic aesthetic', 'Not for heavy loads', 'Limited in color options'],
-    asin: 'B005DT1VNS',
+    asin: 'B079ZJ9K18',
   },
 ]
 
@@ -123,6 +123,13 @@ export default function FirePitAccessories() {
       <section className="space-y-10 mb-12">
         {categories.map((item, i) => (
           <div key={i} className="border border-gray-200 rounded-xl p-6">
+            <div className="mb-4 flex justify-center">
+              <img
+                src={`/api/product-image/${item.asin}`}
+                alt={item.name}
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between mb-3">
               <div>
                 <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">

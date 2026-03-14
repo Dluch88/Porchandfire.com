@@ -50,8 +50,8 @@ const products: Product[] = [
   {
     name: 'Best Choice Products Wicker Rocking Chair',
     price: '$149.99',
-    asin: 'B07BFNG5C5',
-    image: '/api/product-image/B07BFNG5C5',
+    asin: 'B00Y3RCTAU',
+    image: '/api/product-image/B00Y3RCTAU',
     description: 'All-weather wicker rocker with cushion. Perfect for a front porch or reading nook.',
   },
 ];

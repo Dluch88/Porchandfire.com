@@ -220,6 +220,90 @@ const GUIDES = [
     image: "https://images.pexels.com/photos/754263/pexels-photo-754263.jpeg?auto=compress&cs=tinysrgb&w=600",
     href: "/blog/backyard-string-lights",
   },
+  {
+    title: "Build a Fire Pit Area on a Budget",
+    subtitle: "Create a stunning backyard fire pit seating area for under $300 — step-by-step with material lists.",
+    readTime: "8 min read",
+    image: "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=600",
+    href: "/blog/backyard-fire-pit-area-on-a-budget",
+  },
+  {
+    title: "10 Best Patio Furniture Sets Under $500",
+    subtitle: "Affordable patio furniture that looks and feels premium — from conversation sets to dining tables.",
+    readTime: "10 min read",
+    image: "https://images.pexels.com/photos/4915585/pexels-photo-4915585.jpeg?auto=compress&cs=tinysrgb&w=600",
+    href: "/blog/best-patio-furniture-sets-under-500",
+  },
+  {
+    title: "Fire Pit Safety: 12 Essential Tips",
+    subtitle: "Placement, fuel, kids, pets, and emergency prep — everything you need to know to stay safe.",
+    readTime: "7 min read",
+    image: "https://images.pexels.com/photos/5215351/pexels-photo-5215351.jpeg?auto=compress&cs=tinysrgb&w=600",
+    href: "/blog/fire-pit-safety-tips",
+  },
+  {
+    title: "Best Outdoor Rugs for Patios",
+    subtitle: "8 great rugs that handle sun, rain, and spills — tie your patio together like a real room.",
+    readTime: "7 min read",
+    image: "https://images.pexels.com/photos/33775064/pexels-photo-33775064.jpeg?auto=compress&cs=tinysrgb&w=600",
+    href: "/blog/best-outdoor-rugs-for-patios",
+  },
+  {
+    title: "9 DIY Fire Pit Ideas for Small Backyards",
+    subtitle: "Short on space? These creative fire pit ideas work in small yards, patios, and urban spaces.",
+    readTime: "8 min read",
+    image: "https://images.pexels.com/photos/15228630/pexels-photo-15228630.jpeg?auto=compress&cs=tinysrgb&w=600",
+    href: "/blog/diy-fire-pit-ideas-small-backyards",
+  },
+  {
+    title: "Best Portable Fire Pits for Camping",
+    subtitle: "Lightweight, packable fire pits for camping, beach bonfires, tailgates, and backyard adventures.",
+    readTime: "8 min read",
+    image: "https://images.pexels.com/photos/2662816/pexels-photo-2662816.jpeg?auto=compress&cs=tinysrgb&w=600",
+    href: "/blog/best-portable-fire-pits-camping",
+  },
+  {
+    title: "How to Create an Outdoor Living Room",
+    subtitle: "Turn your patio into a true extension of your home with seating, rugs, lighting, and layers.",
+    readTime: "9 min read",
+    image: "https://images.pexels.com/photos/6430742/pexels-photo-6430742.jpeg?auto=compress&cs=tinysrgb&w=600",
+    href: "/blog/create-outdoor-living-room",
+  },
+  {
+    title: "Best Fire Pit Cooking Accessories",
+    subtitle: "Grill grates, tripods, cast iron, and skewers — turn your fire pit into an outdoor kitchen.",
+    readTime: "8 min read",
+    image: "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=600",
+    href: "/blog/best-fire-pit-cooking-accessories",
+  },
+  {
+    title: "Patio Shade Ideas: Pergolas, Umbrellas & More",
+    subtitle: "Compare pergolas, shade sails, umbrellas, and awnings — find the right shade for your budget.",
+    readTime: "8 min read",
+    image: "https://images.pexels.com/photos/31687640/pexels-photo-31687640.jpeg?auto=compress&cs=tinysrgb&w=600",
+    href: "/blog/patio-shade-ideas-pergolas-umbrellas",
+  },
+  {
+    title: "Best Outdoor Dining Sets",
+    subtitle: "Top picks for 4, 6, and 8-seat outdoor dining — host unforgettable meals outside.",
+    readTime: "8 min read",
+    image: "https://images.pexels.com/photos/1843655/pexels-photo-1843655.jpeg?auto=compress&cs=tinysrgb&w=600",
+    href: "/blog/best-outdoor-dining-sets",
+  },
+  {
+    title: "How to Winterize Your Patio Furniture",
+    subtitle: "Step-by-step guide to cleaning, covering, and storing every type of outdoor furniture.",
+    readTime: "9 min read",
+    image: "https://images.pexels.com/photos/19290411/pexels-photo-19290411.jpeg?auto=compress&cs=tinysrgb&w=600",
+    href: "/blog/how-to-winterize-patio-furniture",
+  },
+  {
+    title: "Best Propane Fire Pits",
+    subtitle: "No wood, no smoke, no hassle. Instant flames with the flip of a switch — our top picks.",
+    readTime: "9 min read",
+    image: "https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600",
+    href: "/blog/best-propane-fire-pits",
+  },
 ];
 
 const NAV_ITEMS = ["Fire Pits", "Seating", "Dining", "Décor", "Lighting", "Guides", "Sale"];
@@ -568,7 +652,7 @@ export default function PorchAndFire() {
             {NAV_ITEMS.map((item) => (
               <a
                 key={item}
-                href={item === "Guides" ? "/blog" : `#${item.toLowerCase().replace(/ /g, "-")}`}
+                href={{"Fire Pits": "/shop/fire-pits", "Seating": "/shop/outdoor-seating", "Dining": "/shop/outdoor-dining", "Décor": "/shop/porch-patio", "Lighting": "/shop/porch-patio", "Guides": "/blog", "Sale": "/shop/fire-pits"}[item] || "/"}
                 className="nav-link"
                 style={{
                   color: scrolled ? COLORS.charcoal : "white",
@@ -581,9 +665,11 @@ export default function PorchAndFire() {
 
           {/* Search + Menu */}
           <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={scrolled ? COLORS.charcoal : "white"} strokeWidth="1.5" style={{ cursor: "pointer", transition: "stroke 0.5s" }}>
-              <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" />
-            </svg>
+            <a href="/blog" style={{ display: "flex", alignItems: "center" }}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={scrolled ? COLORS.charcoal : "white"} strokeWidth="1.5" style={{ cursor: "pointer", transition: "stroke 0.5s" }}>
+                <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" />
+              </svg>
+            </a>
             <button
               className="mobile-menu-btn"
               onClick={() => setMenuOpen(!menuOpen)}
@@ -599,6 +685,71 @@ export default function PorchAndFire() {
           </div>
         </div>
       </nav>
+
+      {/* Mobile Menu Overlay */}
+      {menuOpen && (
+        <div
+          style={{
+            position: "fixed",
+            inset: 0,
+            zIndex: 9998,
+            background: "rgba(0,0,0,0.3)",
+          }}
+          onClick={() => setMenuOpen(false)}
+        />
+      )}
+      <div
+        style={{
+          position: "fixed",
+          top: 0,
+          right: 0,
+          width: "min(320px, 85vw)",
+          height: "100vh",
+          background: COLORS.cream,
+          zIndex: 9999,
+          transform: menuOpen ? "translateX(0)" : "translateX(100%)",
+          transition: "transform 0.35s ease",
+          display: "flex",
+          flexDirection: "column",
+          boxShadow: menuOpen ? "-4px 0 24px rgba(0,0,0,0.12)" : "none",
+        }}
+      >
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "24px 28px" }}>
+          <div style={{ fontFamily: "var(--font-display)", fontSize: "20px", color: COLORS.charcoal }}>
+            Porch <span style={{ fontWeight: 300, fontStyle: "italic", color: COLORS.ember }}>&</span> Fire
+          </div>
+          <button
+            onClick={() => setMenuOpen(false)}
+            style={{ background: "none", border: "none", cursor: "pointer", padding: "4px", fontSize: "22px", color: COLORS.charcoal }}
+          >
+            ✕
+          </button>
+        </div>
+        <div style={{ width: "100%", height: "1px", background: COLORS.ash, opacity: 0.3 }} />
+        <nav style={{ display: "flex", flexDirection: "column", padding: "16px 0" }}>
+          {NAV_ITEMS.map((item) => (
+            <a
+              key={item}
+              href={{"Fire Pits": "/shop/fire-pits", "Seating": "/shop/outdoor-seating", "Dining": "/shop/outdoor-dining", "Décor": "/shop/porch-patio", "Lighting": "/shop/porch-patio", "Guides": "/blog", "Sale": "/shop/fire-pits"}[item] || "/"}
+              onClick={() => setMenuOpen(false)}
+              style={{
+                fontFamily: "var(--font-body)",
+                fontSize: "14px",
+                letterSpacing: "2px",
+                textTransform: "uppercase",
+                color: item === "Sale" ? COLORS.ember : COLORS.charcoal,
+                textDecoration: "none",
+                padding: "16px 28px",
+                transition: "background 0.2s",
+              }}
+              onMouseEnter={(e) => e.currentTarget.style.background = COLORS.linen}
+              onMouseLeave={(e) => e.currentTarget.style.background = "transparent"}
+            >
+              {item}
+            </a>
+          ))}
+        </nav>
+      </div>
 
       {/* ═══════════════════════════════════════════════ */}
       {/* HERO - RH full-bleed editorial style */}
@@ -924,7 +1075,7 @@ export default function PorchAndFire() {
             className="split-image"
             style={{
               flex: "1 1 55%",
-              backgroundImage: "url(https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1200&q=80)",
+              backgroundImage: "url(https://images.unsplash.com/photo-1602860739945-9a61573cd62d?w=1200&q=80)",
               backgroundSize: "cover",
               backgroundPosition: "center",
               minHeight: 560,
@@ -1093,7 +1244,7 @@ export default function PorchAndFire() {
         }}>
           <div style={{
             position: "absolute", inset: 0,
-            backgroundImage: "url(https://images.unsplash.com/photo-1504457047772-27faf1c00561?w=1600&q=80)",
+            backgroundImage: "url(https://images.unsplash.com/photo-1757851704368-3ae8d337943d?w=1600&q=80)",
             backgroundSize: "cover",
             backgroundPosition: "center 60%",
           }} />

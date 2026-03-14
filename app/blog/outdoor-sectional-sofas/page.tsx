@@ -16,7 +16,7 @@ const picks = [
       'For under $600, the Devoko 7-piece set is genuinely hard to beat. The steel frame is powder-coated for weather resistance, the cushions use high-density foam with a water-resistant outer, and the modular pieces rearrange into multiple configurations. This is what budget outdoor furniture should look like.',
     pros: ['Excellent price for a 7-piece set', 'Modular — rearranges easily', 'Water-resistant cushions included', 'Easy assembly'],
     cons: ['Steel frame, not as premium as aluminum', 'Cushions thin down over time', 'Not rated for heavy snow climates'],
-    asin: 'B07XL3X5QW',
+    asin: 'B07MF72NPN',
   },
   {
     rank: 2,
@@ -49,7 +49,7 @@ const picks = [
       'If your patio is on the smaller side, an L-shaped sectional keeps the footprint tight while still seating 4–5 comfortably around a fire pit. The Tangkula L-shape comes with a corner table, water-resistant cushions, and a compact profile that works on most standard decks.',
     pros: ['Compact L-shape fits small patios', 'Includes corner table', 'Water-resistant cushions', 'Very affordable'],
     cons: ['Less modular than U-shape sets', 'Steel frame needs winter storage', 'Thin armrests'],
-    asin: 'B07VQHVT7B',
+    asin: 'B08KRM5K9J',
   },
   {
     rank: 5,
@@ -60,7 +60,7 @@ const picks = [
       'Christopher Knight Home consistently delivers outdoor furniture that looks more expensive than it is. The Puerta has a clean, modern silhouette with a mix of textured wicker and cushioned seating. The color palette is neutral and versatile, and the build quality has improved noticeably in recent years.',
     pros: ['Handsome modern design', 'Neutral tones work with any decor', 'Good cushion density', 'Includes throw pillows'],
     cons: ['Cushions not Sunbrella-grade', 'Back cushions can shift', 'Assembly instructions are basic'],
-    asin: 'B0813CRXBT',
+    asin: 'B077XLLNG5',
   },
 ]
 
@@ -109,6 +109,13 @@ export default function OutdoorSectionalSofas() {
         <h2 className="text-2xl font-bold text-gray-900">Our Top Picks</h2>
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
+            <div className="mb-4 flex justify-center">
+              <img
+                src={`/api/product-image/${pick.asin}`}
+                alt={pick.name}
+                className="w-48 h-48 object-contain rounded-lg"
+              />
+            </div>
             <div className="flex items-start justify-between mb-3">
               <div>
                 <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">

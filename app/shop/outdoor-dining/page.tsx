@@ -18,8 +18,8 @@ const products: Product[] = [
   {
     name: 'Flash Furniture Lila Bistro Set',
     price: '$129.99',
-    asin: 'B00T3HSODY',
-    image: '/api/product-image/B00T3HSODY',
+    asin: 'B01HD5YP8W',
+    image: '/api/product-image/B01HD5YP8W',
     badge: 'Best Budget',
     description: 'Classic 3-piece folding bistro set. Perfect for small balconies and apartment patios.',
   },
