@@ -7,6 +7,7 @@ const posts = [
     slug: 'best-fire-pits-backyard-entertaining',
     category: 'Fire Pits',
     image: 'https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-01-15',
   },
   {
     title: 'Best Outdoor Furniture for Your Patio',
@@ -14,6 +15,7 @@ const posts = [
     slug: 'best-outdoor-furniture-patio',
     category: 'Furniture',
     image: 'https://images.pexels.com/photos/4915585/pexels-photo-4915585.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-01-18',
   },
   {
     title: 'Best Pergolas for Shade and Style',
@@ -21,6 +23,7 @@ const posts = [
     slug: 'best-pergolas-shade-style',
     category: 'Pergolas',
     image: 'https://images.pexels.com/photos/31687640/pexels-photo-31687640.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-01-22',
   },
   {
     title: 'Best Outdoor String Lights for Your Patio',
@@ -28,6 +31,7 @@ const posts = [
     slug: 'best-outdoor-string-lights-patio',
     category: 'Lighting',
     image: 'https://images.pexels.com/photos/754263/pexels-photo-754263.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-01-26',
   },
   {
     title: 'Best Portable Grills for Small Spaces',
@@ -35,6 +39,7 @@ const posts = [
     slug: 'best-portable-grills-small-spaces',
     category: 'Grills',
     image: 'https://images.pexels.com/photos/8798737/pexels-photo-8798737.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-01-30',
   },
   {
     title: 'Best Bird Feeders for Your Yard',
@@ -42,6 +47,7 @@ const posts = [
     slug: 'best-bird-feeders-cameras',
     category: 'Bird Feeders',
     image: 'https://images.pexels.com/photos/6386235/pexels-photo-6386235.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-02-03',
   },
   {
     title: 'Best Smokeless Fire Pits of 2026',
@@ -49,6 +55,7 @@ const posts = [
     slug: 'best-smokeless-fire-pits',
     category: 'Fire Pits',
     image: 'https://images.pexels.com/photos/5215351/pexels-photo-5215351.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-02-06',
   },
   {
     title: 'Propane vs Wood Fire Pit: Which Is Right?',
@@ -56,6 +63,7 @@ const posts = [
     slug: 'propane-vs-wood-fire-pit',
     category: 'Fire Pits',
     image: 'https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-02-10',
   },
   {
     title: 'Best Fire Pit Covers',
@@ -63,6 +71,7 @@ const posts = [
     slug: 'fire-pit-covers',
     category: 'Accessories',
     image: 'https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-02-13',
   },
   {
     title: 'Best Fire Pit Accessories',
@@ -70,6 +79,7 @@ const posts = [
     slug: 'fire-pit-accessories',
     category: 'Accessories',
     image: 'https://images.pexels.com/photos/5215351/pexels-photo-5215351.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-02-16',
   },
   {
     title: 'Best Fire Pit Cooking Grates & Grills',
@@ -77,6 +87,7 @@ const posts = [
     slug: 'fire-pit-cooking-grates',
     category: 'Grills',
     image: 'https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-02-19',
   },
   {
     title: 'Best Adirondack Chairs of 2026',
@@ -84,6 +95,7 @@ const posts = [
     slug: 'best-adirondack-chairs',
     category: 'Seating',
     image: 'https://images.pexels.com/photos/17418139/pexels-photo-17418139.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-02-22',
   },
   {
     title: 'Best Outdoor Sectional Sofas',
@@ -91,6 +103,7 @@ const posts = [
     slug: 'outdoor-sectional-sofas',
     category: 'Seating',
     image: 'https://images.pexels.com/photos/6430742/pexels-photo-6430742.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-02-25',
   },
   {
     title: 'Best Outdoor Pizza Ovens',
@@ -98,6 +111,7 @@ const posts = [
     slug: 'outdoor-pizza-ovens',
     category: 'Pizza Ovens',
     image: 'https://images.pexels.com/photos/5967842/pexels-photo-5967842.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-02-28',
   },
   {
     title: 'Best Patio Heaters of 2026',
@@ -105,6 +119,7 @@ const posts = [
     slug: 'patio-heaters',
     category: 'Heating',
     image: 'https://images.pexels.com/photos/923289/pexels-photo-923289.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-02',
   },
   {
     title: 'Best Outdoor String Lights: Patio & Backyard Guide',
@@ -112,6 +127,7 @@ const posts = [
     slug: 'backyard-string-lights',
     category: 'Lighting',
     image: 'https://images.pexels.com/photos/754263/pexels-photo-754263.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-04',
   },
   {
     title: 'How to Build a Backyard Fire Pit Area on a Budget',
@@ -119,6 +135,7 @@ const posts = [
     slug: 'backyard-fire-pit-area-on-a-budget',
     category: 'DIY & Ideas',
     image: 'https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-06',
   },
   {
     title: '10 Best Patio Furniture Sets Under $500',
@@ -126,6 +143,7 @@ const posts = [
     slug: 'best-patio-furniture-sets-under-500',
     category: 'Furniture',
     image: 'https://images.pexels.com/photos/4915585/pexels-photo-4915585.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-08',
   },
   {
     title: 'Fire Pit Safety: 12 Essential Tips',
@@ -133,6 +151,7 @@ const posts = [
     slug: 'fire-pit-safety-tips',
     category: 'Fire Pits',
     image: 'https://images.pexels.com/photos/5215351/pexels-photo-5215351.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-09',
   },
   {
     title: 'Best Outdoor Rugs for Patios',
@@ -140,6 +159,7 @@ const posts = [
     slug: 'best-outdoor-rugs-for-patios',
     category: 'Outdoor Decor',
     image: 'https://images.pexels.com/photos/33775064/pexels-photo-33775064.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-10',
   },
   {
     title: '9 DIY Fire Pit Ideas for Small Backyards',
@@ -147,6 +167,7 @@ const posts = [
     slug: 'diy-fire-pit-ideas-small-backyards',
     category: 'DIY & Ideas',
     image: 'https://images.pexels.com/photos/15228630/pexels-photo-15228630.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-11',
   },
   {
     title: 'Best Portable Fire Pits for Camping & Travel',
@@ -154,6 +175,7 @@ const posts = [
     slug: 'best-portable-fire-pits-camping',
     category: 'Fire Pits',
     image: 'https://images.pexels.com/photos/2662816/pexels-photo-2662816.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-12',
   },
   {
     title: 'How to Create an Outdoor Living Room',
@@ -161,6 +183,7 @@ const posts = [
     slug: 'create-outdoor-living-room',
     category: 'Outdoor Living',
     image: 'https://images.pexels.com/photos/6430742/pexels-photo-6430742.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-13',
   },
   {
     title: 'Best Fire Pit Cooking Accessories',
@@ -168,6 +191,7 @@ const posts = [
     slug: 'best-fire-pit-cooking-accessories',
     category: 'Fire Pits',
     image: 'https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-14',
   },
   {
     title: 'Patio Shade Ideas: Pergolas, Umbrellas & More',
@@ -175,6 +199,7 @@ const posts = [
     slug: 'patio-shade-ideas-pergolas-umbrellas',
     category: 'Outdoor Living',
     image: 'https://images.pexels.com/photos/31687640/pexels-photo-31687640.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-14',
   },
   {
     title: 'Best Outdoor Dining Sets for Family Gatherings',
@@ -182,6 +207,7 @@ const posts = [
     slug: 'best-outdoor-dining-sets',
     category: 'Furniture',
     image: 'https://images.pexels.com/photos/1843655/pexels-photo-1843655.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-15',
   },
   {
     title: 'How to Winterize Your Patio Furniture',
@@ -189,6 +215,7 @@ const posts = [
     slug: 'how-to-winterize-patio-furniture',
     category: 'Maintenance',
     image: 'https://images.pexels.com/photos/19290411/pexels-photo-19290411.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-15',
   },
   {
     title: 'Best Propane Fire Pits for Easy Outdoor Flames',
@@ -196,6 +223,7 @@ const posts = [
     slug: 'best-propane-fire-pits',
     category: 'Fire Pits',
     image: 'https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    pubDate: '2026-03-16',
   },
 ];
 
@@ -209,13 +237,20 @@ function escapeXml(str: string): string {
 }
 
 function buildRss(): string {
-  const itemsXml = posts
+  const sortedPosts = [...posts].sort(
+    (a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
+  );
+  const lastBuildDate = new Date(sortedPosts[0].pubDate).toUTCString();
+
+  const itemsXml = sortedPosts
     .map(
       (post) => `    <item>
       <title>${escapeXml(post.title)}</title>
       <link>${SITE_URL}/blog/${post.slug}</link>
       <guid>${SITE_URL}/blog/${post.slug}</guid>
       <description>${escapeXml(post.description)}</description>
+      <pubDate>${new Date(post.pubDate).toUTCString()}</pubDate>
+      <category>${escapeXml(post.category)}</category>
       <enclosure url="${escapeXml(post.image)}" type="image/jpeg" length="0" />
     </item>`
     )
@@ -228,6 +263,7 @@ function buildRss(): string {
     <link>${SITE_URL}</link>
     <description>Expert guides, honest reviews, and top picks for fire pits, outdoor furniture, pergolas, and backyard living.</description>
     <language>en-us</language>
+    <lastBuildDate>${lastBuildDate}</lastBuildDate>
     <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=144</url>

@@ -1,0 +1,174 @@
+PorchAndFire.com
+Blog Batch Builder
+Paste this into Claude Code in VS Code inside the PorchAndFire project directory.
+This will generate new blog posts, build them, and push to production.
+
+STEP 1: READ THE PROJECT FIRST
+Before creating any posts, read the following to understand the existing blog post format:
+	•	The project file structure (look inside app/blog/ for the directory)
+	•	An existing blog post file (pick any one, like best-fire-pits-backyard-entertaining or best-pergolas-shade-style) to understand the exact data format, component structure, product card format, affiliate link format, and image handling pattern
+	•	The blog index page (app/blog/page.tsx) to understand how posts are listed and displayed
+	•	The shared layout and any types, interfaces, or config files in the components/ folder
+Match the EXACT format of existing posts. Same component usage, same product card structure, same affiliate link format, same image sourcing pattern, same metadata fields.
+
+BRAND VOICE & STYLE RULES
+PorchAndFire targets homeowners ages 40-60 who are actively investing in their outdoor spaces. Think: fire pits, patio furniture, pergolas, privacy landscaping, and backyard entertaining. The brand identity is warm, earthy, and aspirational but grounded.
+Writing Rules:
+	•	Write like a knowledgeable neighbor who has great taste and actually uses this stuff. Not a salesperson, not a lifestyle blogger.
+	•	No em dashes. No semicolons. Use periods and commas.
+	•	Short paragraphs (2-3 sentences max).
+	•	Conversational but not sloppy. No excessive exclamation points.
+	•	Address the reader as 'you' naturally.
+	•	Every post should feel like it saves the reader time, money, or a bad purchase decision.
+	•	Do NOT use filler phrases like 'In today's fast-paced world' or 'Let's dive in' or 'Without further ado'.
+	•	Lead with the value. First sentence should hook or promise a specific outcome.
+	•	Mention real-world use cases: 'great for entertaining 6-8 people', 'works on a 10x10 patio', 'holds up through NC winters'.
+	•	Our take / verdict sections should feel personal and opinionated, not generic.
+
+AFFILIATE LINK FORMAT
+All Amazon affiliate links use this format:
+https://www.amazon.com/s?k=[URL+encoded+product+search+query]&tag=porchandfire-20
+The tag is always porchandfire-20. Use Amazon search URLs (not direct product ASINs) so links stay valid even if specific products go out of stock.
+Example: A search for 'solo stove bonfire' becomes: https://www.amazon.com/s?k=solo+stove+bonfire&tag=porchandfire-20
+
+PRODUCT CARD FORMAT
+Each post features 4-7 products. Each product card must include:
+	•	A badge label (Best Overall, Best Budget, Best for Small Patios, etc.)
+	•	Product name as H2 or H3 heading with a key detail in parentheses (e.g. '30-inch', 'Propane', 'Cedar Wood')
+	•	Price range (approximate, use '$XX' or '$XX-$XXX' format)
+	•	'Best for:' line describing the ideal buyer in one sentence
+	•	Pros list (3-5 items, specific and honest)
+	•	Cons list (2-3 items, real drawbacks not dealbreakers)
+	•	'Our take:' paragraph (2-4 sentences, personal and opinionated, written like a neighbor sharing advice)
+	•	Amazon affiliate link button labeled 'Check Price on Amazon →'
+Match whatever component structure the existing posts use. Check an existing post like best-fire-pits-backyard-entertaining/page.tsx to confirm the exact JSX structure.
+
+IMAGE SOURCING
+Match whatever pattern the existing posts use for images. Check the existing posts first.
+	•	If existing posts use Pexels URLs, use Pexels with relevant outdoor/backyard search terms.
+	•	If existing posts use Unsplash URLs, use Unsplash with the same pattern.
+	•	For hero/header images, use high-quality landscape photos showing fire pits, patios, pergolas, outdoor furniture, or backyard spaces.
+	•	Preferred image ratio: 16:9 landscape for hero images, square or portrait for product cards if used.
+	•	Always use the ?auto=compress&cs=tinysrgb&w=1200 param pattern if Pexels, matching the existing post format exactly.
+
+SEO REQUIREMENTS
+Every post must include:
+	•	SEO-optimized title (include primary keyword naturally, under 60 characters)
+	•	Meta description (under 155 characters, include primary keyword, mention a specific product or price point)
+	•	Natural keyword usage throughout (no stuffing)
+	•	Internal links to 2-3 other PorchAndFire blog posts where relevant
+	•	A 'You Might Also Like' or related posts section at the bottom linking to related articles
+Check the existing layout.tsx or article template to see if JSON-LD structured data is already handled at the layout level. If not, add Article structured data matching the existing schema format.
+
+LLM / AI SEARCH OPTIMIZATION
+Include at the bottom of each post (before the related posts section):
+	•	A short FAQ section (2-4 questions) with concise, direct answers targeting common search queries for the topic.
+	•	Use question formats that match how people ask AI assistants: 'What is the best fire pit for a small patio?' / 'How do I keep a propane fire pit from blowing out?' / 'Is a smokeless fire pit worth it?'
+	•	Answers should be 2-3 sentences max. Direct, specific, and genuinely helpful.
+
+CATEGORIES
+Assign each post to ONE of these existing categories. Match the exact category names used in existing posts:
+	•	Fire Pits
+	•	Outdoor Furniture
+	•	Pergolas & Shade
+	•	Lighting
+	•	Grills & Cooking
+	•	Outdoor Decor
+	•	Heating
+	•	DIY & Ideas
+	•	Maintenance
+	•	Outdoor Living
+
+THE POSTS TO CREATE
+Build all of the following posts. For each one, create the full blog post file matching the existing format exactly, with 4-7 products per post, all affiliate links, images, and SEO metadata.
+FIRE PITS (4 posts)
+1. best-smokeless-fire-pits
+Title: 'Best Smokeless Fire Pits of 2025'
+Focus: Compare the top smokeless models by size, price, and performance. Solo Stove vs Breeo vs budget alternatives.
+Category: Fire Pits
+2. propane-vs-wood-fire-pit
+Title: 'Propane vs Wood Fire Pit: Which Is Right for Your Backyard?'
+Focus: Decision guide. Cover HOA rules, cleanup, ambiance, cost, and who each is best for.
+Category: Fire Pits
+3. best-fire-pit-cooking-accessories
+Title: 'Best Fire Pit Cooking Accessories for Outdoor Meals'
+Focus: Grill grates, swing-arm setups, tripods, pie irons, dutch ovens. Turn a fire pit into an outdoor kitchen.
+Category: Fire Pits
+4. fire-pit-safety-tips
+Title: 'Fire Pit Safety: 12 Essential Tips for Backyard Use'
+Focus: Placement rules, spark screens, safe distances, kids and pets, wind conditions, extinguishing properly.
+Category: Fire Pits
+OUTDOOR FURNITURE (3 posts)
+5. best-adirondack-chairs
+Title: 'Best Adirondack Chairs of 2025 (Wood, Poly & Budget Picks)'
+Focus: Compare wood, poly lumber (HDPE), and budget steel/resin options. Durability, comfort, maintenance.
+Category: Outdoor Furniture
+6. best-outdoor-dining-sets
+Title: 'Best Outdoor Dining Sets for Family Gatherings'
+Focus: Top picks for 4, 6, and 8-seat configurations. Material comparison, weather resistance, value.
+Category: Outdoor Furniture
+7. how-to-winterize-patio-furniture
+Title: 'How to Winterize Your Patio Furniture (Step-by-Step)'
+Focus: Cleaning, covering, storing each material type. Product recommendations for covers and storage solutions.
+Category: Maintenance
+PERGOLAS & SHADE (2 posts)
+8. patio-shade-ideas-pergolas-umbrellas
+Title: 'Patio Shade Ideas: Pergolas, Umbrellas, Shade Sails & More'
+Focus: Compare all shade options with pros, cons, and price ranges. Help reader pick the right one for their space.
+Category: Pergolas & Shade
+9. best-outdoor-string-lights
+Title: 'Best Outdoor String Lights for Patios and Pergolas (2025)'
+Focus: Globe lights, Edison bulbs, solar vs plug-in, smart bulb options. What works best for fire pit areas.
+Category: Lighting
+OUTDOOR LIVING (3 posts)
+10. create-outdoor-living-room
+Title: 'How to Create an Outdoor Living Room on Any Budget'
+Focus: Layered guide: seating, lighting, rugs, fire feature, shade. Show how to pull it all together.
+Category: Outdoor Living
+11. backyard-fire-pit-area-on-a-budget
+Title: 'How to Build a Backyard Fire Pit Area on a Budget'
+Focus: Step-by-step with material lists. Gravel, pavers, seating, lighting. Under $500 realistic breakdown.
+Category: DIY & Ideas
+12. diy-fire-pit-ideas-small-backyards
+Title: '9 DIY Fire Pit Ideas for Small Backyards and Patios'
+Focus: Creative setups for tight spaces. Portable pits, corner configurations, balcony-safe propane options.
+Category: DIY & Ideas
+GRILLS & COOKING (2 posts)
+13. best-portable-grills-small-spaces
+Title: 'Best Portable Grills for Balconies and Small Patios'
+Focus: Compact charcoal, propane tabletop, and electric options. HOA and apartment-friendly picks included.
+Category: Grills & Cooking
+14. outdoor-pizza-ovens
+Title: 'Best Outdoor Pizza Ovens for Your Backyard (2025)'
+Focus: Wood-fired vs gas, Ooni vs alternatives, beginner-friendly options. Real cook temps and setup times.
+Category: Grills & Cooking
+OUTDOOR DECOR (1 post)
+15. best-outdoor-rugs-for-patios
+Title: 'Best Outdoor Rugs for Patios That Handle Sun, Rain and Spills'
+Focus: Material comparison (polypropylene, recycled plastic), fade resistance, cleaning ease. Style picks for fire pit areas.
+Category: Outdoor Decor
+
+EXECUTION ORDER
+	•	Read the project structure and one existing blog post file completely before writing a single line.
+	•	Confirm the exact component/JSX structure used in existing posts and match it precisely.
+	•	Create all 15 posts sequentially. Do not skip any.
+	•	After creating each post, verify it follows the same format as existing posts.
+	•	Make sure the blog index page will pick up the new posts (check how posts are discovered — file-based routing, content scan, etc.)
+	•	Run the dev build locally to verify no TypeScript or build errors:
+npm run build
+	•	If the build passes, commit and push:
+git add .
+git commit -m "blog: add 15 new posts (fire pits, furniture, pergolas, outdoor living, grills)"
+git push
+
+DO NOT
+	•	Do not modify any existing blog posts
+	•	Do not change the site layout, navigation, or global styling
+	•	Do not install any new npm packages
+	•	Do not modify the blog index page logic unless required to pick up new posts
+	•	Do not use placeholder or lorem ipsum content. Every product recommendation must be a real product that exists on Amazon with a realistic price point.
+	•	Do not use the same hero image across multiple posts
+	•	Do not exceed 7 products per post or go below 4
+	•	Do not forget the affiliate disclosure on every post — check how existing posts handle it and match exactly
+
+Amazon Associates Tag: porchandfire-20   |   Site: porchandfire.com
