@@ -4,20 +4,20 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Backyard Date Night: The Complete Setup Guide | Porch & Fire',
   description:
-    'Everything you need for the perfect backyard date night — string lights, fire pit, outdoor speakers, cozy seating, and all under $300 total.',
+    'Everything you need for the perfect backyard date night — string lights, fire pit, outdoor speaker, cozy blanket, and all under $300 total.',
 }
 
 const picks = [
   {
     rank: 1,
     name: 'Addlon 48ft Outdoor Edison String Lights',
-    price: '$36',
+    price: '$34',
     bestFor: 'Best Lighting Anchor',
     summary:
-      "Warm Edison bulbs on a commercial-grade wire that hangs between trees, posts, or a pergola like you paid a decorator to do it. 48 feet gives you enough to criss-cross a full patio. This is the first thing to buy and the thing that makes everything else look intentional.",
+      "Warm Edison bulbs on a commercial-grade 48-ft wire that hangs between trees, posts, or a pergola like you paid a decorator to do it. 48 feet gives you enough to criss-cross a full patio. This is the first thing to buy and the thing that makes everything else look intentional.",
     pros: ['48ft covers a 20x20 patio with room to spare', 'Shatter-resistant Edison bulbs', 'Waterproof wire rated for all weather', 'Easy to hang with included hooks'],
     cons: ['Needs a power outlet nearby', 'Extension cord often required'],
-    asin: 'B07BZQR2LS',
+    asin: 'B07QMKZWQF',
   },
   {
     rank: 2,
@@ -36,43 +36,43 @@ const picks = [
     price: '$79',
     bestFor: 'Best Outdoor Music',
     summary:
-      'Clip it to a chair, umbrella arm, or branch and fill the patio with clean, warm sound. 10 hours of battery, fully waterproof, and the compact size disappears into the setup. Use two for real stereo. The sound quality is embarrassingly good for the size.',
-    pros: ['10-hour battery life', 'Fully waterproof (IP67)', 'Clips to anything', 'Clear sound at outdoor volume'],
+      'Clip it to a chair, umbrella arm, or branch and fill the patio with clean, warm sound. 10 hours of battery, fully waterproof (IP67), and the compact size disappears into the setup. The sound quality is embarrassingly good for the size — especially at the low volume that works best for a quiet evening outside.',
+    pros: ['10-hour battery life', 'IP67 fully waterproof', 'Clips to anything', 'Clear sound at outdoor volume'],
     cons: ['Single speaker, not true stereo', 'Bass is limited for bass-heavy music'],
-    asin: 'B082VWGQ3F',
+    asin: 'B08PJ7JMQM',
   },
   {
     rank: 4,
-    name: 'Rumpl Original Puffy Blanket (Outdoor)',
-    price: '$95',
+    name: 'Rumpl Original Puffy Blanket',
+    price: '$89',
     bestFor: 'Best Cozy Layer',
     summary:
-      'A camping-grade blanket that belongs at a backyard dinner table. Machine washable, stain-resistant, and warm enough for spring and fall evenings when it dips into the 50s. It looks intentional draped over a chair waiting for someone to need it. This is the detail that gets mentioned later.',
-    pros: ['Machine washable', 'Packable and lightweight', 'Warm enough for 45F+ nights', 'Water-resistant exterior'],
+      'A camping-grade blanket that belongs at a backyard dinner table. Machine washable, stain-resistant, and warm enough for spring and fall evenings. It looks intentional draped over a chair waiting for someone to need it. Ripstop nylon shell, water-resistant, and warm down to the 40s.',
+    pros: ['Machine washable', 'Packable and lightweight', 'Water-resistant shell', 'Warm enough for cool evenings'],
     cons: ['Premium price for a blanket', 'Runs small for two people sharing'],
-    asin: 'B014JUFQ3Y',
+    asin: 'B09C5RK25H',
   },
   {
     rank: 5,
-    name: 'Himalayan Glow Salt Lamp Tea Light Candle Holders (Set of 3)',
-    price: '$22',
+    name: 'Himalayan Salt Tea Light Candle Holders (Set of 3)',
+    price: '$18',
     bestFor: 'Best Table Ambiance',
     summary:
-      'Three salt crystal holders with tea light candles create a warm amber glow on any outdoor table. They weigh enough to stay put in a breeze and the pink-orange tones photograph beautifully. Set them in a cluster in the center of a table with a few actual candles and the effect is seriously impressive for $22.',
+      'Three natural salt crystal holders that create a warm amber glow on any outdoor table. They weigh enough to stay put in a breeze and the pink-orange tones look beautiful at night. Set them in a cluster in the center of a table with real candles and the effect is seriously impressive for $18.',
     pros: ['Warm amber glow from real salt crystal', 'Heavy enough to stay in light wind', 'No batteries or wiring', 'Set of 3 for layered look'],
-    cons: ['Tea lights need replacing', 'Salt absorbs moisture if stored outside'],
-    asin: 'B01KXXV5CE',
+    cons: ['Tea lights need replacing', 'Salt absorbs moisture if stored outside long-term'],
+    asin: 'B0BHFBV8JN',
   },
   {
     rank: 6,
-    name: 'Outcoor Foldable Picnic Blanket (Waterproof)',
-    price: '$28',
+    name: 'Wise Owl Outfitters Waterproof Outdoor Blanket',
+    price: '$29',
     bestFor: 'Best Ground Option',
     summary:
-      'Lay this out on the grass, open a bottle of wine, and suddenly you are the couple in every lifestyle photo. Waterproof PEVA backing keeps the ground moisture out, the fleece top is surprisingly soft, and it folds into a compact tote. Works equally well in the yard, a park, or a beach.',
-    pros: ['Waterproof PEVA backing', 'Soft fleece top', 'Folds into a compact bag', 'Stake corners available for wind'],
-    cons: ['Limited color options', 'Not a permanent outdoor piece'],
-    asin: 'B07QFG8R4N',
+      'Lay this out on the grass, open a bottle of wine, and suddenly you are the couple in every lifestyle photo. Waterproof ripstop nylon backing keeps ground moisture out, the interior is warm and soft, and it folds into a compact bag. Works equally well in the yard, a park, or a beach.',
+    pros: ['Waterproof ripstop nylon shell', 'Warm interior lining', 'Folds into a compact bag', 'Lightweight and packable'],
+    cons: ['Not a permanent outdoor piece', 'Limited color options'],
+    asin: 'B08L3W6Z81',
   },
 ]
 
@@ -177,7 +177,7 @@ export default function BackyardDateNight() {
           <p>
             <strong className="text-gray-900">Minutes 1-8, Lighting:</strong> Hang the string lights
             first while it is still daylight. Run them from a hook on the house to a post, fence, or
-            tree. Use a level if you care; most people eyeball it and it is fine.
+            tree. Eyeballing the level is fine — nobody notices at night.
           </p>
           <p>
             <strong className="text-gray-900">Minutes 9-13, Fire:</strong> Set the Solo Stove on a
@@ -191,8 +191,8 @@ export default function BackyardDateNight() {
             Clip the JBL speaker somewhere and queue your playlist.
           </p>
           <p>
-            <strong className="text-gray-900">Minutes 18-20, Food and drinks:</strong> Bring out
-            whatever you planned — wine, cheese, actual dinner, dessert. The setup carries the rest.
+            <strong className="text-gray-900">Minutes 18-20:</strong> Bring out food and drinks.
+            The setup carries the rest.
           </p>
         </div>
       </section>
@@ -203,9 +203,9 @@ export default function BackyardDateNight() {
           <div>
             <h3 className="font-bold text-gray-900 mb-1">What if I do not have a fire pit yet?</h3>
             <p className="text-gray-700 text-sm leading-relaxed">
-              The string lights and candles do most of the work. A fire pit is the upgrade, not the
-              baseline. If you are starting from scratch, get the lights first and add the fire pit
-              next season when you have a better feel for where you want it.
+              The string lights and candles do most of the work on their own. A fire pit is the upgrade,
+              not the baseline. Get the lights first and add the fire pit next season when you
+              have a better feel for where you want it.
             </p>
           </div>
           <div>
@@ -219,9 +219,8 @@ export default function BackyardDateNight() {
           <div>
             <h3 className="font-bold text-gray-900 mb-1">Can this work on a small balcony?</h3>
             <p className="text-gray-700 text-sm leading-relaxed">
-              Absolutely. Skip the fire pit and scale down to a tabletop lantern. Use a shorter
-              string light run (20 feet instead of 48). The blankets, speaker, and candles all work
-              on any size space.
+              Absolutely. Skip the fire pit and use the salt lamp holders and candles instead.
+              Use a shorter string light run. The blankets and speaker work on any size space.
             </p>
           </div>
         </div>

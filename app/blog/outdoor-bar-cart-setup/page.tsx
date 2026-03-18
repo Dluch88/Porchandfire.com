@@ -10,14 +10,14 @@ export const metadata: Metadata = {
 const picks = [
   {
     rank: 1,
-    name: 'Yaheetech 3-Tier Outdoor Bar Cart with Wheels',
-    price: '$85',
+    name: 'Tangkula Wood Bar Cart with Wheels',
+    price: '$89',
     bestFor: 'Best Overall',
     summary:
-      'Three tiers of storage on locking caster wheels that roll smoothly on any patio surface. The bottom shelf holds bottles, the middle tier handles glasses, and the top is your working surface. The powder-coated steel holds up to weather and the open design lets rain drain through instead of pooling. This is the workhorse of outdoor bar carts.',
-    pros: ['Three tiers for full bar organization', 'Locking caster wheels', 'Powder-coated weather-resistant finish', 'Easy to move for cleaning'],
-    cons: ['Assembly takes 30 minutes', 'Not the most visual wow-factor', 'Steel can show scratches over time'],
-    asin: 'B07NBHPRK8',
+      'A solid wood and metal outdoor bar cart with two shelves and locking caster wheels. The wood surface is warm and inviting while the metal frame handles outdoor conditions well. The open slatted shelves let rain drain through and the lockable wheels keep it in place when loaded. A great combination of looks and function at under $100.',
+    pros: ['Solid wood surface looks premium', 'Locking caster wheels', 'Open slatted shelves drain well', 'Easy to move for entertaining'],
+    cons: ['Wood needs occasional resealing', 'Assembly takes 30 minutes', 'Not for permanent outdoor exposure without cover'],
+    asin: 'B089Y1BDF6',
   },
   {
     rank: 2,
@@ -28,7 +28,7 @@ const picks = [
       'Wicker panels over a steel frame with a tempered glass top and a lower shelf for overflow storage. This one photographs beautifully and looks like outdoor furniture you paid $300 for. The wheels are lockable and the wicker holds up to sun and rain better than you would expect.',
     pros: ['Wicker finish looks premium', 'Tempered glass top', 'Lockable wheels', 'Visual anchor in any patio setup'],
     cons: ['Wicker requires occasional cleaning', 'Heavier than open-frame carts', 'Glass top can show fingerprints'],
-    asin: 'B07D1LV5PG',
+    asin: 'B06WVBBY46',
   },
   {
     rank: 3,
@@ -39,7 +39,7 @@ const picks = [
       'Folds flat when not in use, opens in seconds, and handles bottles, glasses, and a full snack spread without complaint. The aluminum construction does not rust. Ideal for someone who needs a bar cart for parties but wants to store it in a garage between events without dedicating permanent patio real estate.',
     pros: ['Folds flat for storage', 'Rust-free aluminum frame', 'Budget-friendly', 'Easy to wipe clean'],
     cons: ['Less stable when fully loaded', 'No locking wheels', 'Basic utilitarian look'],
-    asin: 'B0000CEJ41',
+    asin: 'B0882SGDVM',
   },
   {
     rank: 4,
@@ -50,18 +50,7 @@ const picks = [
       'The removable top tray is the feature that makes this cart exceptional for entertaining. Carry it to the fire pit or dining table without moving the whole cart. Three-tier storage underneath keeps everything organized and the slatted shelves let water drain through. A very functional design for a very reasonable price.',
     pros: ['Removable top tray for serving', 'Three-tier storage', 'Water-draining slatted shelves', 'Locking caster wheels'],
     cons: ['Tray can feel wobbly when fully loaded', 'More utilitarian than decorative', 'Some assembly required'],
-    asin: 'B07C1RZQTZ',
-  },
-  {
-    rank: 5,
-    name: 'Great Bay Furniture All-Weather Wicker Bar Cart',
-    price: '$145',
-    bestFor: 'Best Premium Pick',
-    summary:
-      'This is the one that makes guests think you have a much bigger outdoor budget than you do. Resin wicker over a powder-coated aluminum frame means no rust, no fading, and no annual refinishing. The two glass holders on the top shelf keep wine glasses secure, and the lower shelf has enough depth for a full bottle collection.',
-    pros: ['Rust-free aluminum frame', 'Resin wicker will not rot or fade', 'Built-in glass holders', 'Deep lower shelf for bottles'],
-    cons: ['Premium price', 'Heavy at 28 lbs', 'Limited color options'],
-    asin: 'B07YNZHFH5',
+    asin: 'B08Z6879GH',
   },
 ]
 

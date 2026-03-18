@@ -17,7 +17,7 @@ const picks = [
       'Sunbrella-grade UV-resistant fabric in a clean chevron pattern that holds its color through two full outdoor seasons. The fill is polyester fiber that dries fast after rain and resists mold. These are the pillows your neighbor will ask about. The pattern is bold enough to be interesting without fighting with furniture.',
     pros: ['UV-fade resistant fabric', 'Fast-drying polyester fill', 'Mold and mildew resistant', 'Set of 2 for matched look'],
     cons: ['Pattern may not suit minimal decor', 'Cover is not removable for washing', 'Firm fill takes a season to soften'],
-    asin: 'B01FPY8HXG',
+    asin: 'B00HYUSH0E',
   },
   {
     rank: 2,
@@ -28,7 +28,7 @@ const picks = [
       'Four matching pillows at $52 is the move when you want to style a full sectional or sofa without buying one at a time. The Arden Selections fabric is solution-dyed for color fastness and the fill handles rain without developing that soggy, slow-drying quality that cheap pillows get after one summer.',
     pros: ['Set of 4 for full coverage', 'Solution-dyed fabric for color fastness', 'Available in multiple patterns', 'Value-priced per pillow'],
     cons: ['Cover not removable on some colorways', 'Color selection is seasonal', 'Medium weight fill'],
-    asin: 'B07G3DBTHM',
+    asin: 'B0BHBRN1FY',
   },
   {
     rank: 3,
@@ -39,7 +39,7 @@ const picks = [
       'The most affordable way to add color and softness to outdoor seating that actually works. The solid color options are versatile and the fill holds its shape better than the price suggests. Replace these every two seasons without guilt. At $28 for two, they are essentially disposable if you want to change your color scheme.',
     pros: ['Extremely affordable', 'Solid colors mix and match easily', 'Good loft for the price', 'Available in seasonal colors'],
     cons: ['Fabric fades faster than premium options', 'Fill compresses after one season', 'Limited pattern selection'],
-    asin: 'B07TRFV98Q',
+    asin: 'B01N19JJKG',
   },
   {
     rank: 4,
@@ -50,7 +50,7 @@ const picks = [
       'Sunbrella is the benchmark fabric for outdoor textiles and this pillow lives up to the reputation. The solution-dyed acrylic is colorfast for five-plus seasons, resists stains, and cleans with mild soap and water. The canvas weave is understated and pairs with any furniture color. If you want to buy once and not think about it again, this is it.',
     pros: ['Sunbrella fabric is the industry gold standard', 'Colorfast for 5+ seasons', 'Stain resistant', 'Cleans with mild soap and water'],
     cons: ['Premium price per pillow', 'Canvas texture is not the softest', 'Fewer pattern options than budget brands'],
-    asin: 'B00G3MHJ7I',
+    asin: 'B08CWZYT9C',
   },
   {
     rank: 5,
@@ -61,7 +61,7 @@ const picks = [
       'Removable covers with inserts included — meaning you can wash the covers in the machine and swap colors for different seasons. The fabric is a woven polyester blend that handles outdoor conditions well. At $38 for four complete pillows with washable covers, this is outstanding value for anyone who likes to refresh their patio look seasonally.',
     pros: ['Removable covers for machine washing', 'Inserts included', 'Available in a wide color range', '4-pack for full sectional coverage'],
     cons: ['Woven polyester is not as durable as Sunbrella', 'Colors can vary from photos', 'Inserts compress over time'],
-    asin: 'B07QF2FMT3',
+    asin: 'B0912GJ3F8',
   },
 ]
 

@@ -17,7 +17,7 @@ const picks = [
       'Tall iron-frame lanterns with a powder-coated finish that survive outdoor conditions and look like they came from a boutique hotel terrace. Set them flanking a front door, placed on either side of a fire pit, or on the corners of a dining table. The clean geometric frame casts interesting shadows when lit and looks architectural even in daylight.',
     pros: ['Architectural statement look', 'Powder-coated weather-resistant iron', 'Works with pillar candles or flameless', 'Set of 2 for symmetrical placement'],
     cons: ['Tall profile can catch wind', 'No solar option — needs candles or flameless inserts', 'Assembly required'],
-    asin: 'B07CWKQ3X7',
+    asin: 'B0D364JX9L',
   },
   {
     rank: 2,
@@ -28,7 +28,7 @@ const picks = [
       'Hang these from a pergola beam, a shepherd hook, or a porch ceiling and they charge all day and glow automatically at dusk. The warm amber light and classic lantern shape make them look substantially more expensive than $26. A pair gives you real ambient glow without running a single extension cord.',
     pros: ['Completely cord-free solar operation', 'Auto on at dusk, off at dawn', 'Warm amber glow', 'Weatherproof construction'],
     cons: ['Light output dims after consecutive cloudy days', 'Plastic construction visible up close', 'Hanging hardware is basic'],
-    asin: 'B07V2H2Z2T',
+    asin: 'B075L313HD',
   },
   {
     rank: 3,
@@ -39,40 +39,29 @@ const picks = [
       'A classic glass-panel lantern on a powder-coated metal base that holds a standard pillar candle. The enclosed glass panels protect the flame from wind while letting light pass through. Place it on a dining table, a side table next to a chair, or on porch steps. It photographs beautifully in warm light.',
     pros: ['Enclosed glass protects flame from wind', 'Classic look works with any decor', 'Standard pillar candle size', 'Sturdy base stays put in breeze'],
     cons: ['Candles need replacing', 'Glass panels require cleaning', 'Not for wet climates without cover'],
-    asin: 'B07V4NKQCM',
+    asin: 'B093CBZVNW',
   },
   {
     rank: 4,
-    name: 'Sienna Solar Powered LED Outdoor Lantern',
-    price: '$32',
-    bestFor: 'Best Value Solar',
+    name: 'Hampton Bay Solar Post Lantern',
+    price: '$39',
+    bestFor: 'Best Post Mount Solar',
     summary:
-      'A tabletop solar lantern with a classic wicker-look body and warm LED glow. It charges in direct sun and runs 6-8 hours on a full charge. A great option for a dining table or side table where you want the look of a candle lantern without the fire or the cords. Works on covered patios if placed in a sunny spot during the day.',
-    pros: ['Tabletop solar — no cords', 'Wicker-look body looks premium', '6-8 hour runtime on full charge', 'Auto off in daylight'],
-    cons: ['Needs direct sun to charge fully', 'Light output is ambient, not task lighting', 'Not suitable for fully covered patios'],
-    asin: 'B082SKPXCS',
+      'A classic post-cap solar lantern that mounts to a standard 4x4 post and automatically turns on at dusk. The clean lantern design casts a warm amber glow and pairs naturally with deck posts, fence caps, or garden posts. No wiring, no timer to set — just mount it and it handles itself every evening.',
+    pros: ['Mounts to standard 4x4 post', 'Auto on at dusk, off at dawn', 'Warm amber LED glow', 'No wiring required'],
+    cons: ['Designed specifically for post mounting', 'Glow dims after cloudy days', 'Best in full-sun locations'],
+    asin: 'B016QQLI0M',
   },
   {
     rank: 5,
-    name: 'Brightech Sparq Solar LED Post Lantern',
-    price: '$45',
-    bestFor: 'Best Modern Style',
-    summary:
-      'A clean-lined solar post lantern that mounts to a standard post or railing. The modern frame and frosted glass look sharp during the day and cast an even warm glow at night. Great for mounting at the entrance to a deck or at the top of a garden post. The solar panel is integrated into the top — invisible from the front.',
-    pros: ['Mounts to post or railing', 'Modern clean-line design', 'Integrated solar panel', 'Frosted glass diffuses light evenly'],
-    cons: ['Mount hardware is for specific post sizes', 'Less glowing output vs plug-in options', 'Best in full-sun installations'],
-    asin: 'B07FSY5S35',
-  },
-  {
-    rank: 6,
-    name: 'LHKJ Large Outdoor Solar Lanterns (Set of 2)',
+    name: 'LHKJ Oversized Outdoor Solar Lanterns (Set of 2)',
     price: '$36',
     bestFor: 'Best Large Floor Lanterns',
     summary:
       'Oversized floor lanterns that stand 18 inches tall and cast a dramatic warm glow through the lattice body. Set them at the entrance to a patio, flanking a fire pit, or on either side of a garden path. The large scale reads as intentional and designed in a way smaller lanterns do not.',
     pros: ['Large 18-inch height makes a visual statement', 'Set of 2 for symmetrical placement', 'Solar-powered — no cords needed', 'Warm amber LED glow'],
     cons: ['Top-heavy in strong wind', 'Plastic body at this price point', 'Best in full-sun locations'],
-    asin: 'B08HJ55M7Y',
+    asin: 'B0DP76JGLC',
   },
 ]
 

@@ -17,7 +17,7 @@ const picks = [
       'The benchmark gas grill at this price. Three burners, 529 sq in of cooking space, and Weber reliability that runs for a decade without drama. Turn it on, it is hot in 10 minutes. Close the lid and it holds temperature. The cleanup is a tray dump and a brush. This is the grill for anyone who values consistency and time over craft.',
     pros: ['Ready to cook in 10 minutes', 'Consistent temperature control', 'Easy grease management', '10-year Weber warranty', 'Great for weeknight cooking'],
     cons: ['Less smoky flavor than charcoal', 'Propane costs accumulate', 'Grill marks less defined'],
-    asin: 'B07B57RY3B',
+    asin: 'B077JTCMKQ',
   },
   {
     rank: 2,
@@ -28,7 +28,7 @@ const picks = [
       'Four burners under $250 that cook evenly and clean up easily. Not a Weber, but a solid workhorse for anyone who grills 3-4 times a week without wanting to think too hard about it. The porcelain grates produce decent grill marks and the drip system is easy to access. A good first grill or a replacement when the budget is limited.',
     pros: ['Four burners for under $250', 'Decent cooking evenness', 'Easy drip tray cleanup', 'Electronic ignition'],
     cons: ['Thinner steel than Weber', 'Grates can rust without maintenance', 'Side table stability is limited'],
-    asin: 'B00BNNV5HE',
+    asin: 'B01HITNEE4',
   },
   {
     rank: 3,
@@ -39,7 +39,7 @@ const picks = [
       'The most iconic backyard grill in America, and for good reason. The 22-inch kettle is exactly right for a family of 4-6. Light the charcoal, wait 20 minutes, and you have real wood-smoke flavor that no gas grill replicates. The hinged grate makes adding coals easy mid-cook. The ash catcher makes cleanup manageable. Simple, proven, exceptional.',
     pros: ['Real charcoal flavor no gas grill matches', 'Iconic design that lasts decades', 'Versatile — grill, smoke, or roast', 'Affordable at $179', '10-year Weber warranty'],
     cons: ['30 minutes of prep before cooking', 'Temperature control takes practice', 'Ash disposal is messier than gas'],
-    asin: 'B00004RALD',
+    asin: 'B00MKB5TXA',
   },
   {
     rank: 4,
@@ -50,7 +50,7 @@ const picks = [
       'A steel kamado design at a fraction of the ceramic Big Green Egg price. The double-wall steel construction retains heat exceptionally well for low-and-slow cooking and the dual dampers give you real temperature control once you learn them. This is the charcoal grill for someone who wants to smoke brisket and sear steaks on the same cooker.',
     pros: ['Dual-damper temperature control', 'Retains heat for long smokes', 'Cast-iron grates for excellent sear marks', 'Lower cost than ceramic kamados'],
     cons: ['Learning curve on temperature management', 'Heavy at 97 lbs — not portable', 'Steel does not retain heat as well as ceramic'],
-    asin: 'B00HY6EXFY',
+    asin: 'B00GJEPTJS',
   },
   {
     rank: 5,
@@ -61,7 +61,7 @@ const picks = [
       'The Weber Kettle with a built-in work table, a propane Touch-N-Go ignition system for the charcoal, and an enclosed storage area for charcoal bags. All the character of the classic kettle with significantly more convenience. The propane-assist lighting means you never wait for a chimney starter. A real upgrade over the basic kettle if you grill often.',
     pros: ['Touch-N-Go propane ignition for charcoal', 'Built-in prep work surface', 'Enclosed charcoal storage', 'Same iconic kettle performance'],
     cons: ['Premium price for a charcoal grill', 'Bulkier footprint than standard kettle', 'Propane ignition needs separate small canister'],
-    asin: 'B00BIIZY0S',
+    asin: 'B00MKB5V1A',
   },
 ]
 

@@ -17,18 +17,18 @@ const picks = [
       'Two chairs and a round table in weatherproof resin that you can leave out year-round without worrying about it. The bistro format is perfect for a standard apartment balcony because it gives you real seating and a surface in a footprint that barely exceeds 4x4 feet. Stack the chairs when you need the floor back.',
     pros: ['Stackable chairs save space when needed', 'Weatherproof resin needs no maintenance', 'Complete set in one purchase', 'Assembly-free chairs, 5-min table'],
     cons: ['Resin lacks the premium look of wood', 'Limited color selection', 'Not ideal for tall people'],
-    asin: 'B00KZIVNBW',
+    asin: 'B017XNZPFQ',
   },
   {
     rank: 2,
-    name: 'Mainstays Outdoor String Lights 20ft',
-    price: '$18',
+    name: 'Addlon 48ft Outdoor Edison String Lights',
+    price: '$34',
     bestFor: 'Best Lighting for Small Spaces',
     summary:
-      'Twenty feet of warm globe lights designed for balcony railings and apartment patios. Wrap them around a railing, drape them overhead from corner hooks, or both. This is the item that does more per dollar than anything else in this list. $18 and your balcony goes from a fire escape to a destination.',
-    pros: ['Perfect length for a standard balcony railing', 'Warm globe bulbs look expensive', 'Weather-rated for outdoor use', 'Easy to wrap and secure'],
-    cons: ['Needs a power outlet', 'Extension cord may be needed', 'Bulbs can loosen in strong wind'],
-    asin: 'B07BZQR2LS',
+      'Warm Edison globe lights on a 48-ft commercial-grade wire. Wrap a length around a railing, criss-cross overhead from corner hooks, or both — 48 feet gives you enough to work with on any balcony layout. This is the item that does more per dollar than anything else in this list. Hang them and your balcony goes from a fire escape to a destination.',
+    pros: ['48ft covers any balcony layout with room to spare', 'Shatter-resistant Edison bulbs', 'Weather-rated for outdoor use', 'Easy to hang with included hooks'],
+    cons: ['Needs a power outlet', 'Extension cord may be needed', 'Full length is more than most balconies need'],
+    asin: 'B07QMKZWQF',
   },
   {
     rank: 3,
@@ -39,7 +39,7 @@ const picks = [
       'Three wall-mount iron planters that attach to any railing or wall with a single screw. Fill them with trailing plants (pothos, string of pearls, any herb) and suddenly your balcony has vertical dimension. The matte black iron finish works with any color scheme and the plants do all the visual heavy lifting.',
     pros: ['Mounts to railing or wall', 'Three planters for layered look', 'Matte black finish is versatile', 'Low-profile footprint'],
     cons: ['Pots are small, limit plant size', 'No drainage saucer included', 'Iron can rust without touch-up'],
-    asin: 'B07H5KC9R5',
+    asin: 'B0DL5BL29R',
   },
   {
     rank: 4,
@@ -50,7 +50,7 @@ const picks = [
       'A machine-washable outdoor rug that defines the space and makes bare concrete disappear. The 3x5 fits almost every standard balcony layout and the two-piece design (pad plus cover) means you can throw the cover in the washing machine when it gets dirty. One rug, zero worries about mold, mildew, or fading.',
     pros: ['Machine washable cover', 'UV-fade resistant', '3x5 fits most balcony layouts', 'Non-slip pad underneath'],
     cons: ['Premium price for the size', 'Two-piece design requires reassembly after washing', 'Limited outdoor-specific patterns'],
-    asin: 'B07YWQB5X2',
+    asin: 'B0CWS7KPCV',
   },
   {
     rank: 5,
@@ -61,7 +61,7 @@ const picks = [
       'A fully reclining lounge chair with a footrest that folds flat when you are done. On a balcony that is too small for full outdoor furniture, this chair gives you a real lounging experience without taking permanent floor space. The textilene mesh breathes in summer heat and dries within minutes of rain.',
     pros: ['Fully reclines to multiple positions', 'Folds flat for storage', 'Textilene mesh is breathable and dries fast', 'Holds up to 300 lbs'],
     cons: ['Wide when fully extended', 'Not padded (add a blanket for comfort)', 'Matte finish shows dust'],
-    asin: 'B07PMQPQHL',
+    asin: 'B0BKZS2VFW',
   },
 ]
 

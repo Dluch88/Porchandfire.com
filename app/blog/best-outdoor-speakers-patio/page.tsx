@@ -17,7 +17,7 @@ const picks = [
       'The JBL Charge 5 is the sweet spot between portable convenience and real outdoor volume. IP67 waterproof, 20 hours of battery, and loud enough to fill a 400 sq ft patio without distortion. The PartyBoost feature lets you pair two for stereo. This is the speaker most people end up with after trying something cheaper first.',
     pros: ['IP67 waterproof and dustproof', '20-hour battery life', 'PartyBoost for dual-speaker stereo', 'USB-A output to charge other devices', 'Loud, clear sound at outdoor levels'],
     cons: ['No companion app for EQ adjustment', 'Bass can distort at max volume', 'Cylindrical shape rolls on hard surfaces'],
-    asin: 'B08TH8YL6Z',
+    asin: 'B08X4YMTPM',
   },
   {
     rank: 2,
@@ -39,7 +39,7 @@ const picks = [
       'A dual-speaker design with a passive radiator that delivers surprising bass depth for $79. IPX6 waterproof (not full submersion, but handles rain and splash well). 35-watt output reaches genuine outdoor levels. If you want a capable outdoor speaker without spending $130+, the HD77 is the honest recommendation.',
     pros: ['35W output for real outdoor volume', 'Dual speakers plus passive radiator', 'IPX6 waterproof rating', 'Budget-friendly at $79', 'Built-in speakerphone'],
     cons: ['IPX6 not IP67 — avoid submersion', 'Less refined sound than Bose or JBL', 'Battery life around 12 hours'],
-    asin: 'B07ZGV6M8L',
+    asin: 'B07GBDMF12',
   },
   {
     rank: 4,
@@ -50,7 +50,7 @@ const picks = [
       'The speaker you buy when a small portable is not enough. The Hyperboom delivers 100W of output that fills a full backyard — the kind of volume you feel as much as hear. Four device pairing, 24-hour battery, and an IPX4 splash rating make it the anchor piece for a serious outdoor entertaining setup. Heavy at 11 lbs, but that is what handles are for.',
     pros: ['100W output fills large outdoor spaces', 'Four-device pairing simultaneously', '24-hour battery life', 'Adaptive EQ adjusts to the room', 'Party mode pairs two Hyperboom units'],
     cons: ['Heavy at 11 lbs', 'IPX4 is only splash-resistant', 'Premium price', 'Overkill for a small patio'],
-    asin: 'B08KFXR5TD',
+    asin: 'B07XJ8B9NV',
   },
   {
     rank: 5,
@@ -61,7 +61,7 @@ const picks = [
       'If you want music on the patio without a Bluetooth speaker sitting on every surface, the Atrium 4 mounts to a wall, fence, or pergola post and stays there. The all-weather construction handles five years of outdoor exposure. Run a wire back to an indoor receiver and get whole-patio audio coverage with nothing to charge, pair, or move.',
     pros: ['Permanently mounted — always ready', 'All-weather construction', 'Full-range sound for the price', 'Can mount to any surface', 'Pair included'],
     cons: ['Requires wire run to amplifier or receiver', 'Installation takes an afternoon', 'Not portable'],
-    asin: 'B001KJGF10',
+    asin: 'B00378KMF0',
   },
   {
     rank: 6,
@@ -72,7 +72,7 @@ const picks = [
       'When the JBL Charge 5 is not loud enough for a full backyard gathering, step up to the Xtreme 3. IP67 waterproof, 15 hours of playtime, and a four-driver array that produces genuinely impressive outdoor volume. The built-in bungee strap turns it into a shoulder bag for moving between the fire pit and the dining area.',
     pros: ['Four-driver array for high volume', 'IP67 fully waterproof', 'Built-in bungee carry strap', 'PartyBoost for multiple speaker connection', 'USB-A charging output'],
     cons: ['Heavy at 4.2 lbs', '15-hour battery life trails some competitors', 'Premium price point'],
-    asin: 'B098BTMCTM',
+    asin: 'B08NLCW9WY',
   },
 ]
 

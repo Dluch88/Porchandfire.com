@@ -17,7 +17,7 @@ const picks = [
       'Weber makes grills that last 15 years and this three-burner is the benchmark everything else gets compared to. The GS4 grilling system delivers even heat across the full 529 sq in of cooking space. The iGrill 3 thermometer compatibility and open cart design have made this the go-to for serious weekend grillers who do not want to spend $700.',
     pros: ['529 sq in of cooking space', 'Even heat with porcelain-enameled grates', 'Grease management system', 'iGrill 3 compatible', 'Weber 10-year warranty'],
     cons: ['At the top of the $400 budget', 'Side tables feel slightly flimsy', 'Assembly takes 1-2 hours'],
-    asin: 'B07B57RY3B',
+    asin: 'B077JTCMKQ',
   },
   {
     rank: 2,
@@ -28,7 +28,7 @@ const picks = [
       'Four burners and a side burner for under $300. The porcelain-coated grates clean up easily and the stainless construction holds up to two Carolina summers without significant rust or fading. Not a Weber, but at $100 less you are getting 95% of the performance with a slightly shorter lifespan.',
     pros: ['4 main burners plus side burner', 'Porcelain-coated cast iron grates', 'Electronic ignition works reliably', 'Plenty of surface for 8-10 people'],
     cons: ['Thinner steel than Weber', 'Grates need seasoning out of the box', 'Wheels feel budget-grade'],
-    asin: 'B01GMOIM3A',
+    asin: 'B08HJPCQ5P',
   },
   {
     rank: 3,
@@ -39,7 +39,7 @@ const picks = [
       'The value leader in this price range. Four burners, a dedicated side burner, and 720 sq in of total cooking space for $249 makes this the right choice if budget is the constraint. The Nexgrill is not trying to be a Weber. It is trying to be the best grill at $249, and it wins that comparison.',
     pros: ['720 sq in of total cooking space', 'Dedicated side burner', 'Budget-friendly at $249', 'Grease cup for easy cleanup'],
     cons: ['Thinner gauge steel', 'Grates can rust if not maintained', 'Wind can affect burner performance'],
-    asin: 'B0786RWBWX',
+    asin: 'B0CKM1LD3Z',
   },
   {
     rank: 4,
@@ -50,7 +50,7 @@ const picks = [
       'A clean cabinet-style design with three burners and enclosed lower storage for a propane tank and accessories. The cabinet keeps everything tidy and the stainless lid handles wind better than open-cart designs. A smart choice for smaller patios where a clean visual footprint matters.',
     pros: ['Enclosed cabinet hides tank and accessories', 'Clean visual design', '3 burners cover most grilling needs', 'Porcelain-enameled cooking grates'],
     cons: ['No side burner', 'Smaller cook surface than competitors', 'Flame output is moderate'],
-    asin: 'B07F8BMFQ5',
+    asin: 'B07JW83ZGL',
   },
   {
     rank: 5,
@@ -61,7 +61,7 @@ const picks = [
       'A clean, solid starter grill from a brand that knows cooking equipment. The porcelain enamel grates produce good sear marks and the folding side tables keep the footprint manageable on smaller decks. Good ignition reliability and an attractive design make this the right first grill for a lot of people.',
     pros: ['Attractive brushed stainless design', 'Folding side tables save space', 'Consistent ignition performance', 'Easy assembly under 60 minutes'],
     cons: ['Side tables fold instead of staying fixed', 'Less durable than Weber at similar age', 'Smaller cooking area'],
-    asin: 'B07BVTYWNG',
+    asin: 'B074QQW4PC',
   },
   {
     rank: 6,
@@ -72,7 +72,7 @@ const picks = [
       'A two-burner grill with fold-down side tables designed to tuck into tight spots when not in use. Fits on a 6-foot balcony. The Smart Space Living line is engineered specifically for apartment patios and small decks where a full-size grill would be impractical. Real performance in a compact footprint.',
     pros: ['Fold-down tables for compact storage', 'Fits on small balconies and decks', 'Stainless steel main body', 'Easy ignition system'],
     cons: ['Two burners limit multi-zone cooking', 'Smaller cook surface', 'Lightweight construction'],
-    asin: 'B0773YJQYZ',
+    asin: 'B00C55D3EI',
   },
 ]
 

@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Bougie Amazon Patio Finds Under $50 | Porch & Fire',
   description:
-    'Upgrade your outdoor space without breaking the bank. These 6 Amazon patio finds all look way more expensive than they are — all under $50.',
+    'Upgrade your outdoor space without breaking the bank. These 5 Amazon patio finds all look way more expensive than they are — all under $50.',
 }
 
 const picks = [
@@ -14,10 +14,10 @@ const picks = [
     price: '$37',
     bestFor: 'Best Instant Ambiance',
     summary:
-      "Warm white globe bulbs on a 24-ft strand that transforms any patio into something out of a restaurant courtyard. Plug-in, weatherproof, and the shatter-resistant bulbs hold up to wind without going dark. For $37, this is the single fastest patio upgrade you can buy.",
-    pros: ['Warm 2700K globe bulbs look premium', 'Shatter-resistant and weatherproof', '24-ft strand covers most patios', 'Easy plug-in setup'],
+      "Warm white globe bulbs on a 26-ft strand that transforms any patio into something out of a restaurant courtyard. Plug-in, weatherproof, and the shatter-resistant bulbs hold up to wind without going dark. For $37, this is the single fastest patio upgrade you can buy.",
+    pros: ['Warm 2700K globe bulbs look premium', 'Shatter-resistant and weatherproof', '26-ft strand covers most patios', 'Easy plug-in setup'],
     cons: ['Requires an outlet (not solar)', 'Extension cord often needed for pergolas'],
-    asin: 'B07FWRJ93Y',
+    asin: 'B01JRL963Y',
   },
   {
     rank: 2,
@@ -25,54 +25,43 @@ const picks = [
     price: '$22',
     bestFor: 'Best Solar Glow',
     summary:
-      'These vintage-style lanterns charge in full sun and glow automatically at dusk. Hang one on each side of a porch or gate and the effect is genuinely stunning. They look like something from a garden boutique. Nobody guesses you spent $22.',
-    pros: ['Auto on/off at dusk and dawn', 'No wiring required', 'Warm amber glow', 'Hang anywhere with the included hook'],
+      'These vintage-style solar lanterns charge in full sun and glow automatically at dusk. Hang one on each side of a porch or gate and the effect is genuinely stunning. They look like something from a garden boutique. Nobody guesses you spent $22.',
+    pros: ['Auto on/off at dusk and dawn', 'No wiring required', 'Warm amber glow', 'Hang anywhere with included hook'],
     cons: ['Glow dims after cloudy days', 'Plastic construction up close'],
-    asin: 'B07V2H2Z2T',
+    asin: 'B075L313HD',
   },
   {
     rank: 3,
-    name: 'Keter Circa Round Side Table',
-    price: '$27',
+    name: 'Keter Circa 37-Gallon Round Outdoor Side Table',
+    price: '$39',
     bestFor: 'Best Stylish Side Table',
     summary:
-      "Looks like concrete, weighs almost nothing, and doesn't care about rain. The round profile fits next to any chair and the faux-stone finish fools people every time. A pair of these costs less than one overpriced patio table at a home goods store.",
-    pros: ['Faux-stone finish looks expensive', 'Weather and UV resistant', 'Lightweight and easy to move', 'No assembly required'],
-    cons: ['Small surface area (19 inches)', 'Not ideal for drinks and a full plate'],
-    asin: 'B07WFRHCVL',
+      "Looks like a sleek round table, secretly doubles as 37-gallon storage for cushions, tools, or anything you want hidden. The faux-wicker lid is flat enough to set drinks on and weather-resistant enough to leave out year-round. A pair of these next to your chairs solves storage and surface space at once.",
+    pros: ['Hidden 37-gallon storage inside', 'Flat top works as side table', 'Weather and UV resistant', 'No assembly required'],
+    cons: ['Lid can feel slightly hollow', 'Not ideal as a primary table'],
+    asin: 'B01JJJ1R7W',
   },
   {
     rank: 4,
-    name: 'La Jolíe Muse Ceramic Outdoor Planters (Set of 3)',
+    name: 'LA JOLIE MUSE Outdoor Planter Set of 3',
     price: '$35',
     bestFor: 'Best Decorative Planters',
     summary:
-      'Three matte-finish ceramic planters in graduated sizes, perfect for herbs, succulents, or whatever you want to pretend you keep alive. The neutral gray-white finish photographs beautifully and pairs with any outdoor color scheme. Stack them on a step or line them across a railing.',
-    pros: ['Set of 3 graduated sizes', 'Drainage holes included', 'Matte finish looks high-end', 'Works indoors or outdoors'],
-    cons: ['Ceramic can crack in freeze-thaw climates', 'Not the heaviest construction'],
-    asin: 'B08MH24WCX',
+      'Three graduated round planters in matte gray with a tactile raised-dot finish. Perfect for herbs, succulents, or trailing plants. The neutral finish photographs beautifully and pairs with any outdoor color scheme. Drainage holes included. Stack on a step or line across a railing for an instant styled look.',
+    pros: ['Set of 3 graduated sizes', 'Drainage holes included', 'Matte gray finish looks premium', 'Works indoors or outdoors'],
+    cons: ['Resin, not ceramic — lighter feel', 'Smaller sizes limit plant variety'],
+    asin: 'B08R794GWJ',
   },
   {
     rank: 5,
-    name: 'Pure Garden Solar Pathway Lights (8-Pack)',
+    name: 'Pure Garden Solar Pathway Lights 8-Pack',
     price: '$29',
     bestFor: 'Best Pathway Upgrade',
     summary:
-      'Line a walkway, garden border, or patio edge and instantly make your outdoor space look intentional. These warm-white solar stakes charge all day and cast a soft glow all night. Eight stakes is plenty to outline a full 20-foot path.',
+      'Line a walkway, garden border, or patio edge and instantly make your outdoor space look intentional. These warm-white solar stakes charge all day and cast a soft glow all night. Eight stakes is plenty to outline a full 20-foot path or frame a patio edge on both sides.',
     pros: ['8 stakes for full coverage', 'Auto on at dusk, off at dawn', 'No wiring required', 'Stainless steel cap looks polished'],
     cons: ['Light output is subtle, not bright', 'Stake depth is shallow in soft soil'],
-    asin: 'B07T3PX34J',
-  },
-  {
-    rank: 6,
-    name: 'Sunnydaze Outdoor Wicker Side Table with Storage',
-    price: '$48',
-    bestFor: 'Best Functional Find',
-    summary:
-      'A wicker side table with a hidden storage compartment under the top. Keep sunscreen, bug spray, and a deck of cards inside and snap the lid closed. It looks clean and pulled-together from ten feet away and costs less than most candles at a boutique hotel.',
-    pros: ['Hidden storage compartment', 'All-weather wicker construction', 'Fits beside any chair', 'Tight lid keeps contents dry'],
-    cons: ['Not suitable for heavy items', 'Top surface is slightly textured'],
-    asin: 'B07C1YWW32',
+    asin: 'B07JN74ZY6',
   },
 ]
 
@@ -85,15 +74,15 @@ export default function BougiePatioPicks() {
           Bougie Amazon Patio Finds Under $50 That Look Way More Expensive
         </h1>
         <p className="mt-4 text-lg text-gray-600">
-          You do not need a big budget to have a great-looking patio. These six Amazon finds each clock in under $50 and deliver the kind of detail that makes guests ask where you got everything. The answer is embarrassingly affordable.
+          You do not need a big budget to have a great-looking patio. These five Amazon finds each clock in under $50 and deliver the kind of detail that makes guests ask where you got everything. The answer is embarrassingly affordable.
         </p>
       </div>
 
       <div className="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-10 text-sm text-gray-700">
         <strong className="text-gray-900">Quick picks:</strong> The{' '}
         <strong>Brightech String Lights</strong> are the single fastest way to upgrade any patio.
-        Add the <strong>MAGGIFT Solar Lanterns</strong> for a no-wiring glow, and grab the{' '}
-        <strong>La Jolíe Muse Planters</strong> for a polished finishing touch. All three together still come in under $100.
+        Add the <strong>MAGGIFT Solar Lanterns</strong> for no-wiring glow, and the{' '}
+        <strong>LA JOLIE MUSE Planters</strong> for a polished finishing touch. All three together still come in under $100.
       </div>
 
       <section className="mb-10">
@@ -106,8 +95,8 @@ export default function BougiePatioPicks() {
         </p>
         <p className="text-gray-700 leading-relaxed">
           The trick is knowing which categories offer real value. Lighting, side tables, planters,
-          and decorative accents are where Amazon shines. Skip the structural furniture here and
-          focus on the finishing touches that make a patio feel designed instead of just furnished.
+          and decorative accents are where Amazon shines. Focus on the finishing touches that make
+          a patio feel designed instead of just furnished.
         </p>
       </section>
 
@@ -177,17 +166,15 @@ export default function BougiePatioPicks() {
           <p>
             <strong className="text-gray-900">Add a surface:</strong> A side table next to every
             chair is the difference between a patio that feels designed and one that feels forgotten.
-            The Keter table is $27 and does the job perfectly.
           </p>
           <p>
             <strong className="text-gray-900">Finish with greenery:</strong> Plants are the easiest
-            way to make a patio feel alive. You do not need a green thumb, just a few planters in a
-            consistent finish and whatever grows in your zone without effort.
+            way to make a patio feel alive. A few planters in a consistent finish and whatever grows
+            in your zone without effort is all you need.
           </p>
           <p>
             <strong className="text-gray-900">Stick to a palette:</strong> Two or three colors max.
-            Warm whites and neutrals with one accent color (terracotta, sage, navy) read as
-            intentional. Too many colors reads as random.
+            Warm whites and neutrals with one accent color reads as intentional. Too many colors reads as random.
           </p>
         </div>
       </section>
@@ -200,14 +187,7 @@ export default function BougiePatioPicks() {
             <p className="text-gray-700 text-sm leading-relaxed">
               The lanterns, pathway lights, and string lights are all rated for outdoor use. The
               planters and side table handle rain and sun well. In harsh freeze-thaw climates, bring
-              ceramic planters inside for winter.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-bold text-gray-900 mb-1">Can I combine solar and plug-in lighting?</h3>
-            <p className="text-gray-700 text-sm leading-relaxed">
-              Absolutely, and it often works better. Use plug-in string lights as the main ambiance
-              (brighter, more reliable) and solar lanterns as accent pieces that handle themselves.
+              resin planters inside for winter.
             </p>
           </div>
           <div>
@@ -216,6 +196,13 @@ export default function BougiePatioPicks() {
               The Brightech string lights at $37. Nothing else in this roundup changes a patio as
               dramatically per dollar. Hang them and your outdoor space immediately looks like
               somewhere you actually want to be.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-bold text-gray-900 mb-1">Can I combine solar and plug-in lighting?</h3>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              Absolutely. Use plug-in string lights as the main ambiance (brighter, more reliable)
+              and solar lanterns as accent pieces. Each handles itself.
             </p>
           </div>
         </div>

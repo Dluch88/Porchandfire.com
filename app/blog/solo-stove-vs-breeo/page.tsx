@@ -43,14 +43,14 @@ const picks = [
   },
   {
     rank: 4,
-    name: 'Breeo Outpost 19',
+    name: 'Breeo X Series 19',
     price: '$299',
     bestFor: 'Best Entry-Level Breeo',
     summary:
-      'The smallest Breeo with the same corten steel construction and smokeless double-wall design as the full-size X Series. The 19-inch bowl is right-sized for a patio of 2-4 people. A great starting point if you want Breeo quality without the full X24 footprint or price.',
+      'The smallest X Series Breeo with the same corten steel construction and smokeless double-wall design as the full-size X24. The 19-inch bowl is right-sized for a patio of 2-4 people. A great starting point if you want Breeo quality without the full X24 footprint or price.',
     pros: ['Corten steel at a lower price', 'Smokeless double-wall design', 'Smaller footprint than X24', 'Outpost sear plate compatible'],
     cons: ['Still heavy for its size', 'Cooking accessories cost extra', 'Limited bowl capacity'],
-    asin: 'B09WG5YJPQ',
+    asin: 'B08VQP4BSV',
   },
   {
     rank: 5,
