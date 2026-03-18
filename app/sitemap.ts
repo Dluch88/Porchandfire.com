@@ -31,6 +31,16 @@ const slugs = [
   'best-outdoor-dining-sets',
   'how-to-winterize-patio-furniture',
   'best-propane-fire-pits',
+  'bougie-patio-finds-amazon-under-50',
+  'backyard-date-night-setup',
+  'solo-stove-vs-breeo',
+  'best-gas-grills-under-400',
+  'outdoor-bar-cart-setup',
+  'apartment-balcony-outdoor-oasis',
+  'best-outdoor-lanterns-patio',
+  'best-outdoor-throw-pillows',
+  'gas-vs-charcoal-grill',
+  'best-outdoor-speakers-patio',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
