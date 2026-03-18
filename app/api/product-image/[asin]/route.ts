@@ -52,6 +52,75 @@ const IMAGE_MAP: Record<string, string> = {
   'B00D2VUOSM': 'https://target.scene7.com/is/image/Target/GUEST_59a703a1-c7e9-401f-88f6-08955aa4f7a8?wid=500&hei=500', // Classic Accessories Ravenna
   'B07QT79GLB': 'https://target.scene7.com/is/image/Target/GUEST_16067529-46bf-4374-98a6-e804676c5721?wid=500&hei=500', // Solo Stove Shelter
   'B01JAGG2MO': 'https://target.scene7.com/is/image/Target/GUEST_59a703a1-c7e9-401f-88f6-08955aa4f7a8?wid=500&hei=500', // Duck Covers
+
+  // ── New posts (March 2026) ──────────────────────────────────────────────────
+
+  // Bougie Patio Finds / Outdoor Decor
+  'B07FWRJ93Y': 'https://brightech.com/cdn/shop/products/ambienceproledoff.jpg', // Brightech Ambience Pro string lights
+  'B07V2H2Z2T': 'https://images.pexels.com/photos/1618606/pexels-photo-1618606.jpeg?auto=compress&cs=tinysrgb&w=500', // MAGGIFT solar hanging lanterns
+  'B07WFRHCVL': 'https://images.pexels.com/photos/4915585/pexels-photo-4915585.jpeg?auto=compress&cs=tinysrgb&w=500', // Keter Circa round side table
+  'B08MH24WCX': 'https://images.pexels.com/photos/2132227/pexels-photo-2132227.jpeg?auto=compress&cs=tinysrgb&w=500', // La Jolíe Muse ceramic planters
+  'B07T3PX34J': 'https://images.pexels.com/photos/754263/pexels-photo-754263.jpeg?auto=compress&cs=tinysrgb&w=500', // Pure Garden solar pathway lights
+  'B07C1YWW32': 'https://images.pexels.com/photos/6430742/pexels-photo-6430742.jpeg?auto=compress&cs=tinysrgb&w=500', // Sunnydaze outdoor wicker side table
+
+  // Backyard Date Night
+  'B07BZQR2LS': 'https://images.pexels.com/photos/754263/pexels-photo-754263.jpeg?auto=compress&cs=tinysrgb&w=500', // Addlon 48ft Edison string lights
+  'B082VWGQ3F': 'https://images.pexels.com/photos/3062545/pexels-photo-3062545.jpeg?auto=compress&cs=tinysrgb&w=500', // JBL Clip 4 speaker
+  'B014JUFQ3Y': 'https://images.pexels.com/photos/6430742/pexels-photo-6430742.jpeg?auto=compress&cs=tinysrgb&w=500', // Rumpl Original Puffy Blanket
+  'B01KXXV5CE': 'https://images.pexels.com/photos/1618606/pexels-photo-1618606.jpeg?auto=compress&cs=tinysrgb&w=500', // Himalayan Glow salt lamp holders
+  'B07QFG8R4N': 'https://images.pexels.com/photos/3836517/pexels-photo-3836517.jpeg?auto=compress&cs=tinysrgb&w=500', // Outdoor waterproof picnic blanket
+
+  // Solo Stove vs Breeo
+  'B09WG5YJPQ': 'https://breeo.com/cdn/shop/files/X24Cp1_8eec04d1-f975-4a01-9e0b-527f655222f1-343863.png?v=1762440217', // Breeo Outpost 19 (uses X24 brand image)
+
+  // Gas Grills Under $400
+  'B07B57RY3B': 'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=500', // Weber Spirit II E-310
+  'B01GMOIM3A': 'https://images.pexels.com/photos/8798737/pexels-photo-8798737.jpeg?auto=compress&cs=tinysrgb&w=500', // Char-Broil Performance 4-Burner
+  'B0786RWBWX': 'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=500', // Nexgrill 4-Burner
+  'B07F8BMFQ5': 'https://images.pexels.com/photos/8798737/pexels-photo-8798737.jpeg?auto=compress&cs=tinysrgb&w=500', // Royal Gourmet 3-Burner
+  'B07BVTYWNG': 'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=500', // Cuisinart 3-Burner
+  'B0773YJQYZ': 'https://images.pexels.com/photos/8798737/pexels-photo-8798737.jpeg?auto=compress&cs=tinysrgb&w=500', // Dyna-Glo 2-Burner
+
+  // Outdoor Bar Cart Setup
+  'B07NBHPRK8': 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=500', // Yaheetech 3-tier bar cart
+  'B07D1LV5PG': 'https://images.pexels.com/photos/1843655/pexels-photo-1843655.jpeg?auto=compress&cs=tinysrgb&w=500', // Best Choice Products wicker bar cart
+  'B0000CEJ41': 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=500', // COSCO folding serving cart
+  'B07C1RZQTZ': 'https://images.pexels.com/photos/1843655/pexels-photo-1843655.jpeg?auto=compress&cs=tinysrgb&w=500', // Sunnydaze 3-tier bar cart with tray
+  'B07YNZHFH5': 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=500', // Great Bay Furniture wicker bar cart
+
+  // Apartment Balcony Outdoor Oasis
+  'B00KZIVNBW': 'https://images.pexels.com/photos/4915585/pexels-photo-4915585.jpeg?auto=compress&cs=tinysrgb&w=500', // Keter Bistro 3-piece set
+  'B07H5KC9R5': 'https://images.pexels.com/photos/2132227/pexels-photo-2132227.jpeg?auto=compress&cs=tinysrgb&w=500', // Mkono wall hanging planters
+  'B07YWQB5X2': 'https://images.pexels.com/photos/33775064/pexels-photo-33775064.jpeg?auto=compress&cs=tinysrgb&w=500', // Ruggable washable outdoor rug
+  'B07PMQPQHL': 'https://images.pexels.com/photos/6430742/pexels-photo-6430742.jpeg?auto=compress&cs=tinysrgb&w=500', // SONGMICS folding lounge chair
+
+  // Best Outdoor Lanterns
+  'B07CWKQ3X7': 'https://images.pexels.com/photos/1618606/pexels-photo-1618606.jpeg?auto=compress&cs=tinysrgb&w=500', // Deco 79 metal outdoor lantern
+  'B07V4NKQCM': 'https://images.pexels.com/photos/6782569/pexels-photo-6782569.jpeg?auto=compress&cs=tinysrgb&w=500', // Sterno Home pillar candle lantern
+  'B082SKPXCS': 'https://images.pexels.com/photos/1618606/pexels-photo-1618606.jpeg?auto=compress&cs=tinysrgb&w=500', // Sienna solar powered lantern
+  'B07FSY5S35': 'https://brightech.com/cdn/shop/products/ambienceproledoff.jpg', // Brightech Sparq solar LED lantern
+  'B08HJ55M7Y': 'https://images.pexels.com/photos/6782569/pexels-photo-6782569.jpeg?auto=compress&cs=tinysrgb&w=500', // LHKJ large outdoor solar lanterns
+
+  // Best Outdoor Throw Pillows
+  'B01FPY8HXG': 'https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=500', // Pillow Perfect Chevron set
+  'B07G3DBTHM': 'https://images.pexels.com/photos/6430742/pexels-photo-6430742.jpeg?auto=compress&cs=tinysrgb&w=500', // Arden Selections outdoor pillow set
+  'B07TRFV98Q': 'https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=500', // Mainstays outdoor toss pillow 2-pack
+  'B00G3MHJ7I': 'https://images.pexels.com/photos/6430742/pexels-photo-6430742.jpeg?auto=compress&cs=tinysrgb&w=500', // Sunbrella canvas outdoor pillow
+  'B07QF2FMT3': 'https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=500', // LVTXIII outdoor pillow covers 4-pack
+
+  // Gas vs Charcoal Grill (gas picks share ASINs with post 4 above)
+  'B00BNNV5HE': 'https://images.pexels.com/photos/8798737/pexels-photo-8798737.jpeg?auto=compress&cs=tinysrgb&w=500', // Char-Broil Classic 4-Burner
+  'B00004RALD': 'https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&w=500', // Weber Original Kettle 22"
+  'B00HY6EXFY': 'https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&w=500', // Char-Griller Akorn Kamado
+  'B00BIIZY0S': 'https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&w=500', // Weber Performer Deluxe
+
+  // Best Outdoor Speakers
+  'B08TH8YL6Z': 'https://images.pexels.com/photos/3062545/pexels-photo-3062545.jpeg?auto=compress&cs=tinysrgb&w=500', // JBL Charge 5
+  'B099TJGJ91': 'https://images.pexels.com/photos/3062545/pexels-photo-3062545.jpeg?auto=compress&cs=tinysrgb&w=500', // Bose SoundLink Flex
+  'B07ZGV6M8L': 'https://images.pexels.com/photos/3062545/pexels-photo-3062545.jpeg?auto=compress&cs=tinysrgb&w=500', // TREBLAB HD77
+  'B08KFXR5TD': 'https://images.pexels.com/photos/1843655/pexels-photo-1843655.jpeg?auto=compress&cs=tinysrgb&w=500', // UE Hyperboom
+  'B001KJGF10': 'https://images.pexels.com/photos/4915585/pexels-photo-4915585.jpeg?auto=compress&cs=tinysrgb&w=500', // Polk Audio Atrium 4
+  'B098BTMCTM': 'https://images.pexels.com/photos/3062545/pexels-photo-3062545.jpeg?auto=compress&cs=tinysrgb&w=500', // JBL Xtreme 3
 };
 
 export async function GET(
