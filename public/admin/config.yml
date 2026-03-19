@@ -2,6 +2,8 @@ backend:
   name: github
   repo: Dluch88/Porchandfire.com
   branch: main
+  base_url: https://www.porchandfire.com
+  auth_endpoint: /api/auth
 
 media_folder: public/images/blog
 public_folder: /images/blog
@@ -18,4 +20,3 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Featured Image", name: "featuredImage", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
-      
