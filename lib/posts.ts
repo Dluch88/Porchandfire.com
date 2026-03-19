@@ -15,15 +15,11 @@ export async function getMarkdownPost(slug: string) {
   const fullPath = path.join(postsDirectory, `${slug}.md`)
   if (!fs.existsSync(fullPath)) return null
   const fileContents = fs.readFileSync(fullPath, 'utf8')
-  const { data, content } = matter(fileContents, {
-    engines: {
-      yaml: (s) => require('js-yaml').load(s, { schema: require('js-yaml').JSON_SCHEMA }) as object
-    }
-  })
+  const { data, content } = matter(fileContents)
   const processed = await remark().use(html).process(content)
-  const frontmatter = {
-    ...data,
-    date: data.date ? String(data.date) : ''
-  }
+  const frontmatter: Record<string, string> = {}
+  Object.keys(data).forEach(key => {
+    frontmatter[key] = String(data[key])
+  })
   return { slug, frontmatter, contentHtml: processed.toString() }
 }
