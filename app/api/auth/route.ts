@@ -1,4 +1,3 @@
-cat > app/api/auth/route.ts << 'EOF'
 import { NextRequest, NextResponse } from 'next/server'
 
 export async function GET(request: NextRequest) {
@@ -24,10 +23,9 @@ export async function GET(request: NextRequest) {
   const data = await response.json()
   const token = data.access_token
 
-  const html = `<html><body><script>(function() { function receiveMessage(e) { window.opener.postMessage('authorization:github:success:{"token":"${token}","provider":"github"}', e.origin) } window.addEventListener("message", receiveMessage, false); window.opener.postMessage("authorizing:github", "*") })()</script></body></html>`
+  const html = `<html><body><script>(function() { function receiveMessage(e) { window.opener.postMessage('authorization:github:success:{"token":"' + token + '","provider":"github"}', e.origin) } window.addEventListener("message", receiveMessage, false); window.opener.postMessage("authorizing:github", "*") })()</script></body></html>`
 
   return new NextResponse(html, {
     headers: { 'Content-Type': 'text/html' },
   })
 }
-EOF
