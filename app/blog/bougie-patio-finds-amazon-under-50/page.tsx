@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import ProductImage from '@/components/ProductImage'
 
 export const metadata: Metadata = {
   title: 'Bougie Amazon Patio Finds Under $50 | Porch & Fire',
@@ -105,11 +106,7 @@ export default function BougiePatioPicks() {
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img
-                src={`/api/product-image/${pick.asin}`}
-                alt={pick.name}
-                className="w-48 h-48 object-contain rounded-lg"
-              />
+              <ProductImage asin={pick.asin} name={pick.name} />
             </div>
             <div className="flex items-start justify-between mb-3">
               <div>

@@ -53,71 +53,7 @@ const IMAGE_MAP: Record<string, string> = {
   'B07QT79GLB': 'https://target.scene7.com/is/image/Target/GUEST_16067529-46bf-4374-98a6-e804676c5721?wid=500&hei=500', // Solo Stove Shelter
   'B01JAGG2MO': 'https://target.scene7.com/is/image/Target/GUEST_59a703a1-c7e9-401f-88f6-08955aa4f7a8?wid=500&hei=500', // Duck Covers
 
-  // ── New posts (March 2026) — Amazon CDN URLs via verified ASINs ────────────
-
-  // Post 1: Bougie Patio Finds Under $50
-  'B01JRL963Y': `https://m.media-amazon.com/images/P/B01JRL963Y.01._SCLZZZZZZZ_SX500_.jpg`, // Brightech Ambience Pro LED Globe String Lights
-  'B075L313HD': `https://m.media-amazon.com/images/P/B075L313HD.01._SCLZZZZZZZ_SX500_.jpg`, // MAGGIFT Solar Hanging Lanterns
-  'B01JJJ1R7W': `https://m.media-amazon.com/images/P/B01JJJ1R7W.01._SCLZZZZZZZ_SX500_.jpg`, // Keter Circa 37-Gallon Round Outdoor Side Table
-  'B08R794GWJ': `https://m.media-amazon.com/images/P/B08R794GWJ.01._SCLZZZZZZZ_SX500_.jpg`, // LA JOLIE MUSE Outdoor Planter Set of 3
-  'B07JN74ZY6': `https://m.media-amazon.com/images/P/B07JN74ZY6.01._SCLZZZZZZZ_SX500_.jpg`, // Pure Garden Solar Pathway Lights 8-Pack
-
-  // Post 2: Backyard Date Night Setup
-  'B07QMKZWQF': `https://m.media-amazon.com/images/P/B07QMKZWQF.01._SCLZZZZZZZ_SX500_.jpg`, // Addlon 48ft Outdoor Edison String Lights
-  'B08PJ7JMQM': `https://m.media-amazon.com/images/P/B08PJ7JMQM.01._SCLZZZZZZZ_SX500_.jpg`, // JBL Clip 4 Waterproof Bluetooth Speaker
-  'B09C5RK25H': `https://m.media-amazon.com/images/P/B09C5RK25H.01._SCLZZZZZZZ_SX500_.jpg`, // Rumpl Original Puffy Blanket
-  'B0BHFBV8JN': `https://m.media-amazon.com/images/P/B0BHFBV8JN.01._SCLZZZZZZZ_SX500_.jpg`, // Himalayan Salt Tea Light Candle Holders
-  'B08L3W6Z81': `https://m.media-amazon.com/images/P/B08L3W6Z81.01._SCLZZZZZZZ_SX500_.jpg`, // Wise Owl Outfitters Waterproof Outdoor Blanket
-
-  // Post 3: Solo Stove vs Breeo
-  'B08VQP4BSV': `https://m.media-amazon.com/images/P/B08VQP4BSV.01._SCLZZZZZZZ_SX500_.jpg`, // Breeo X Series 19
-
-  // Post 4: Best Gas Grills Under $400
-  'B077JTCMKQ': `https://m.media-amazon.com/images/P/B077JTCMKQ.01._SCLZZZZZZZ_SX500_.jpg`, // Weber Spirit II E-310
-  'B08HJPCQ5P': `https://m.media-amazon.com/images/P/B08HJPCQ5P.01._SCLZZZZZZZ_SX500_.jpg`, // Char-Broil Performance 4-Burner
-  'B0CKM1LD3Z': `https://m.media-amazon.com/images/P/B0CKM1LD3Z.01._SCLZZZZZZZ_SX500_.jpg`, // Nexgrill 4-Burner
-  'B07JW83ZGL': `https://m.media-amazon.com/images/P/B07JW83ZGL.01._SCLZZZZZZZ_SX500_.jpg`, // Royal Gourmet 3-Burner Cabinet Grill
-  'B074QQW4PC': `https://m.media-amazon.com/images/P/B074QQW4PC.01._SCLZZZZZZZ_SX500_.jpg`, // Cuisinart 4-Burner Stainless Gas Grill
-  'B00C55D3EI': `https://m.media-amazon.com/images/P/B00C55D3EI.01._SCLZZZZZZZ_SX500_.jpg`, // Dyna-Glo 3-Burner LP Gas Grill
-
-  // Post 5: Outdoor Bar Cart Setup
-  'B089Y1BDF6': `https://m.media-amazon.com/images/P/B089Y1BDF6.01._SCLZZZZZZZ_SX500_.jpg`, // Tangkula Wood Bar Cart
-  'B06WVBBY46': `https://m.media-amazon.com/images/P/B06WVBBY46.01._SCLZZZZZZZ_SX500_.jpg`, // Best Choice Products Patio Wicker Bar Cart
-  'B0882SGDVM': `https://m.media-amazon.com/images/P/B0882SGDVM.01._SCLZZZZZZZ_SX500_.jpg`, // COSCO Outdoor Living Folding Serving Cart
-  'B08Z6879GH': `https://m.media-amazon.com/images/P/B08Z6879GH.01._SCLZZZZZZZ_SX500_.jpg`, // Sunnydaze 3-Tier Metal Rolling Bar Cart
-
-  // Post 6: Apartment Balcony Outdoor Oasis
-  'B017XNZPFQ': `https://m.media-amazon.com/images/P/B017XNZPFQ.01._SCLZZZZZZZ_SX500_.jpg`, // Keter Bistro 3-Piece Resin Bistro Set
-  'B0DL5BL29R': `https://m.media-amazon.com/images/P/B0DL5BL29R.01._SCLZZZZZZZ_SX500_.jpg`, // Wall Hanging Planter Set of 3
-  'B0CWS7KPCV': `https://m.media-amazon.com/images/P/B0CWS7KPCV.01._SCLZZZZZZZ_SX500_.jpg`, // Ruggable Washable Outdoor Rug 3x5
-  'B0BKZS2VFW': `https://m.media-amazon.com/images/P/B0BKZS2VFW.01._SCLZZZZZZZ_SX500_.jpg`, // SONGMICS Folding Lounge Chair with Footrest
-
-  // Post 7: Best Outdoor Lanterns
-  'B0D364JX9L': `https://m.media-amazon.com/images/P/B0D364JX9L.01._SCLZZZZZZZ_SX500_.jpg`, // Deco 79 Metal Outdoor Lantern Set of 2
-  'B093CBZVNW': `https://m.media-amazon.com/images/P/B093CBZVNW.01._SCLZZZZZZZ_SX500_.jpg`, // Sterno Home Pillar Candle Outdoor Lantern
-  'B016QQLI0M': `https://m.media-amazon.com/images/P/B016QQLI0M.01._SCLZZZZZZZ_SX500_.jpg`, // Hampton Bay Solar Post Lantern
-  'B0DP76JGLC': `https://m.media-amazon.com/images/P/B0DP76JGLC.01._SCLZZZZZZZ_SX500_.jpg`, // LHKJ Oversized Outdoor Solar Lanterns Set of 2
-
-  // Post 8: Best Outdoor Throw Pillows
-  'B00HYUSH0E': `https://m.media-amazon.com/images/P/B00HYUSH0E.01._SCLZZZZZZZ_SX500_.jpg`, // Pillow Perfect Outdoor Chevron Pillow Set
-  'B0BHBRN1FY': `https://m.media-amazon.com/images/P/B0BHBRN1FY.01._SCLZZZZZZZ_SX500_.jpg`, // Arden Selections Outdoor Throw Pillow Set of 4
-  'B01N19JJKG': `https://m.media-amazon.com/images/P/B01N19JJKG.01._SCLZZZZZZZ_SX500_.jpg`, // Mainstays Outdoor Toss Pillow 2-Pack
-  'B08CWZYT9C': `https://m.media-amazon.com/images/P/B08CWZYT9C.01._SCLZZZZZZZ_SX500_.jpg`, // Sunbrella Canvas Outdoor Pillow
-  'B0912GJ3F8': `https://m.media-amazon.com/images/P/B0912GJ3F8.01._SCLZZZZZZZ_SX500_.jpg`, // LVTXIII Outdoor Solid Pillow Covers 4-Pack
-
-  // Post 9: Gas vs Charcoal Grill
-  'B01HITNEE4': `https://m.media-amazon.com/images/P/B01HITNEE4.01._SCLZZZZZZZ_SX500_.jpg`, // Char-Broil Classic 4-Burner Gas Grill
-  'B00MKB5TXA': `https://m.media-amazon.com/images/P/B00MKB5TXA.01._SCLZZZZZZZ_SX500_.jpg`, // Weber Original Kettle Premium 22-Inch
-  'B00GJEPTJS': `https://m.media-amazon.com/images/P/B00GJEPTJS.01._SCLZZZZZZZ_SX500_.jpg`, // Char-Griller Akorn Kamado Kooker
-  'B00MKB5V1A': `https://m.media-amazon.com/images/P/B00MKB5V1A.01._SCLZZZZZZZ_SX500_.jpg`, // Weber Performer Deluxe 22-Inch
-
-  // Post 10: Best Outdoor Speakers
-  'B08X4YMTPM': `https://m.media-amazon.com/images/P/B08X4YMTPM.01._SCLZZZZZZZ_SX500_.jpg`, // JBL Charge 5 Portable Waterproof Speaker
-  'B099TJGJ91': `https://m.media-amazon.com/images/P/B099TJGJ91.01._SCLZZZZZZZ_SX500_.jpg`, // Bose SoundLink Flex
-  'B07GBDMF12': `https://m.media-amazon.com/images/P/B07GBDMF12.01._SCLZZZZZZZ_SX500_.jpg`, // TREBLAB HD77 Premium Outdoor Speaker
-  'B07XJ8B9NV': `https://m.media-amazon.com/images/P/B07XJ8B9NV.01._SCLZZZZZZZ_SX500_.jpg`, // UE Hyperboom Portable Home Speaker
-  'B00378KMF0': `https://m.media-amazon.com/images/P/B00378KMF0.01._SCLZZZZZZZ_SX500_.jpg`, // Polk Audio Atrium 4 Outdoor Speaker Pair
-  'B08NLCW9WY': `https://m.media-amazon.com/images/P/B08NLCW9WY.01._SCLZZZZZZZ_SX500_.jpg`, // JBL Xtreme 3 Portable Bluetooth Speaker
+  // ── New posts (March 2026) — images sourced below from manufacturer sites ──
 };
 
 export async function GET(
@@ -128,29 +64,7 @@ export async function GET(
   const imageUrl = IMAGE_MAP[asin];
 
   if (!imageUrl) {
-    // Try Amazon's product image URL pattern
-    const amazonImageUrl = `https://m.media-amazon.com/images/P/${asin}.01._SCLZZZZZZZ_SX500_.jpg`;
-    try {
-      const amazonRes = await fetch(amazonImageUrl, {
-        headers: { 'User-Agent': 'Mozilla/5.0 (compatible)' },
-      });
-      if (amazonRes.ok) {
-        const buf = await amazonRes.arrayBuffer();
-        // Amazon returns a 1x1 pixel for invalid ASINs — skip if too small
-        if (buf.byteLength > 1000) {
-          return new NextResponse(buf, {
-            headers: {
-              'Content-Type': amazonRes.headers.get('Content-Type') || 'image/jpeg',
-              'Cache-Control': 'public, max-age=86400',
-            },
-          });
-        }
-      }
-    } catch {
-      // Fall through to placeholder
-    }
-
-    // Return a styled SVG placeholder as last resort
+    // Return a styled SVG placeholder for products not in IMAGE_MAP
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
       <defs>
         <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
