@@ -25,10 +25,20 @@ export async function GET(request: NextRequest) {
 
   const html = `<!DOCTYPE html><html><body><script>
     (function() {
-      const token = "${token}";
-      const message = "authorization:github:success:" + JSON.stringify({token: token, provider: "github"});
-      window.opener.postMessage(message, "*");
-      window.close();
+      var attempt = 0;
+      function sendToken() {
+        attempt++;
+        if (window.opener) {
+          window.opener.postMessage(
+            'authorization:github:success:' + JSON.stringify({token: "${token}", provider: "github"}),
+            '*'
+          );
+          setTimeout(function() { window.close(); }, 1000);
+        } else if (attempt < 10) {
+          setTimeout(sendToken, 500);
+        }
+      }
+      sendToken();
     })()
   </script></body></html>`
 
