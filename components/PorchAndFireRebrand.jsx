@@ -252,7 +252,7 @@ const GUIDES = [
     title: "9 DIY Fire Pit Ideas for Small Backyards",
     subtitle: "Short on space? These creative fire pit ideas work in small yards, patios, and urban spaces.",
     readTime: "8 min read",
-    image: "https://images.pexels.com/photos/15228630/pexels-photo-15228630.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image: "https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600",
     href: "/blog/diy-fire-pit-ideas-small-backyards",
   },
   {
