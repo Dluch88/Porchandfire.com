@@ -6,7 +6,7 @@ export async function GET(request: NextRequest) {
 
   if (!code) {
     return NextResponse.redirect(
-      `https://github.com/login/oauth/authorize?client_id=${process.env.GITHUB_CLIENT_ID}&scope=repo`
+      `https://github.com/login/oauth/authorize?client_id=${process.env.GITHUB_CLIENT_ID}&scope=repo,user`
     )
   }
 
@@ -23,7 +23,14 @@ export async function GET(request: NextRequest) {
   const data = await response.json()
   const token = data.access_token
 
-  const html = `<html><body><script>(function() { function receiveMessage(e) { window.opener.postMessage('authorization:github:success:{"token":"' + token + '","provider":"github"}', e.origin) } window.addEventListener("message", receiveMessage, false); window.opener.postMessage("authorizing:github", "*") })()</script></body></html>`
+  const html = `<!DOCTYPE html><html><body><script>
+    (function() {
+      const token = "${token}";
+      const message = "authorization:github:success:" + JSON.stringify({token: token, provider: "github"});
+      window.opener.postMessage(message, "*");
+      window.close();
+    })()
+  </script></body></html>`
 
   return new NextResponse(html, {
     headers: { 'Content-Type': 'text/html' },
