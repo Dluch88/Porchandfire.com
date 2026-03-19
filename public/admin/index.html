@@ -6,6 +6,33 @@
     <title>PorchAndFire CMS</title>
   </head>
   <body>
+    <script>
+      window.CMS_CONFIG = {
+        backend: {
+          name: "github",
+          repo: "Dluch88/Porchandfire.com",
+          branch: "main",
+          base_url: "https://www.porchandfire.com",
+          auth_endpoint: "/api/auth"
+        },
+        media_folder: "public/images/blog",
+        public_folder: "/images/blog",
+        collections: [{
+          name: "blog",
+          label: "Blog Posts",
+          folder: "content/blog",
+          create: true,
+          slug: "{{slug}}",
+          fields: [
+            { label: "Title", name: "title", widget: "string" },
+            { label: "Publish Date", name: "date", widget: "datetime" },
+            { label: "Description", name: "description", widget: "text" },
+            { label: "Featured Image", name: "featuredImage", widget: "image", required: false },
+            { label: "Body", name: "body", widget: "markdown" }
+          ]
+        }]
+      }
+    </script>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </body>
 </html>
