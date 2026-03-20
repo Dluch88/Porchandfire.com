@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import ProductImage from '@/components/ProductImage'
+
 
 export const metadata: Metadata = {
   title: 'Outdoor Bar Cart Setups: Be the Best Host on the Block | Porch & Fire',
@@ -104,7 +104,7 @@ export default function OutdoorBarCartSetup() {
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <ProductImage asin={pick.asin} name={pick.name} />
+              <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
             </div>
             <div className="flex items-start justify-between mb-3">
               <div>
