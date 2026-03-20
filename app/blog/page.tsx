@@ -273,6 +273,41 @@ const posts = [
     readTime: '8 min read',
     href: '/blog/best-outdoor-speakers-patio',
   },
+  {
+    title: 'Best Outdoor Ceiling Fans for Covered Patios',
+    excerpt: 'Keep your covered patio cool all summer. Top-rated outdoor ceiling fans by airflow, style, and durability.',
+    category: 'Accessories',
+    readTime: '8 min read',
+    href: '/blog/best-outdoor-ceiling-fans',
+  },
+  {
+    title: 'Best Mosquito Repellents and Traps for Your Patio',
+    excerpt: 'Take back your backyard. The top mosquito repellent devices, traps, and sprays that actually work.',
+    category: 'Accessories',
+    readTime: '9 min read',
+    href: '/blog/best-mosquito-repellents-patio',
+  },
+  {
+    title: 'Best Outdoor Privacy Screens for Your Patio',
+    excerpt: 'Block nosy neighbors and create a cozy retreat with these privacy screens for every budget.',
+    category: 'Patio Design',
+    readTime: '8 min read',
+    href: '/blog/outdoor-privacy-screen-ideas',
+  },
+  {
+    title: 'Best Solar Path Lights for Walkways and Gardens',
+    excerpt: 'Light your walkways without wiring. Top solar path lights by brightness, run time, and style.',
+    category: 'Outdoor Lighting',
+    readTime: '8 min read',
+    href: '/blog/best-solar-path-lights',
+  },
+  {
+    title: 'Best Outdoor Bluetooth Speakers for Backyard Entertaining',
+    excerpt: 'Waterproof Bluetooth speakers that actually fill a backyard, from budget picks to party monsters.',
+    category: 'Accessories',
+    readTime: '8 min read',
+    href: '/blog/best-outdoor-bluetooth-speakers',
+  },
 ];
 
 export default function BlogPage() {
