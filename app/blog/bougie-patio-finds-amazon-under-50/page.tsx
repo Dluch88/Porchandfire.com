@@ -12,6 +12,7 @@ const picks = [
   {
     rank: 1,
     name: 'Brightech Ambience Pro LED Globe String Lights',
+    image: '/images/products/brightech-ambience-pro-led-globe-string-lights.jpg',
     price: '$37',
     bestFor: 'Best Instant Ambiance',
     summary:
@@ -23,6 +24,7 @@ const picks = [
   {
     rank: 2,
     name: 'MAGGIFT Solar Hanging Lanterns (Set of 2)',
+    image: '/images/products/maggift-solar-hanging-lanterns-set-of-2.jpg',
     price: '$22',
     bestFor: 'Best Solar Glow',
     summary:
@@ -34,6 +36,7 @@ const picks = [
   {
     rank: 3,
     name: 'Keter Circa 37-Gallon Round Outdoor Side Table',
+    image: '/images/products/keter-circa-37-gallon-round-outdoor-side-table.jpg',
     price: '$39',
     bestFor: 'Best Stylish Side Table',
     summary:
@@ -45,6 +48,7 @@ const picks = [
   {
     rank: 4,
     name: 'LA JOLIE MUSE Outdoor Planter Set of 3',
+    image: '/images/products/la-jolie-muse-outdoor-planter-set-of-3.jpg',
     price: '$35',
     bestFor: 'Best Decorative Planters',
     summary:
@@ -56,6 +60,7 @@ const picks = [
   {
     rank: 5,
     name: 'Pure Garden Solar Pathway Lights 8-Pack',
+    image: '/images/products/pure-garden-solar-pathway-lights-8-pack.jpg',
     price: '$29',
     bestFor: 'Best Pathway Upgrade',
     summary:
@@ -106,7 +111,7 @@ export default function BougiePatioPicks() {
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
+              <img src={pick.image} alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
             </div>
             <div className="flex items-start justify-between mb-3">
               <div>

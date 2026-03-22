@@ -86,7 +86,7 @@ export default function BestPropaneFirePits() {
 
         <div className="border border-gray-200 rounded-xl p-6 mb-6">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Propane fire table on a patio" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/propane-fire-table-on-a-patio.jpg" alt="Propane fire table on a patio" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">#1 — Best Fire Table</span>
           <h3 className="text-xl font-bold text-gray-900 mt-1 mb-2">Outland Living Series 401</h3>
@@ -126,7 +126,7 @@ export default function BestPropaneFirePits() {
 
         <div className="border border-gray-200 rounded-xl p-6 mb-6">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Portable propane firebowl" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/portable-propane-firebowl.jpg" alt="Portable propane firebowl" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">#2 — Best Portable</span>
           <h3 className="text-xl font-bold text-gray-900 mt-1 mb-2">Outland Firebowl 893</h3>
@@ -165,7 +165,7 @@ export default function BestPropaneFirePits() {
 
         <div className="border border-gray-200 rounded-xl p-6 mb-6">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Propane fire pit safe for deck use" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/propane-fire-pit-safe-for-deck-use.jpg" alt="Propane fire pit safe for deck use" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">#3 — Best for Decks</span>
           <h3 className="text-xl font-bold text-gray-900 mt-1 mb-2">Endless Summer LP Gas Fire Pit</h3>
@@ -204,7 +204,7 @@ export default function BestPropaneFirePits() {
 
         <div className="border border-gray-200 rounded-xl p-6 mb-6">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Small propane patio fire pit" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/small-propane-patio-fire-pit.jpg" alt="Small propane patio fire pit" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">#4 — Best Budget</span>
           <h3 className="text-xl font-bold text-gray-900 mt-1 mb-2">Small Propane Patio Fire Pit (Under $200)</h3>
@@ -243,7 +243,7 @@ export default function BestPropaneFirePits() {
 
         <div className="border border-gray-200 rounded-xl p-6 mb-6">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fire pit table set with chairs" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/fire-pit-table-set-with-chairs.jpg" alt="Fire pit table set with chairs" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">#5 — Best Complete Set</span>
           <h3 className="text-xl font-bold text-gray-900 mt-1 mb-2">Fire Pit Table with 4 Chairs</h3>
@@ -282,7 +282,7 @@ export default function BestPropaneFirePits() {
 
         <div className="border border-gray-200 rounded-xl p-6">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Round propane fire bowl" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/round-propane-fire-bowl.jpg" alt="Round propane fire bowl" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">#6 — Best Round Design</span>
           <h3 className="text-xl font-bold text-gray-900 mt-1 mb-2">Bond Signature Fire Bowl (40,000 BTU)</h3>
@@ -344,7 +344,7 @@ export default function BestPropaneFirePits() {
             </p>
             <div className="mt-3">
               <div className="mb-4 flex justify-center">
-                <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Reflective fire glass for fire pits" className="w-full h-48 object-cover rounded-lg" />
+                <img src="/images/blog-photos/reflective-fire-glass-for-fire-pits.jpg" alt="Reflective fire glass for fire pits" className="w-full h-48 object-cover rounded-lg" />
               </div>
               <a
                 href="https://www.amazon.com/s?k=fire+glass+fire+pit+reflective&tag=porchandfire-20"
@@ -365,7 +365,7 @@ export default function BestPropaneFirePits() {
             </p>
             <div className="mt-3">
               <div className="mb-4 flex justify-center">
-                <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Ceramic fire logs for gas fire pit" className="w-full h-48 object-cover rounded-lg" />
+                <img src="/images/blog-photos/ceramic-fire-logs-for-gas-fire-pit.jpg" alt="Ceramic fire logs for gas fire pit" className="w-full h-48 object-cover rounded-lg" />
               </div>
               <a
                 href="https://www.amazon.com/s?k=ceramic+fire+logs+gas+fire+pit&tag=porchandfire-20"
@@ -405,7 +405,7 @@ export default function BestPropaneFirePits() {
         </div>
         <div className="mt-4">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Propane tank cover for fire pit" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/propane-tank-cover-for-fire-pit.jpg" alt="Propane tank cover for fire pit" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=propane+tank+cover+table&tag=porchandfire-20"

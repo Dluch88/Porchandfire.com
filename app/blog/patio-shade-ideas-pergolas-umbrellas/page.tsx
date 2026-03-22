@@ -57,7 +57,7 @@ export default function PatioShadeIdeas() {
           <strong className="text-gray-900">Install tip:</strong> Mount your sail at a slight angle (at least 20 degrees) so rainwater runs off instead of pooling in the center. Use stainless steel turnbuckles for easy tensioning.
         </div>
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/31687640/pexels-photo-31687640.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Shade sail triangle over a patio" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/shade-sail-triangle-over-a-patio.jpg" alt="Shade sail triangle over a patio" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <a
           href="https://www.amazon.com/s?k=shade+sail+triangle+outdoor+patio&tag=porchandfire-20"
@@ -101,7 +101,7 @@ export default function PatioShadeIdeas() {
           </div>
         </div>
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/31687640/pexels-photo-31687640.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cantilever patio umbrella providing shade" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/cantilever-patio-umbrella-providing-shade.jpg" alt="Cantilever patio umbrella providing shade" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <a
           href="https://www.amazon.com/s?k=cantilever+patio+umbrella+10+foot&tag=porchandfire-20"
@@ -145,7 +145,7 @@ export default function PatioShadeIdeas() {
           </div>
         </div>
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/31687640/pexels-photo-31687640.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pergola kit over an outdoor patio" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/pergola-kit-over-an-outdoor-patio.jpg" alt="Pergola kit over an outdoor patio" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <a
           href="https://www.amazon.com/s?k=pergola+kit+outdoor+patio&tag=porchandfire-20"
@@ -186,7 +186,7 @@ export default function PatioShadeIdeas() {
           </div>
         </div>
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/31687640/pexels-photo-31687640.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Retractable awning over a patio" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/retractable-awning-over-a-patio.jpg" alt="Retractable awning over a patio" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <a
           href="https://www.amazon.com/s?k=retractable+patio+awning&tag=porchandfire-20"

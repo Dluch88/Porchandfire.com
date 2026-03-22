@@ -49,7 +49,7 @@ export default function BestOutdoorDiningSets() {
 
         <div className="border border-gray-200 rounded-xl p-6 mb-6">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/1843655/pexels-photo-1843655.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Metal outdoor dining set on a patio" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/metal-outdoor-dining-set-on-a-patio.jpg" alt="Metal outdoor dining set on a patio" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Metal Set</span>
           <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">5-Piece Metal Bistro Dining Set</h3>
@@ -73,7 +73,7 @@ export default function BestOutdoorDiningSets() {
 
         <div className="border border-gray-200 rounded-xl p-6">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/4915585/pexels-photo-4915585.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Wicker patio dining set with cushions" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/wicker-patio-dining-set-with-cushions.jpg" alt="Wicker patio dining set with cushions" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Wicker Set</span>
           <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">4-Person Wicker Patio Dining Set</h3>
@@ -102,7 +102,7 @@ export default function BestOutdoorDiningSets() {
 
         <div className="border border-gray-200 rounded-xl p-6 mb-6">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/1843655/pexels-photo-1843655.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Rectangular outdoor dining set for six" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/rectangular-outdoor-dining-set-for-six.jpg" alt="Rectangular outdoor dining set for six" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Rectangular</span>
           <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">7-Piece Rectangular Wood-Look Dining Set</h3>
@@ -126,7 +126,7 @@ export default function BestOutdoorDiningSets() {
 
         <div className="border border-gray-200 rounded-xl p-6">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/1843655/pexels-photo-1843655.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Acacia wood outdoor dining set" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/acacia-wood-outdoor-dining-set.jpg" alt="Acacia wood outdoor dining set" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Real Wood</span>
           <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Acacia Wood 6-Person Dining Set</h3>
@@ -155,7 +155,7 @@ export default function BestOutdoorDiningSets() {
 
         <div className="border border-gray-200 rounded-xl p-6 mb-6">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/1843655/pexels-photo-1843655.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Extendable outdoor dining table" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/extendable-outdoor-dining-table.jpg" alt="Extendable outdoor dining table" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Most Versatile</span>
           <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Extendable Outdoor Dining Table</h3>
@@ -179,7 +179,7 @@ export default function BestOutdoorDiningSets() {
 
         <div className="border border-gray-200 rounded-xl p-6">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/1843655/pexels-photo-1843655.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Modern outdoor picnic table" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/modern-outdoor-picnic-table.jpg" alt="Modern outdoor picnic table" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Casual</span>
           <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Modern Outdoor Picnic Table</h3>

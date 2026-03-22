@@ -12,6 +12,7 @@ const picks = [
   {
     rank: 1,
     name: 'Tangkula Wood Bar Cart with Wheels',
+    image: '/images/products/tangkula-wood-bar-cart-with-wheels.jpg',
     price: '$89',
     bestFor: 'Best Overall',
     summary:
@@ -23,6 +24,7 @@ const picks = [
   {
     rank: 2,
     name: 'Best Choice Products Patio Wicker Bar Cart',
+    image: '/images/products/best-choice-products-patio-wicker-bar-cart.jpg',
     price: '$120',
     bestFor: 'Most Stylish',
     summary:
@@ -34,6 +36,7 @@ const picks = [
   {
     rank: 3,
     name: 'COSCO Outdoor Living Folding Serving Cart',
+    image: '/images/products/cosco-outdoor-living-folding-serving-cart.jpg',
     price: '$55',
     bestFor: 'Best Budget Option',
     summary:
@@ -45,6 +48,7 @@ const picks = [
   {
     rank: 4,
     name: 'Sunnydaze 3-Tier Metal Rolling Bar Cart with Removable Tray',
+    image: '/images/products/sunnydaze-3-tier-metal-rolling-bar-cart-with-removable-tray.jpg''W+3-Tier+Metal+Bar+Car+with+Wine+Rack,+Removable+Tray,+and+Locking+Wheels.jpg',
     price: '$75',
     bestFor: 'Best Versatile Setup',
     summary:
@@ -104,7 +108,7 @@ export default function OutdoorBarCartSetup() {
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
+              <img src={pick.image} alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
             </div>
             <div className="flex items-start justify-between mb-3">
               <div>

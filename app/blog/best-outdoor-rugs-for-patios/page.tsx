@@ -73,7 +73,7 @@ export default function BestOutdoorRugsForPatios() {
             Perfect for patios, decks, camping, and even picnics.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/365067/pexels-photo-365067.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Colorful reversible outdoor rugs stacked together" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/colorful-reversible-outdoor-rugs-stacked-together.jpg" alt="Colorful reversible outdoor rugs stacked together" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=outdoor+reversible+plastic+straw+rug+5x8&tag=porchandfire-20"
@@ -98,7 +98,7 @@ export default function BestOutdoorRugsForPatios() {
             plastic straw. UV-resistant so colors stay vibrant season after season.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/35692211/pexels-photo-35692211.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Close-up of colorful woven flat-weave rug texture" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/close-up-of-colorful-woven-flat-weave-rug-texture.jpg" alt="Close-up of colorful woven flat-weave rug texture" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=outdoor+flat+weave+rug+6x9+polypropylene&tag=porchandfire-20"
@@ -122,7 +122,7 @@ export default function BestOutdoorRugsForPatios() {
             At this price, you can replace it every couple of seasons without guilt.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/6786958/pexels-photo-6786958.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Close-up of a budget-friendly waterproof outdoor rug with floral pattern" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/close-up-of-a-budget-friendly-waterproof-outdoor-rug-with-fl.jpg" alt="Close-up of a budget-friendly waterproof outdoor rug with floral pattern" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=outdoor+area+rug+4x6+waterproof&tag=porchandfire-20"
@@ -147,7 +147,7 @@ export default function BestOutdoorRugsForPatios() {
             &mdash; suddenly everything has a purpose.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/30709723/pexels-photo-30709723.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Large rug on a spacious decorated outdoor patio" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/large-rug-on-a-spacious-decorated-outdoor-patio.jpg" alt="Large rug on a spacious decorated outdoor patio" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=outdoor+rug+9x12+patio&tag=porchandfire-20"
@@ -172,7 +172,7 @@ export default function BestOutdoorRugsForPatios() {
             rugs &mdash; simple, classic, always in style.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/2387532/pexels-photo-2387532.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Black and white striped textile rug pattern" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/black-and-white-striped-textile-rug-pattern.jpg" alt="Black and white striped textile rug pattern" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=black+white+striped+outdoor+rug&tag=porchandfire-20"
@@ -197,7 +197,7 @@ export default function BestOutdoorRugsForPatios() {
             personality to any outdoor space.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/19009155/pexels-photo-19009155.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Traditional colorful Moroccan bohemian rugs and carpets" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/traditional-colorful-moroccan-bohemian-rugs-and-carpets.jpg" alt="Traditional colorful Moroccan bohemian rugs and carpets" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=bohemian+moroccan+outdoor+rug&tag=porchandfire-20"
@@ -222,7 +222,7 @@ export default function BestOutdoorRugsForPatios() {
             interest.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/7182093/pexels-photo-7182093.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Blue and white round patterned rug" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/blue-and-white-round-patterned-rug.jpg" alt="Blue and white round patterned rug" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=round+outdoor+rug+6+feet&tag=porchandfire-20"
@@ -247,7 +247,7 @@ export default function BestOutdoorRugsForPatios() {
             days.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/7546605/pexels-photo-7546605.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pool deck area with lounge chairs - perfect for quick-dry rugs" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/pool-deck-area-with-lounge-chairs-perfect-for-quick-dry-rugs.jpg" alt="Pool deck area with lounge chairs - perfect for quick-dry rugs" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=quick+dry+outdoor+rug+pool&tag=porchandfire-20"

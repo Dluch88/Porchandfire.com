@@ -14,6 +14,7 @@ const picks = [
     rank: 1,
     badge: '🏆 Best Overall',
     name: 'Brightech Ambience Pro LED String Lights',
+    image: '/images/products/brightech-ambience-pro-led-string-lights.jpg',
     price: '$34',
     bestFor: 'Anyone who wants a warm, café-style glow that lasts for years',
     pros: [
@@ -35,6 +36,7 @@ const picks = [
     rank: 2,
     badge: '💰 Best Budget',
     name: 'Brightown 50Ft G40 Globe String Lights',
+    image: '/images/products/brightown-50ft-g40-globe-string-lights.jpg',
     price: '$16',
     bestFor: 'Renters or anyone who wants great ambiance under $20',
     pros: [
@@ -56,6 +58,7 @@ const picks = [
     rank: 3,
     badge: '☀️ Best Solar',
     name: 'Brightech Ambience Pro Solar String Lights',
+    image: '/images/products/brightech-ambience-pro-solar-string-lights.jpg',
     price: '$39',
     bestFor: 'Patios without a nearby outlet or anyone avoiding extension cords',
     pros: [
@@ -77,6 +80,7 @@ const picks = [
     rank: 4,
     badge: '✨ Best Dimmable',
     name: 'Newpow LED Outdoor String Lights with Remote',
+    image: '/images/products/newpow-led-outdoor-string-lights-with-remote.jpg',
     price: '$29',
     bestFor: 'People who want full control over brightness and ambiance',
     pros: [
@@ -98,6 +102,7 @@ const picks = [
     rank: 5,
     badge: '🎉 Best for Parties',
     name: 'Luminar Outdoor 48Ft Color Changing String Lights',
+    image: '/images/products/luminar-outdoor-48ft-color-changing-string-lights.jpg',
     price: '$42',
     bestFor: 'Hosts who throw themed parties or want seasonal color options',
     pros: [

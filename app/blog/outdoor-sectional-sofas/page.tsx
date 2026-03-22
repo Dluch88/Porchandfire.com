@@ -10,6 +10,7 @@ const picks = [
   {
     rank: 1,
     name: 'Devoko 7-Piece Patio Sectional',
+    image: '/images/products/devoko-7-piece-patio-sectional.jpg',
     price: '$599',
     bestFor: 'Best Budget Pick',
     summary:
@@ -21,6 +22,7 @@ const picks = [
   {
     rank: 2,
     name: 'COSCO Outdoor Living Serene Ridge Sectional',
+    image: '/images/products/cosco-outdoor-living-serene-ridge-sectional.jpg',
     price: '$899',
     bestFor: 'Best Mid-Range',
     summary:
@@ -32,6 +34,7 @@ const picks = [
   {
     rank: 3,
     name: 'Hanover Outdoor Avondale 6-Piece Sectional',
+    image: '/images/products/hanover-outdoor-avondale-6-piece-sectional.jpg',
     price: '$1,299',
     bestFor: 'Best for Durability',
     summary:
@@ -43,6 +46,7 @@ const picks = [
   {
     rank: 4,
     name: 'Tangkula L-Shaped Patio Sectional',
+    image: '/images/products/tangkula-l-shaped-patio-sectional.jpg',
     price: '$479',
     bestFor: 'Best for Small Patios',
     summary:
@@ -54,6 +58,7 @@ const picks = [
   {
     rank: 5,
     name: 'Christopher Knight Home Puerta Sectional',
+    image: '/images/products/christopher-knight-home-puerta-sectional.jpg',
     price: '$799',
     bestFor: 'Best Looking',
     summary:

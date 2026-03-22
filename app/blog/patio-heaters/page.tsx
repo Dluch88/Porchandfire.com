@@ -10,6 +10,7 @@ const picks = [
   {
     rank: 1,
     name: 'AZ Patio Heaters 46,000 BTU Propane Tower',
+    image: '/images/products/az-patio-heaters-46-000-btu-propane-tower.jpg',
     price: '$149',
     bestFor: 'Best Overall Propane Tower',
     summary:
@@ -21,6 +22,7 @@ const picks = [
   {
     rank: 2,
     name: 'Bromic Tungsten Smart-Heat Electric Heater',
+    image: '/images/products/bromic-tungsten-smart-heat-electric-heater.jpg',
     price: '$699',
     bestFor: 'Best Premium Electric (Wall Mount)',
     summary:
@@ -32,6 +34,7 @@ const picks = [
   {
     rank: 3,
     name: 'Fire Sense 1500W Infrared Electric Patio Heater',
+    image: '/images/products/fire-sense-1500w-infrared-electric-patio-heater.jpg',
     price: '$89',
     bestFor: 'Best Budget Electric',
     summary:
@@ -43,6 +46,7 @@ const picks = [
   {
     rank: 4,
     name: 'Outdoor Greatroom Company Tabletop Propane Heater',
+    image: '/images/products/outdoor-greatroom-company-tabletop-propane-heater.jpg',
     price: '$99',
     bestFor: 'Best Tabletop Heater',
     summary:
@@ -54,6 +58,7 @@ const picks = [
   {
     rank: 5,
     name: 'Hiland HLDS01-GTHG Pyramid Flame Patio Heater',
+    image: '/images/products/hiland-hlds01-gthg-pyramid-flame-patio-heater.jpg',
     price: '$189',
     bestFor: 'Best for Ambiance',
     summary:

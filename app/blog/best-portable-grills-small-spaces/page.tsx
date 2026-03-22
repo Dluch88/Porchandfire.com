@@ -14,6 +14,7 @@ const picks = [
     rank: 1,
     badge: '🏆 Best Overall',
     name: 'Weber Q1200 Portable Gas Grill',
+    image: '/images/products/weber-q1200-portable-gas-grill.jpg',
     price: '$219',
     bestFor: 'Anyone who wants full grilling performance in a compact package',
     pros: [
@@ -35,6 +36,7 @@ const picks = [
     rank: 2,
     badge: '💰 Best Budget',
     name: 'Weber Jumbo Joe 22" Charcoal Grill',
+    image: '/images/products/weber-jumbo-joe-22-charcoal-grill.jpg',
     price: '$49',
     bestFor: 'Charcoal lovers on a tight budget who have some outdoor space',
     pros: [
@@ -56,6 +58,7 @@ const picks = [
     rank: 3,
     badge: '🏢 Best for Apartments',
     name: 'George Foreman Indoor/Outdoor Electric Grill (GFO240S)',
+    image: '/images/products/george-foreman-indoor-outdoor-electric-grill-gfo240s.jpg',
     price: '$89',
     bestFor: 'Apartment dwellers with strict no-flame balcony rules',
     pros: [
@@ -76,7 +79,8 @@ const picks = [
   {
     rank: 4,
     badge: '🔥 Best Charcoal',
-    name: 'Lodge Sportsman\'s Hibachi Grill',
+    name: 'Lodge Sportsman\',
+    image: '/images/products/lodge-sportsman.jpg's Hibachi Grill',
     price: '$119',
     bestFor: 'Serious cooks who want cast iron performance in a small form factor',
     pros: [
@@ -98,6 +102,7 @@ const picks = [
     rank: 5,
     badge: '🏕️ Best Ultra-Portable',
     name: 'Weber Go-Anywhere Charcoal Grill',
+    image: '/images/products/weber-go-anywhere-charcoal-grill.jpg',
     price: '$44',
     bestFor: 'People who want a grill they can throw in the car trunk',
     pros: [

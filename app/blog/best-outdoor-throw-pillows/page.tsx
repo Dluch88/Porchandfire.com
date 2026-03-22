@@ -12,6 +12,7 @@ const picks = [
   {
     rank: 1,
     name: 'Pillow Perfect Outdoor Chevron Pillow Set of 2',
+    image: '/images/products/pillow-perfect-outdoor-chevron-pillow-set-of-2.jpg',
     price: '$45',
     bestFor: 'Best Overall',
     summary:
@@ -23,6 +24,7 @@ const picks = [
   {
     rank: 2,
     name: 'Arden Selections Outdoor Throw Pillow Set of 4',
+    image: '/images/products/arden-selections-outdoor-throw-pillow-set-of-4.jpg',
     price: '$52',
     bestFor: 'Best Value Set',
     summary:
@@ -34,6 +36,7 @@ const picks = [
   {
     rank: 3,
     name: 'Mainstays Outdoor Toss Pillow 2-Pack',
+    image: '/images/products/mainstays-outdoor-toss-pillow-2-pack.jpg',
     price: '$28',
     bestFor: 'Best Budget Pick',
     summary:
@@ -45,6 +48,7 @@ const picks = [
   {
     rank: 4,
     name: 'Sunbrella Canvas Outdoor Pillow Cover (Pillow Included)',
+    image: '/images/products/sunbrella-canvas-outdoor-pillow-cover-pillow-included.jpg',
     price: '$58',
     bestFor: 'Best Premium Pick',
     summary:
@@ -56,6 +60,7 @@ const picks = [
   {
     rank: 5,
     name: 'LVTXIII Outdoor Solid Pillow Covers 18x18 (4-Pack, Inserts Included)',
+    image: '/images/products/lvtxiii-outdoor-solid-pillow-covers-18x18-4-pack-inserts-inc.jpg',
     price: '$38',
     bestFor: 'Best Color Variety',
     summary:
@@ -115,7 +120,7 @@ export default function BestOutdoorThrowPillows() {
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
+              <img src={pick.image} alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
             </div>
             <div className="flex items-start justify-between mb-3">
               <div>

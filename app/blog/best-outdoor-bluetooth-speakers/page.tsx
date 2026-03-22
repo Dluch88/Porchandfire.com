@@ -12,7 +12,7 @@ export default function BestOutdoorBluetoothSpeakers() {
       <p className="text-sm text-gray-500 mb-8">Updated March 2026 · By Porch &amp; Fire</p>
 
       <div className="mb-8">
-        <img src="https://images.pexels.com/photos/1267697/pexels-photo-1267697.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Outdoor patio party with friends enjoying music" className="w-full h-48 object-cover rounded-lg" />
+        <img src="/images/blog-photos/outdoor-patio-party-with-friends-enjoying-music.jpg" alt="Outdoor patio party with friends enjoying music" className="w-full h-48 object-cover rounded-lg" />
       </div>
 
       <div className="mb-12 text-gray-700 leading-relaxed space-y-4">
@@ -21,7 +21,7 @@ export default function BestOutdoorBluetoothSpeakers() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/4790255/pexels-photo-4790255.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Portable bluetooth speaker outdoors on a patio table" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/portable-bluetooth-speaker-outdoors-on-a-patio-table.jpg" alt="Portable bluetooth speaker outdoors on a patio table" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">JBL Charge 5</h3>
         <p className="text-gray-700 leading-relaxed mb-4">The Charge 5 has been the go-to outdoor speaker for good reason. IP67 waterproof and dustproof means it handles rain, pool splashes, and patio dirt without flinching. Battery lasts 20 hours. Sound is full and punchy with enough bass to fill a patio without distortion. Plus it doubles as a power bank to charge your phone.</p>
@@ -33,7 +33,7 @@ export default function BestOutdoorBluetoothSpeakers() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/4397840/pexels-photo-4397840.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Small portable speaker next to a pool" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/small-portable-speaker-next-to-a-pool.jpg" alt="Small portable speaker next to a pool" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Compact / Budget</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Ultimate Ears WONDERBOOM 3</h3>
         <p className="text-gray-700 leading-relaxed mb-4">If you want something small enough to clip to a backpack or toss in a cooler bag, the WONDERBOOM 3 punches way above its size. IP67 rated, it actually floats in a pool. Sound is 360-degree so it fills a small patio evenly no matter which direction it faces. Battery is 14 hours.</p>
@@ -45,7 +45,7 @@ export default function BestOutdoorBluetoothSpeakers() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/4087392/pexels-photo-4087392.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Premium portable speaker in a living space" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/premium-portable-speaker-in-a-living-space.jpg" alt="Premium portable speaker in a living space" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Sound Quality</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Sonos Roam 2</h3>
         <p className="text-gray-700 leading-relaxed mb-4">If you care about sound quality and not just volume, the Sonos Roam 2 is in a different class. Automatic Trueplay tuning adjusts the EQ based on where you put it. It integrates with your home Sonos system over Wi-Fi or works standalone on Bluetooth. The sound is detailed, balanced, and warm.</p>
@@ -57,7 +57,7 @@ export default function BestOutdoorBluetoothSpeakers() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Large portable speaker at an outdoor party" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/large-portable-speaker-at-an-outdoor-party.jpg" alt="Large portable speaker at an outdoor party" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best for Large Gatherings</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">JBL Boombox 3</h3>
         <p className="text-gray-700 leading-relaxed mb-4">When you need to fill an entire backyard, the Boombox 3 delivers. This thing is massive, heavy, and absurdly loud. Deep bass that you feel in your chest, IP67 waterproof, and a 24-hour battery that outlasts any party. It is not subtle, but when 30 people are spread across your yard, subtle does not cut it.</p>
@@ -69,7 +69,7 @@ export default function BestOutdoorBluetoothSpeakers() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/3764958/pexels-photo-3764958.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Compact waterproof bluetooth speaker outdoors" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/compact-waterproof-bluetooth-speaker-outdoors.jpg" alt="Compact waterproof bluetooth speaker outdoors" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Under $75</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Anker Soundcore Motion 300</h3>
         <p className="text-gray-700 leading-relaxed mb-4">Anker consistently makes speakers that sound like they cost twice as much. The Motion 300 has a SmartTune feature that adjusts sound based on orientation — upright, tilted, or hanging from a hook. IPX7 waterproof, 13-hour battery, and the Soundcore app lets you customize the EQ. A lot of speaker for under $75.</p>

@@ -12,6 +12,7 @@ const picks = [
   {
     rank: 1,
     name: 'JBL Charge 5 Portable Waterproof Bluetooth Speaker',
+    image: '/images/products/jbl-charge-5-portable-waterproof-bluetooth-speaker.jpg',
     price: '$139',
     bestFor: 'Best Overall',
     summary:
@@ -23,6 +24,7 @@ const picks = [
   {
     rank: 2,
     name: 'Bose SoundLink Flex',
+    image: '/images/products/bose-soundlink-flex.jpg',
     price: '$149',
     bestFor: 'Best Sound Quality',
     summary:
@@ -34,6 +36,7 @@ const picks = [
   {
     rank: 3,
     name: 'TREBLAB HD77 Premium Outdoor Bluetooth Speaker',
+    image: '/images/products/treblab-hd77-premium-outdoor-bluetooth-speaker.jpg',
     price: '$79',
     bestFor: 'Best Budget Pick',
     summary:
@@ -45,6 +48,7 @@ const picks = [
   {
     rank: 4,
     name: 'UE Hyperboom Portable Home Speaker',
+    image: '/images/products/ue-hyperboom-portable-home-speaker.jpg',
     price: '$349',
     bestFor: 'Best for Parties',
     summary:
@@ -56,6 +60,7 @@ const picks = [
   {
     rank: 5,
     name: 'Polk Audio Atrium 4 Outdoor Speaker (Pair)',
+    image: '/images/products/polk-audio-atrium-4-outdoor-speaker-pair.jpg',
     price: '$98',
     bestFor: 'Best Permanently Mounted',
     summary:
@@ -67,6 +72,7 @@ const picks = [
   {
     rank: 6,
     name: 'JBL Xtreme 3 Portable Bluetooth Speaker',
+    image: '/images/products/jbl-xtreme-3-portable-bluetooth-speaker.jpg',
     price: '$249',
     bestFor: 'Best High-Volume Portable',
     summary:
@@ -128,7 +134,7 @@ export default function BestOutdoorSpeakers() {
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
+              <img src={pick.image} alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
             </div>
             <div className="flex items-start justify-between mb-3">
               <div>

@@ -54,7 +54,7 @@ export default function DIYFirePitIdeasSmallBackyards() {
             <strong className="text-gray-900">Space needed:</strong> Just your tabletop. No extra clearance required.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tabletop fire bowl on an outdoor patio" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/tabletop-fire-bowl-on-an-outdoor-patio.jpg" alt="Tabletop fire bowl on an outdoor patio" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=tabletop+fire+bowl+outdoor&tag=porchandfire-20"
@@ -79,7 +79,7 @@ export default function DIYFirePitIdeasSmallBackyards() {
             <strong className="text-gray-900">Space needed:</strong> 4x4 feet minimum, including seating.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Propane fire table in an outdoor setting" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/propane-fire-table-in-an-outdoor-setting.jpg" alt="Propane fire table in an outdoor setting" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=propane+fire+pit+table+outdoor&tag=porchandfire-20"
@@ -118,7 +118,7 @@ export default function DIYFirePitIdeasSmallBackyards() {
             <strong className="text-gray-900">Space needed:</strong> 6-foot diameter circle for safe clearance.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/5215351/pexels-photo-5215351.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Small smokeless fire pit in a backyard" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/small-smokeless-fire-pit-in-a-backyard.jpg" alt="Small smokeless fire pit in a backyard" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=Solo+Stove+Ranger&tag=porchandfire-20"
@@ -143,7 +143,7 @@ export default function DIYFirePitIdeasSmallBackyards() {
             <strong className="text-gray-900">Space needed:</strong> 4x4 feet.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/5215351/pexels-photo-5215351.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Chiminea fire pit in a small backyard" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/chiminea-fire-pit-in-a-small-backyard.jpg" alt="Chiminea fire pit in a small backyard" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=outdoor+chiminea+fire+pit&tag=porchandfire-20"
@@ -168,7 +168,7 @@ export default function DIYFirePitIdeasSmallBackyards() {
             <strong className="text-gray-900">Space needed:</strong> Tabletop to 3x3 feet for freestanding models.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bioethanol fire pit with clean flame" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/bioethanol-fire-pit-with-clean-flame.jpg" alt="Bioethanol fire pit with clean flame" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=bioethanol+fire+pit+outdoor&tag=porchandfire-20"
@@ -221,7 +221,7 @@ export default function DIYFirePitIdeasSmallBackyards() {
             <strong className="text-gray-900">Space needed:</strong> Same as a standard small fire pit — about 6 feet of clearance.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/2662816/pexels-photo-2662816.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Portable fire pit grill outdoors" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/portable-fire-pit-grill-outdoors.jpg" alt="Portable fire pit grill outdoors" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=portable+fire+pit+grill+small&tag=porchandfire-20"

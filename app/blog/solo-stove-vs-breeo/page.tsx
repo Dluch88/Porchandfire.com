@@ -12,6 +12,7 @@ const picks = [
   {
     rank: 1,
     name: 'Solo Stove Bonfire 2.0',
+    image: '/images/products/solo-stove-bonfire-2-0.jpg',
     price: '$349',
     bestFor: 'Best for Most People',
     summary:
@@ -23,6 +24,7 @@ const picks = [
   {
     rank: 2,
     name: 'Breeo X Series 24',
+    image: '/images/products/breeo-x-series-24.jpg',
     price: '$449',
     bestFor: 'Best if You Cook on It',
     summary:
@@ -34,6 +36,7 @@ const picks = [
   {
     rank: 3,
     name: 'Solo Stove Ranger 2.0',
+    image: '/images/products/solo-stove-ranger-2-0.jpg',
     price: '$229',
     bestFor: 'Best Compact Option',
     summary:
@@ -45,6 +48,7 @@ const picks = [
   {
     rank: 4,
     name: 'Breeo X Series 19',
+    image: '/images/products/breeo-x-series-19.jpg',
     price: '$299',
     bestFor: 'Best Entry-Level Breeo',
     summary:
@@ -56,6 +60,7 @@ const picks = [
   {
     rank: 5,
     name: 'BioLite FirePit+',
+    image: '/images/products/biolite-firepit.jpg',
     price: '$199',
     bestFor: 'Best Tech-Forward Option',
     summary:
@@ -115,7 +120,7 @@ export default function SoloStoveVsBreeo() {
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
+              <img src={pick.image} alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
             </div>
             <div className="flex items-start justify-between mb-3">
               <div>

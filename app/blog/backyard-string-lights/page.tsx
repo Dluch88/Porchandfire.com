@@ -10,6 +10,7 @@ const picks = [
   {
     rank: 1,
     name: 'Brightech Ambience Pro LED String Lights',
+    image: '/images/products/brightech-ambience-pro-led-string-lights.jpg',
     price: '$49–$79',
     bestFor: 'Best Overall',
     summary:
@@ -21,6 +22,7 @@ const picks = [
   {
     rank: 2,
     name: 'Govee Outdoor Smart String Lights',
+    image: '/images/products/govee-outdoor-smart-string-lights.jpg',
     price: '$35–$59',
     bestFor: 'Best Smart/App-Controlled',
     summary:
@@ -32,6 +34,7 @@ const picks = [
   {
     rank: 3,
     name: 'Newhouse Lighting 48-ft String Lights',
+    image: '/images/products/newhouse-lighting-48-ft-string-lights.jpg',
     price: '$29',
     bestFor: 'Best Budget Pick',
     summary:
@@ -43,6 +46,7 @@ const picks = [
   {
     rank: 4,
     name: 'Feit Electric 48-ft LED Globe Lights',
+    image: '/images/products/feit-electric-48-ft-led-globe-lights.jpg',
     price: '$39',
     bestFor: 'Best Energy-Efficient',
     summary:
@@ -54,6 +58,7 @@ const picks = [
   {
     rank: 5,
     name: 'Solar String Lights by Maggift (100 ft)',
+    image: '/images/products/solar-string-lights-by-maggift-100-ft.jpg',
     price: '$32',
     bestFor: 'Best Solar Option',
     summary:

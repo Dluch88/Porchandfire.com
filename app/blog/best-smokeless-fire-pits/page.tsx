@@ -10,6 +10,7 @@ const picks = [
   {
     rank: 1,
     name: 'Solo Stove Bonfire 2.0',
+    image: '/images/products/solo-stove-bonfire-2-0.jpg',
     price: '$349',
     bestFor: 'Best Overall',
     summary:
@@ -21,6 +22,7 @@ const picks = [
   {
     rank: 2,
     name: 'Breeo X Series 24',
+    image: '/images/products/breeo-x-series-24.jpg',
     price: '$449',
     bestFor: 'Best for Cooking',
     summary:
@@ -32,6 +34,7 @@ const picks = [
   {
     rank: 3,
     name: 'BioLite FirePit+',
+    image: '/images/products/biolite-firepit.jpg',
     price: '$199',
     bestFor: 'Best with Fan-Forced Airflow',
     summary:
@@ -43,6 +46,7 @@ const picks = [
   {
     rank: 4,
     name: 'Tiki Brand 25-Inch Fire Pit',
+    image: '/images/products/tiki-brand-25-inch-fire-pit.jpg',
     price: '$179',
     bestFor: 'Best Budget Smokeless',
     summary:
@@ -54,6 +58,7 @@ const picks = [
   {
     rank: 5,
     name: 'Solo Stove Ranger',
+    image: '/images/products/solo-stove-ranger.jpg',
     price: '$229',
     bestFor: 'Best Portable Option',
     summary:

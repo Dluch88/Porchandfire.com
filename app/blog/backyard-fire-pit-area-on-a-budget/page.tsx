@@ -82,7 +82,7 @@ export default function BackyardFirePitAreaOnABudget() {
           <li>
             <div>
               <div className="mb-4 flex justify-center">
-                <img src="https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Garden landscape fabric for weed barrier" className="w-full h-48 object-cover rounded-lg" />
+                <img src="/images/blog-photos/garden-landscape-fabric-for-weed-barrier.jpg" alt="Garden landscape fabric for weed barrier" className="w-full h-48 object-cover rounded-lg" />
               </div>
               <a
                 href="https://www.amazon.com/s?k=landscape+fabric+weed+barrier&tag=porchandfire-20"
@@ -115,7 +115,7 @@ export default function BackyardFirePitAreaOnABudget() {
               Option A: DIY Stone Ring (~$50&ndash;$80)
             </h3>
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fire pit ring with stone surround" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/blog-photos/fire-pit-ring-with-stone-surround.jpg" alt="Fire pit ring with stone surround" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <p className="text-gray-700">
               Buy retaining wall blocks from your local hardware store and stack them in
@@ -136,7 +136,7 @@ export default function BackyardFirePitAreaOnABudget() {
               Option B: Budget Portable Fire Pit (~$60&ndash;$150)
             </h3>
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/5215351/pexels-photo-5215351.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Budget outdoor fire pit" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/blog-photos/budget-outdoor-fire-pit.jpg" alt="Budget outdoor fire pit" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <p className="text-gray-700">
               A pre-made{' '}
@@ -178,7 +178,7 @@ export default function BackyardFirePitAreaOnABudget() {
           <li>
             <div>
               <div className="mb-4 flex justify-center">
-                <img src="https://images.pexels.com/photos/17418139/pexels-photo-17418139.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Adirondack chairs by a fire pit" className="w-full h-48 object-cover rounded-lg" />
+                <img src="/images/blog-photos/adirondack-chairs-by-a-fire-pit.jpg" alt="Adirondack chairs by a fire pit" className="w-full h-48 object-cover rounded-lg" />
               </div>
               <span className="font-semibold">
                 <a
@@ -211,7 +211,7 @@ export default function BackyardFirePitAreaOnABudget() {
           <li>
             <div>
               <div className="mb-4 flex justify-center">
-                <img src="https://images.pexels.com/photos/754263/pexels-photo-754263.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Outdoor string lights on a patio" className="w-full h-48 object-cover rounded-lg" />
+                <img src="/images/blog-photos/outdoor-string-lights-on-a-patio.jpg" alt="Outdoor string lights on a patio" className="w-full h-48 object-cover rounded-lg" />
               </div>
               <a
                 href="https://www.amazon.com/s?k=outdoor+string+lights+patio&tag=porchandfire-20"
@@ -230,7 +230,7 @@ export default function BackyardFirePitAreaOnABudget() {
           <li>
             <div>
               <div className="mb-4 flex justify-center">
-                <img src="https://images.pexels.com/photos/5215351/pexels-photo-5215351.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Firewood rack for outdoor fire pit area" className="w-full h-48 object-cover rounded-lg" />
+                <img src="/images/blog-photos/firewood-rack-for-outdoor-fire-pit-area.jpg" alt="Firewood rack for outdoor fire pit area" className="w-full h-48 object-cover rounded-lg" />
               </div>
               A{' '}
               <a

@@ -70,7 +70,7 @@ export default function BestPatioFurnitureSetsUnder500() {
             The cushions are thick and the whole set looks like it costs twice the price.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/4915585/pexels-photo-4915585.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Wicker patio conversation furniture set" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/wicker-patio-conversation-furniture-set.jpg" alt="Wicker patio conversation furniture set" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=4+piece+patio+conversation+set+wicker&tag=porchandfire-20"
@@ -95,7 +95,7 @@ export default function BestPatioFurnitureSetsUnder500() {
             umbrella hole in the table.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/1843655/pexels-photo-1843655.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Metal patio dining set outdoors" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/metal-patio-dining-set-outdoors.jpg" alt="Metal patio dining set outdoors" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=5+piece+patio+dining+set+metal&tag=porchandfire-20"
@@ -120,7 +120,7 @@ export default function BestPatioFurnitureSetsUnder500() {
             cushions and an outdoor rug.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Folding bistro patio set" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/folding-bistro-patio-set.jpg" alt="Folding bistro patio set" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=patio+bistro+set+folding+3+piece&tag=porchandfire-20"
@@ -145,7 +145,7 @@ export default function BestPatioFurnitureSetsUnder500() {
             different occasions.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/6430742/pexels-photo-6430742.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Outdoor sectional sofa on patio" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/outdoor-sectional-sofa-on-patio.jpg" alt="Outdoor sectional sofa on patio" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=outdoor+patio+sectional+sofa+wicker&tag=porchandfire-20"
@@ -170,7 +170,7 @@ export default function BestPatioFurnitureSetsUnder500() {
             table and you&apos;ve got a timeless porch setup.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/17418139/pexels-photo-17418139.jpeg?auto=compress&cs=tinysrgb&w=600" alt="HDPE Adirondack chairs on porch" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/hdpe-adirondack-chairs-on-porch.jpg" alt="HDPE Adirondack chairs on porch" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=HDPE+Adirondack+chairs+set+of+2&tag=porchandfire-20"
@@ -195,7 +195,7 @@ export default function BestPatioFurnitureSetsUnder500() {
             the relaxation factor alone.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Outdoor rocking chairs on a porch" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/outdoor-rocking-chairs-on-a-porch.jpg" alt="Outdoor rocking chairs on a porch" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=outdoor+rocking+chair+set+patio&tag=porchandfire-20"
@@ -219,7 +219,7 @@ export default function BestPatioFurnitureSetsUnder500() {
             mesh or textilene fabric. A set of two usually falls in the $200&ndash;$400 range.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Chaise lounge chairs by the pool" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/chaise-lounge-chairs-by-the-pool.jpg" alt="Chaise lounge chairs by the pool" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=outdoor+chaise+lounge+chairs+set+of+2&tag=porchandfire-20"
@@ -244,7 +244,7 @@ export default function BestPatioFurnitureSetsUnder500() {
             railing.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bar height patio furniture set" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/bar-height-patio-furniture-set.jpg" alt="Bar height patio furniture set" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=bar+height+patio+set+3+piece+outdoor&tag=porchandfire-20"
@@ -269,7 +269,7 @@ export default function BestPatioFurnitureSetsUnder500() {
             that makes your backyard feel like a retreat.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/4915585/pexels-photo-4915585.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Patio swing with canopy in backyard" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/patio-swing-with-canopy-in-backyard.jpg" alt="Patio swing with canopy in backyard" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=patio+swing+with+canopy+2+person&tag=porchandfire-20"
@@ -294,7 +294,7 @@ export default function BestPatioFurnitureSetsUnder500() {
             outdoor living setup without piecing it together.
           </p>
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Patio furniture set with fire pit table" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/patio-furniture-set-with-fire-pit-table.jpg" alt="Patio furniture set with fire pit table" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=patio+furniture+set+with+fire+pit+table&tag=porchandfire-20"

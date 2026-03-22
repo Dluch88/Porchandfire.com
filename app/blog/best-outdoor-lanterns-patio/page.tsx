@@ -12,6 +12,7 @@ const picks = [
   {
     rank: 1,
     name: 'Deco 79 Metal Outdoor Lantern (Set of 2)',
+    image: '/images/products/deco-79-metal-outdoor-lantern-set-of-2.jpg',
     price: '$52',
     bestFor: 'Best Statement Piece',
     summary:
@@ -23,6 +24,7 @@ const picks = [
   {
     rank: 2,
     name: 'MAGGIFT 14-Inch Hanging Solar Lanterns (Set of 2)',
+    image: '/images/products/maggift-14-inch-hanging-solar-lanterns-set-of-2.jpg',
     price: '$26',
     bestFor: 'Best Solar Hanging Lanterns',
     summary:
@@ -34,6 +36,7 @@ const picks = [
   {
     rank: 3,
     name: 'Sterno Home Pillar Candle Outdoor Lantern',
+    image: '/images/products/sterno-home-pillar-candle-outdoor-lantern.jpg',
     price: '$44',
     bestFor: 'Best Traditional Style',
     summary:
@@ -45,6 +48,7 @@ const picks = [
   {
     rank: 4,
     name: 'Hampton Bay Solar Post Lantern',
+    image: '/images/products/hampton-bay-solar-post-lantern.jpg',
     price: '$39',
     bestFor: 'Best Post Mount Solar',
     summary:
@@ -56,6 +60,7 @@ const picks = [
   {
     rank: 5,
     name: 'LHKJ Oversized Outdoor Solar Lanterns (Set of 2)',
+    image: '/images/products/lhkj-oversized-outdoor-solar-lanterns-set-of-2.jpg',
     price: '$36',
     bestFor: 'Best Large Floor Lanterns',
     summary:
@@ -113,7 +118,7 @@ export default function BestOutdoorLanterns() {
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
+              <img src={pick.image} alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
             </div>
             <div className="flex items-start justify-between mb-3">
               <div>

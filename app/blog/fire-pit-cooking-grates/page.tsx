@@ -10,6 +10,7 @@ const picks = [
   {
     rank: 1,
     name: 'Breeo Outpost Grill System',
+    image: '/images/products/breeo-outpost-grill-system.jpg',
     price: '$149',
     bestFor: 'Best Premium Cooking Setup',
     summary:
@@ -21,6 +22,7 @@ const picks = [
   {
     rank: 2,
     name: 'Solo Stove Grill Top (fits Bonfire)',
+    image: '/images/products/solo-stove-grill-top-fits-bonfire.jpg',
     price: '$49',
     bestFor: 'Best for Solo Stove Owners',
     summary:
@@ -32,6 +34,7 @@ const picks = [
   {
     rank: 3,
     name: 'Campfire Cooking Tripod with Grill',
+    image: '/images/products/campfire-cooking-tripod-with-grill.jpg',
     price: '$59',
     bestFor: 'Best for Rustic Campfire Cooking',
     summary:
@@ -43,6 +46,7 @@ const picks = [
   {
     rank: 4,
     name: 'Lodge Cast Iron Campfire Grill',
+    image: '/images/products/lodge-cast-iron-campfire-grill.jpg',
     price: '$45',
     bestFor: 'Best Cast Iron Option',
     summary:
@@ -54,6 +58,7 @@ const picks = [
   {
     rank: 5,
     name: 'Titan Outdoors Swivel Grill for Fire Pits',
+    image: '/images/products/titan-outdoors-swivel-grill-for-fire-pits.jpg',
     price: '$89',
     bestFor: 'Best Swivel Grill for Standard Pits',
     summary:

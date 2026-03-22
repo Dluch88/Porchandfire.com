@@ -12,6 +12,7 @@ const picks = [
   {
     rank: 1,
     name: 'Addlon 48ft Outdoor Edison String Lights',
+    image: '/images/products/addlon-48ft-outdoor-edison-string-lights.jpg',
     price: '$34',
     bestFor: 'Best Lighting Anchor',
     summary:
@@ -23,6 +24,7 @@ const picks = [
   {
     rank: 2,
     name: 'Solo Stove Ranger 2.0',
+    image: '/images/products/solo-stove-ranger-2-0.jpg',
     price: '$229',
     bestFor: 'Best Fire Focal Point',
     summary:
@@ -34,6 +36,7 @@ const picks = [
   {
     rank: 3,
     name: 'JBL Clip 4 Waterproof Bluetooth Speaker',
+    image: '/images/products/jbl-clip-4-waterproof-bluetooth-speaker.jpg',
     price: '$79',
     bestFor: 'Best Outdoor Music',
     summary:
@@ -45,6 +48,7 @@ const picks = [
   {
     rank: 4,
     name: 'Rumpl Original Puffy Blanket',
+    image: '/images/products/rumpl-original-puffy-blanket.jpg',
     price: '$89',
     bestFor: 'Best Cozy Layer',
     summary:
@@ -56,6 +60,7 @@ const picks = [
   {
     rank: 5,
     name: 'Himalayan Salt Tea Light Candle Holders (Set of 3)',
+    image: '/images/products/himalayan-salt-tea-light-candle-holders-set-of-3.jpg',
     price: '$18',
     bestFor: 'Best Table Ambiance',
     summary:
@@ -67,6 +72,7 @@ const picks = [
   {
     rank: 6,
     name: 'Wise Owl Outfitters Waterproof Outdoor Blanket',
+    image: '/images/products/wise-owl-outfitters-waterproof-outdoor-blanket.jpg',
     price: '$29',
     bestFor: 'Best Ground Option',
     summary:
@@ -122,7 +128,7 @@ export default function BackyardDateNight() {
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
+              <img src={pick.image} alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
             </div>
             <div className="flex items-start justify-between mb-3">
               <div>

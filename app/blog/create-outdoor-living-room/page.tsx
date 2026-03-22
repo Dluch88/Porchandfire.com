@@ -36,7 +36,7 @@ export default function CreateOutdoorLivingRoom() {
           different zone.
         </p>
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/6585760/pexels-photo-6585760.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Large outdoor rug on a patio" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/large-outdoor-rug-on-a-patio.jpg" alt="Large outdoor rug on a patio" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <a
           href="https://www.amazon.com/s?k=large+outdoor+rug+9x12+patio&tag=porchandfire-20"
@@ -61,7 +61,7 @@ export default function CreateOutdoorLivingRoom() {
           each other across a coffee table or fire pit is the gold standard layout.
         </p>
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/4915585/pexels-photo-4915585.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Outdoor conversation seating set" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/outdoor-conversation-seating-set.jpg" alt="Outdoor conversation seating set" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <a
           href="https://www.amazon.com/s?k=outdoor+deep+seat+conversation+set&tag=porchandfire-20"
@@ -86,7 +86,7 @@ export default function CreateOutdoorLivingRoom() {
           add a blanket and plants over the next few weeks. The space will come together naturally.
         </p>
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/6430742/pexels-photo-6430742.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Outdoor throw pillows on patio furniture" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/outdoor-throw-pillows-on-patio-furniture.jpg" alt="Outdoor throw pillows on patio furniture" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <a
           href="https://www.amazon.com/s?k=outdoor+throw+pillows+patio&tag=porchandfire-20"
@@ -112,7 +112,7 @@ export default function CreateOutdoorLivingRoom() {
           every bug in the neighborhood.
         </p>
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/754263/pexels-photo-754263.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Solar lanterns for outdoor lighting" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/solar-lanterns-for-outdoor-lighting.jpg" alt="Solar lanterns for outdoor lighting" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <a
           href="https://www.amazon.com/s?k=outdoor+solar+lantern+table&tag=porchandfire-20"
@@ -138,7 +138,7 @@ export default function CreateOutdoorLivingRoom() {
           else is arranged around.
         </p>
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/10833502/pexels-photo-10833502.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Propane fire pit table on a patio" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/propane-fire-pit-table-on-a-patio.jpg" alt="Propane fire pit table on a patio" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <a
           href="https://www.amazon.com/s?k=outdoor+fire+pit+table+propane&tag=porchandfire-20"
@@ -165,7 +165,7 @@ export default function CreateOutdoorLivingRoom() {
           permanent you want the solution to be.
         </p>
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/31687640/pexels-photo-31687640.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Shade sail over an outdoor patio" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/shade-sail-over-an-outdoor-patio.jpg" alt="Shade sail over an outdoor patio" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <a
           href="https://www.amazon.com/s?k=outdoor+shade+sail+triangle+patio&tag=porchandfire-20"

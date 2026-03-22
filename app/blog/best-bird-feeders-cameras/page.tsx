@@ -14,6 +14,7 @@ const picks = [
     rank: 1,
     badge: '🏆 Best Overall',
     name: 'Squirrel Buster Standard Bird Feeder',
+    image: '/images/products/squirrel-buster-standard-bird-feeder.jpg',
     price: '$39',
     bestFor: 'Anyone who wants a reliable, squirrel-proof feeder that just works',
     pros: [
@@ -35,6 +36,7 @@ const picks = [
     rank: 2,
     badge: '📸 Best Smart Camera Feeder',
     name: 'Bird Buddy Smart Bird Feeder',
+    image: '/images/products/bird-buddy-smart-bird-feeder.jpg',
     price: '$199',
     bestFor: 'Tech-savvy bird lovers who want to identify and photograph visitors',
     pros: [
@@ -56,6 +58,7 @@ const picks = [
     rank: 3,
     badge: '🎥 Best Budget Camera Feeder',
     name: 'NETVUE Birdfy Smart Bird Feeder with Camera',
+    image: '/images/products/netvue-birdfy-smart-bird-feeder-with-camera.jpg',
     price: '$139',
     bestFor: 'People who want the camera experience without the Bird Buddy price tag',
     pros: [
@@ -77,6 +80,7 @@ const picks = [
     rank: 4,
     badge: '💰 Best Budget',
     name: 'Perky-Pet Copper Panorama Bird Feeder',
+    image: '/images/products/perky-pet-copper-panorama-bird-feeder.jpg',
     price: '$22',
     bestFor: 'First-time bird feeders who want something attractive and affordable',
     pros: [
@@ -98,6 +102,7 @@ const picks = [
     rank: 5,
     badge: '🐦 Best for Hummingbirds',
     name: 'Aspects HummZinger HighView Hummingbird Feeder',
+    image: '/images/products/aspects-hummzinger-highview-hummingbird-feeder.jpg',
     price: '$24',
     bestFor: 'Anyone who wants to attract hummingbirds to their patio or window',
     pros: [
@@ -119,6 +124,7 @@ const picks = [
     rank: 6,
     badge: '🐿️ Best Platform Feeder',
     name: 'Woodlink Going Green Platform Bird Feeder',
+    image: '/images/products/woodlink-going-green-platform-bird-feeder.jpg',
     price: '$29',
     bestFor: 'Attracting the widest variety of bird species, including ground feeders',
     pros: [

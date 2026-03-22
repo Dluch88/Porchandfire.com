@@ -12,7 +12,7 @@ export default function BestOutdoorCeilingFans() {
       <p className="text-sm text-gray-500 mb-8">Updated March 2026 · By Porch &amp; Fire</p>
 
       <div className="mb-8">
-        <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Covered patio with ceiling fan and comfortable seating area" className="w-full h-48 object-cover rounded-lg" />
+        <img src="/images/blog-photos/covered-patio-with-ceiling-fan-and-comfortable-seating-area.jpg" alt="Covered patio with ceiling fan and comfortable seating area" className="w-full h-48 object-cover rounded-lg" />
       </div>
 
       <div className="mb-12 text-gray-700 leading-relaxed space-y-4">
@@ -24,7 +24,7 @@ export default function BestOutdoorCeilingFans() {
       {/* Pick 1 */}
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/6489083/pexels-photo-6489083.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Modern outdoor ceiling fan on a covered patio" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/modern-outdoor-ceiling-fan-on-a-covered-patio.jpg" alt="Modern outdoor ceiling fan on a covered patio" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget Pick</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Hunter Cassius 52-Inch Outdoor Fan</h3>
@@ -52,7 +52,7 @@ export default function BestOutdoorCeilingFans() {
       {/* Pick 2 */}
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/6585598/pexels-photo-6585598.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Outdoor ceiling fan with light kit on a screened porch" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/outdoor-ceiling-fan-with-light-kit-on-a-screened-porch.jpg" alt="Outdoor ceiling fan with light kit on a screened porch" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Honeywell Belmar 52-Inch Outdoor Fan</h3>
@@ -80,7 +80,7 @@ export default function BestOutdoorCeilingFans() {
       {/* Pick 3 */}
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/6782567/pexels-photo-6782567.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sleek modern ceiling fan in a contemporary patio space" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/sleek-modern-ceiling-fan-in-a-contemporary-patio-space.jpg" alt="Sleek modern ceiling fan in a contemporary patio space" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best for Modern Style</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Fanimation Kute 52-Inch Indoor/Outdoor Fan</h3>
@@ -108,7 +108,7 @@ export default function BestOutdoorCeilingFans() {
       {/* Pick 4 */}
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/6316065/pexels-photo-6316065.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Traditional outdoor ceiling fan on a covered porch" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/traditional-outdoor-ceiling-fan-on-a-covered-porch.jpg" alt="Traditional outdoor ceiling fan on a covered porch" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Under $100</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Westinghouse Comet 52-Inch Outdoor Fan</h3>
@@ -136,7 +136,7 @@ export default function BestOutdoorCeilingFans() {
       {/* Pick 5 */}
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/6492397/pexels-photo-6492397.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Premium outdoor ceiling fan in a luxury patio setting" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/premium-outdoor-ceiling-fan-in-a-luxury-patio-setting.jpg" alt="Premium outdoor ceiling fan in a luxury patio setting" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Premium Pick</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Big Ass Fans Haiku L 52-Inch</h3>

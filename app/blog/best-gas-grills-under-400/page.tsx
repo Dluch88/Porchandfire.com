@@ -12,6 +12,7 @@ const picks = [
   {
     rank: 1,
     name: 'Weber Spirit II E-310 3-Burner Gas Grill',
+    image: '/images/products/weber-spirit-ii-e-310-3-burner-gas-grill.jpg',
     price: '$379',
     bestFor: 'Best Overall',
     summary:
@@ -23,6 +24,7 @@ const picks = [
   {
     rank: 2,
     name: 'Char-Broil Performance Series 4-Burner Gas Grill',
+    image: '/images/products/char-broil-performance-series-4-burner-gas-grill.jpg',
     price: '$279',
     bestFor: 'Best Value',
     summary:
@@ -34,6 +36,7 @@ const picks = [
   {
     rank: 3,
     name: 'Nexgrill 4-Burner Gas Grill with Side Burner',
+    image: '/images/products/nexgrill-4-burner-gas-grill-with-side-burner.jpg',
     price: '$249',
     bestFor: 'Best Budget Pick',
     summary:
@@ -45,6 +48,7 @@ const picks = [
   {
     rank: 4,
     name: 'Royal Gourmet 3-Burner Cabinet Propane Gas Grill',
+    image: '/images/products/royal-gourmet-3-burner-cabinet-propane-gas-grill.jpg',
     price: '$199',
     bestFor: 'Best Compact Cabinet Style',
     summary:
@@ -56,6 +60,7 @@ const picks = [
   {
     rank: 5,
     name: 'Cuisinart 3-Burner Stainless Gas Grill',
+    image: '/images/products/cuisinart-3-burner-stainless-gas-grill.jpg',
     price: '$229',
     bestFor: 'Best Mid-Range Starter',
     summary:
@@ -67,6 +72,7 @@ const picks = [
   {
     rank: 6,
     name: 'Dyna-Glo Smart Space Living 2-Burner LP Gas Grill',
+    image: '/images/products/dyna-glo-smart-space-living-2-burner-lp-gas-grill.jpg',
     price: '$159',
     bestFor: 'Best for Small Spaces',
     summary:
@@ -125,7 +131,7 @@ export default function BestGasGrillsUnder400() {
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
+              <img src={pick.image} alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
             </div>
             <div className="flex items-start justify-between mb-3">
               <div>

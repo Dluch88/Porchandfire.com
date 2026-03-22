@@ -85,7 +85,7 @@ export default function HowToWinterizePatioFurniture() {
         </div>
 
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/4915585/pexels-photo-4915585.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Outdoor furniture cleaner and cleaning supplies" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/outdoor-furniture-cleaner-and-cleaning-supplies.jpg" alt="Outdoor furniture cleaner and cleaning supplies" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <a
           href="https://www.amazon.com/s?k=outdoor+furniture+cleaner+spray&tag=porchandfire-20"
@@ -168,7 +168,7 @@ export default function HowToWinterizePatioFurniture() {
         </div>
 
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/19290411/pexels-photo-19290411.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Waterproof patio furniture covers" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/waterproof-patio-furniture-covers.jpg" alt="Waterproof patio furniture covers" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <a
           href="https://www.amazon.com/s?k=outdoor+furniture+cover+waterproof+patio&tag=porchandfire-20"
@@ -212,7 +212,7 @@ export default function HowToWinterizePatioFurniture() {
 
         <div className="mt-4">
           <div className="mb-4 flex justify-center">
-            <img src="https://images.pexels.com/photos/19290411/pexels-photo-19290411.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Vacuum storage bags for cushion storage" className="w-full h-48 object-cover rounded-lg" />
+            <img src="/images/blog-photos/vacuum-storage-bags-for-cushion-storage.jpg" alt="Vacuum storage bags for cushion storage" className="w-full h-48 object-cover rounded-lg" />
           </div>
           <a
             href="https://www.amazon.com/s?k=vacuum+storage+bags+large+cushions&tag=porchandfire-20"

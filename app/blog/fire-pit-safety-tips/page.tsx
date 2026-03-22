@@ -109,7 +109,7 @@ export default function FirePitSafetyTips() {
               to get your fire going safely.
             </p>
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/5215351/pexels-photo-5215351.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Natural fire starters for wood burning" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/blog-photos/natural-fire-starters-for-wood-burning.jpg" alt="Natural fire starters for wood burning" className="w-full h-48 object-cover rounded-lg" />
             </div>
           </div>
 
@@ -144,7 +144,7 @@ export default function FirePitSafetyTips() {
               to contain embers.
             </p>
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/5215351/pexels-photo-5215351.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fire pit spark screen cover" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/blog-photos/fire-pit-spark-screen-cover.jpg" alt="Fire pit spark screen cover" className="w-full h-48 object-cover rounded-lg" />
             </div>
           </div>
         </div>

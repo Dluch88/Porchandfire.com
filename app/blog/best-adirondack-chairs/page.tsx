@@ -10,6 +10,7 @@ const picks = [
   {
     rank: 1,
     name: 'Polywood Classic Folding Adirondack',
+    image: '/images/products/polywood-classic-folding-adirondack.jpg',
     price: '$399',
     bestFor: 'Best Overall (Poly Lumber)',
     summary:
@@ -21,6 +22,7 @@ const picks = [
   {
     rank: 2,
     name: 'Lifetime Adirondack Chair (2-Pack)',
+    image: '/images/products/lifetime-adirondack-chair-2-pack.jpg',
     price: '$199',
     bestFor: 'Best Budget Poly',
     summary:
@@ -32,6 +34,7 @@ const picks = [
   {
     rank: 3,
     name: 'Leisure Season Teak Adirondack Chair',
+    image: '/images/products/leisure-season-teak-adirondack-chair.jpg',
     price: '$279',
     bestFor: 'Best Wood Chair',
     summary:
@@ -43,6 +46,7 @@ const picks = [
   {
     rank: 4,
     name: 'Serwall Folding Adirondack (Set of 2)',
+    image: '/images/products/serwall-folding-adirondack-set-of-2.jpg',
     price: '$269',
     bestFor: 'Best Mid-Range Value',
     summary:
@@ -54,6 +58,7 @@ const picks = [
   {
     rank: 5,
     name: 'Adams Manufacturing Quik-Fold Adirondack',
+    image: '/images/products/adams-manufacturing-quik-fold-adirondack.jpg',
     price: '$89',
     bestFor: 'Best Under $100',
     summary:

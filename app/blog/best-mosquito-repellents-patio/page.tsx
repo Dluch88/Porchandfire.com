@@ -12,7 +12,7 @@ export default function BestMosquitoRepellentsPatio() {
       <p className="text-sm text-gray-500 mb-8">Updated March 2026 · By Porch &amp; Fire</p>
 
       <div className="mb-8">
-        <img src="https://images.pexels.com/photos/1321730/pexels-photo-1321730.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Relaxing evening patio with candles and string lights" className="w-full h-48 object-cover rounded-lg" />
+        <img src="/images/blog-photos/relaxing-evening-patio-with-candles-and-string-lights.jpg" alt="Relaxing evening patio with candles and string lights" className="w-full h-48 object-cover rounded-lg" />
       </div>
 
       <div className="mb-12 text-gray-700 leading-relaxed space-y-4">
@@ -22,7 +22,7 @@ export default function BestMosquitoRepellentsPatio() {
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/5824519/pexels-photo-5824519.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Compact mosquito repeller device on an outdoor table" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/compact-mosquito-repeller-device-on-an-outdoor-table.jpg" alt="Compact mosquito repeller device on an outdoor table" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Thermacell E55 Rechargeable Mosquito Repeller</h3>
@@ -36,7 +36,7 @@ export default function BestMosquitoRepellentsPatio() {
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/5691640/pexels-photo-5691640.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Insect trap in a backyard garden setting" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/insect-trap-in-a-backyard-garden-setting.jpg" alt="Insect trap in a backyard garden setting" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Trap for Large Yards</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">DynaTrap DT1050 Half-Acre Insect Trap</h3>
@@ -50,7 +50,7 @@ export default function BestMosquitoRepellentsPatio() {
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/6045364/pexels-photo-6045364.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Natural citronella candles on an outdoor patio table" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/natural-citronella-candles-on-an-outdoor-patio-table.jpg" alt="Natural citronella candles on an outdoor patio table" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Natural / Ambient Option</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Murphy&apos;s Naturals Mosquito Repellent Candles</h3>
@@ -64,7 +64,7 @@ export default function BestMosquitoRepellentsPatio() {
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/5691486/pexels-photo-5691486.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Spray bottle for treating outdoor fabrics and cushions" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/spray-bottle-for-treating-outdoor-fabrics-and-cushions.jpg" alt="Spray bottle for treating outdoor fabrics and cushions" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best for Treating Fabrics</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Sawyer Products Permethrin Spray</h3>
@@ -78,7 +78,7 @@ export default function BestMosquitoRepellentsPatio() {
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
         <div className="mb-4 flex justify-center">
-          <img src="https://images.pexels.com/photos/5691478/pexels-photo-5691478.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Electric bug zapper light in a backyard" className="w-full h-48 object-cover rounded-lg" />
+          <img src="/images/blog-photos/electric-bug-zapper-light-in-a-backyard.jpg" alt="Electric bug zapper light in a backyard" className="w-full h-48 object-cover rounded-lg" />
         </div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Bug Zapper</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Flowtron BK-40D Electronic Insect Killer</h3>

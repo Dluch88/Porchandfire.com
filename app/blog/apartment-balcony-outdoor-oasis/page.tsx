@@ -12,6 +12,7 @@ const picks = [
   {
     rank: 1,
     name: 'Keter Bistro 3-Piece Resin Bistro Set',
+    image: '/images/products/keter-bistro-3-piece-resin-bistro-set.jpg',
     price: '$95',
     bestFor: 'Best Seating Foundation',
     summary:
@@ -23,6 +24,7 @@ const picks = [
   {
     rank: 2,
     name: 'Addlon 48ft Outdoor Edison String Lights',
+    image: '/images/products/addlon-48ft-outdoor-edison-string-lights.jpg',
     price: '$34',
     bestFor: 'Best Lighting for Small Spaces',
     summary:
@@ -34,6 +36,7 @@ const picks = [
   {
     rank: 3,
     name: 'Mkono Wall Hanging Planter Set of 3',
+    image: '/images/products/mkono-wall-hanging-planter-set-of-3.jpg',
     price: '$24',
     bestFor: 'Best Vertical Greenery',
     summary:
@@ -45,6 +48,7 @@ const picks = [
   {
     rank: 4,
     name: 'Ruggable Washable Outdoor Rug 3x5',
+    image: '/images/products/ruggable-washable-outdoor-rug-3x5.jpg',
     price: '$79',
     bestFor: 'Best Outdoor Rug',
     summary:
@@ -56,6 +60,7 @@ const picks = [
   {
     rank: 5,
     name: 'SONGMICS Folding Lounge Chair with Footrest',
+    image: '/images/products/songmics-folding-lounge-chair-with-footrest.jpg',
     price: '$89',
     bestFor: 'Best Lounge Option',
     summary:
@@ -114,7 +119,7 @@ export default function ApartmentBalconyOasis() {
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
+              <img src={pick.image} alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
             </div>
             <div className="flex items-start justify-between mb-3">
               <div>

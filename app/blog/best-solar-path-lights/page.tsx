@@ -12,7 +12,7 @@ export default function BestSolarPathLights() {
       <p className="text-sm text-gray-500 mb-8">Updated March 2026 · By Porch &amp; Fire</p>
 
       <div className="mb-8">
-        <img src="https://images.pexels.com/photos/2886937/pexels-photo-2886937.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Garden walkway lit by warm solar path lights at dusk" className="w-full h-48 object-cover rounded-lg" />
+        <img src="/images/blog-photos/garden-walkway-lit-by-warm-solar-path-lights-at-dusk.jpg" alt="Garden walkway lit by warm solar path lights at dusk" className="w-full h-48 object-cover rounded-lg" />
       </div>
 
       <div className="mb-12 text-gray-700 leading-relaxed space-y-4">
@@ -21,7 +21,7 @@ export default function BestSolarPathLights() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/1108701/pexels-photo-1108701.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Solar path lights lining a garden walkway" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/solar-path-lights-lining-a-garden-walkway.jpg" alt="Solar path lights lining a garden walkway" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Value Pack</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">GIGALUMI Solar Pathway Lights (12-Pack)</h3>
         <p className="text-gray-700 leading-relaxed mb-4">Twelve lights for under $30. These stainless steel path lights charge during the day and glow warm white for up to 10 hours after dark. They stake into the ground in seconds — no wiring, no digging, no electrician.</p>
@@ -33,7 +33,7 @@ export default function BestSolarPathLights() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/2249602/pexels-photo-2249602.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bright solar lights illuminating a walkway at night" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/bright-solar-lights-illuminating-a-walkway-at-night.jpg" alt="Bright solar lights illuminating a walkway at night" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Brightness</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">SOLPEX Solar Lights Outdoor (16-Pack)</h3>
         <p className="text-gray-700 leading-relaxed mb-4">If the GIGALUMI set is too dim for your taste, SOLPEX steps it up. Each light puts out noticeably more lumens while keeping that warm amber tone. The glass lens housing looks more polished than basic plastic models. At 16 lights per pack, you have enough for a long driveway.</p>
@@ -45,7 +45,7 @@ export default function BestSolarPathLights() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Decorative bronze solar path light casting shadow patterns" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/decorative-bronze-solar-path-light-casting-shadow-patterns.jpg" alt="Decorative bronze solar path light casting shadow patterns" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Looking</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">BEAU JARDIN Solar Pathway Lights (8-Pack)</h3>
         <p className="text-gray-700 leading-relaxed mb-4">These are the ones people actually compliment. The bronze finish and patterned top cap cast a decorative light pattern on the ground around each stake. They look like landscape lighting that cost ten times the price.</p>
@@ -57,7 +57,7 @@ export default function BestSolarPathLights() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/3038740/pexels-photo-3038740.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Solar tiki torch lights with flickering flame effect in a backyard" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/solar-tiki-torch-lights-with-flickering-flame-effect-in-a-ba.jpg" alt="Solar tiki torch lights with flickering flame effect in a backyard" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Tiki Torch Style</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Brightown Solar Torch Lights (4-Pack)</h3>
         <p className="text-gray-700 leading-relaxed mb-4">These are not traditional path lights — they are solar-powered tiki torches with a flickering flame LED that looks surprisingly realistic from a distance. Stake them along a pathway, around the fire pit, or at the corners of your patio.</p>
@@ -69,7 +69,7 @@ export default function BestSolarPathLights() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/2569842/pexels-photo-2569842.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Flush-mount in-ground solar lights along a driveway" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/flush-mount-in-ground-solar-lights-along-a-driveway.jpg" alt="Flush-mount in-ground solar lights along a driveway" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Flush-Mount / In-Ground</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">URPOWER Solar Lights In-Ground (8-Pack)</h3>
         <p className="text-gray-700 leading-relaxed mb-4">These sit flush with the ground instead of staking up on a post. Great for driveways, deck borders, and anywhere you do not want a light sticking up that someone could trip over or a mower could hit. They are IP65 waterproof and can handle being driven over.</p>

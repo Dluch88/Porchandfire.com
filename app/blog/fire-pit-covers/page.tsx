@@ -10,6 +10,7 @@ const picks = [
   {
     rank: 1,
     name: 'Classic Accessories Ravenna Fire Pit Cover',
+    image: '/images/products/classic-accessories-ravenna-fire-pit-cover.jpg',
     price: '$45–$65',
     bestFor: 'Best Overall',
     summary:
@@ -21,6 +22,7 @@ const picks = [
   {
     rank: 2,
     name: 'Solo Stove Shelter (fits Bonfire)',
+    image: '/images/products/solo-stove-shelter-fits-bonfire.jpg',
     price: '$89',
     bestFor: 'Best for Solo Stove Owners',
     summary:
@@ -32,6 +34,7 @@ const picks = [
   {
     rank: 3,
     name: 'Duck Covers Elite Patio Fire Pit Cover',
+    image: '/images/products/duck-covers-elite-patio-fire-pit-cover.jpg',
     price: '$59–$79',
     bestFor: 'Best for Heavy Rain',
     summary:
@@ -43,6 +46,7 @@ const picks = [
   {
     rank: 4,
     name: 'Covermates Fire Pit Cover',
+    image: '/images/products/covermates-fire-pit-cover.jpg',
     price: '$35–$50',
     bestFor: 'Best Value',
     summary:
@@ -54,6 +58,7 @@ const picks = [
   {
     rank: 5,
     name: 'Breeo Fire Pit Cover (fits X and Y Series)',
+    image: '/images/products/breeo-fire-pit-cover-fits-x-and-y-series.jpg',
     price: '$79',
     bestFor: 'Best for Breeo Owners',
     summary:

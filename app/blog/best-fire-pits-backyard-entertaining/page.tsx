@@ -14,6 +14,7 @@ const picks = [
     rank: 1,
     badge: '🏆 Best Overall',
     name: 'Solo Stove Bonfire 2.0',
+    image: '/images/products/solo-stove-bonfire-2-0.jpg',
     price: '$349',
     bestFor: 'Homeowners who want a premium, low-smoke experience',
     pros: [
@@ -35,6 +36,7 @@ const picks = [
     rank: 2,
     badge: '💰 Best Budget',
     name: 'Yaheetech 32" Outdoor Fire Pit',
+    image: '/images/products/yaheetech-32-outdoor-fire-pit.jpg',
     price: '$69',
     bestFor: 'First-time fire pit buyers or renters with a patio',
     pros: [
@@ -56,6 +58,7 @@ const picks = [
     rank: 3,
     badge: '🔥 Best Smokeless',
     name: 'Breeo X Series 24 Smokeless Fire Pit',
+    image: '/images/products/breeo-x-series-24-smokeless-fire-pit.jpg',
     price: '$429',
     bestFor: 'Serious entertainers who want a permanent backyard centerpiece',
     pros: [
@@ -77,6 +80,7 @@ const picks = [
     rank: 4,
     badge: '⚡ Best Propane',
     name: 'Outland Living Series 401 Propane Fire Pit',
+    image: '/images/products/outland-living-series-401-propane-fire-pit.jpg',
     price: '$189',
     bestFor: 'HOA neighborhoods, apartments with patios, or anyone who hates cleanup',
     pros: [
@@ -98,6 +102,7 @@ const picks = [
     rank: 5,
     badge: '🌟 Best for Small Patios',
     name: 'Tiki Brand 25" Fire Pit',
+    image: '/images/products/tiki-brand-25-fire-pit.jpg',
     price: '$149',
     bestFor: 'Smaller patios or decks where space is limited',
     pros: [

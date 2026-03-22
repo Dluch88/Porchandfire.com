@@ -12,6 +12,7 @@ const picks = [
   {
     rank: 1,
     name: 'Weber Spirit II E-310 Gas Grill',
+    image: '/images/products/weber-spirit-ii-e-310-gas-grill.jpg',
     price: '$379',
     bestFor: 'Best Gas Grill',
     summary:
@@ -23,6 +24,7 @@ const picks = [
   {
     rank: 2,
     name: 'Char-Broil Classic 4-Burner Gas Grill',
+    image: '/images/products/char-broil-classic-4-burner-gas-grill.jpg',
     price: '$230',
     bestFor: 'Best Budget Gas Grill',
     summary:
@@ -34,6 +36,7 @@ const picks = [
   {
     rank: 3,
     name: 'Weber Original Kettle Premium 22-Inch Charcoal Grill',
+    image: '/images/products/weber-original-kettle-premium-22-inch-charcoal-grill.jpg',
     price: '$179',
     bestFor: 'Best Charcoal Grill',
     summary:
@@ -45,6 +48,7 @@ const picks = [
   {
     rank: 4,
     name: 'Char-Griller Akorn Kamado Kooker',
+    image: '/images/products/char-griller-akorn-kamado-kooker.jpg',
     price: '$255',
     bestFor: 'Best Kamado Charcoal',
     summary:
@@ -56,6 +60,7 @@ const picks = [
   {
     rank: 5,
     name: 'Weber Performer Deluxe 22-Inch Charcoal Grill',
+    image: '/images/products/weber-performer-deluxe-22-inch-charcoal-grill.jpg',
     price: '$399',
     bestFor: 'Best Premium Charcoal',
     summary:
@@ -115,7 +120,7 @@ export default function GasVsCharcoalGrill() {
         {picks.map((pick) => (
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600" alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
+              <img src={pick.image} alt={pick.name} className="w-full h-48 object-cover rounded-lg" />
             </div>
             <div className="flex items-start justify-between mb-3">
               <div>

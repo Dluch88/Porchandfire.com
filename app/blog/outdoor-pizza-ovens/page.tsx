@@ -10,6 +10,7 @@ const picks = [
   {
     rank: 1,
     name: 'Ooni Karu 16 Multi-Fuel Pizza Oven',
+    image: '/images/products/ooni-karu-16-multi-fuel-pizza-oven.jpg',
     price: '$699',
     bestFor: 'Best Overall',
     summary:
@@ -21,6 +22,7 @@ const picks = [
   {
     rank: 2,
     name: 'Ooni Koda 16 Gas Pizza Oven',
+    image: '/images/products/ooni-koda-16-gas-pizza-oven.jpg',
     price: '$499',
     bestFor: 'Best Gas-Only Option',
     summary:
@@ -32,6 +34,7 @@ const picks = [
   {
     rank: 3,
     name: 'Roccbox by Gozney',
+    image: '/images/products/roccbox-by-gozney.jpg',
     price: '$599',
     bestFor: 'Best for Serious Home Pizzamakers',
     summary:
@@ -43,6 +46,7 @@ const picks = [
   {
     rank: 4,
     name: 'Bertello Outdoor Pizza Oven (As Seen on Shark Tank)',
+    image: '/images/products/bertello-outdoor-pizza-oven-as-seen-on-shark-tank.jpg',
     price: '$349',
     bestFor: 'Best Mid-Range Multi-Fuel',
     summary:
@@ -54,6 +58,7 @@ const picks = [
   {
     rank: 5,
     name: 'Ooni Fyra 12 Wood Pellet Pizza Oven',
+    image: '/images/products/ooni-fyra-12-wood-pellet-pizza-oven.jpg',
     price: '$349',
     bestFor: 'Best Entry-Level Wood Oven',
     summary:

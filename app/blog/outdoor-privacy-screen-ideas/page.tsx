@@ -12,7 +12,7 @@ export default function OutdoorPrivacyScreenIdeas() {
       <p className="text-sm text-gray-500 mb-8">Updated March 2026 · By Porch &amp; Fire</p>
 
       <div className="mb-8">
-        <img src="https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Private backyard patio surrounded by lush greenery" className="w-full h-48 object-cover rounded-lg" />
+        <img src="/images/blog-photos/private-backyard-patio-surrounded-by-lush-greenery.jpg" alt="Private backyard patio surrounded by lush greenery" className="w-full h-48 object-cover rounded-lg" />
       </div>
 
       <div className="mb-12 text-gray-700 leading-relaxed space-y-4">
@@ -21,7 +21,7 @@ export default function OutdoorPrivacyScreenIdeas() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/6492103/pexels-photo-6492103.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Retractable side awning providing patio privacy" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/retractable-side-awning-providing-patio-privacy.jpg" alt="Retractable side awning providing patio privacy" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Retractable Option</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">TANG Outdoor Retractable Side Awning</h3>
         <p className="text-gray-700 leading-relaxed mb-4">This pulls out like a retractable awning but goes sideways. Mount it to a post or wall, pull it across when you want privacy, and retract it when you do not. Great for patios where you only need screening from one direction.</p>
@@ -33,7 +33,7 @@ export default function OutdoorPrivacyScreenIdeas() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/5997993/pexels-photo-5997993.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Natural bamboo reed fencing along a patio border" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/natural-bamboo-reed-fencing-along-a-patio-border.jpg" alt="Natural bamboo reed fencing along a patio border" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Natural Look</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">FOREVER BAMBOO Natural Reed Fencing (6ft x 16ft)</h3>
         <p className="text-gray-700 leading-relaxed mb-4">Nothing beats the look of natural reed fencing if you are going for a tropical or bohemian patio vibe. Zip-tie it to an existing chain-link fence or attach it to posts with wire. At 6 feet tall and 16 feet long, one roll covers a decent stretch.</p>
@@ -45,7 +45,7 @@ export default function OutdoorPrivacyScreenIdeas() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/6444260/pexels-photo-6444260.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Freestanding outdoor privacy screen panel" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/freestanding-outdoor-privacy-screen-panel.jpg" alt="Freestanding outdoor privacy screen panel" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Freestanding</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">ELEVENS Outdoor Privacy Screen (3-Panel)</h3>
         <p className="text-gray-700 leading-relaxed mb-4">If you rent or just do not want to drill into anything, a freestanding screen is the move. This three-panel setup folds out to about 6 feet wide, stands 6 feet tall, and stays upright on its own.</p>
@@ -57,7 +57,7 @@ export default function OutdoorPrivacyScreenIdeas() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/5997967/pexels-photo-5997967.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Privacy fence screen attached to a chain link fence" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/privacy-fence-screen-attached-to-a-chain-link-fence.jpg" alt="Privacy fence screen attached to a chain link fence" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best for Existing Fences</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">FenceScreen 90% Privacy Fence Screen (6ft x 50ft)</h3>
         <p className="text-gray-700 leading-relaxed mb-4">Got a chain-link fence that does zero for privacy? This mesh screen attaches with included zip ties and blocks 90% of visibility while still allowing airflow. At 50 feet long, one roll covers a good chunk of your fence line.</p>
@@ -69,7 +69,7 @@ export default function OutdoorPrivacyScreenIdeas() {
       </div>
 
       <div className="border border-gray-200 rounded-xl p-6 mb-8">
-        <div className="mb-4 flex justify-center"><img src="https://images.pexels.com/photos/4503273/pexels-photo-4503273.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Garden trellis with climbing plants providing natural privacy" className="w-full h-48 object-cover rounded-lg" /></div>
+        <div className="mb-4 flex justify-center"><img src="/images/blog-photos/garden-trellis-with-climbing-plants-providing-natural-privac.jpg" alt="Garden trellis with climbing plants providing natural privacy" className="w-full h-48 object-cover rounded-lg" /></div>
         <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best for Growing Plants On</span>
         <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Amagabeli Decorative Garden Trellis (4-Pack)</h3>
         <p className="text-gray-700 leading-relaxed mb-4">The long game play. Stake these metal trellises along the edge of your patio and train climbing plants like clematis, jasmine, or climbing hydrangea up them. Within one growing season you get a living privacy wall that looks incredible and smells even better.</p>
