@@ -48,7 +48,7 @@ const picks = [
   {
     rank: 4,
     name: 'Sunnydaze 3-Tier Metal Rolling Bar Cart with Removable Tray',
-    image: '/images/products/sunnydaze-3-tier-metal-rolling-bar-cart-with-removable-tray.jpg''W+3-Tier+Metal+Bar+Car+with+Wine+Rack,+Removable+Tray,+and+Locking+Wheels.jpg',
+    image: '/images/products/sunnydaze-3-tier-metal-rolling-bar-cart-with-removable-tray.jpg',
     price: '$75',
     bestFor: 'Best Versatile Setup',
     summary:
