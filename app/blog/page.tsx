@@ -308,6 +308,41 @@ const posts = [
     readTime: '8 min read',
     href: '/blog/best-outdoor-bluetooth-speakers',
   },
+  {
+    title: 'Best Patio Umbrellas for Sun and Rain Protection',
+    excerpt: 'Find the best patio umbrella for your deck. Cantilever, market, and tilt styles compared by size and durability.',
+    category: 'Patio Design',
+    readTime: '8 min read',
+    href: '/blog/best-patio-umbrellas',
+  },
+  {
+    title: 'Best Porch Swings for Relaxing Outdoors',
+    excerpt: 'Wood, wicker, and poly lumber porch swings compared by comfort, durability, and price.',
+    category: 'Furniture',
+    readTime: '8 min read',
+    href: '/blog/best-porch-swings',
+  },
+  {
+    title: 'Best Outdoor Deck Boxes for Patio Storage',
+    excerpt: 'Keep your patio organized. Waterproof deck boxes compared by size, durability, and double-duty seating.',
+    category: 'Accessories',
+    readTime: '7 min read',
+    href: '/blog/best-outdoor-deck-boxes',
+  },
+  {
+    title: 'Best Fire Pit Tables for Your Patio',
+    excerpt: 'Combine warmth and function. Propane and gas fire pit tables that double as coffee tables.',
+    category: 'Fire Pits',
+    readTime: '9 min read',
+    href: '/blog/best-fire-pit-tables',
+  },
+  {
+    title: 'Best Outdoor Doormats That Actually Hold Up',
+    excerpt: 'Stop tracking dirt inside. Doormats tested for durability, dirt-trapping, and style.',
+    category: 'Accessories',
+    readTime: '7 min read',
+    href: '/blog/best-outdoor-doormats',
+  },
 ];
 
 export default function BlogPage() {

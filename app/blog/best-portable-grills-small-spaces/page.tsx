@@ -80,7 +80,7 @@ const picks = [
     rank: 4,
     badge: '🔥 Best Charcoal',
     name: 'Lodge Sportsman Hibachi Grill',
-    image: '/images/products/lodge-sportsman.jpg',
+    image: '/images/products/lodge-sportsman-hibachi-grill.jpg',
     price: '$119',
     bestFor: 'Serious cooks who want cast iron performance in a small form factor',
     pros: [
