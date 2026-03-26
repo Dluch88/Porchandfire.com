@@ -343,6 +343,41 @@ const posts = [
     readTime: '7 min read',
     href: '/blog/best-outdoor-doormats',
   },
+  {
+    title: 'Best Citronella Torches for Backyard Ambiance (2026)',
+    excerpt: 'Keep mosquitoes away while setting the mood. We compare tiki torches, tabletop torches, and modern citronella options for patios and yards.',
+    category: 'Outdoor Living',
+    readTime: '8 min read',
+    href: '/blog/best-citronella-torches',
+  },
+  {
+    title: 'Best Deck Lighting for Ambiance and Safety (2026)',
+    excerpt: 'Light up your deck without hiring an electrician. We compare solar, low-voltage, and plug-in deck lights for stairs, railings, and posts.',
+    category: 'Outdoor Living',
+    readTime: '8 min read',
+    href: '/blog/best-deck-lighting-ideas',
+  },
+  {
+    title: 'Best Garden Hose Reels to Keep Your Yard Tidy (2026)',
+    excerpt: 'Stop tripping over coiled hoses. We compare wall-mounted, freestanding, and retractable hose reels by capacity, durability, and ease of use.',
+    category: 'Outdoor Living',
+    readTime: '8 min read',
+    href: '/blog/best-garden-hose-reels',
+  },
+  {
+    title: 'Best Hammocks for Your Backyard (2026)',
+    excerpt: 'Turn your backyard into a relaxation zone. We compare rope, quilted, and hammock-with-stand options for every budget and space.',
+    category: 'Outdoor Living',
+    readTime: '8 min read',
+    href: '/blog/best-hammocks-backyard',
+  },
+  {
+    title: 'Best Lawn Games for Adult Backyard Parties (2026)',
+    excerpt: 'Make your backyard the place everyone wants to hang out. We compare cornhole, bocce, spikeball, and more for adult outdoor fun.',
+    category: 'Outdoor Living',
+    readTime: '8 min read',
+    href: '/blog/best-lawn-games-adults',
+  },
 ];
 
 export default function BlogPage() {
