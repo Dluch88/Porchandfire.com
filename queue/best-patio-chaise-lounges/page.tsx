@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Tangkula Outdoor Chaise Lounge Chair" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/tangkula-outdoor-chaise-lounge-chair.jpg" alt="Tangkula Outdoor Chaise Lounge Chair" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Tangkula Outdoor Chaise Lounge Chair</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="POLYWOOD Nautical Chaise" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/polywood-nautical-chaise.jpg" alt="POLYWOOD Nautical Chaise" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Zero Maintenance</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">POLYWOOD Nautical Chaise</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Ostrich Deluxe 3-in-1 Beach Chair" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/ostrich-deluxe-3-in-1-beach-chair.jpg" alt="Ostrich Deluxe 3-in-1 Beach Chair" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Most Versatile</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Ostrich Deluxe 3-in-1 Beach Chair</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Crestlive Products Aluminum Adjustable Chaise" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/crestlive-products-aluminum-adjustable-chaise.jpg" alt="Crestlive Products Aluminum Adjustable Chaise" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Mid-Range</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Crestlive Products Aluminum Adjustable Chaise</h3>

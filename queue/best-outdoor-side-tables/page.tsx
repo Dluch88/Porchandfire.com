@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Grand Patio Steel Side Table" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/grand-patio-steel-side-table.jpg" alt="Grand Patio Steel Side Table" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Metal</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Grand Patio Steel Side Table</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Christopher Knight Home Outdoor Wicker Table" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/christopher-knight-home-outdoor-wicker-table.jpg" alt="Christopher Knight Home Outdoor Wicker Table" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Wicker</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Christopher Knight Home Outdoor Wicker Table</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Kante Lightweight Concrete Side Table" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/kante-lightweight-concrete-side-table.jpg" alt="Kante Lightweight Concrete Side Table" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Modern</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Kante Lightweight Concrete Side Table</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Camco Adirondack Folding Side Table" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/camco-adirondack-folding-side-table.jpg" alt="Camco Adirondack Folding Side Table" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Folding / Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Camco Adirondack Folding Side Table</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Polywood South Beach Side Table" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/polywood-south-beach-side-table.jpg" alt="Polywood South Beach Side Table" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Premium</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Polywood South Beach Side Table</h3>

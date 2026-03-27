@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="TIKI Brand 65-Inch Royal Polynesian Torch" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/tiki-brand-65-inch-royal-polynesian-torch.jpg" alt="TIKI Brand 65-Inch Royal Polynesian Torch" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Classic Tiki</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">TIKI Brand 65-Inch Royal Polynesian Torch</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="TIKI Brand 2-in-1 SmartLight Torches (4-Pack)" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/tiki-brand-2-in-1-smartlight-torches-4-pack.jpg" alt="TIKI Brand 2-in-1 SmartLight Torches (4-Pack)" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Modern Design</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">TIKI Brand 2-in-1 SmartLight Torches (4-Pack)</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Lamplight TIKI Adjustable Flame Torch" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/lamplight-tiki-adjustable-flame-torch.jpg" alt="Lamplight TIKI Adjustable Flame Torch" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Lamplight TIKI Adjustable Flame Torch</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Mainstays Citronella Tabletop Torch (3-Pack)" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/mainstays-citronella-tabletop-torch-3-pack.jpg" alt="Mainstays Citronella Tabletop Torch (3-Pack)" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Tabletop</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Mainstays Citronella Tabletop Torch (3-Pack)</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Hyoola Citronella Torch Candles (12-Pack)" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/hyoola-citronella-torch-candles-12-pack.jpg" alt="Hyoola Citronella Torch Candles (12-Pack)" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Candle Torch</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Hyoola Citronella Torch Candles (12-Pack)</h3>

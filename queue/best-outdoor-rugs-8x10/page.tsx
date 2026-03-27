@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Reversible Mats Outdoor Patio Rug 8x10" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/reversible-mats-outdoor-patio-rug-8x10.jpg" alt="Reversible Mats Outdoor Patio Rug 8x10" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Reversible Mats Outdoor Patio Rug 8x10</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Safavieh Courtyard Collection Indoor/Outdoor Rug" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/safavieh-courtyard-collection-indoor-outdoor-rug.jpg" alt="Safavieh Courtyard Collection Indoor/Outdoor Rug" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Safavieh Courtyard Collection Indoor/Outdoor Rug</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="HUGEAR Outdoor Rug Waterproof 8x10" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/hugear-outdoor-rug-waterproof-8x10.jpg" alt="HUGEAR Outdoor Rug Waterproof 8x10" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Waterproof</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">HUGEAR Outdoor Rug Waterproof 8x10</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="nuLOOM Asha Tribal Indoor/Outdoor Rug" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/nuloom-asha-tribal-indoor-outdoor-rug.jpg" alt="nuLOOM Asha Tribal Indoor/Outdoor Rug" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Styled</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">nuLOOM Asha Tribal Indoor/Outdoor Rug</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="KOZYFLY Boho Outdoor Rug 8x10" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/kozyfly-boho-outdoor-rug-8x10.jpg" alt="KOZYFLY Boho Outdoor Rug 8x10" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Boho Style</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">KOZYFLY Boho Outdoor Rug 8x10</h3>

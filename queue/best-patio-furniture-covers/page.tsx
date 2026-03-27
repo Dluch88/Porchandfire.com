@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="KylinLucky Patio Furniture Covers" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/kylinlucky-patio-furniture-covers.jpg" alt="KylinLucky Patio Furniture Covers" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">KylinLucky Patio Furniture Covers</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Vailge Patio Furniture Covers" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/vailge-patio-furniture-covers.jpg" alt="Vailge Patio Furniture Covers" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Vailge Patio Furniture Covers</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Classic Accessories Ravenna Patio Cover" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/classic-accessories-ravenna-patio-cover.jpg" alt="Classic Accessories Ravenna Patio Cover" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Fit System</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Classic Accessories Ravenna Patio Cover</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="ULTCOVER Waterproof Patio Furniture Cover" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/ultcover-waterproof-patio-furniture-cover.jpg" alt="ULTCOVER Waterproof Patio Furniture Cover" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Waterproof</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">ULTCOVER Waterproof Patio Furniture Cover</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Duck Covers Ultimate Patio Cover" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/duck-covers-ultimate-patio-cover.jpg" alt="Duck Covers Ultimate Patio Cover" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Premium</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Duck Covers Ultimate Patio Cover</h3>

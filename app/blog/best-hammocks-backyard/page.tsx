@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Hatteras Hammocks Deluxe DuraCord Rope Hammock" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/hatteras-hammocks-deluxe-duracord-rope-hammock.jpg" alt="Hatteras Hammocks Deluxe DuraCord Rope Hammock" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Rope Hammock</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Hatteras Hammocks Deluxe DuraCord Rope Hammock</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Vivere Double Cotton Hammock with Stand" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/vivere-double-cotton-hammock-with-stand.jpg" alt="Vivere Double Cotton Hammock with Stand" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best with Stand</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Vivere Double Cotton Hammock with Stand</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Lazy Daze Double Quilted Hammock" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/lazy-daze-double-quilted-hammock.jpg" alt="Lazy Daze Double Quilted Hammock" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Quilted</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Lazy Daze Double Quilted Hammock</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Wise Owl Outfitters Camping Hammock" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/wise-owl-outfitters-camping-hammock.jpg" alt="Wise Owl Outfitters Camping Hammock" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Lightweight / Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Wise Owl Outfitters Camping Hammock</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="ENO DoubleNest Hammock" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/eno-doublenest-hammock.jpg" alt="ENO DoubleNest Hammock" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Premium Portable</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">ENO DoubleNest Hammock</h3>

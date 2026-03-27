@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Intex River Run Lounge" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/intex-river-run-lounge.jpg" alt="Intex River Run Lounge" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Intex River Run Lounge</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Kelsyus Floating Hammock" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/kelsyus-floating-hammock.jpg" alt="Kelsyus Floating Hammock" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Hammock Float</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Kelsyus Floating Hammock</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Aqua Leisure 4-in-1 Monterey Hammock" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/aqua-leisure-4-in-1-monterey-hammock.jpg" alt="Aqua Leisure 4-in-1 Monterey Hammock" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Aqua Leisure 4-in-1 Monterey Hammock</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Frontgate Classic Pool Float" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/frontgate-classic-pool-float.jpg" alt="Frontgate Classic Pool Float" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Premium Lounger</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Frontgate Classic Pool Float</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="GoFloats Giant Inflatable Pool Float" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/gofloats-giant-inflatable-pool-float.jpg" alt="GoFloats Giant Inflatable Pool Float" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Novelty</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">GoFloats Giant Inflatable Pool Float</h3>

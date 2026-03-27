@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Geek Aire Rechargeable Outdoor Floor Fan" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/geek-aire-rechargeable-outdoor-floor-fan.jpg" alt="Geek Aire Rechargeable Outdoor Floor Fan" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Geek Aire Rechargeable Outdoor Floor Fan</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Coleman OneSource Rechargeable Fan" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/coleman-onesource-rechargeable-fan.jpg" alt="Coleman OneSource Rechargeable Fan" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best for Camping</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Coleman OneSource Rechargeable Fan</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="JISULIFE Portable Clip Fan" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/jisulife-portable-clip-fan.jpg" alt="JISULIFE Portable Clip Fan" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Clip-On</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">JISULIFE Portable Clip Fan</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Ryobi 18V ONE+ Hybrid Fan" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/ryobi-18v-one-hybrid-fan.jpg" alt="Ryobi 18V ONE+ Hybrid Fan" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Power Tool Battery</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Ryobi 18V ONE+ Hybrid Fan</h3>

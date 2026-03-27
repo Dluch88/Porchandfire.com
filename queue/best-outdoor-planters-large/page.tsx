@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Bloem Modica Deck Rail Planter 24-Inch" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/bloem-modica-deck-rail-planter-24-inch.jpg" alt="Bloem Modica Deck Rail Planter 24-Inch" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Bloem Modica Deck Rail Planter 24-Inch</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="La Jolie Muse 20-Inch Tall Planter (Set of 2)" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/la-jolie-muse-20-inch-tall-planter-set-of-2.jpg" alt="La Jolie Muse 20-Inch Tall Planter (Set of 2)" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Value Set</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">La Jolie Muse 20-Inch Tall Planter (Set of 2)</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Kante Lightweight Concrete Tall Planter" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/kante-lightweight-concrete-tall-planter.jpg" alt="Kante Lightweight Concrete Tall Planter" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Modern</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Kante Lightweight Concrete Tall Planter</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Lechuza Cubico Color 30 Self-Watering Planter" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/lechuza-cubico-color-30-self-watering-planter.jpg" alt="Lechuza Cubico Color 30 Self-Watering Planter" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Self-Watering</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Lechuza Cubico Color 30 Self-Watering Planter</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Veradek Metallic Series 32-Inch Tall Planter" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/veradek-metallic-series-32-inch-tall-planter.jpg" alt="Veradek Metallic Series 32-Inch Tall Planter" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Statement Piece</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Veradek Metallic Series 32-Inch Tall Planter</h3>

@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Permasteel 80-Quart Rolling Patio Cooler" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/permasteel-80-quart-rolling-patio-cooler.jpg" alt="Permasteel 80-Quart Rolling Patio Cooler" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Rolling Cart</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Permasteel 80-Quart Rolling Patio Cooler</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Keter Breeze Bar Cooler Table" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/keter-breeze-bar-cooler-table.jpg" alt="Keter Breeze Bar Cooler Table" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Cooler-Table Combo</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Keter Breeze Bar Cooler Table</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Igloo Party Bar Cooler" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/igloo-party-bar-cooler.jpg" alt="Igloo Party Bar Cooler" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best for Large Parties</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Igloo Party Bar Cooler</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Coleman 316 Series 62-Quart Rolling Cooler" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/coleman-316-series-62-quart-rolling-cooler.jpg" alt="Coleman 316 Series 62-Quart Rolling Cooler" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Coleman 316 Series 62-Quart Rolling Cooler</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="YETI Tundra Haul Wheeled Cooler" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/yeti-tundra-haul-wheeled-cooler.jpg" alt="YETI Tundra Haul Wheeled Cooler" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Premium</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">YETI Tundra Haul Wheeled Cooler</h3>

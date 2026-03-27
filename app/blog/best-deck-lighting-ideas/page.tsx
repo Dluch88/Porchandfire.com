@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="SOLPEX Solar Deck Lights (16-Pack)" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/solpex-solar-deck-lights-16-pack.jpg" alt="SOLPEX Solar Deck Lights (16-Pack)" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Solar Stair Lights</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">SOLPEX Solar Deck Lights (16-Pack)</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="MAGGIFT Solar Post Cap Lights (8-Pack)" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/maggift-solar-post-cap-lights-8-pack.jpg" alt="MAGGIFT Solar Post Cap Lights (8-Pack)" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Post Cap Lights</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">MAGGIFT Solar Post Cap Lights (8-Pack)</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="HitLights LED Strip Lights Outdoor 50ft" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/hitlights-led-strip-lights-outdoor-50ft.jpg" alt="HitLights LED Strip Lights Outdoor 50ft" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Under-Rail Strip</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">HitLights LED Strip Lights Outdoor 50ft</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Malibu Low Voltage LED Deck Light (6-Pack)" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/malibu-low-voltage-led-deck-light-6-pack.jpg" alt="Malibu Low Voltage LED Deck Light (6-Pack)" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Low-Voltage</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Malibu Low Voltage LED Deck Light (6-Pack)</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Brightech Ambience Pro Solar String Lights" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/brightech-ambience-pro-solar-string-lights.jpg" alt="Brightech Ambience Pro Solar String Lights" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best String Lights for Decks</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Brightech Ambience Pro Solar String Lights</h3>

@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="AcuRite 24-Inch Illuminated Outdoor Clock with Thermometer" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/acurite-24-inch-illuminated-outdoor-clock-with-thermometer.jpg" alt="AcuRite 24-Inch Illuminated Outdoor Clock with Thermometer" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">AcuRite 24-Inch Illuminated Outdoor Clock with Thermometer</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="La Crosse 18-Inch Atomic Outdoor Clock" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/la-crosse-18-inch-atomic-outdoor-clock.jpg" alt="La Crosse 18-Inch Atomic Outdoor Clock" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Accuracy</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">La Crosse 18-Inch Atomic Outdoor Clock</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Lily\'s Home Hanging Verdigris Outdoor Clock with Thermometer" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/lily-s-home-hanging-verdigris-outdoor-clock-with-thermometer.jpg" alt="Lily\'s Home Hanging Verdigris Outdoor Clock with Thermometer" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Decorative</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Lily's Home Hanging Verdigris Outdoor Clock with Thermometer</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Marathon Atomic Wall Clock" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/marathon-atomic-wall-clock.jpg" alt="Marathon Atomic Wall Clock" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Marathon Atomic Wall Clock</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Bulova Thistle Indoor/Outdoor Wall Clock" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/bulova-thistle-indoor-outdoor-wall-clock.jpg" alt="Bulova Thistle Indoor/Outdoor Wall Clock" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Premium</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Bulova Thistle Indoor/Outdoor Wall Clock</h3>

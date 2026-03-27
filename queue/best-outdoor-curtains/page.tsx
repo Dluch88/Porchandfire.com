@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="NICETOWN Outdoor Curtains Grommet Top" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/nicetown-outdoor-curtains-grommet-top.jpg" alt="NICETOWN Outdoor Curtains Grommet Top" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">NICETOWN Outdoor Curtains Grommet Top</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="RYB HOME Outdoor Waterproof Curtains" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/ryb-home-outdoor-waterproof-curtains.jpg" alt="RYB HOME Outdoor Waterproof Curtains" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Waterproof</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">RYB HOME Outdoor Waterproof Curtains</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="LORDTEX Burlap Linen Look Outdoor Curtains" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/lordtex-burlap-linen-look-outdoor-curtains.jpg" alt="LORDTEX Burlap Linen Look Outdoor Curtains" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Look</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">LORDTEX Burlap Linen Look Outdoor Curtains</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Hiasan Sheer Outdoor Curtains" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/hiasan-sheer-outdoor-curtains.jpg" alt="Hiasan Sheer Outdoor Curtains" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget / Sheer</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Hiasan Sheer Outdoor Curtains</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Exclusive Home Curtains Indoor/Outdoor Cabana" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/exclusive-home-curtains-indoor-outdoor-cabana.jpg" alt="Exclusive Home Curtains Indoor/Outdoor Cabana" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Striped / Cabana Look</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Exclusive Home Curtains Indoor/Outdoor Cabana</h3>

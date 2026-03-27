@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Giraffe Tools Retractable Garden Hose Reel" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/giraffe-tools-retractable-garden-hose-reel.jpg" alt="Giraffe Tools Retractable Garden Hose Reel" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Retractable</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Giraffe Tools Retractable Garden Hose Reel</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Suncast Aquawinder Auto Hose Reel" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/suncast-aquawinder-auto-hose-reel.jpg" alt="Suncast Aquawinder Auto Hose Reel" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Suncast Aquawinder Auto Hose Reel</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Yard Butler Hose Reel Cart" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/yard-butler-hose-reel-cart.jpg" alt="Yard Butler Hose Reel Cart" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Portable Cart</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Yard Butler Hose Reel Cart</h3>

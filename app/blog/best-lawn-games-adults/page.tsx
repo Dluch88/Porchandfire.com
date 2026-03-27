@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="GoSports Regulation Size Cornhole Set" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/gosports-regulation-size-cornhole-set.jpg" alt="GoSports Regulation Size Cornhole Set" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">GoSports Regulation Size Cornhole Set</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Franklin Sports Bocce Ball Set" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/franklin-sports-bocce-ball-set.jpg" alt="Franklin Sports Bocce Ball Set" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best for All Ages</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Franklin Sports Bocce Ball Set</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Spikeball Pro Kit" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/spikeball-pro-kit.jpg" alt="Spikeball Pro Kit" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Active Game</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Spikeball Pro Kit</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Yard Games Giant Tumbling Timbers" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/yard-games-giant-tumbling-timbers.jpg" alt="Yard Games Giant Tumbling Timbers" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Party Game</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Yard Games Giant Tumbling Timbers</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="GoSports Foldable Outdoor Putting Green" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/gosports-foldable-outdoor-putting-green.jpg" alt="GoSports Foldable Outdoor Putting Green" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best for Golf Lovers</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">GoSports Foldable Outdoor Putting Green</h3>

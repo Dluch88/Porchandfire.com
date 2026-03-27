@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Backyard Discovery Arcadia Wooden Pergola" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/backyard-discovery-arcadia-wooden-pergola.jpg" alt="Backyard Discovery Arcadia Wooden Pergola" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Wood</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Backyard Discovery Arcadia Wooden Pergola</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="PURPLE LEAF 10x13 Aluminum Pergola with Louvered Roof" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/purple-leaf-10x13-aluminum-pergola-with-louvered-roof.jpg" alt="PURPLE LEAF 10x13 Aluminum Pergola with Louvered Roof" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Adjustable Shade</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">PURPLE LEAF 10x13 Aluminum Pergola with Louvered Roof</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Sunjoy Outdoor Steel Pergola with Canopy" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/sunjoy-outdoor-steel-pergola-with-canopy.jpg" alt="Sunjoy Outdoor Steel Pergola with Canopy" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best with Canopy</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Sunjoy Outdoor Steel Pergola with Canopy</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="TOJA GRID Modular Pergola Kit" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/toja-grid-modular-pergola-kit.jpg" alt="TOJA GRID Modular Pergola Kit" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Modular / DIY</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">TOJA GRID Modular Pergola Kit</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Domi Outdoor Living 10x12 Vinyl Pergola" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/domi-outdoor-living-10x12-vinyl-pergola.jpg" alt="Domi Outdoor Living 10x12 Vinyl Pergola" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Low Maintenance</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Domi Outdoor Living 10x12 Vinyl Pergola</h3>

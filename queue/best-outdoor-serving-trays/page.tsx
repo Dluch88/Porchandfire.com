@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Bambu Bamboo Serving Tray with Handles" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/bambu-bamboo-serving-tray-with-handles.jpg" alt="Bambu Bamboo Serving Tray with Handles" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Natural</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Bambu Bamboo Serving Tray with Handles</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="US Acrylic Bistro Nested Serving Trays (Set of 3)" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/us-acrylic-bistro-nested-serving-trays-set-of-3.jpg" alt="US Acrylic Bistro Nested Serving Trays (Set of 3)" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget Set</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">US Acrylic Bistro Nested Serving Trays (Set of 3)</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Certified International Melamine Tray" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/certified-international-melamine-tray.jpg" alt="Certified International Melamine Tray" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Melamine</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Certified International Melamine Tray</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="RTIC Soft Pack Insulated Tray" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/rtic-soft-pack-insulated-tray.jpg" alt="RTIC Soft Pack Insulated Tray" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Insulated</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">RTIC Soft Pack Insulated Tray</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Rossie Home Lap Tray with Cushion" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/rossie-home-lap-tray-with-cushion.jpg" alt="Rossie Home Lap Tray with Cushion" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best for Lounging</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Rossie Home Lap Tray with Cushion</h3>

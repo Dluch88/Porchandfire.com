@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Ring Solar Floodlight" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/ring-solar-floodlight.jpg" alt="Ring Solar Floodlight" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Smart / Solar</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Ring Solar Floodlight</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Mr Beams Ultra Bright Spotlight" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/mr-beams-ultra-bright-spotlight.jpg" alt="Mr Beams Ultra Bright Spotlight" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Battery</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Mr Beams Ultra Bright Spotlight</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="LITOM Original Solar Motion Lights (4-Pack)" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/litom-original-solar-motion-lights-4-pack.jpg" alt="LITOM Original Solar Motion Lights (4-Pack)" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget Pack</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">LITOM Original Solar Motion Lights (4-Pack)</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="RAB Lighting STL360H Super Stealth" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/rab-lighting-stl360h-super-stealth.jpg" alt="RAB Lighting STL360H Super Stealth" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Hardwired</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">RAB Lighting STL360H Super Stealth</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Leonlite LED Security Lights 3-Head" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/leonlite-led-security-lights-3-head.jpg" alt="Leonlite LED Security Lights 3-Head" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Floodlight</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Leonlite LED Security Lights 3-Head</h3>

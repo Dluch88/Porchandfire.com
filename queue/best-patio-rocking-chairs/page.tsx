@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="POLYWOOD Presidential Outdoor Rocking Chair" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/polywood-presidential-outdoor-rocking-chair.jpg" alt="POLYWOOD Presidential Outdoor Rocking Chair" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">POLYWOOD Presidential Outdoor Rocking Chair</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Best Choice Products All-Weather Rocking Chair" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/best-choice-products-all-weather-rocking-chair.jpg" alt="Best Choice Products All-Weather Rocking Chair" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Best Choice Products All-Weather Rocking Chair</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Trex Outdoor Furniture Yacht Club Rocking Chair" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/trex-outdoor-furniture-yacht-club-rocking-chair.jpg" alt="Trex Outdoor Furniture Yacht Club Rocking Chair" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Modern Style</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Trex Outdoor Furniture Yacht Club Rocking Chair</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Cambridge Casual Solid Wood Rocking Chair" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/cambridge-casual-solid-wood-rocking-chair.jpg" alt="Cambridge Casual Solid Wood Rocking Chair" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Real Wood</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Cambridge Casual Solid Wood Rocking Chair</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Tortuga Outdoor Bayview Wicker Rocking Chair" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/tortuga-outdoor-bayview-wicker-rocking-chair.jpg" alt="Tortuga Outdoor Bayview Wicker Rocking Chair" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Wicker</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Tortuga Outdoor Bayview Wicker Rocking Chair</h3>

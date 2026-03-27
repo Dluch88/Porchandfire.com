@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Suncast BMC3600 Tall Storage Cabinet" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/suncast-bmc3600-tall-storage-cabinet.jpg" alt="Suncast BMC3600 Tall Storage Cabinet" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Suncast BMC3600 Tall Storage Cabinet</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Rubbermaid Vertical Storage Shed" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/rubbermaid-vertical-storage-shed.jpg" alt="Rubbermaid Vertical Storage Shed" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Heavy-Duty</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Rubbermaid Vertical Storage Shed</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Patiowell Outdoor Storage Cabinet" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/patiowell-outdoor-storage-cabinet.jpg" alt="Patiowell Outdoor Storage Cabinet" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Looking</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Patiowell Outdoor Storage Cabinet</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="HOMSPARK Outdoor Storage Cabinet" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/homspark-outdoor-storage-cabinet.jpg" alt="HOMSPARK Outdoor Storage Cabinet" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">HOMSPARK Outdoor Storage Cabinet</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Keter Manor Tall Outdoor Storage Cabinet" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/keter-manor-tall-outdoor-storage-cabinet.jpg" alt="Keter Manor Tall Outdoor Storage Cabinet" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall Style</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Keter Manor Tall Outdoor Storage Cabinet</h3>

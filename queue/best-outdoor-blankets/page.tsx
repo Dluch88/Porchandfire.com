@@ -20,7 +20,7 @@ export default function Page() {
 
           <div key={0} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Rumpl Original Puffy Blanket" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/rumpl-original-puffy-blanket.jpg" alt="Rumpl Original Puffy Blanket" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Overall</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Rumpl Original Puffy Blanket</h3>
@@ -47,7 +47,7 @@ export default function Page() {
 
           <div key={1} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Pendleton Yakima Camp Blanket" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/pendleton-yakima-camp-blanket.jpg" alt="Pendleton Yakima Camp Blanket" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Wool</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Pendleton Yakima Camp Blanket</h3>
@@ -74,7 +74,7 @@ export default function Page() {
 
           <div key={2} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Oceas Waterproof Outdoor Blanket" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/oceas-waterproof-outdoor-blanket.jpg" alt="Oceas Waterproof Outdoor Blanket" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Waterproof</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Oceas Waterproof Outdoor Blanket</h3>
@@ -101,7 +101,7 @@ export default function Page() {
 
           <div key={3} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Bedsure Fleece Outdoor Blanket" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/bedsure-fleece-outdoor-blanket.jpg" alt="Bedsure Fleece Outdoor Blanket" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Budget</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Bedsure Fleece Outdoor Blanket</h3>
@@ -128,7 +128,7 @@ export default function Page() {
 
           <div key={4} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
-              <img src="/images/products/placeholder.jpg" alt="Kelty Bestie Blanket" className="w-full h-48 object-cover rounded-lg" />
+              <img src="/images/products/kelty-bestie-blanket.jpg" alt="Kelty Bestie Blanket" className="w-full h-48 object-cover rounded-lg" />
             </div>
             <span className="text-xs font-semibold uppercase tracking-widest text-orange-500">Best Packable</span>
             <h3 className="text-xl font-bold text-gray-900 mt-1 mb-3">Kelty Bestie Blanket</h3>
