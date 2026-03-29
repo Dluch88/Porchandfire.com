@@ -1,401 +1,214 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import fs from 'fs';
+import path from 'path';
 
 export const metadata: Metadata = {
-  title: 'All Guides',
-  description: 'Browse all Porch & Fire guides, product roundups, and outdoor living tips.',
+  title: 'Blog | Porch & Fire',
+  description:
+    'Browse all Porch & Fire guides, product roundups, and outdoor living tips for fire pits, patios, grills, and backyard entertaining.',
 };
 
-const posts = [
-  {
-    title: 'Best Fire Pits for Backyard Entertaining',
-    excerpt: 'We reviewed 12 fire pits across every price range — here are the 5 that deliver warmth, style, and durability.',
-    category: 'Fire Pits',
-    readTime: '8 min read',
-    href: '/blog/best-fire-pits-backyard-entertaining',
-  },
-  {
-    title: 'Best Outdoor Furniture for Your Patio',
-    excerpt: 'From budget-friendly to investment pieces — the outdoor furniture sets worth buying this season.',
-    category: 'Furniture',
-    readTime: '7 min read',
-    href: '/blog/best-outdoor-furniture-patio',
-  },
-  {
-    title: 'Best Pergolas for Shade and Style',
-    excerpt: 'A pergola can completely transform a bare patio. Here are the top picks that are easy to assemble and built to last.',
-    category: 'Pergolas',
-    readTime: '9 min read',
-    href: '/blog/best-pergolas-shade-style',
-  },
-{
-    title: 'Best Outdoor String Lights for Your Patio',
-    excerpt: 'Nothing upgrades a patio faster than the right string lights. Here are the five best picks for every budget and style.',
-    category: 'Lighting',
-    readTime: '7 min read',
-    href: '/blog/best-outdoor-string-lights-patio',
-  },
-  {
-    title: 'Best Portable Grills for Small Spaces',
-    excerpt: 'You don\'t need a big backyard to grill. These compact grills deliver real flavor on balconies, patios, and beyond.',
-    category: 'Grills',
-    readTime: '8 min read',
-    href: '/blog/best-portable-grills-small-spaces',
-  },
-  {
-    title: 'Best Bird Feeders for Your Yard',
-    excerpt: 'From classic squirrel-proof feeders to smart cameras that identify every bird that visits — the six best bird feeders worth buying.',
-    category: 'Bird Feeders',
-    readTime: '9 min read',
-    href: '/blog/best-bird-feeders-cameras',
-  },
-  {
-    title: 'Best Smokeless Fire Pits of 2026',
-    excerpt: 'We break down the top-rated smokeless models by size, price, and performance — so you can stop coughing and start enjoying your backyard.',
-    category: 'Fire Pits',
-    readTime: '9 min read',
-    href: '/blog/best-smokeless-fire-pits',
-  },
-  {
-    title: 'Propane vs Wood Fire Pit: Which Is Right?',
-    excerpt: 'Propane is convenient. Wood is authentic. Here\'s how to decide which type is actually right for your space, lifestyle, and local regulations.',
-    category: 'Fire Pits',
-    readTime: '7 min read',
-    href: '/blog/propane-vs-wood-fire-pit',
-  },
-  {
-    title: 'Best Fire Pit Covers',
-    excerpt: 'A good cover extends the life of your fire pit by years. Here are the best covers for round, square, and custom-size pits.',
-    category: 'Accessories',
-    readTime: '6 min read',
-    href: '/blog/fire-pit-covers',
-  },
-  {
-    title: 'Best Fire Pit Accessories',
-    excerpt: 'The right accessories make every fire pit session safer and more enjoyable — tools, spark screens, log racks, and more.',
-    category: 'Accessories',
-    readTime: '7 min read',
-    href: '/blog/fire-pit-accessories',
-  },
-  {
-    title: 'Best Fire Pit Cooking Grates & Grills',
-    excerpt: 'Want to cook over your fire pit? These are the best grates, swing-arm grills, and tripod setups for open-fire cooking.',
-    category: 'Grills',
-    readTime: '8 min read',
-    href: '/blog/fire-pit-cooking-grates',
-  },
-  {
-    title: 'Best Adirondack Chairs of 2026',
-    excerpt: 'We compared wood, poly lumber, and recycled plastic Adirondack chairs to find the best options for your backyard and budget.',
-    category: 'Seating',
-    readTime: '8 min read',
-    href: '/blog/best-adirondack-chairs',
-  },
-  {
-    title: 'Best Outdoor Sectional Sofas',
-    excerpt: 'An outdoor sectional transforms your patio into a real living space. Top picks across budget, mid-range, and premium.',
-    category: 'Seating',
-    readTime: '9 min read',
-    href: '/blog/outdoor-sectional-sofas',
-  },
-  {
-    title: 'Best Outdoor Pizza Ovens',
-    excerpt: 'The best outdoor pizza ovens reach 900°F for a genuine Neapolitan crust. Here are the top wood-fired and gas models.',
-    category: 'Pizza Ovens',
-    readTime: '8 min read',
-    href: '/blog/outdoor-pizza-ovens',
-  },
-  {
-    title: 'Best Patio Heaters of 2026',
-    excerpt: 'Extend your outdoor season by months. We compare propane tower heaters, electric infrared, and tabletop models.',
-    category: 'Heating',
-    readTime: '8 min read',
-    href: '/blog/patio-heaters',
-  },
-  {
-    title: 'Best Outdoor String Lights: Patio & Backyard Guide',
-    excerpt: 'We tested the top-rated outdoor string lights for patios, pergolas, and fire pit areas — here are the ones worth buying.',
-    category: 'Lighting',
-    readTime: '8 min read',
-    href: '/blog/backyard-string-lights',
-  },
-  {
-    title: 'How to Build a Backyard Fire Pit Area on a Budget',
-    excerpt: 'Create a stunning fire pit seating area without breaking the bank. Step-by-step guide with material lists and layout ideas.',
-    category: 'DIY & Ideas',
-    readTime: '8 min read',
-    href: '/blog/backyard-fire-pit-area-on-a-budget',
-  },
-  {
-    title: '10 Best Patio Furniture Sets Under $500',
-    excerpt: 'Affordable patio furniture that actually looks and feels premium. From conversation sets to dining tables.',
-    category: 'Furniture',
-    readTime: '10 min read',
-    href: '/blog/best-patio-furniture-sets-under-500',
-  },
-  {
-    title: 'Fire Pit Safety: 12 Essential Tips',
-    excerpt: 'Keep your family safe around the fire. These 12 fire pit safety rules cover placement, fuel, kids, pets, and emergency prep.',
-    category: 'Fire Pits',
-    readTime: '7 min read',
-    href: '/blog/fire-pit-safety-tips',
-  },
-  {
-    title: 'Best Outdoor Rugs for Patios',
-    excerpt: 'An outdoor rug ties your patio together. Here are 8 great options that handle sun, rain, and spills without fading or molding.',
-    category: 'Outdoor Decor',
-    readTime: '7 min read',
-    href: '/blog/best-outdoor-rugs-for-patios',
-  },
-  {
-    title: '9 DIY Fire Pit Ideas for Small Backyards',
-    excerpt: 'Short on space? These 9 creative fire pit ideas are designed for small yards, patios, and urban outdoor spaces.',
-    category: 'DIY & Ideas',
-    readTime: '8 min read',
-    href: '/blog/diy-fire-pit-ideas-small-backyards',
-  },
-  {
-    title: 'Best Portable Fire Pits for Camping & Travel',
-    excerpt: 'Take the fire with you. These lightweight, packable fire pits are perfect for camping, beach bonfires, and tailgates.',
-    category: 'Fire Pits',
-    readTime: '8 min read',
-    href: '/blog/best-portable-fire-pits-camping',
-  },
-  {
-    title: 'How to Create an Outdoor Living Room',
-    excerpt: 'Turn your patio into a true outdoor living room with comfortable seating, lighting, rugs, and all the finishing touches.',
-    category: 'Outdoor Living',
-    readTime: '9 min read',
-    href: '/blog/create-outdoor-living-room',
-  },
-  {
-    title: 'Best Fire Pit Cooking Accessories',
-    excerpt: 'Turn your fire pit into an outdoor kitchen. From grill grates to pie irons, cook everything from steaks to s\'mores.',
-    category: 'Fire Pits',
-    readTime: '8 min read',
-    href: '/blog/best-fire-pit-cooking-accessories',
-  },
-  {
-    title: 'Patio Shade Ideas: Pergolas, Umbrellas & More',
-    excerpt: 'Block the sun without blocking the style. Compare pergolas, shade sails, umbrellas, and awnings for every budget.',
-    category: 'Outdoor Living',
-    readTime: '8 min read',
-    href: '/blog/patio-shade-ideas-pergolas-umbrellas',
-  },
-  {
-    title: 'Best Outdoor Dining Sets for Family Gatherings',
-    excerpt: 'Host unforgettable outdoor meals with the right dining set. Top picks for 4, 6, and 8-seat options.',
-    category: 'Furniture',
-    readTime: '8 min read',
-    href: '/blog/best-outdoor-dining-sets',
-  },
-  {
-    title: 'How to Winterize Your Patio Furniture',
-    excerpt: 'Protect your investment. Step-by-step guide to cleaning, covering, and storing every type of outdoor furniture for winter.',
-    category: 'Maintenance',
-    readTime: '9 min read',
-    href: '/blog/how-to-winterize-patio-furniture',
-  },
-  {
-    title: 'Best Propane Fire Pits for Easy Outdoor Flames',
-    excerpt: 'No wood, no smoke, no hassle. Propane fire pits give you instant flames with the flip of a switch.',
-    category: 'Fire Pits',
-    readTime: '9 min read',
-    href: '/blog/best-propane-fire-pits',
-  },
-  {
-    title: 'Bougie Amazon Patio Finds Under $50 That Look Way More Expensive',
-    excerpt: 'Six Amazon finds that upgrade your patio instantly — string lights, solar lanterns, side tables, and planters all under $50.',
-    category: 'Outdoor Decor',
-    readTime: '6 min read',
-    href: '/blog/bougie-patio-finds-amazon-under-50',
-  },
-  {
-    title: 'Backyard Date Night: The Complete Setup Guide',
-    excerpt: 'Everything you need for a backyard date night that gets called the best night in a while — lights, fire, music, and more.',
-    category: 'Outdoor Living',
-    readTime: '7 min read',
-    href: '/blog/backyard-date-night-setup',
-  },
-  {
-    title: 'Solo Stove vs Breeo: Which Fire Pit Is Actually Worth the Money?',
-    excerpt: 'An honest head-to-head of the two best smokeless fire pit brands — and exactly which one to buy for your backyard.',
-    category: 'Fire Pits',
-    readTime: '8 min read',
-    href: '/blog/solo-stove-vs-breeo',
-  },
-  {
-    title: 'The Best Gas Grills Under $400 That Are Actually Worth Buying',
-    excerpt: 'From Weber to budget picks — the gas grills in the $150-$400 range that actually deliver and last more than two seasons.',
-    category: 'Grills & Cooking',
-    readTime: '9 min read',
-    href: '/blog/best-gas-grills-under-400',
-  },
-  {
-    title: 'Outdoor Bar Cart Setups That Make You the Best Host on the Block',
-    excerpt: 'The best outdoor bar carts for backyard entertaining, from $55 folding options to $145 wicker statement pieces.',
-    category: 'Accessories',
-    readTime: '7 min read',
-    href: '/blog/outdoor-bar-cart-setup',
-  },
-  {
-    title: 'Apartment Balcony to Outdoor Oasis Under $300',
-    excerpt: 'The exact five pieces that turn bare apartment balcony concrete into a real outdoor space — in the right order.',
-    category: 'Outdoor Living',
-    readTime: '7 min read',
-    href: '/blog/apartment-balcony-outdoor-oasis',
-  },
-  {
-    title: '7 Outdoor Lanterns That Make Your Patio Look Like a Restaurant',
-    excerpt: 'Solar, candle, and electric outdoor lanterns that add layered warmth and ambiance to any patio or porch.',
-    category: 'Lighting',
-    readTime: '7 min read',
-    href: '/blog/best-outdoor-lanterns-patio',
-  },
-  {
-    title: 'Best Outdoor Throw Pillows That Actually Hold Up to Real Weather',
-    excerpt: 'The outdoor throw pillows that resist fading, mold, and soggy fill — from budget picks to Sunbrella premium.',
-    category: 'Outdoor Decor',
-    readTime: '7 min read',
-    href: '/blog/best-outdoor-throw-pillows',
-  },
-  {
-    title: 'Gas vs Charcoal Grill: The Backyard Debate Finally Settled',
-    excerpt: 'The honest breakdown of flavor, convenience, cost, and cleanup — and the best picks in both gas and charcoal.',
-    category: 'Grills & Cooking',
-    readTime: '8 min read',
-    href: '/blog/gas-vs-charcoal-grill',
-  },
-  {
-    title: 'Best Outdoor Speakers for Backyard and Patio Entertaining',
-    excerpt: 'Waterproof Bluetooth speakers that actually fill a backyard — from $79 budget picks to party-volume monsters.',
-    category: 'Accessories',
-    readTime: '8 min read',
-    href: '/blog/best-outdoor-speakers-patio',
-  },
-  {
-    title: 'Best Outdoor Ceiling Fans for Covered Patios',
-    excerpt: 'Keep your covered patio cool all summer. Top-rated outdoor ceiling fans by airflow, style, and durability.',
-    category: 'Accessories',
-    readTime: '8 min read',
-    href: '/blog/best-outdoor-ceiling-fans',
-  },
-  {
-    title: 'Best Mosquito Repellents and Traps for Your Patio',
-    excerpt: 'Take back your backyard. The top mosquito repellent devices, traps, and sprays that actually work.',
-    category: 'Accessories',
-    readTime: '9 min read',
-    href: '/blog/best-mosquito-repellents-patio',
-  },
-  {
-    title: 'Best Outdoor Privacy Screens for Your Patio',
-    excerpt: 'Block nosy neighbors and create a cozy retreat with these privacy screens for every budget.',
-    category: 'Patio Design',
-    readTime: '8 min read',
-    href: '/blog/outdoor-privacy-screen-ideas',
-  },
-  {
-    title: 'Best Solar Path Lights for Walkways and Gardens',
-    excerpt: 'Light your walkways without wiring. Top solar path lights by brightness, run time, and style.',
-    category: 'Outdoor Lighting',
-    readTime: '8 min read',
-    href: '/blog/best-solar-path-lights',
-  },
-  {
-    title: 'Best Outdoor Bluetooth Speakers for Backyard Entertaining',
-    excerpt: 'Waterproof Bluetooth speakers that actually fill a backyard, from budget picks to party monsters.',
-    category: 'Accessories',
-    readTime: '8 min read',
-    href: '/blog/best-outdoor-bluetooth-speakers',
-  },
-  {
-    title: 'Best Patio Umbrellas for Sun and Rain Protection',
-    excerpt: 'Find the best patio umbrella for your deck. Cantilever, market, and tilt styles compared by size and durability.',
-    category: 'Patio Design',
-    readTime: '8 min read',
-    href: '/blog/best-patio-umbrellas',
-  },
-  {
-    title: 'Best Porch Swings for Relaxing Outdoors',
-    excerpt: 'Wood, wicker, and poly lumber porch swings compared by comfort, durability, and price.',
-    category: 'Furniture',
-    readTime: '8 min read',
-    href: '/blog/best-porch-swings',
-  },
-  {
-    title: 'Best Outdoor Deck Boxes for Patio Storage',
-    excerpt: 'Keep your patio organized. Waterproof deck boxes compared by size, durability, and double-duty seating.',
-    category: 'Accessories',
-    readTime: '7 min read',
-    href: '/blog/best-outdoor-deck-boxes',
-  },
-  {
-    title: 'Best Fire Pit Tables for Your Patio',
-    excerpt: 'Combine warmth and function. Propane and gas fire pit tables that double as coffee tables.',
-    category: 'Fire Pits',
-    readTime: '9 min read',
-    href: '/blog/best-fire-pit-tables',
-  },
-  {
-    title: 'Best Outdoor Doormats That Actually Hold Up',
-    excerpt: 'Stop tracking dirt inside. Doormats tested for durability, dirt-trapping, and style.',
-    category: 'Accessories',
-    readTime: '7 min read',
-    href: '/blog/best-outdoor-doormats',
-  },
-  {
-    title: 'Best Citronella Torches for Backyard Ambiance (2026)',
-    excerpt: 'Keep mosquitoes away while setting the mood. We compare tiki torches, tabletop torches, and modern citronella options for patios and yards.',
-    category: 'Outdoor Living',
-    readTime: '8 min read',
-    href: '/blog/best-citronella-torches',
-  },
-  {
-    title: 'Best Deck Lighting for Ambiance and Safety (2026)',
-    excerpt: 'Light up your deck without hiring an electrician. We compare solar, low-voltage, and plug-in deck lights for stairs, railings, and posts.',
-    category: 'Outdoor Living',
-    readTime: '8 min read',
-    href: '/blog/best-deck-lighting-ideas',
-  },
-  {
-    title: 'Best Garden Hose Reels to Keep Your Yard Tidy (2026)',
-    excerpt: 'Stop tripping over coiled hoses. We compare wall-mounted, freestanding, and retractable hose reels by capacity, durability, and ease of use.',
-    category: 'Outdoor Living',
-    readTime: '8 min read',
-    href: '/blog/best-garden-hose-reels',
-  },
-  {
-    title: 'Best Hammocks for Your Backyard (2026)',
-    excerpt: 'Turn your backyard into a relaxation zone. We compare rope, quilted, and hammock-with-stand options for every budget and space.',
-    category: 'Outdoor Living',
-    readTime: '8 min read',
-    href: '/blog/best-hammocks-backyard',
-  },
-  {
-    title: 'Best Lawn Games for Adult Backyard Parties (2026)',
-    excerpt: 'Make your backyard the place everyone wants to hang out. We compare cornhole, bocce, spikeball, and more for adult outdoor fun.',
-    category: 'Outdoor Living',
-    readTime: '8 min read',
-    href: '/blog/best-lawn-games-adults',
-  },
+const CATEGORIES = [
+  'All',
+  'Fire Pits',
+  'Outdoor Furniture',
+  'Grills & Cooking',
+  'Lighting',
+  'Outdoor Living',
+  'Outdoor Decor',
+  'Pergolas & Shade',
+  'DIY & Ideas',
+  'Heating',
+  'Seating',
+  'Accessories',
+  'Maintenance',
 ];
 
+interface PostEntry {
+  title: string;
+  description: string;
+  slug: string;
+  category: string;
+  date: string;
+  readTime: string;
+  image: string | null;
+}
+
+function discoverPosts(): PostEntry[] {
+  const blogDir = path.join(process.cwd(), 'app', 'blog');
+  const entries = fs.readdirSync(blogDir, { withFileTypes: true });
+  const posts: PostEntry[] = [];
+
+  for (const entry of entries) {
+    if (!entry.isDirectory()) continue;
+    if (entry.name.startsWith('[') || entry.name.startsWith('.')) continue;
+
+    const pagePath = path.join(blogDir, entry.name, 'page.tsx');
+    if (!fs.existsSync(pagePath)) continue;
+
+    const content = fs.readFileSync(pagePath, 'utf-8');
+
+    const titleMatch = content.match(
+      /title:\s*['"`]([^'"`]+?)(?:\s*\|\s*Porch\s*&?\s*Fire)?['"`]/
+    );
+    const descMatch = content.match(/description:\s*\n?\s*['"`]([^'"`]+)['"`]/);
+    if (!titleMatch) continue;
+
+    const title = titleMatch[1].replace(/\s*\|\s*Porch\s*&?\s*Fire.*$/, '').trim();
+    const description = descMatch ? descMatch[1] : '';
+
+    const catMatch =
+      content.match(/section-label[^>]*>([^<]+)</) ||
+      content.match(/category:\s*['"]([^'"]+)['"]/);
+    const category = catMatch ? catMatch[1].trim() : 'Outdoor Living';
+
+    const pexelsMatch = content.match(
+      /(https:\/\/images\.pexels\.com\/photos\/[^\s'"]+)/
+    );
+    const unsplashMatch = content.match(
+      /(https:\/\/images\.unsplash\.com\/[^\s'"]+)/
+    );
+    const localImgMatch = content.match(/src=['"]?(\/images\/[^\s'"]+)/);
+    const image = pexelsMatch
+      ? pexelsMatch[1]
+      : unsplashMatch
+        ? unsplashMatch[1]
+        : localImgMatch
+          ? localImgMatch[1]
+          : null;
+
+    const stat = fs.statSync(pagePath);
+    const dateObj = stat.mtime;
+    const date = dateObj.toLocaleDateString('en-US', {
+      month: 'long',
+      day: 'numeric',
+      year: 'numeric',
+    });
+
+    const wordCount = content.split(/\s+/).length;
+    const minutes = Math.max(5, Math.round(wordCount / 250));
+    const readTime = `${minutes} min read`;
+
+    posts.push({ title, description, slug: entry.name, category, date, readTime, image });
+  }
+
+  posts.sort((a, b) => {
+    const aTime = fs.statSync(path.join(process.cwd(), 'app', 'blog', a.slug, 'page.tsx')).mtime.getTime();
+    const bTime = fs.statSync(path.join(process.cwd(), 'app', 'blog', b.slug, 'page.tsx')).mtime.getTime();
+    return bTime - aTime;
+  });
+
+  return posts;
+}
+
 export default function BlogPage() {
+  const posts = discoverPosts();
+
+  const featured = posts[0];
+  const rest = posts.slice(1);
+
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
-      <p className="section-label mb-2">All Articles</p>
-      <h1 className="font-display text-4xl font-bold text-charcoal mb-10">Guides & Reviews</h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {posts.map((post) => (
-          <Link key={post.href} href={post.href} className="card bg-white p-6 flex flex-col group">
-            <span className="section-label mb-2">{post.category}</span>
-            <h2 className="font-display text-lg font-bold text-charcoal mb-3 leading-snug group-hover:text-sage-600 transition-colors">
-              {post.title}
-            </h2>
-            <p className="text-sm font-body text-charcoal/60 leading-relaxed flex-1">{post.excerpt}</p>
-            <div className="mt-4 flex items-center justify-between">
-              <span className="text-xs text-charcoal/40">{post.readTime}</span>
-              <span className="text-sage-600 text-sm font-semibold group-hover:underline">Read →</span>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
+      <div className="text-center mb-12">
+        <p className="section-label mb-3">The Blog</p>
+        <h1 className="font-display text-4xl sm:text-5xl font-bold text-charcoal mb-4">
+          Guides, Reviews &amp; Ideas
+        </h1>
+        <p className="font-body text-charcoal/50 text-lg max-w-2xl mx-auto">
+          Honest outdoor living advice from someone who actually sits on this stuff.
+          Fire pits, patios, grills, and everything in between.
+        </p>
+      </div>
+
+      <div className="flex flex-wrap justify-center gap-2 mb-12">
+        {CATEGORIES.map((cat) => (
+          <span
+            key={cat}
+            className="px-4 py-1.5 rounded-full text-xs font-body font-semibold tracking-wide cursor-pointer transition-colors duration-200 bg-sage-50 text-sage-700 hover:bg-sage-600 hover:text-white"
+          >
+            {cat}
+          </span>
+        ))}
+      </div>
+
+      {featured && (
+        <Link href={`/blog/${featured.slug}`} className="block mb-14 group">
+          <div className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+            {featured.image && (
+              <div className="relative h-[420px] w-full">
+                <img
+                  src={featured.image}
+                  alt={featured.title}
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-charcoal/20 to-transparent" />
+              </div>
+            )}
+            <div className="absolute bottom-0 left-0 right-0 p-8">
+              <span className="inline-block bg-sage-600 text-white text-xs font-body font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">
+                {featured.category}
+              </span>
+              <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mb-3 leading-tight group-hover:text-sage-200 transition-colors">
+                {featured.title}
+              </h2>
+              <p className="font-body text-white/80 text-sm leading-relaxed max-w-2xl mb-3">
+                {featured.description}
+              </p>
+              <div className="flex items-center gap-4 text-white/60 text-xs font-body">
+                <span>{featured.date}</span>
+                <span>&middot;</span>
+                <span>{featured.readTime}</span>
+              </div>
+            </div>
+          </div>
+        </Link>
+      )}
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {rest.map((post) => (
+          <Link
+            key={post.slug}
+            href={`/blog/${post.slug}`}
+            className="group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
+          >
+            {post.image ? (
+              <div className="relative h-48 overflow-hidden">
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <span className="absolute top-3 left-3 bg-sage-600 text-white text-[10px] font-body font-bold uppercase tracking-widest px-2.5 py-1 rounded-full">
+                  {post.category}
+                </span>
+              </div>
+            ) : (
+              <div className="relative h-48 bg-sage-50 flex items-center justify-center">
+                <span className="text-sage-300 font-display text-lg">Porch &amp; Fire</span>
+                <span className="absolute top-3 left-3 bg-sage-600 text-white text-[10px] font-body font-bold uppercase tracking-widest px-2.5 py-1 rounded-full">
+                  {post.category}
+                </span>
+              </div>
+            )}
+
+            <div className="flex flex-col flex-1 p-5">
+              <h2 className="font-display text-lg font-bold text-charcoal leading-snug mb-2 group-hover:text-terracotta transition-colors duration-200">
+                {post.title}
+              </h2>
+              <p className="font-body text-sm text-charcoal/55 leading-relaxed flex-1 mb-4">
+                {post.description}
+              </p>
+              <div className="flex items-center justify-between text-xs font-body text-charcoal/40">
+                <div className="flex items-center gap-2">
+                  <span>{post.date}</span>
+                  <span>&middot;</span>
+                  <span>{post.readTime}</span>
+                </div>
+                <span className="text-terracotta font-semibold group-hover:underline">
+                  Read &rarr;
+                </span>
+              </div>
             </div>
           </Link>
         ))}
