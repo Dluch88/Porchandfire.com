@@ -6,6 +6,8 @@ export const metadata: Metadata = {
     'Propane fire pits are convenient. Wood fire pits are authentic. Here\'s how to decide which type is actually right for your space, lifestyle, and local regulations.',
 }
 
+const heroImage = 'https://images.pexels.com/photos/5215351/pexels-photo-5215351.jpeg?auto=compress&cs=tinysrgb&w=1200';
+
 const comparison = [
   { category: 'Startup time', propane: 'Instant — turn a knob', wood: '10–20 minutes to build and light' },
   { category: 'Smoke', propane: 'None', wood: 'Variable — less with smokeless pits' },
