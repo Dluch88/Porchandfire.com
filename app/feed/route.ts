@@ -46,16 +46,19 @@ function discoverPosts(): BlogPost[] {
 
     const stat = fs.statSync(pagePath);
 
-    // Find an image for the enclosure
-    const pexelsMatch = content.match(
-      /(https:\/\/images\.pexels\.com\/photos\/[^\s'"]+)/
-    );
-    const localImgMatch = content.match(/src=['"]?(\/images\/[^\s'"]+)/);
-    const image = pexelsMatch
-      ? pexelsMatch[1]
-      : localImgMatch
-        ? `${SITE_URL}${localImgMatch[1]}`
-        : null;
+    // Find an image for the enclosure - try multiple patterns
+    const pexels = content.match(/(https:\/\/images\.pexels\.com\/photos\/[^\s'"`,]+)/);
+    const unsplash = content.match(/(https:\/\/images\.unsplash\.com\/[^\s'"`,]+)/);
+    const heroImg = content.match(/src="(\/images\/[^"]+)"/);
+    const objImg = content.match(/image:\s*'(\/images\/[^']+)'/);
+    const anyImg = content.match(/['"`](\/images\/[^'"`\s]+\.(?:jpg|jpeg|png|webp))['"`]/);
+
+    const image = pexels ? pexels[1]
+      : unsplash ? unsplash[1]
+      : heroImg ? `${SITE_URL}${heroImg[1]}`
+      : objImg ? `${SITE_URL}${objImg[1]}`
+      : anyImg ? `${SITE_URL}${anyImg[1]}`
+      : null;
 
     posts.push({
       title,

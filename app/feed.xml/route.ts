@@ -38,12 +38,24 @@ function extractMetadata(content: string): { title: string; description: string 
 }
 
 function extractFirstImage(content: string): string | null {
-  // Try to find an image URL in the post (pexels, local, etc.)
-  const pexelsMatch = content.match(/(https:\/\/images\.pexels\.com\/photos\/[^\s'"]+)/);
-  if (pexelsMatch) return pexelsMatch[1];
+  // Try multiple image patterns in priority order
+  const pexels = content.match(/(https:\/\/images\.pexels\.com\/photos\/[^\s'"`,]+)/);
+  if (pexels) return pexels[1];
 
-  const localImgMatch = content.match(/src=['"]?(\/images\/[^\s'"]+)/);
-  if (localImgMatch) return `${SITE_URL}${localImgMatch[1]}`;
+  const unsplash = content.match(/(https:\/\/images\.unsplash\.com\/[^\s'"`,]+)/);
+  if (unsplash) return unsplash[1];
+
+  // Hero images, src="..." in JSX
+  const heroImg = content.match(/src="(\/images\/[^"]+)"/);
+  if (heroImg) return `${SITE_URL}${heroImg[1]}`;
+
+  // Image property in JS objects: image: '/images/...'
+  const objImg = content.match(/image:\s*'(\/images\/[^']+)'/);
+  if (objImg) return `${SITE_URL}${objImg[1]}`;
+
+  // Any quoted /images/ path
+  const anyImg = content.match(/['"`](\/images\/[^'"`\s]+\.(?:jpg|jpeg|png|webp))['"`]/);
+  if (anyImg) return `${SITE_URL}${anyImg[1]}`;
 
   return null;
 }

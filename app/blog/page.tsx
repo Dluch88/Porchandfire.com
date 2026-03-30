@@ -43,6 +43,7 @@ function discoverPosts(): PostEntry[] {
   for (const entry of entries) {
     if (!entry.isDirectory()) continue;
     if (entry.name.startsWith('[') || entry.name.startsWith('.')) continue;
+    if (entry.name.includes('batchbuilder')) continue;
 
     const pagePath = path.join(blogDir, entry.name, 'page.tsx');
     if (!fs.existsSync(pagePath)) continue;
@@ -63,20 +64,21 @@ function discoverPosts(): PostEntry[] {
       content.match(/category:\s*['"]([^'"]+)['"]/);
     const category = catMatch ? catMatch[1].trim() : 'Outdoor Living';
 
-    const pexelsMatch = content.match(
-      /(https:\/\/images\.pexels\.com\/photos\/[^\s'"]+)/
-    );
-    const unsplashMatch = content.match(
-      /(https:\/\/images\.unsplash\.com\/[^\s'"]+)/
-    );
-    const localImgMatch = content.match(/src=['"]?(\/images\/[^\s'"]+)/);
-    const image = pexelsMatch
-      ? pexelsMatch[1]
-      : unsplashMatch
-        ? unsplashMatch[1]
-        : localImgMatch
-          ? localImgMatch[1]
-          : null;
+    // Try multiple image patterns in priority order
+    const image =
+      // 1. Pexels URLs
+      (content.match(/(https:\/\/images\.pexels\.com\/photos\/[^\s'"`,]+)/) || [])[1] ||
+      // 2. Unsplash URLs
+      (content.match(/(https:\/\/images\.unsplash\.com\/[^\s'"`,]+)/) || [])[1] ||
+      // 3. Hero images from generated posts (src="..." in JSX)
+      (content.match(/src="(\/images\/[^"]+)"/) || [])[1] ||
+      // 4. Image property in JS object: image: '/images/products/...'
+      (content.match(/image:\s*'(\/images\/[^']+)'/) || [])[1] ||
+      // 5. Blog photo paths
+      (content.match(/src="(\/images\/blog-photos\/[^"]+)"/) || [])[1] ||
+      // 6. Any src with /images/ path (template literal or JSX)
+      (content.match(/['"`](\/images\/[^'"`\s]+\.(?:jpg|jpeg|png|webp))['"`]/) || [])[1] ||
+      null;
 
     const stat = fs.statSync(pagePath);
     const dateObj = stat.mtime;
@@ -135,16 +137,18 @@ export default function BlogPage() {
       {featured && (
         <Link href={`/blog/${featured.slug}`} className="block mb-14 group">
           <div className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-            {featured.image && (
-              <div className="relative h-[420px] w-full">
+            <div className="relative h-[420px] w-full">
+              {featured.image ? (
                 <img
                   src={featured.image}
                   alt={featured.title}
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-charcoal/20 to-transparent" />
-              </div>
-            )}
+              ) : (
+                <div className="w-full h-full bg-gradient-to-br from-sage-700 via-sage-600 to-sage-800" />
+              )}
+              <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/30 to-transparent" />
+            </div>
             <div className="absolute bottom-0 left-0 right-0 p-8">
               <span className="inline-block bg-sage-600 text-white text-xs font-body font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">
                 {featured.category}
