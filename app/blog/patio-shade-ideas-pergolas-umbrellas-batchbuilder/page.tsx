@@ -7,10 +7,10 @@ export const metadata: Metadata = {
 };
 
 const picks = [
-  { name: 'Costway Pergola Kit', asin: 'B07R6QZ8ZK', price: '$799' },
-  { name: 'Sunnyglade Patio Umbrella', asin: 'B07VY2Z9QK', price: '$89' },
-  { name: 'Tangkula Shade Sail', asin: 'B07X9ZQ2KJ', price: '$49' },
-  { name: 'Nesling Awning', asin: 'B08C9Z9Z2L', price: '$259' }
+  { name: 'Costway Pergola Kit', asin: 'B07R6QZ8ZK', price: '$799', image: '/images/products/placeholder.jpg' },
+  { name: 'Sunnyglade Patio Umbrella', asin: 'B07VY2Z9QK', price: '$89', image: '/images/products/placeholder.jpg' },
+  { name: 'Tangkula Shade Sail', asin: 'B07X9ZQ2KJ', price: '$49', image: '/images/products/placeholder.jpg' },
+  { name: 'Nesling Awning', asin: 'B08C9Z9Z2L', price: '$259', image: '/images/products/placeholder.jpg' }
 ];
 
 export default function PatioShadeIdeasBatch() {
@@ -34,7 +34,7 @@ export default function PatioShadeIdeasBatch() {
       <ul className="space-y-4">
         {picks.map((p) => (
           <li key={p.asin} className="flex gap-4 items-center">
-            <img src={`/api/product-image/${p.asin}`} alt={p.name} className="w-24 h-24 object-contain" />
+            <img src={p.image} alt={p.name} className="w-24 h-24 object-contain" />
             <div>
               <div className="font-bold">{p.name}</div>
               <div className="text-sm text-charcoal/70">{p.price}</div>

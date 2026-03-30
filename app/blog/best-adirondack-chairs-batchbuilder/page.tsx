@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 const AMAZON_TAG = 'porchandfire-20';
 
 const picks = [
-  { name: 'POLYWOOD Classic Adirondack', asin: 'B07V2ZK7Y3', price: '$399' },
-  { name: 'Hanover Polywood Chair', asin: 'B08H7Z2Z1M', price: '$249' },
-  { name: 'Best Choice Products Wooden Adirondack', asin: 'B01LX0V0O1', price: '$119' },
-  { name: 'Giantex Outdoor Adirondack', asin: 'B07D3Q4ZQ1', price: '$89' }
+  { name: 'POLYWOOD Classic Adirondack', asin: 'B07V2ZK7Y3', price: '$399', image: '/images/products/polywood-classic-adirondack.jpg' },
+  { name: 'Hanover Polywood Chair', asin: 'B08H7Z2Z1M', price: '$249', image: '/images/products/hanover-polywood-chair.jpg' },
+  { name: 'Best Choice Products Wooden Adirondack', asin: 'B01LX0V0O1', price: '$119', image: '/images/products/best-choice-products-wooden-adirondack.jpg' },
+  { name: 'Giantex Outdoor Adirondack', asin: 'B07D3Q4ZQ1', price: '$89', image: '/images/products/giantex-outdoor-adirondack.jpg' }
 ];
 
 export default function BestAdirondackChairsBatch() {
@@ -36,7 +36,7 @@ export default function BestAdirondackChairsBatch() {
       <ul className="space-y-4">
         {picks.map((p) => (
           <li key={p.asin} className="flex gap-4 items-center">
-            <img src={`/api/product-image/${p.asin}`} alt={p.name} className="w-24 h-24 object-contain" />
+            <img src={p.image} alt={p.name} className="w-24 h-24 object-contain" />
             <div>
               <div className="font-bold">{p.name}</div>
               <div className="text-sm text-charcoal/70">{p.price}</div>

@@ -7,10 +7,10 @@ export const metadata: Metadata = {
 };
 
 const picks = [
-  { name: 'Brightech Ambience Pro', asin: 'B072MZK2K1', price: '$49' },
-  { name: 'Sylvania LED String Lights', asin: 'B07D9Z4Z2P', price: '$39' },
-  { name: 'Brightown Solar String Lights', asin: 'B07J2Z9Y8H', price: '$29' },
-  { name: 'Edison Style Patio Lights', asin: 'B07H9Z2K1P', price: '$59' }
+  { name: 'Brightech Ambience Pro', asin: 'B072MZK2K1', price: '$49', image: '/images/products/placeholder.jpg' },
+  { name: 'Sylvania LED String Lights', asin: 'B07D9Z4Z2P', price: '$39', image: '/images/products/placeholder.jpg' },
+  { name: 'Brightown Solar String Lights', asin: 'B07J2Z9Y8H', price: '$29', image: '/images/products/placeholder.jpg' },
+  { name: 'Edison Style Patio Lights', asin: 'B07H9Z2K1P', price: '$59', image: '/images/products/placeholder.jpg' }
 ];
 
 export default function BestOutdoorStringLightsBatch() {
@@ -34,7 +34,7 @@ export default function BestOutdoorStringLightsBatch() {
       <ul className="space-y-4">
         {picks.map((p) => (
           <li key={p.asin} className="flex gap-4 items-center">
-            <img src={`/api/product-image/${p.asin}`} alt={p.name} className="w-24 h-24 object-contain" />
+            <img src={p.image} alt={p.name} className="w-24 h-24 object-contain" />
             <div>
               <div className="font-bold">{p.name}</div>
               <div className="text-sm text-charcoal/70">{p.price}</div>

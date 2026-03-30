@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 const AMAZON_TAG = 'porchandfire-20';
 
 const picks = [
-  { name: 'Outland Living Series 401', asin: 'B01CPYQPEI', price: '$189' },
-  { name: 'Solo Stove Bonfire 2.0', asin: 'B0B7BFJ5Y6', price: '$349' },
-  { name: 'Breeo X Series 24', asin: 'B09WG9DDPS', price: '$429' },
-  { name: 'Yaheetech 32" Outdoor Fire Pit', asin: 'B081NJZ97B', price: '$69' }
+  { name: 'Outland Living Series 401', asin: 'B01CPYQPEI', price: '$189', image: '/images/products/placeholder.jpg' },
+  { name: 'Solo Stove Bonfire 2.0', asin: 'B0B7BFJ5Y6', price: '$349', image: '/images/products/placeholder.jpg' },
+  { name: 'Breeo X Series 24', asin: 'B09WG9DDPS', price: '$429', image: '/images/products/placeholder.jpg' },
+  { name: 'Yaheetech 32" Outdoor Fire Pit', asin: 'B081NJZ97B', price: '$69', image: '/images/products/placeholder.jpg' }
 ];
 
 export default function PropaneVsWoodBatch() {
@@ -39,7 +39,7 @@ export default function PropaneVsWoodBatch() {
         <ul className="space-y-2">
           {picks.map((p) => (
             <li key={p.asin} className="flex items-center gap-3">
-              <img src={`/api/product-image/${p.asin}`} alt={p.name} className="w-20 h-20 object-contain" />
+              <img src={p.image} alt={p.name} className="w-20 h-20 object-contain" />
               <div>
                 <div className="font-bold">{p.name}</div>
                 <div className="text-sm text-charcoal/70">{p.price}</div>

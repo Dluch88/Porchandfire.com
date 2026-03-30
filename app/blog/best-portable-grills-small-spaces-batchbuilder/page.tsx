@@ -7,10 +7,10 @@ export const metadata: Metadata = {
 };
 
 const picks = [
-  { name: 'Weber Q1200 Propane Grill', asin: 'B00I8T9AMO', price: '$139' },
-  { name: 'Cuisinart Petit Gourmet', asin: 'B004TS0H9I', price: '$79' },
-  { name: 'George Foreman Indoor/Outdoor', asin: 'B07ZK7Q9M1', price: '$99' },
-  { name: 'Char-Broil Portable TRU-Infrared', asin: 'B00E2R8M9K', price: '$119' }
+  { name: 'Weber Q1200 Propane Grill', asin: 'B00I8T9AMO', price: '$139', image: '/images/products/placeholder.jpg' },
+  { name: 'Cuisinart Petit Gourmet', asin: 'B004TS0H9I', price: '$79', image: '/images/products/placeholder.jpg' },
+  { name: 'George Foreman Indoor/Outdoor', asin: 'B07ZK7Q9M1', price: '$99', image: '/images/products/placeholder.jpg' },
+  { name: 'Char-Broil Portable TRU-Infrared', asin: 'B00E2R8M9K', price: '$119', image: '/images/products/placeholder.jpg' }
 ];
 
 export default function BestPortableGrillsBatch() {
@@ -34,7 +34,7 @@ export default function BestPortableGrillsBatch() {
       <ul className="space-y-4">
         {picks.map((p) => (
           <li key={p.asin} className="flex gap-4 items-center">
-            <img src={`/api/product-image/${p.asin}`} alt={p.name} className="w-24 h-24 object-contain" />
+            <img src={p.image} alt={p.name} className="w-24 h-24 object-contain" />
             <div>
               <div className="font-bold">{p.name}</div>
               <div className="text-sm text-charcoal/70">{p.price}</div>

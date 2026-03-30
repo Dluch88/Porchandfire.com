@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 const AMAZON_TAG = 'porchandfire-20';
 
 const picks = [
-  { name: 'Outland Living Cast Iron Grill Grate', asin: 'B07D4Y3Q4S', price: '$69' },
-  { name: 'Lodge Pre-Seasoned Cast Iron Griddle', asin: 'B00063RW5Q', price: '$49' },
-  { name: 'Cuisinart Folding Grill', asin: 'B00EYUHIVE', price: '$89' },
-  { name: 'HOMEST 24 Inch Tripod Grill', asin: 'B08DDK8T9X', price: '$79' }
+  { name: 'Outland Living Cast Iron Grill Grate', asin: 'B07D4Y3Q4S', price: '$69', image: '/images/products/placeholder.jpg' },
+  { name: 'Lodge Pre-Seasoned Cast Iron Griddle', asin: 'B00063RW5Q', price: '$49', image: '/images/products/placeholder.jpg' },
+  { name: 'Cuisinart Folding Grill', asin: 'B00EYUHIVE', price: '$89', image: '/images/products/placeholder.jpg' },
+  { name: 'HOMEST 24 Inch Tripod Grill', asin: 'B08DDK8T9X', price: '$79', image: '/images/products/placeholder.jpg' }
 ];
 
 export default function FirePitCookingAccessoriesBatch() {
@@ -38,7 +38,7 @@ export default function FirePitCookingAccessoriesBatch() {
         <ul className="space-y-4">
           {picks.map((p) => (
             <li key={p.asin} className="flex gap-4 items-center">
-              <img src={`/api/product-image/${p.asin}`} alt={p.name} className="w-24 h-24 object-contain" />
+              <img src={p.image} alt={p.name} className="w-24 h-24 object-contain" />
               <div>
                 <div className="font-bold">{p.name}</div>
                 <div className="text-sm text-charcoal/70">{p.price}</div>

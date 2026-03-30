@@ -7,10 +7,10 @@ export const metadata: Metadata = {
 };
 
 const picks = [
-  { name: 'All-Weather Outdoor Rug', asin: 'B07D9Z9Y3K', price: '$79' },
-  { name: 'Brightech String Lights', asin: 'B072MZK2K1', price: '$49' },
-  { name: 'Affordable Sectional Cushion', asin: 'B085V2Z7Y3', price: '$199' },
-  { name: 'Propane Fire Pit', asin: 'B01CPYQPEI', price: '$189' }
+  { name: 'All-Weather Outdoor Rug', asin: 'B07D9Z9Y3K', price: '$79', image: '/images/products/placeholder.jpg' },
+  { name: 'Brightech String Lights', asin: 'B072MZK2K1', price: '$49', image: '/images/products/placeholder.jpg' },
+  { name: 'Affordable Sectional Cushion', asin: 'B085V2Z7Y3', price: '$199', image: '/images/products/placeholder.jpg' },
+  { name: 'Propane Fire Pit', asin: 'B01CPYQPEI', price: '$189', image: '/images/products/placeholder.jpg' }
 ];
 
 export default function CreateOutdoorLivingRoomBatch() {
@@ -34,7 +34,7 @@ export default function CreateOutdoorLivingRoomBatch() {
       <ul className="space-y-4">
         {picks.map((p) => (
           <li key={p.asin} className="flex gap-4 items-center">
-            <img src={`/api/product-image/${p.asin}`} alt={p.name} className="w-24 h-24 object-contain" />
+            <img src={p.image} alt={p.name} className="w-24 h-24 object-contain" />
             <div>
               <div className="font-bold">{p.name}</div>
               <div className="text-sm text-charcoal/70">{p.price}</div>

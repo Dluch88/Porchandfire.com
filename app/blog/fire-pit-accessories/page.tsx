@@ -19,6 +19,7 @@ const categories = [
     pros: ['Long handles for safety', 'Stainless steel — rust-resistant', 'Includes all essential tools', 'Stands up on its own'],
     cons: ['Hook can be awkward for large logs', 'Heavier than some sets'],
     asin: 'B005OYPQWQ',
+    image: '/images/products/landmann-fire-pit-tool-set-4-piece.jpg',
   },
   {
     title: 'Best Spark Screen',
@@ -30,6 +31,7 @@ const categories = [
     pros: ['Fits most standard 36-inch pits', 'Dome shape lets flames breathe', 'Lift handle for wood access', 'Very affordable'],
     cons: ['Not designed for smokeless pits (no rim to rest on)', 'Wire mesh is basic gauge', 'Does not seal against all embers'],
     asin: 'B00KQRWB5O',
+    image: '/images/products/sunnydaze-36-inch-spark-screen-with-lid.jpg',
   },
   {
     title: 'Best Log Rack',
@@ -41,6 +43,7 @@ const categories = [
     pros: ['10-year warranty', 'Holds a full face cord', 'Keeps wood off the ground and dry', 'Simple assembly'],
     cons: ['Cover sold separately', 'Larger footprint than smaller racks'],
     asin: 'B0009JMDB6',
+    image: '/images/products/woodhaven-5-foot-firewood-log-rack.jpg',
   },
   {
     title: 'Best Ash Removal Tool',
@@ -52,6 +55,7 @@ const categories = [
     pros: ['Metal — safe for warm ash', 'Includes a small shovel', 'Tight-fitting lid traps any residual heat', 'Affordable'],
     cons: ['Small capacity (5 gallons)', 'Shovel is lightweight'],
     asin: 'B0000BVN0Q',
+    image: '/images/products/panacea-ash-bucket-with-lid-and-shovel.jpg',
   },
   {
     title: 'Best Fire Pit Mat',
@@ -63,6 +67,7 @@ const categories = [
     pros: ['Protects wood and composite decks from embers', 'Fireproof construction', 'Satisfies many deck manufacturer requirements', 'Easy to clean'],
     cons: ['Not decorative — purely functional', 'Can curl at edges over time', 'Needs to be sized to your pit diameter'],
     asin: 'B07QD1HC7T',
+    image: '/images/products/ember-mat-by-killarney-metals-36-inch.jpg',
   },
   {
     title: 'Best Firewood Carrier',
@@ -74,6 +79,7 @@ const categories = [
     pros: ['Carry a full arm-load in one trip', 'Keeps clothes clean', 'Stores flat and compact', 'Durable waxed canvas'],
     cons: ['Canvas can absorb moisture if left outside', 'Not for wet or muddy wood'],
     asin: 'B002Z6EUY4',
+    image: '/images/products/pilgrim-home-and-hearth-canvas-log-carrier.jpg',
   },
   {
     title: 'Best Fire Starter',
@@ -85,6 +91,7 @@ const categories = [
     pros: ['All-natural, no chemicals', 'Lights in one match', 'Works in damp conditions', 'Bulk bags are economical'],
     cons: ['Produces more smoke on initial ignition than the fire itself', 'Can be sticky to handle'],
     asin: 'B00CGTTK5Y',
+    image: '/images/products/fatwood-fire-starter-sticks.jpg',
   },
   {
     title: 'Best Outdoor Side Table for Fire Pit',
@@ -96,6 +103,7 @@ const categories = [
     pros: ['Weather-resistant resin', 'Stacks flat for storage', 'Very affordable', 'Stable on uneven ground'],
     cons: ['Basic plastic aesthetic', 'Not for heavy loads', 'Limited in color options'],
     asin: 'B079ZJ9K18',
+    image: '/images/products/keter-side-table-resin.jpg',
   },
 ]
 
@@ -127,7 +135,7 @@ export default function FirePitAccessories() {
           <div key={i} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
               <img
-                src={`/api/product-image/${item.asin}`}
+                src={item.image}
                 alt={item.name}
                 className="w-48 h-48 object-contain rounded-lg"
               />

@@ -120,7 +120,7 @@ export default function BestPatioHeaters() {
           <div key={pick.rank} className="border border-gray-200 rounded-xl p-6">
             <div className="mb-4 flex justify-center">
               <img
-                src={`/api/product-image/${pick.asin}`}
+                src={pick.image}
                 alt={pick.name}
                 className="w-48 h-48 object-contain rounded-lg"
               />

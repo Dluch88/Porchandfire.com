@@ -9,10 +9,10 @@ export const metadata: Metadata = {
 const AMAZON_TAG = 'porchandfire-20';
 
 const picks = [
-  { name: 'Best Choice Products Dining Set', asin: 'B07Y8Y9ZKJ', price: '$299' },
-  { name: 'Giantex 6-Piece Dining Set', asin: 'B07L8X3Y9Z', price: '$399' },
-  { name: 'Devoko 7-Piece Set', asin: 'B085V2Z7Y3', price: '$549' },
-  { name: 'TK Classics Dining Set', asin: 'B07P4V2K9P', price: '$199' }
+  { name: 'Best Choice Products Dining Set', asin: 'B07Y8Y9ZKJ', price: '$299', image: '/images/products/placeholder.jpg' },
+  { name: 'Giantex 6-Piece Dining Set', asin: 'B07L8X3Y9Z', price: '$399', image: '/images/products/placeholder.jpg' },
+  { name: 'Devoko 7-Piece Set', asin: 'B085V2Z7Y3', price: '$549', image: '/images/products/placeholder.jpg' },
+  { name: 'TK Classics Dining Set', asin: 'B07P4V2K9P', price: '$199', image: '/images/products/placeholder.jpg' }
 ];
 
 export default function BestOutdoorDiningSetsBatch() {
@@ -36,7 +36,7 @@ export default function BestOutdoorDiningSetsBatch() {
       <ul className="space-y-4">
         {picks.map((p) => (
           <li key={p.asin} className="flex gap-4 items-center">
-            <img src={`/api/product-image/${p.asin}`} alt={p.name} className="w-24 h-24 object-contain" />
+            <img src={p.image} alt={p.name} className="w-24 h-24 object-contain" />
             <div>
               <div className="font-bold">{p.name}</div>
               <div className="text-sm text-charcoal/70">{p.price}</div>

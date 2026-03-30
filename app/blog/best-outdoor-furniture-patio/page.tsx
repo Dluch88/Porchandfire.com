@@ -169,7 +169,7 @@ export default function BestOutdoorFurnitureArticle() {
           <div key={pick.rank} className="bg-white rounded-2xl shadow-sm p-6">
             <div className="mb-4 flex justify-center">
               <img
-                src={`/api/product-image/${pick.asin}`}
+                src={pick.image}
                 alt={pick.name}
                 className="w-48 h-48 object-contain rounded-lg"
               />

@@ -94,7 +94,7 @@ export default function BestSmokelessFirePitsBatch() {
         {picks.map((pick) => (
           <div key={pick.rank} className="bg-white rounded-2xl shadow-sm p-6">
             <div className="mb-4 flex justify-center">
-              <img src={`/api/product-image/${pick.asin}`} alt={pick.name} className="w-48 h-48 object-contain rounded-lg" />
+              <img src={pick.image} alt={pick.name} className="w-48 h-48 object-contain rounded-lg" />
             </div>
             <div className="flex items-start justify-between mb-3">
               <span className="bg-orange-100 text-orange-700 text-xs font-body font-bold px-3 py-1 rounded-full">{pick.badge}</span>
