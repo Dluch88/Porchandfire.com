@@ -107,7 +107,11 @@ const CURATED_PICKS = [
   },
 ];
 
-const GUIDES = [
+// Dynamic guides loaded from generated JSON (updated at build time)
+import guidesData from '../public/guides.json';
+const GUIDES = guidesData;
+
+const _LEGACY_GUIDES = [
   {
     title: "Best Fire Pits for Backyard Entertaining",
     subtitle: "We reviewed the top picks across every budget — from smokeless wood burners to no-fuss propane.",
