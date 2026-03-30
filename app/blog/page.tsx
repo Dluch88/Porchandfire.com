@@ -160,8 +160,6 @@ export default function BlogPage() {
                 {featured.description}
               </p>
               <div className="flex items-center gap-4 text-white/60 text-xs font-body">
-                <span>{featured.date}</span>
-                <span>&middot;</span>
                 <span>{featured.readTime}</span>
               </div>
             </div>
@@ -204,11 +202,7 @@ export default function BlogPage() {
                 {post.description}
               </p>
               <div className="flex items-center justify-between text-xs font-body text-charcoal/40">
-                <div className="flex items-center gap-2">
-                  <span>{post.date}</span>
-                  <span>&middot;</span>
-                  <span>{post.readTime}</span>
-                </div>
+                <span>{post.readTime}</span>
                 <span className="text-terracotta font-semibold group-hover:underline">
                   Read &rarr;
                 </span>
