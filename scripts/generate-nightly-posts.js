@@ -31,9 +31,9 @@
 
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 const https = require('https');
 const http = require('http');
-const { execFileSync } = require('child_process');
 
 // --------------- CONFIG ---------------
 
@@ -99,28 +99,39 @@ function getExistingProductNames() {
 
 // --------------- CLAUDE CLI ---------------
 
+const { execSync } = require('child_process');
+
 function callClaude(systemPrompt, userPrompt) {
   const fullPrompt = `${systemPrompt}\n\n---\n\n${userPrompt}`;
 
-  try {
-    const result = execFileSync('claude', [
-      '-p',
-      '--model', 'sonnet',
-      '--output-format', 'text',
-    ], {
-      input: fullPrompt,
-      encoding: 'utf-8',
-      timeout: 300000, // 5 min per call
-      maxBuffer: 2 * 1024 * 1024, // 2MB
-    });
+  // Write prompt to temp file to avoid stdin buffer issues in cron
+  const tmpFile = path.join(os.tmpdir(), `paf-prompt-${Date.now()}.txt`);
+  fs.writeFileSync(tmpFile, fullPrompt);
 
+  try {
+    const result = execSync(
+      `cat "${tmpFile}" | claude -p --model sonnet --output-format text`,
+      {
+        encoding: 'utf-8',
+        timeout: 300000, // 5 min per call
+        maxBuffer: 2 * 1024 * 1024, // 2MB
+        env: { ...process.env, HOME: '/Users/darlene', PATH: '/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin' },
+        shell: '/bin/bash',
+      }
+    );
+
+    fs.unlinkSync(tmpFile);
     return result.trim();
   } catch (e) {
-    if (e.stdout && e.stdout.trim().length > 100) {
-      // Partial output may still be usable
-      return e.stdout.trim();
+    try { fs.unlinkSync(tmpFile); } catch {}
+    const stderr = e.stderr ? e.stderr.toString().trim() : '';
+    const stdout = e.stdout ? e.stdout.toString().trim() : '';
+    console.error(`    Claude CLI stderr: ${stderr || '(empty)'}`);
+    console.error(`    Claude CLI stdout (first 200): ${stdout.substring(0, 200) || '(empty)'}`);
+    if (stdout.length > 100) {
+      return stdout;
     }
-    throw new Error(`Claude CLI error: ${e.message}`);
+    throw new Error(`Claude CLI error: ${stderr || e.message}`);
   }
 }
 
