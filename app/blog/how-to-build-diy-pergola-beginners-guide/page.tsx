@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Build a DIY Pergola: Beginner\'s Guide | Porch & Fire',
+  title: "How to Build a DIY Pergola: Beginner's Guide | Porch & Fire",
   description: 'Build a freestanding backyard pergola with confidence. Covers permits, post spacing, beam sizing, and 4 pergola kits starting at $389.',
 };
 

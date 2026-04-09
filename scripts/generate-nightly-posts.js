@@ -564,8 +564,8 @@ ${narrativeParas}
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: '${esc(post.title)} | Porch & Fire',
-  description: '${esc(post.description)}',
+  title: "${post.title.replace(/"/g, '\\"')} | Porch & Fire",
+  description: "${post.description.replace(/"/g, '\\"')}",
 };
 
 export default function Article() {

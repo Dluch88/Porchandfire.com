@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: '10 Best Patio Furniture Sets Under $500 (That Don\'t Look Cheap) | PorchAndFire',
+  title: "10 Best Patio Furniture Sets Under $500 (That Don't Look Cheap) | Porch & Fire",
   description:
     'Affordable patio furniture that actually looks and feels premium. From conversation sets to dining tables, these are the best deals for 2026.',
 };

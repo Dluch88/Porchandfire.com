@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Mother\'s Day Backyard Brunch Setup Guide | Porch & Fire',
-  description: 'Create a beautiful Mother\'s Day patio brunch with the right linens, serving pieces, and ambiance. Full setup starting at $22.',
+  title: "Mother's Day Backyard Brunch Setup Guide | Porch & Fire",
+  description: "Create a beautiful Mother's Day patio brunch with the right linens, serving pieces, and ambiance. Full setup starting at $22.",
 };
 
 export default function Article() {

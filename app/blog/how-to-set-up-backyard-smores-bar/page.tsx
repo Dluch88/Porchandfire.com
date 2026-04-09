@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How to Set Up a Backyard S\'mores Bar | Porch & Fire',
-  description: 'Turn your fire pit into a full s\'mores station with tiered trays, glass jars, and roasting sticks. Real setup tips starting around $23.',
+  title: "How to Set Up a Backyard S'mores Bar | Porch & Fire",
+  description: "Turn your fire pit into a full s'mores station with tiered trays, glass jars, and roasting sticks. Real setup tips starting around $23.",
 };
 
 export default function Article() {

@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Father\'s Day Backyard Grilling Gift Guide | Porch & Fire',
-  description: 'The best Father\'s Day gifts for grill dads, from the $20 Weber Rapidfire chimney starter to the $105 Thermapen ONE. Real picks that actually get used.',
+  title: "Father's Day Backyard Grilling Gift Guide | Porch & Fire",
+  description: "The best Father's Day gifts for grill dads, from the $20 Weber Rapidfire chimney starter to the $105 Thermapen ONE. Real picks that actually get used.",
 };
 
 export default function Article() {
