@@ -33,14 +33,19 @@ function discoverPosts(): PostEntry[] {
 
     const content = fs.readFileSync(pagePath, 'utf-8');
 
-    const titleMatch = content.match(
-      /title:\s*['"`]([^'"`]+?)(?:\s*\|\s*Porch\s*&?\s*Fire)?['"`]/
-    );
-    const descMatch = content.match(/description:\s*\n?\s*['"`]([^'"`]+)['"`]/);
+    // Match title in single quotes, double quotes, or backticks separately
+    const titleMatch =
+      content.match(/title:\s*"([^"]+?)(?:\s*\|\s*Porch[^"]*)?",?/) ||
+      content.match(/title:\s*'((?:[^'\\]|\\.)*)(?:\s*\|\s*Porch[^']*)?',?/) ||
+      content.match(/title:\s*`([^`]+?)(?:\s*\|\s*Porch[^`]*)?`,?/);
+    const descMatch =
+      content.match(/description:\s*\n?\s*"([^"]+)"/) ||
+      content.match(/description:\s*\n?\s*'((?:[^'\\]|\\.)*)'/) ||
+      content.match(/description:\s*\n?\s*`([^`]+)`/);
     if (!titleMatch) continue;
 
-    const title = titleMatch[1].replace(/\s*\|\s*Porch\s*&?\s*Fire.*$/, '').trim();
-    const description = descMatch ? descMatch[1] : '';
+    const title = titleMatch[1].replace(/\\'/g, "'").replace(/\s*\|\s*Porch\s*&?\s*Fire.*$/, '').trim();
+    const description = descMatch ? descMatch[1].replace(/\\'/g, "'") : '';
 
     const catMatch =
       content.match(/section-label[^>]*>([^<]+)</) ||

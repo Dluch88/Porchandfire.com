@@ -22,18 +22,22 @@ function escapeXml(str: string): string {
 }
 
 function extractMetadata(content: string): { title: string; description: string } | null {
-  // Extract title from metadata export
-  const titleMatch = content.match(/title:\s*['"`]([^'"`]+?)(?:\s*\|\s*Porch\s*&?\s*Fire)?['"`]/);
-  const descMatch = content.match(/description:\s*\n?\s*['"`]([^'"`]+)['"`]/);
+  const titleMatch =
+    content.match(/title:\s*"([^"]+?)(?:\s*\|\s*Porch[^"]*)?",?/) ||
+    content.match(/title:\s*'((?:[^'\\]|\\.)*)(?:\s*\|\s*Porch[^']*)?',?/) ||
+    content.match(/title:\s*`([^`]+?)(?:\s*\|\s*Porch[^`]*)?`,?/);
+  const descMatch =
+    content.match(/description:\s*\n?\s*"([^"]+)"/) ||
+    content.match(/description:\s*\n?\s*'((?:[^'\\]|\\.)*)'/) ||
+    content.match(/description:\s*\n?\s*`([^`]+)`/);
 
   if (!titleMatch) return null;
 
-  // Clean up title - remove "| Porch & Fire" or "| PorchAndFire" suffix
-  let title = titleMatch[1].replace(/\s*\|\s*Porch\s*&?\s*Fire.*$/, '').trim();
+  let title = titleMatch[1].replace(/\\'/g, "'").replace(/\s*\|\s*Porch\s*&?\s*Fire.*$/, '').trim();
 
   return {
     title,
-    description: descMatch ? descMatch[1] : '',
+    description: descMatch ? descMatch[1].replace(/\\'/g, "'") : '',
   };
 }
 
