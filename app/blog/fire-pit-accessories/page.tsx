@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     'The right accessories make every fire pit session safer and more enjoyable. Here are the best fire pit tools, spark screens, log racks, and accessories worth adding to your setup.',
 }
 
-const heroImage = 'https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200';
+const heroImage = '/images/products/hero-fire-pit-accessories.jpg';
 
 const categories = [
   {

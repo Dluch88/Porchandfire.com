@@ -12,7 +12,7 @@ export default function Article() {
       {/* Hero */}
       <div className="relative h-[50vh] min-h-[360px] w-full overflow-hidden">
         <img
-          src="https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          src="/images/products/hero-how-to-create-overhead-string-light-canopy.jpg"
           alt="How to Create an Overhead String Light Canopy"
           className="w-full h-full object-cover"
         />

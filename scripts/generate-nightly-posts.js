@@ -473,7 +473,8 @@ function buildPageTsx(post, productImages, heroImage, slug, publishDate) {
   });
   const monthYear = pubDate.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
 
-  const heroSrc = heroImage || 'https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200';
+  // No fallback — if hero download failed, use a gradient background instead
+  const heroSrc = heroImage;
 
   // Build sections TSX
   const sectionBlocks = post.sections
@@ -572,11 +573,10 @@ export default function Article() {
     <article>
       {/* Hero */}
       <div className="relative h-[50vh] min-h-[360px] w-full overflow-hidden">
-        <img
-          src="${heroSrc}"
-          alt="${escJsx(post.title)}"
-          className="w-full h-full object-cover"
-        />
+        ${heroSrc
+          ? `<img src="${heroSrc}" alt="${escJsx(post.title)}" className="w-full h-full object-cover" />`
+          : `<div className="w-full h-full bg-gradient-to-br from-sage-700 via-sage-600 to-charcoal" />`
+        }
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-charcoal/25 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-8 sm:p-12 max-w-4xl mx-auto">
           <span className="inline-block bg-sage-600 text-white text-[10px] font-body font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">

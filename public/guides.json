@@ -7,11 +7,774 @@
     "href": "/blog/best-patio-loveseat-gliders-porch"
   },
   {
+    "title": "Wicker vs. Metal Patio Furniture: Which to Buy",
+    "subtitle": "Resin wicker or aluminum? Compare durability and weather resistance with 5 real picks, from $149 bistro sets to $449 sectionals.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-wicker-vs-metal-patio-furniture-comparison.jpg",
+    "href": "/blog/wicker-vs-metal-patio-furniture-comparison"
+  },
+  {
+    "title": "Budget Spring Porch Decorating Ideas",
+    "subtitle": "7 spring porch upgrades mostly under $40 each, including a $22 coir mat and solar tiki torches that transform your entryway in an afternoon.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-spring-porch-decorating-ideas-budget.jpg",
+    "href": "/blog/spring-porch-decorating-ideas-budget"
+  },
+  {
+    "title": "Spring Patio Refresh: 7 Upgrades Under $100",
+    "subtitle": "Seven spring patio upgrades starting at $20. Fresh cushion covers, solar path lights, and a new rug make a bigger difference than you\\",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-spring-patio-refresh-upgrades-under-100.jpg",
+    "href": "/blog/spring-patio-refresh-upgrades-under-100"
+  },
+  {
+    "title": "Spring Backyard Refresh: 10 Upgrades Under $50",
+    "subtitle": "Quick spring patio upgrades that actually work. From Tomcare solar lanterns at $32 to a Safavieh outdoor rug at $44, these picks transform your backyard fast.",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-spring-backyard-refresh-upgrades-under-50.jpg",
+    "href": "/blog/spring-backyard-refresh-upgrades-under-50"
+  },
+  {
+    "title": "Propane vs Natural Gas Patio Heaters: Which Is Better?",
+    "subtitle": "Propane or natural gas for your patio heater? We break down cost, heat output, and installation with top picks starting at $149.",
+    "readTime": "9 min read",
+    "image": "/images/products/hero-propane-vs-natural-gas-patio-heaters.jpg",
+    "href": "/blog/propane-vs-natural-gas-patio-heaters"
+  },
+  {
+    "title": "Pellet Grill vs Offset Smoker: Which Is Right for You?",
+    "subtitle": "A head-to-head breakdown of pellet grills vs offset smokers, covering smoke flavor and fuel cost, with real picks like the Recteq RT-700 at $999.",
+    "readTime": "9 min read",
+    "image": "/images/products/hero-pellet-grill-vs-offset-smoker-comparison.jpg",
+    "href": "/blog/pellet-grill-vs-offset-smoker-comparison"
+  },
+  {
+    "title": "How to Set Up a Backyard Movie Night",
+    "subtitle": "The best outdoor projector screens, inflatable loungers, and speakers for a backyard movie night, starting at $34.",
+    "readTime": "9 min read",
+    "image": "/images/products/hero-outdoor-movie-night-backyard-setup.jpg",
+    "href": "/blog/outdoor-movie-night-backyard-setup"
+  },
+  {
+    "title": "Mother\\",
+    "subtitle": "Create a beautiful Mother\\",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-mothers-day-backyard-brunch-setup-guide.jpg",
+    "href": "/blog/mothers-day-backyard-brunch-setup-guide"
+  },
+  {
+    "title": "Memorial Day BBQ Setup Guide 2026",
+    "subtitle": "How to stage the perfect Memorial Day cookout, from the Napoleon Rogue XT 425 grill to cooler placement and string lights for the long evening ahead.",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-memorial-day-backyard-bbq-setup-guide.jpg",
+    "href": "/blog/memorial-day-backyard-bbq-setup-guide"
+  },
+  {
+    "title": "Kamado vs. Pellet Grill: Which Should You Buy?",
+    "subtitle": "Kamado or pellet grill? Compare flavor, fuel costs, and ease of use with picks like the Kamado Joe Classic III and Traeger Pro 575 to find your match.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-kamado-vs-pellet-grill-comparison.jpg",
+    "href": "/blog/kamado-vs-pellet-grill-comparison"
+  },
+  {
+    "title": "How to Stain and Seal a Cedar Pergola",
+    "subtitle": "Step-by-step spring guide to cleaning, staining, and sealing your cedar pergola. Protect against UV and graying with picks starting at $18.",
+    "readTime": "9 min read",
+    "image": "/images/products/hero-how-to-stain-seal-cedar-pergola.jpg",
+    "href": "/blog/how-to-stain-seal-cedar-pergola"
+  },
+  {
+    "title": "Patio Herb Garden Setup Guide for Containers",
+    "subtitle": "Grow basil, mint, and rosemary on any patio. Top picks include the Mr. Stacky 5-tier vertical planter for under $40.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-how-to-set-up-patio-herb-garden-containers.jpg",
+    "href": "/blog/how-to-set-up-patio-herb-garden-containers"
+  },
+  {
+    "title": "How to Set Up a Cinco de Mayo Backyard Fiesta",
+    "subtitle": "Set up a Cinco de Mayo party for 10+ people with a taco bar, frozen margaritas, festive lights, and lawn games. Starts around $38.",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-how-to-set-up-cinco-de-mayo-backyard-fiesta.jpg",
+    "href": "/blog/how-to-set-up-cinco-de-mayo-backyard-fiesta"
+  },
+  {
+    "title": "How to Set Up a Backyard Taco Bar Party",
+    "subtitle": "Set up a backyard taco bar for Cinco de Mayo with the Keter Unity XL serving station and a rolling margarita cart. Full gear guide inside.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-how-to-set-up-backyard-taco-bar.jpg",
+    "href": "/blog/how-to-set-up-backyard-taco-bar"
+  },
+  {
+    "title": "How to Set Up a Backyard S\\",
+    "subtitle": "Turn your fire pit into a full s\\",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-how-to-set-up-backyard-smores-bar.jpg",
+    "href": "/blog/how-to-set-up-backyard-smores-bar"
+  },
+  {
+    "title": "How to Power Wash and Reseal a Brick Patio",
+    "subtitle": "Step-by-step guide to pressure washing, sand replacement, and sealing a brick patio. Products from $26 to get it done right this spring.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-how-to-power-wash-reseal-brick-patio.jpg",
+    "href": "/blog/how-to-power-wash-reseal-brick-patio"
+  },
+  {
+    "title": "How to Plan Your Backyard Entertaining Layout",
+    "subtitle": "A practical guide to zoning your backyard for dining, lounging, fire pits, and bars. Product picks starting under $90 to anchor each space.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-how-to-plan-backyard-entertaining-layout.jpg",
+    "href": "/blog/how-to-plan-backyard-entertaining-layout"
+  },
+  {
+    "title": "How to Landscape Around a Backyard Fire Pit",
+    "subtitle": "Build a safe, clean fire pit zone with gravel, pavers, and edging. Practical guide with products starting at $22, no contractor required.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-how-to-landscape-around-backyard-fire-pit.jpg",
+    "href": "/blog/how-to-landscape-around-backyard-fire-pit"
+  },
+  {
+    "title": "How to Create a Pollinator Garden on Your Patio",
+    "subtitle": "Turn any patio into a habitat for bees and butterflies. Native seed mixes, self-watering planters, and a mason bee house starting around $22.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-how-to-create-pollinator-garden-patio.jpg",
+    "href": "/blog/how-to-create-pollinator-garden-patio"
+  },
+  {
+    "title": "How to Create an Overhead String Light Canopy",
+    "subtitle": "Step-by-step guide to building a backyard string light canopy using poles, guide wire, and the right hooks. Includes picks starting at $16.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-how-to-create-overhead-string-light-canopy.jpg",
+    "href": "/blog/how-to-create-overhead-string-light-canopy"
+  },
+  {
+    "title": "How to Create a Backyard Reading Nook",
+    "subtitle": "Build a private outdoor reading retreat with the right shade, seating, and lighting. Starts with a $35 shade sail and five smart picks.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-how-to-create-backyard-reading-nook.jpg",
+    "href": "/blog/how-to-create-backyard-reading-nook"
+  },
+  {
+    "title": "How to Clean and Seal Your Deck for Spring",
+    "subtitle": "Step-by-step guide to cleaning, brightening, and sealing your deck this spring. Top picks include Ready Seal starting at $48.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-how-to-clean-seal-deck-spring.jpg",
+    "href": "/blog/how-to-clean-seal-deck-spring"
+  },
+  {
+    "title": "How to Clean & Restore Patio Furniture This Spring",
+    "subtitle": "Step-by-step spring guide to restoring teak, wicker, aluminum, and cushions. Top picks starting at $14, including Mothers Mag and 303 Protectant.",
+    "readTime": "9 min read",
+    "image": "/images/products/hero-how-to-clean-restore-patio-furniture-spring.jpg",
+    "href": "/blog/how-to-clean-restore-patio-furniture-spring"
+  },
+  {
+    "title": "How to Build an Outdoor Kitchen Under $1,000",
+    "subtitle": "Build a functional outdoor kitchen for under $1,000 using modular components. Starts with the Blackstone 22",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-how-to-build-outdoor-kitchen-budget.jpg",
+    "href": "/blog/how-to-build-outdoor-kitchen-budget"
+  },
+  {
+    "title": "How to Build a DIY Pergola: Beginner\\",
+    "subtitle": "Build a freestanding backyard pergola with confidence. Covers permits, post spacing, beam sizing, and 4 pergola kits starting at $389.",
+    "readTime": "9 min read",
+    "image": "/images/products/hero-how-to-build-diy-pergola-beginners-guide.jpg",
+    "href": "/blog/how-to-build-diy-pergola-beginners-guide"
+  },
+  {
+    "title": "How to Build a Bocce Ball Court in Your Backyard",
+    "subtitle": "Step-by-step guide to building a backyard bocce court for $300 to $600. Covers framing, surface materials, drainage tips, and the GoSports 107mm bocce set.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-how-to-build-bocce-ball-court-backyard.jpg",
+    "href": "/blog/how-to-build-bocce-ball-court-backyard"
+  },
+  {
+    "title": "How to Build a Backyard Putting Green",
+    "subtitle": "Build a 10x15 ft backyard putting green for around $300 using GoSports artificial turf, proper base prep, and putting cups you install yourself.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-how-to-build-backyard-putting-green.jpg",
+    "href": "/blog/how-to-build-backyard-putting-green"
+  },
+  {
+    "title": "How to Build a Backyard Cocktail Bar Station",
+    "subtitle": "Build a polished outdoor cocktail station from scratch. Covers the Keter Unity XL bar cabinet, coolers, shatterproof glassware, and tools for under $500.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-how-to-build-backyard-cocktail-bar-station.jpg",
+    "href": "/blog/how-to-build-backyard-cocktail-bar-station"
+  },
+  {
+    "title": "Gas vs Pellet Grill: Which One Is Right for You?",
+    "subtitle": "Gas grill or pellet smoker? We compare flavor, cost, and convenience with top picks like the Traeger Pro 575 at $649 to help you choose.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-gas-vs-wood-pellet-grill-comparison.jpg",
+    "href": "/blog/gas-vs-wood-pellet-grill-comparison"
+  },
+  {
+    "title": "Gas Grill vs Pellet Grill: Which Should You Buy?",
+    "subtitle": "Gas or pellet grill? We break down cost, flavor, and real-world use to help you pick. The Traeger Pro 575 starts at $699.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-gas-grill-vs-pellet-grill-which-to-buy.jpg",
+    "href": "/blog/gas-grill-vs-pellet-grill-which-to-buy"
+  },
+  {
+    "title": "Best Fire Pit Accessories of 2026: Tools, Screens, Spark Guards & More",
+    "subtitle": "The right accessories make every fire pit session safer and more enjoyable. Here are the best fire pit tools, spark screens, log racks, and accessories worth adding to your setup.",
+    "readTime": "5 min read",
+    "image": "/images/products/landmann-fire-pit-tool-set-4-piece.jpg",
+    "href": "/blog/fire-pit-accessories"
+  },
+  {
+    "title": "Father\\",
+    "subtitle": "The best Father\\",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-fathers-day-backyard-grilling-gift-guide.jpg",
+    "href": "/blog/fathers-day-backyard-grilling-gift-guide"
+  },
+  {
+    "title": "Composite vs. Wood Decking: Which Is Better?",
+    "subtitle": "Composite vs. wood decking compared on cost, maintenance, and longevity. Trex boards run ~$72 each. Here\\",
+    "readTime": "9 min read",
+    "image": "/images/products/hero-composite-vs-wood-decking-comparison.jpg",
+    "href": "/blog/composite-vs-wood-decking-comparison"
+  },
+  {
+    "title": "Charcoal vs Electric Smoker: Which to Buy",
+    "subtitle": "Charcoal or electric smoker? Compare flavor, ease, and cost with top picks like the Pit Barrel Cooker and Masterbuilt 30",
+    "readTime": "9 min read",
+    "image": "/images/products/hero-charcoal-vs-electric-smoker-comparison.jpg",
+    "href": "/blog/charcoal-vs-electric-smoker-comparison"
+  },
+  {
+    "title": "Best Wood Pellets for Smoking Meat at Home",
+    "subtitle": "The right pellet wood changes everything. Bear Mountain hickory, Traeger cherry, and 4 more top picks for every meat, starting at $19.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-wood-pellets-smoking-meat-home.jpg",
+    "href": "/blog/best-wood-pellets-smoking-meat-home"
+  },
+  {
+    "title": "Best Vertical Planters and Living Wall Kits",
+    "subtitle": "The best vertical planters for fences, pergola posts, and small patios. From the Greenstalk 5-Tier at $89 to felt pocket systems under $30.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-vertical-planters-living-wall-kits.jpg",
+    "href": "/blog/best-vertical-planters-living-wall-kits"
+  },
+  {
+    "title": "Best Teak Outdoor Furniture for Patios",
+    "subtitle": "Grade A teak lasts decades outdoors. Our top picks include dining tables, benches, and chairs from Amazonia starting at $149.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-teak-outdoor-furniture-patio.jpg",
+    "href": "/blog/best-teak-outdoor-furniture-patio"
+  },
+  {
+    "title": "Best Tabletop Fire Pits for Small Patios 2026",
+    "subtitle": "The best tabletop fire pits for small patios and balconies. Bio ethanol and propane picks starting under $50, including Solo Stove Mesa.",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-best-tabletop-fire-pits-small-patios.jpg",
+    "href": "/blog/best-tabletop-fire-pits-small-patios"
+  },
+  {
+    "title": "Best String Light Poles for Backyard Patios",
+    "subtitle": "The 5 best freestanding string light poles for your backyard in 2026, starting at $49. No drilling, no permanent fixtures.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-string-light-poles-stands-backyard.jpg",
+    "href": "/blog/best-string-light-poles-stands-backyard"
+  },
+  {
+    "title": "Best Solar Outdoor Lights for Pathways and Gardens",
+    "subtitle": "The 7 best solar landscape lights for 2026, from $22 path stakes to decorative garden lanterns. Real picks for real yards.",
+    "readTime": "13 min read",
+    "image": "/images/products/hero-best-solar-outdoor-lights-garden-landscape.jpg",
+    "href": "/blog/best-solar-outdoor-lights-garden-landscape"
+  },
+  {
+    "title": "Best Smoker Boxes for Gas Grills 2026",
+    "subtitle": "Add real wood smoke to your gas grill. We tested cast iron, stainless, and V-shaped smoker boxes starting at $17 to find what actually works.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-smoker-boxes-gas-grill-wood-flavor.jpg",
+    "href": "/blog/best-smoker-boxes-gas-grill-wood-flavor"
+  },
+  {
+    "title": "Best Smart Outdoor Lights for Patio and Deck",
+    "subtitle": "Top app-controlled smart outdoor lights for patios and decks. From Philips Hue spotlights to Govee rope lights, starting at $35.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-smart-outdoor-lights-patio-deck.jpg",
+    "href": "/blog/best-smart-outdoor-lights-patio-deck"
+  },
+  {
+    "title": "Best Shade Sails for Backyard and Patio",
+    "subtitle": "The 6 best UV-blocking shade sails for patios in 2026, including the Coolaroo 16-foot triangle at $79 that drops temps by 15 degrees.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-shade-sails-backyard-patio.jpg",
+    "href": "/blog/best-shade-sails-backyard-patio"
+  },
+  {
+    "title": "Best Retractable Awnings for Decks and Patios",
+    "subtitle": "Top retractable awnings for decks in 2026, from motorized cassette models to manual crank picks. Coverage from 10 to 18 feet wide, starting at $219.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-retractable-awnings-deck-patio.jpg",
+    "href": "/blog/best-retractable-awnings-deck-patio"
+  },
+  {
+    "title": "Best Replacement Cushions for Porch Swings",
+    "subtitle": "The best porch swing replacement cushions in 2026, from $36 budget picks to Sunbrella options that outlast everything else. Tie-on designs, oversized fits, real outdoor fabrics.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-replacement-cushions-porch-swings.jpg",
+    "href": "/blog/best-replacement-cushions-porch-swings"
+  },
+  {
+    "title": "Best Raised Garden Bed Kits for Backyard Veggies",
+    "subtitle": "Top raised garden bed kits for 2026. Modular metal, cedar, and composite options starting at $59 that last through full growing seasons.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-raised-garden-bed-kits-backyard.jpg",
+    "href": "/blog/best-raised-garden-bed-kits-backyard"
+  },
+  {
+    "title": "Best Portable Fans for Patio and Deck Cooling",
+    "subtitle": "Top portable patio fans for 2026, including the Lasko Misto misting fan at $89 and battery-powered picks that work without an outlet.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-portable-fans-patio-deck-cooling.jpg",
+    "href": "/blog/best-portable-fans-patio-deck-cooling"
+  },
+  {
+    "title": "Best Porch Swings with Hanging Hardware",
+    "subtitle": "Six porch swings that come with chains and mounting hardware. Wood, metal, and wicker options from $185, covering 2-seat and 3-seat sizes.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-porch-swings-with-hanging-hardware.jpg",
+    "href": "/blog/best-porch-swings-with-hanging-hardware"
+  },
+  {
+    "title": "Best Porch Rocking Chairs for Any Budget",
+    "subtitle": "From $85 resin rockers to $379 POLYWOOD classics, these are the best porch rocking chairs tested for comfort, weather resistance, and lasting value.",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-best-porch-rocking-chairs-any-budget.jpg",
+    "href": "/blog/best-porch-rocking-chairs-any-budget"
+  },
+  {
+    "title": "Best Pool Floats and Floating Loungers for Summer",
+    "subtitle": "The best pool floats for adults in 2026, from the $28 Intex River Run to a $99 FUNBOY Cloud Float. Real picks for real backyards.",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-best-pool-floats-floating-loungers-summer.jpg",
+    "href": "/blog/best-pool-floats-floating-loungers-summer"
+  },
+  {
+    "title": "Best Pergola Kits for DIY Backyard Install",
+    "subtitle": "Top pergola kits for DIY installs in 2026. The Purple Leaf 10x13 aluminum kit starts at $899 and goes up in a single weekend.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-pergola-kits-diy-backyard-install.jpg",
+    "href": "/blog/best-pergola-kits-diy-backyard-install"
+  },
+  {
+    "title": "Best Pellet Grills Under $500 for Beginners",
+    "subtitle": "The best pellet grills under $500 for backyard beginners. From the $299 GMG Davy Crockett to the Camp Chef SmokePro LD at $469.",
+    "readTime": "13 min read",
+    "image": "/images/products/hero-best-pellet-grills-under-500.jpg",
+    "href": "/blog/best-pellet-grills-under-500"
+  },
+  {
+    "title": "Best Patio Umbrella Lights for Ambiance",
+    "subtitle": "The best clip-on and solar umbrella lights for your patio, including the Brightown 104 LED for under $25. Real brightness, battery life, and setup details.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-patio-umbrella-lights-ambiance.jpg",
+    "href": "/blog/best-patio-umbrella-lights-ambiance"
+  },
+  {
+    "title": "Best Patio Heater Covers Worth Buying",
+    "subtitle": "Protect your propane, pyramid, and tabletop patio heaters year-round. Our top picks start at $22 and actually stay put in the wind.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-patio-heater-covers-worth-buying.jpg",
+    "href": "/blog/best-patio-heater-covers-worth-buying"
+  },
+  {
+    "title": "Best Patio Conversation Sets Under $600",
+    "subtitle": "Six wicker conversation sets that actually hold up outside. Suncrown, PHI VILLA, and more, all under $600 with real durability tested.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-patio-conversation-sets-under-600.jpg",
+    "href": "/blog/best-patio-conversation-sets-under-600"
+  },
+  {
+    "title": "Best Patio Bistro Sets for Small Spaces 2026",
+    "subtitle": "The 5 best bistro sets for small patios and balconies under $200. Wrought iron, wicker, and resin picks for morning coffee or evening drinks.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-patio-bistro-sets-small-spaces.jpg",
+    "href": "/blog/best-patio-bistro-sets-small-spaces"
+  },
+  {
+    "title": "Best Outdoor Wet Bar Setup for Backyard",
+    "subtitle": "Build a real backyard bar with the right cabinet, beverage fridge, and tools. The Keter Unity XL starts at $250 and anchors the whole setup.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-wet-bar-setup-backyard.jpg",
+    "href": "/blog/best-outdoor-wet-bar-setup-backyard"
+  },
+  {
+    "title": "Best Outdoor Umbrellas with Base Stands",
+    "subtitle": "The best patio umbrellas with weighted base stands for patios without table holes. Cantilever and center-pole picks from $89 to $259.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-umbrellas-with-base-stands.jpg",
+    "href": "/blog/best-outdoor-umbrellas-with-base-stands"
+  },
+  {
+    "title": "Best Outdoor Storage Benches for Patios",
+    "subtitle": "Top outdoor storage benches for patios in 2026, from the $89 Lifetime 60012 to the $329 Highwood Hamilton. Resin, wood, and wicker options compared.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-storage-benches-patio.jpg",
+    "href": "/blog/best-outdoor-storage-benches-patio"
+  },
+  {
+    "title": "Best Outdoor Side Tables for Every Patio Style",
+    "subtitle": "Six weather-resistant outdoor side tables from $42 to $129, covering bistro, tray, wicker, and metal styles for any patio or balcony.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-side-tables-patio.jpg",
+    "href": "/blog/best-outdoor-side-tables-patio"
+  },
+  {
+    "title": "Best Outdoor Serving Platters & Shatterproof Barware",
+    "subtitle": "Top picks for shatterproof acrylic wine glasses, melamine platters, and outdoor cocktail sets. Govino 4-pack starts at $20.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-serving-platters-shatterproof-barware.jpg",
+    "href": "/blog/best-outdoor-serving-platters-shatterproof-barware"
+  },
+  {
+    "title": "Best Outdoor Serving Carts for Patio Entertaining",
+    "subtitle": "The best outdoor serving carts for hosting, from the Weber 7107 at $44 to the Keter Unity XL at $249. Six real picks for real patios.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-serving-carts-patio-entertaining.jpg",
+    "href": "/blog/best-outdoor-serving-carts-patio-entertaining"
+  },
+  {
+    "title": "Best Outdoor Sectional Sofas Under $800",
+    "subtitle": "Six affordable outdoor sectionals with cushions and covers for real patios. Top pick: Suncrown 5-piece wicker set with cover for $649.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-sectional-sofas-under-800.jpg",
+    "href": "/blog/best-outdoor-sectional-sofas-under-800"
+  },
+  {
+    "title": "Best Outdoor Sectional Covers for All Weather",
+    "subtitle": "Protect your sectional sofa year-round. From L-shaped to modular designs, these heavy-duty covers start around $60 and actually stay put in wind.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-outdoor-sectional-cover-sets-all-weather.jpg",
+    "href": "/blog/best-outdoor-sectional-cover-sets-all-weather"
+  },
+  {
+    "title": "Best Outdoor Pub Tables and Bar Height Sets",
+    "subtitle": "Top outdoor bar-height pub tables and sets for patios and decks. Includes complete sets from $229 and a solid Grade A teak round top.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-pub-tables-bar-height-sets.jpg",
+    "href": "/blog/best-outdoor-pub-tables-bar-height-sets"
+  },
+  {
+    "title": "Best Outdoor Privacy Screens for Decks and Patios",
+    "subtitle": "Top privacy screens for decks and patios in 2026. Bamboo, metal, and fabric options from $42. Block neighbors without blocking your style.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-privacy-screens-deck-patio.jpg",
+    "href": "/blog/best-outdoor-privacy-screens-deck-patio"
+  },
+  {
+    "title": "Best Outdoor Planters for Patio and Porch",
+    "subtitle": "The best outdoor planters for your porch or patio in 2026, from a $40 rustic barrel to a $98 fiberglass statement planter built to last a decade.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-outdoor-planters-patio-porch.jpg",
+    "href": "/blog/best-outdoor-planters-patio-porch"
+  },
+  {
+    "title": "Best Outdoor Plant Stands for Patios and Porches",
+    "subtitle": "Best outdoor plant stands for patios and porches, from a $28 wrought iron single-pot stand to a $48 five-tier display that holds 8 plants.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-plant-stands-patio-porch.jpg",
+    "href": "/blog/best-outdoor-plant-stands-patio-porch"
+  },
+  {
+    "title": "Best Outdoor Misting Systems for Patio Cooling",
+    "subtitle": "Top patio misting systems from $32, including the Orbit 20066N line kit and Arctic Cove cordless fan. Covers cooling effectiveness, pressure, and setup ease.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-misting-systems-patio-cooling.jpg",
+    "href": "/blog/best-outdoor-misting-systems-patio-cooling"
+  },
+  {
+    "title": "Best Outdoor Lounge Sets With Ottoman Included",
+    "subtitle": "Six outdoor lounge sets that include an ottoman, starting around $369. Wicker, aluminum, and sectional options sized for real patios.",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-best-outdoor-lounge-sets-with-ottoman.jpg",
+    "href": "/blog/best-outdoor-lounge-sets-with-ottoman"
+  },
+  {
+    "title": "Best Outdoor Lantern String Lights for Pergolas",
+    "subtitle": "The 6 best outdoor lantern string lights for pergolas in 2026, from $17 paper lanterns to the weatherproof Soji Stella fabric lights built to last.",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-best-outdoor-lantern-string-lights-pergola.jpg",
+    "href": "/blog/best-outdoor-lantern-string-lights-pergola"
+  },
+  {
+    "title": "Best Built-In Grills for Outdoor Kitchens",
+    "subtitle": "Top built-in grill heads for outdoor kitchen islands from Blaze, Napoleon, and Weber. Stainless drop-in options starting at $999 for any island size.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-kitchen-grills-built-in-deck.jpg",
+    "href": "/blog/best-outdoor-kitchen-grills-built-in-deck"
+  },
+  {
+    "title": "Best Outdoor Kitchen Carts and Grill Islands 2026",
+    "subtitle": "The best outdoor kitchen carts and grill islands for 2026, from a $89 fold-flat table to a $279 full prep station with cabinet storage.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-kitchen-carts-grill-islands.jpg",
+    "href": "/blog/best-outdoor-kitchen-carts-grill-islands"
+  },
+  {
+    "title": "Best Outdoor Furniture Covers Worth Buying",
+    "subtitle": "The best patio furniture covers for 2026, from the Classic Accessories Ravenna sectional cover to waterproof dining set options under $65.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-furniture-covers-worth-buying.jpg",
+    "href": "/blog/best-outdoor-furniture-covers-worth-buying"
+  },
+  {
+    "title": "Best Outdoor Folding Tables for Entertaining",
+    "subtitle": "The best outdoor folding tables for backyard parties, from a $45 compact side table to an 8-ft Cosco buffet table that handles crowds of 20+.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-outdoor-folding-tables-entertaining.jpg",
+    "href": "/blog/best-outdoor-folding-tables-entertaining"
+  },
+  {
+    "title": "Best Fire Pit Covers Worth Buying in 2026",
+    "subtitle": "Five durable fire pit covers for round bowls and propane tables, starting at $22. Real picks from Classic Accessories, Duck Covers, and more.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-outdoor-fire-pit-covers-worth-buying.jpg",
+    "href": "/blog/best-outdoor-fire-pit-covers-worth-buying"
+  },
+  {
+    "title": "Best Outdoor Egg Chairs for Your Backyard",
+    "subtitle": "The 5 best outdoor egg chairs in 2026, from the $169 Best Choice Products basket chair to the $419 Purple Leaf premium hanging model.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-outdoor-egg-chairs-backyard.jpg",
+    "href": "/blog/best-outdoor-egg-chairs-backyard"
+  },
+  {
+    "title": "Best Outdoor Dining Sets for 6 to 8 People",
+    "subtitle": "The best outdoor dining sets for 6-8 people, from a $449 acacia wood set to Grade-A teak. Real picks for summer entertaining on a large patio or deck.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-dining-sets-6-to-8-people.jpg",
+    "href": "/blog/best-outdoor-dining-sets-6-to-8-people"
+  },
+  {
+    "title": "Best Outdoor Dining Chairs Sold Separately",
+    "subtitle": "Mix-and-match outdoor dining chairs from $70 to $175. Our picks cover stackable steel, teak folding, and resin sling styles for any patio table.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-dining-chairs-sold-separately.jpg",
+    "href": "/blog/best-outdoor-dining-chairs-sold-separately"
+  },
+  {
+    "title": "Best Outdoor Daybed Loungers for the Patio",
+    "subtitle": "The best outdoor daybeds for pool decks and patios in 2026, including canopy options starting around $479.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-outdoor-daybed-loungers-patio.jpg",
+    "href": "/blog/best-outdoor-daybed-loungers-patio"
+  },
+  {
+    "title": "Best Outdoor Curtains for Pergola and Patio",
+    "subtitle": "The best outdoor curtains for pergolas and patios. UV-resistant picks from $26 per panel for privacy, shade, and wind protection.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-outdoor-curtains-pergola-patio.jpg",
+    "href": "/blog/best-outdoor-curtains-pergola-patio"
+  },
+  {
+    "title": "Best Outdoor Coolers for Your Patio (2026)",
+    "subtitle": "The 6 best patio coolers tested for real backyard use, from the YETI Tundra 45 ($350) to budget hard-sided picks under $100.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-coolers-ice-chests-patio.jpg",
+    "href": "/blog/best-outdoor-coolers-ice-chests-patio"
+  },
+  {
+    "title": "Best Chaise Lounges for Small Patios 2026",
+    "subtitle": "Six slim chaise lounges for compact patios and balconies, starting at $89. Folding, sling, and wicker picks that actually fit small spaces.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-chaise-lounge-small-patio.jpg",
+    "href": "/blog/best-outdoor-chaise-lounge-small-patio"
+  },
+  {
+    "title": "Best Outdoor Buffet Tables for Backyard Parties",
+    "subtitle": "The 5 best outdoor buffet tables for backyard entertaining in 2026, from a $55 aluminum folding table to a grill-side Weber work station.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-outdoor-buffet-tables-backyard-parties.jpg",
+    "href": "/blog/best-outdoor-buffet-tables-backyard-parties"
+  },
+  {
+    "title": "Best Outdoor Beverage Coolers and Wine Fridges",
+    "subtitle": "Top outdoor-rated beverage fridges for patios, from the $249 Danby dual-zone to the $849 Perlick. UV glass, weatherproofing, and real capacity.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-beverage-coolers-wine-fridges.jpg",
+    "href": "/blog/best-outdoor-beverage-coolers-wine-fridges"
+  },
+  {
+    "title": "Best Outdoor Benches for Gardens and Patios",
+    "subtitle": "Six outdoor benches worth buying in 2026, from POLYWOOD poly lumber to teak and storage styles starting around $129.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-outdoor-benches-garden-patio.jpg",
+    "href": "/blog/best-outdoor-benches-garden-patio"
+  },
+  {
+    "title": "Best Outdoor Bar Height Tables for Patio Bars",
+    "subtitle": "Top outdoor bar height tables in teak, aluminum, wicker, and more. Build a real backyard bar setup starting around $109.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-outdoor-bar-tables-patio-entertaining.jpg",
+    "href": "/blog/best-outdoor-bar-tables-patio-entertaining"
+  },
+  {
+    "title": "Best Outdoor Bar Carts for Entertaining",
+    "subtitle": "The 6 best weather-resistant outdoor bar carts for patios and decks in 2026, including the Crosley Palm Harbor wicker cart at $189.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-outdoor-bar-carts-entertaining.jpg",
+    "href": "/blog/best-outdoor-bar-carts-entertaining"
+  },
+  {
+    "title": "Best Outdoor Accent Tables Under $100",
+    "subtitle": "Seven weather-resistant outdoor accent tables under $100, from a $40 folding steel tray table to a real teak round. Picks for patios of any size.",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-best-outdoor-accent-tables-under-100.jpg",
+    "href": "/blog/best-outdoor-accent-tables-under-100"
+  },
+  {
+    "title": "Best Outdoor Accent Lighting for Patios",
+    "subtitle": "Go beyond string lights with solar stake lights, LED pergola strips, flameless candles, and tabletop lanterns that cost under $50.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-outdoor-accent-lighting-patio-ideas.jpg",
+    "href": "/blog/best-outdoor-accent-lighting-patio-ideas"
+  },
+  {
+    "title": "Best Outdoor Accent Chairs for Patios 2026",
+    "subtitle": "The best outdoor accent chairs for patios, from a $89 GCI rocker to a $289 hanging egg chair. Real picks that make your porch look intentional.",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-best-outdoor-accent-chairs-patio.jpg",
+    "href": "/blog/best-outdoor-accent-chairs-patio"
+  },
+  {
+    "title": "Best Landscape Uplights for Backyard Trees",
+    "subtitle": "Six real uplighting picks, from $22 solar stakes to $57 brass fixtures, to make your backyard trees look stunning after dark.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-landscape-uplights-backyard-trees.jpg",
+    "href": "/blog/best-landscape-uplights-backyard-trees"
+  },
+  {
+    "title": "Best Kamado Grills for Backyard BBQ",
+    "subtitle": "Top kamado grills from Kamado Joe, Weber, and Char-Griller. Starts at $349 with the Akorn, up to the Classic III at $1,799.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-kamado-grills-backyard-bbq.jpg",
+    "href": "/blog/best-kamado-grills-backyard-bbq"
+  },
+  {
+    "title": "Best Infrared Patio Heaters for 2026",
+    "subtitle": "Six infrared patio heaters from $110 to $720, including wall-mount, ceiling, and freestanding options for covered patios and open decks.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-infrared-patio-heaters-outdoor.jpg",
+    "href": "/blog/best-infrared-patio-heaters-outdoor"
+  },
+  {
+    "title": "Best Hardtop Gazebo Kits for Backyard Shade",
+    "subtitle": "The best hardtop gazebo kits for real weather protection. Aluminum vs steel frames, 10x10 to 12x14 sizes, from $849 to $1,999.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-hardtop-gazebo-kits-backyard-shade.jpg",
+    "href": "/blog/best-hardtop-gazebo-kits-backyard-shade"
+  },
+  {
+    "title": "Best Hanging Planters for Porches and Pergolas",
+    "subtitle": "The best hanging planters for every porch style, from macramé to self-watering baskets. Top picks start under $15.",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-best-hanging-planters-porches-pergolas.jpg",
+    "href": "/blog/best-hanging-planters-porches-pergolas"
+  },
+  {
+    "title": "Best Grill Covers for Every Grill Type",
+    "subtitle": "Best grill covers for gas, pellet, kamado, and charcoal grills. Top picks from Weber, Classic Accessories, and Unicook starting at $23.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-grill-covers-every-grill-type.jpg",
+    "href": "/blog/best-grill-covers-every-grill-type"
+  },
+  {
     "title": "Best Gas Grills Under $600 for Summer 2026",
     "subtitle": "Six mid-range gas grills under $600 worth buying this summer, including the Napoleon Rogue 365 at $499 and budget picks with side burners.",
     "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "image": "/images/products/hero-best-gas-grills-under-600-summer.jpg",
     "href": "/blog/best-gas-grills-under-600-summer"
+  },
+  {
+    "title": "Best Gas Fire Pit Burner Inserts for DIY Builds",
+    "subtitle": "Top propane and natural gas burner insert kits for DIY fire pits, from $55 ring burners to the Warming Trends Crossfire for serious flame.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-gas-fire-pit-inserts-diy-outdoor.jpg",
+    "href": "/blog/best-gas-fire-pit-inserts-diy-outdoor"
+  },
+  {
+    "title": "Best Freestanding Propane Patio Heaters 2026",
+    "subtitle": "The 6 best freestanding propane patio heaters for large decks and backyards. Options from $149 to $219, including 48,000 BTU picks that keep guests warm.",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-best-freestanding-propane-patio-heaters.jpg",
+    "href": "/blog/best-freestanding-propane-patio-heaters"
+  },
+  {
+    "title": "Best Flat Top Grills for Backyard Cookouts",
+    "subtitle": "Top flat top grills reviewed for 2026, from the Blackstone 36",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-best-flat-top-grills-backyard-cookouts.jpg",
+    "href": "/blog/best-flat-top-grills-backyard-cookouts"
+  },
+  {
+    "title": "Best Firewood Racks for Backyard Fire Pits",
+    "subtitle": "The best outdoor firewood racks for keeping logs dry and handy all season. Top picks in steel and iron from $28 to $119.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-firewood-racks-backyard-fire-pits.jpg",
+    "href": "/blog/best-firewood-racks-backyard-fire-pits"
+  },
+  {
+    "title": "Best Fire Pit Wind Guards and Spark Screens",
+    "subtitle": "Keep sparks contained and flames steady with the best spark screens and wind guards for fire pits. Picks for round and square pits starting at $28.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-fire-pit-wind-guards-spark-screens.jpg",
+    "href": "/blog/best-fire-pit-wind-guards-spark-screens"
+  },
+  {
+    "title": "Best Fire Pit Chairs for Gathering Outside",
+    "subtitle": "Best fire pit chairs for 2026, from $55 to $269. Heat-resistant Adirondacks, camp rockers, and folding chairs built for long evenings around the fire.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-best-fire-pit-chairs-backyard.jpg",
+    "href": "/blog/best-fire-pit-chairs-backyard"
+  },
+  {
+    "title": "Best Concrete and Faux Stone Outdoor Planters",
+    "subtitle": "Six concrete and faux stone planters that look expensive without the weight. Picks from $32 to $195 for patios and entryways.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-concrete-faux-stone-outdoor-planters.jpg",
+    "href": "/blog/best-concrete-faux-stone-outdoor-planters"
+  },
+  {
+    "title": "Best Charcoal Smokers for Backyard BBQ",
+    "subtitle": "Six charcoal smokers from $199, covering offset, bullet, and kamado styles for backyard pitmasters who want real BBQ flavor without the guesswork.",
+    "readTime": "13 min read",
+    "image": "/images/products/hero-best-charcoal-smokers-backyard-bbq.jpg",
+    "href": "/blog/best-charcoal-smokers-backyard-bbq"
+  },
+  {
+    "title": "Best Charcoal Grills with Offset Smoker",
+    "subtitle": "Five combo charcoal grill and offset smoker units starting at $159. Grill burgers tonight and smoke a brisket all weekend without buying two separate rigs.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-charcoal-grills-with-offset-smoker.jpg",
+    "href": "/blog/best-charcoal-grills-with-offset-smoker"
+  },
+  {
+    "title": "Best Backyard Fountains and Water Features 2026",
+    "subtitle": "The 6 best backyard fountains for 2026, from a $89 solar bamboo fountain to a classic 3-tier that fits a 10x10 patio. Real picks that add real calm.",
+    "readTime": "12 min read",
+    "image": "/images/products/hero-best-backyard-fountains-water-features.jpg",
+    "href": "/blog/best-backyard-fountains-water-features"
+  },
+  {
+    "title": "Best 2-Piece Outdoor Wicker Sofa Sets Under $800",
+    "subtitle": "Six PE wicker sofa sets for smaller patios, starting at $289. Real picks comparing cushion quality, frame durability, and style.",
+    "readTime": "11 min read",
+    "image": "/images/products/hero-best-2-piece-outdoor-wicker-sofa-sets.jpg",
+    "href": "/blog/best-2-piece-outdoor-wicker-sofa-sets"
+  },
+  {
+    "title": "Backyard Herb Garden Setup for Patio Cooks",
+    "subtitle": "Grow fresh basil, rosemary, and thyme steps from your grill. Five real container setups starting at $18, from raised beds to railing planters.",
+    "readTime": "10 min read",
+    "image": "/images/products/hero-backyard-herb-kitchen-garden-setup.jpg",
+    "href": "/blog/backyard-herb-kitchen-garden-setup"
   },
   {
     "title": "Best Outdoor Dining Sets for Small Patios 2026",
@@ -28,13 +791,6 @@
     "href": "/blog/best-outdoor-ottomans-poufs-patio"
   },
   {
-    "title": "How to Build a Backyard Putting Green",
-    "subtitle": "Build a 10x15 ft backyard putting green for around $300 using GoSports artificial turf, proper base prep, and putting cups you install yourself.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-build-backyard-putting-green"
-  },
-  {
     "title": "Best Grill Tool Sets for Backyard BBQ 2026",
     "subtitle": "Top grill tool sets under $75 for 2026. From the Alpha Grillers 4-piece to Cuisinart\\",
     "readTime": "12 min read",
@@ -47,13 +803,6 @@
     "readTime": "11 min read",
     "image": "/images/products/hero-best-outdoor-sectional-sofas-large-patios.jpg",
     "href": "/blog/best-outdoor-sectional-sofas-large-patios"
-  },
-  {
-    "title": "How to Build a Bocce Ball Court in Your Backyard",
-    "subtitle": "Step-by-step guide to building a backyard bocce court for $300 to $600. Covers framing, surface materials, drainage tips, and the GoSports 107mm bocce set.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-build-bocce-ball-court-backyard"
   },
   {
     "title": "Best Outdoor Grill Side Tables and Prep Carts",
@@ -77,67 +826,11 @@
     "href": "/blog/best-zero-gravity-chairs-patio-relaxing"
   },
   {
-    "title": "Best Fire Pit Wind Guards and Spark Screens",
-    "subtitle": "Keep sparks contained and flames steady with the best spark screens and wind guards for fire pits. Picks for round and square pits starting at $28.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-fire-pit-wind-guards-spark-screens"
-  },
-  {
-    "title": "Best Patio Umbrella Lights for Ambiance",
-    "subtitle": "The best clip-on and solar umbrella lights for your patio, including the Brightown 104 LED for under $25. Real brightness, battery life, and setup details.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-patio-umbrella-lights-ambiance"
-  },
-  {
-    "title": "Budget Spring Porch Decorating Ideas",
-    "subtitle": "7 spring porch upgrades mostly under $40 each, including a $22 coir mat and solar tiki torches that transform your entryway in an afternoon.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/spring-porch-decorating-ideas-budget"
-  },
-  {
-    "title": "Best Concrete and Faux Stone Outdoor Planters",
-    "subtitle": "Six concrete and faux stone planters that look expensive without the weight. Picks from $32 to $195 for patios and entryways.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-concrete-faux-stone-outdoor-planters"
-  },
-  {
     "title": "Best Outdoor Dining Tables for Patios 2026",
     "subtitle": "Six outdoor dining tables worth buying in 2026, from a $139 Keter resin round to a $899 Grade-A teak table. Sizes for 4 to 8 people.",
     "readTime": "12 min read",
     "image": "/images/products/hero-best-outdoor-dining-tables-patio-deck.jpg",
     "href": "/blog/best-outdoor-dining-tables-patio-deck"
-  },
-  {
-    "title": "Best Outdoor Umbrellas with Base Stands",
-    "subtitle": "The best patio umbrellas with weighted base stands for patios without table holes. Cantilever and center-pole picks from $89 to $259.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-umbrellas-with-base-stands"
-  },
-  {
-    "title": "How to Power Wash and Reseal a Brick Patio",
-    "subtitle": "Step-by-step guide to pressure washing, sand replacement, and sealing a brick patio. Products from $26 to get it done right this spring.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-power-wash-reseal-brick-patio"
-  },
-  {
-    "title": "Best Fire Pit Chairs for Gathering Outside",
-    "subtitle": "Best fire pit chairs for 2026, from $55 to $269. Heat-resistant Adirondacks, camp rockers, and folding chairs built for long evenings around the fire.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-fire-pit-chairs-backyard"
-  },
-  {
-    "title": "Best Outdoor Egg Chairs for Your Backyard",
-    "subtitle": "The 5 best outdoor egg chairs in 2026, from the $169 Best Choice Products basket chair to the $419 Purple Leaf premium hanging model.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-egg-chairs-backyard"
   },
   {
     "title": "Best Outdoor Bar Stools for Patios 2026",
@@ -147,46 +840,11 @@
     "href": "/blog/best-outdoor-bar-stools-patio"
   },
   {
-    "title": "Mother\\",
-    "subtitle": "Create a beautiful Mother\\",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/mothers-day-backyard-brunch-setup-guide"
-  },
-  {
-    "title": "Wicker vs. Metal Patio Furniture: Which to Buy",
-    "subtitle": "Resin wicker or aluminum? Compare durability and weather resistance with 5 real picks, from $149 bistro sets to $449 sectionals.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/wicker-vs-metal-patio-furniture-comparison"
-  },
-  {
-    "title": "Best Fire Pit Covers Worth Buying in 2026",
-    "subtitle": "Five durable fire pit covers for round bowls and propane tables, starting at $22. Real picks from Classic Accessories, Duck Covers, and more.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-fire-pit-covers-worth-buying"
-  },
-  {
-    "title": "Best Flat Top Grills for Backyard Cookouts",
-    "subtitle": "Top flat top grills reviewed for 2026, from the Blackstone 36",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-flat-top-grills-backyard-cookouts"
-  },
-  {
     "title": "Best Outdoor Lounge Chairs for Summer 2026",
     "subtitle": "From $45 zero-gravity recliners to $649 POLYWOOD chaises, these are the best outdoor lounge chairs for your patio or pool deck in 2026.",
     "readTime": "11 min read",
     "image": "/images/products/hero-best-outdoor-lounge-chairs-summer.jpg",
     "href": "/blog/best-outdoor-lounge-chairs-summer"
-  },
-  {
-    "title": "Best Outdoor Beverage Coolers and Wine Fridges",
-    "subtitle": "Top outdoor-rated beverage fridges for patios, from the $249 Danby dual-zone to the $849 Perlick. UV glass, weatherproofing, and real capacity.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-beverage-coolers-wine-fridges"
   },
   {
     "title": "How to Build a Pea Gravel Patio on a Budget",
@@ -196,46 +854,11 @@
     "href": "/blog/how-to-build-pea-gravel-patio-budget"
   },
   {
-    "title": "Best Charcoal Grills with Offset Smoker",
-    "subtitle": "Five combo charcoal grill and offset smoker units starting at $159. Grill burgers tonight and smoke a brisket all weekend without buying two separate rigs.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-charcoal-grills-with-offset-smoker"
-  },
-  {
-    "title": "Best Pergola Kits for DIY Backyard Install",
-    "subtitle": "Top pergola kits for DIY installs in 2026. The Purple Leaf 10x13 aluminum kit starts at $899 and goes up in a single weekend.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-pergola-kits-diy-backyard-install"
-  },
-  {
-    "title": "Best Shade Sails for Backyard and Patio",
-    "subtitle": "The 6 best UV-blocking shade sails for patios in 2026, including the Coolaroo 16-foot triangle at $79 that drops temps by 15 degrees.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-shade-sails-backyard-patio"
-  },
-  {
     "title": "Best Outdoor Projectors for Backyard Movies",
     "subtitle": "Best outdoor projectors for backyard movies in 2026, from the Anker Nebula Capsule 3 Laser at $549 to 1,000-lumen picks for twilight screenings.",
     "readTime": "10 min read",
     "image": "/images/products/hero-best-outdoor-projectors-backyard-movies.jpg",
     "href": "/blog/best-outdoor-projectors-backyard-movies"
-  },
-  {
-    "title": "Best Hanging Planters for Porches and Pergolas",
-    "subtitle": "The best hanging planters for every porch style, from macramé to self-watering baskets. Top picks start under $15.",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-hanging-planters-porches-pergolas"
-  },
-  {
-    "title": "Best Outdoor Side Tables for Every Patio Style",
-    "subtitle": "Six weather-resistant outdoor side tables from $42 to $129, covering bistro, tray, wicker, and metal styles for any patio or balcony.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-side-tables-patio"
   },
   {
     "title": "Best Charcoal Grills Under $300 (2026)",
@@ -245,109 +868,11 @@
     "href": "/blog/best-charcoal-grills-under-300"
   },
   {
-    "title": "Best Built-In Grills for Outdoor Kitchens",
-    "subtitle": "Top built-in grill heads for outdoor kitchen islands from Blaze, Napoleon, and Weber. Stainless drop-in options starting at $999 for any island size.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-kitchen-grills-built-in-deck"
-  },
-  {
-    "title": "Best Freestanding Propane Patio Heaters 2026",
-    "subtitle": "The 6 best freestanding propane patio heaters for large decks and backyards. Options from $149 to $219, including 48,000 BTU picks that keep guests warm.",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-freestanding-propane-patio-heaters"
-  },
-  {
-    "title": "Best Outdoor Storage Benches for Patios",
-    "subtitle": "Top outdoor storage benches for patios in 2026, from the $89 Lifetime 60012 to the $329 Highwood Hamilton. Resin, wood, and wicker options compared.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-storage-benches-patio"
-  },
-  {
-    "title": "Best Outdoor Furniture Covers Worth Buying",
-    "subtitle": "The best patio furniture covers for 2026, from the Classic Accessories Ravenna sectional cover to waterproof dining set options under $65.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-furniture-covers-worth-buying"
-  },
-  {
-    "title": "Spring Patio Refresh: 7 Upgrades Under $100",
-    "subtitle": "Seven spring patio upgrades starting at $20. Fresh cushion covers, solar path lights, and a new rug make a bigger difference than you\\",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/spring-patio-refresh-upgrades-under-100"
-  },
-  {
-    "title": "Best Firewood Racks for Backyard Fire Pits",
-    "subtitle": "The best outdoor firewood racks for keeping logs dry and handy all season. Top picks in steel and iron from $28 to $119.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-firewood-racks-backyard-fire-pits"
-  },
-  {
     "title": "Best Outdoor Coffee Tables for Patios and Decks",
     "subtitle": "Best outdoor coffee tables for patios from $92 to $220, including storage, wicker, recycled poly, and convertible picks built for real outdoor use.",
     "readTime": "11 min read",
     "image": "/images/products/hero-best-outdoor-coffee-tables-patio-deck.jpg",
     "href": "/blog/best-outdoor-coffee-tables-patio-deck"
-  },
-  {
-    "title": "Best Outdoor Planters for Patio and Porch",
-    "subtitle": "The best outdoor planters for your porch or patio in 2026, from a $40 rustic barrel to a $98 fiberglass statement planter built to last a decade.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-planters-patio-porch"
-  },
-  {
-    "title": "Composite vs. Wood Decking: Which Is Better?",
-    "subtitle": "Composite vs. wood decking compared on cost, maintenance, and longevity. Trex boards run ~$72 each. Here\\",
-    "readTime": "9 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/composite-vs-wood-decking-comparison"
-  },
-  {
-    "title": "Best Outdoor Pub Tables and Bar Height Sets",
-    "subtitle": "Top outdoor bar-height pub tables and sets for patios and decks. Includes complete sets from $229 and a solid Grade A teak round top.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-pub-tables-bar-height-sets"
-  },
-  {
-    "title": "Best Porch Swings with Hanging Hardware",
-    "subtitle": "Six porch swings that come with chains and mounting hardware. Wood, metal, and wicker options from $185, covering 2-seat and 3-seat sizes.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-porch-swings-with-hanging-hardware"
-  },
-  {
-    "title": "Best Portable Fans for Patio and Deck Cooling",
-    "subtitle": "Top portable patio fans for 2026, including the Lasko Misto misting fan at $89 and battery-powered picks that work without an outlet.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-portable-fans-patio-deck-cooling"
-  },
-  {
-    "title": "Best Outdoor Misting Systems for Patio Cooling",
-    "subtitle": "Top patio misting systems from $32, including the Orbit 20066N line kit and Arctic Cove cordless fan. Covers cooling effectiveness, pressure, and setup ease.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-misting-systems-patio-cooling"
-  },
-  {
-    "title": "How to Build a Backyard Cocktail Bar Station",
-    "subtitle": "Build a polished outdoor cocktail station from scratch. Covers the Keter Unity XL bar cabinet, coolers, shatterproof glassware, and tools for under $500.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-build-backyard-cocktail-bar-station"
-  },
-  {
-    "title": "Best Fire Pit Accessories of 2026: Tools, Screens, Spark Guards & More",
-    "subtitle": "The right accessories make every fire pit session safer and more enjoyable. Here are the best fire pit tools, spark screens, log racks, and accessories worth adding to your setup.",
-    "readTime": "5 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/fire-pit-accessories"
   },
   {
     "title": "Best Patio Heaters of 2026: Propane, Electric & Infrared Compared",
@@ -455,158 +980,11 @@
     "href": "/blog/propane-vs-wood-fire-pit"
   },
   {
-    "title": "How to Set Up a Cinco de Mayo Backyard Fiesta",
-    "subtitle": "Set up a Cinco de Mayo party for 10+ people with a taco bar, frozen margaritas, festive lights, and lawn games. Starts around $38.",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-set-up-cinco-de-mayo-backyard-fiesta"
-  },
-  {
-    "title": "Best Patio Bistro Sets for Small Spaces 2026",
-    "subtitle": "The 5 best bistro sets for small patios and balconies under $200. Wrought iron, wicker, and resin picks for morning coffee or evening drinks.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-patio-bistro-sets-small-spaces"
-  },
-  {
-    "title": "Spring Backyard Refresh: 10 Upgrades Under $50",
-    "subtitle": "Quick spring patio upgrades that actually work. From Tomcare solar lanterns at $32 to a Safavieh outdoor rug at $44, these picks transform your backyard fast.",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/spring-backyard-refresh-upgrades-under-50"
-  },
-  {
-    "title": "Best 2-Piece Outdoor Wicker Sofa Sets Under $800",
-    "subtitle": "Six PE wicker sofa sets for smaller patios, starting at $289. Real picks comparing cushion quality, frame durability, and style.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-2-piece-outdoor-wicker-sofa-sets"
-  },
-  {
-    "title": "How to Set Up a Backyard Movie Night",
-    "subtitle": "The best outdoor projector screens, inflatable loungers, and speakers for a backyard movie night, starting at $34.",
-    "readTime": "9 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/outdoor-movie-night-backyard-setup"
-  },
-  {
-    "title": "Best Patio Conversation Sets Under $600",
-    "subtitle": "Six wicker conversation sets that actually hold up outside. Suncrown, PHI VILLA, and more, all under $600 with real durability tested.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-patio-conversation-sets-under-600"
-  },
-  {
-    "title": "Best Charcoal Smokers for Backyard BBQ",
-    "subtitle": "Six charcoal smokers from $199, covering offset, bullet, and kamado styles for backyard pitmasters who want real BBQ flavor without the guesswork.",
-    "readTime": "13 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-charcoal-smokers-backyard-bbq"
-  },
-  {
     "title": "Best Propane Tank Covers for Patios (2026)",
     "subtitle": "Hide your 20lb propane tank without losing access. Top wicker, cedar, and metal covers starting at $28, tested on real patios.",
     "readTime": "10 min read",
     "image": "/images/products/hero-best-propane-tank-covers-patio.jpg",
     "href": "/blog/best-propane-tank-covers-patio"
-  },
-  {
-    "title": "Best Retractable Awnings for Decks and Patios",
-    "subtitle": "Top retractable awnings for decks in 2026, from motorized cassette models to manual crank picks. Coverage from 10 to 18 feet wide, starting at $219.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-retractable-awnings-deck-patio"
-  },
-  {
-    "title": "Best Kamado Grills for Backyard BBQ",
-    "subtitle": "Top kamado grills from Kamado Joe, Weber, and Char-Griller. Starts at $349 with the Akorn, up to the Classic III at $1,799.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-kamado-grills-backyard-bbq"
-  },
-  {
-    "title": "Best Outdoor Serving Carts for Patio Entertaining",
-    "subtitle": "The best outdoor serving carts for hosting, from the Weber 7107 at $44 to the Keter Unity XL at $249. Six real picks for real patios.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-serving-carts-patio-entertaining"
-  },
-  {
-    "title": "How to Create a Backyard Reading Nook",
-    "subtitle": "Build a private outdoor reading retreat with the right shade, seating, and lighting. Starts with a $35 shade sail and five smart picks.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-create-backyard-reading-nook"
-  },
-  {
-    "title": "Best Outdoor Plant Stands for Patios and Porches",
-    "subtitle": "Best outdoor plant stands for patios and porches, from a $28 wrought iron single-pot stand to a $48 five-tier display that holds 8 plants.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-plant-stands-patio-porch"
-  },
-  {
-    "title": "Best Smart Outdoor Lights for Patio and Deck",
-    "subtitle": "Top app-controlled smart outdoor lights for patios and decks. From Philips Hue spotlights to Govee rope lights, starting at $35.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-smart-outdoor-lights-patio-deck"
-  },
-  {
-    "title": "How to Create an Overhead String Light Canopy",
-    "subtitle": "Step-by-step guide to building a backyard string light canopy using poles, guide wire, and the right hooks. Includes picks starting at $16.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-create-overhead-string-light-canopy"
-  },
-  {
-    "title": "Best Outdoor Bar Height Tables for Patio Bars",
-    "subtitle": "Top outdoor bar height tables in teak, aluminum, wicker, and more. Build a real backyard bar setup starting around $109.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-bar-tables-patio-entertaining"
-  },
-  {
-    "title": "Propane vs Natural Gas Patio Heaters: Which Is Better?",
-    "subtitle": "Propane or natural gas for your patio heater? We break down cost, heat output, and installation with top picks starting at $149.",
-    "readTime": "9 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/propane-vs-natural-gas-patio-heaters"
-  },
-  {
-    "title": "Best Outdoor Coolers for Your Patio (2026)",
-    "subtitle": "The 6 best patio coolers tested for real backyard use, from the YETI Tundra 45 ($350) to budget hard-sided picks under $100.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-coolers-ice-chests-patio"
-  },
-  {
-    "title": "Best Pool Floats and Floating Loungers for Summer",
-    "subtitle": "The best pool floats for adults in 2026, from the $28 Intex River Run to a $99 FUNBOY Cloud Float. Real picks for real backyards.",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-pool-floats-floating-loungers-summer"
-  },
-  {
-    "title": "Charcoal vs Electric Smoker: Which to Buy",
-    "subtitle": "Charcoal or electric smoker? Compare flavor, ease, and cost with top picks like the Pit Barrel Cooker and Masterbuilt 30",
-    "readTime": "9 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/charcoal-vs-electric-smoker-comparison"
-  },
-  {
-    "title": "Best Patio Heater Covers Worth Buying",
-    "subtitle": "Protect your propane, pyramid, and tabletop patio heaters year-round. Our top picks start at $22 and actually stay put in the wind.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-patio-heater-covers-worth-buying"
-  },
-  {
-    "title": "Gas vs Pellet Grill: Which One Is Right for You?",
-    "subtitle": "Gas grill or pellet smoker? We compare flavor, cost, and convenience with top picks like the Traeger Pro 575 at $649 to help you choose.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/gas-vs-wood-pellet-grill-comparison"
   },
   {
     "title": "Best Lawn Games for Adult Backyard Parties (2026)",
@@ -651,46 +1029,11 @@
     "href": "/blog/best-outdoor-clocks-thermometers-patio"
   },
   {
-    "title": "Best Outdoor Folding Tables for Entertaining",
-    "subtitle": "The best outdoor folding tables for backyard parties, from a $45 compact side table to an 8-ft Cosco buffet table that handles crowds of 20+.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-folding-tables-entertaining"
-  },
-  {
-    "title": "Best Outdoor Buffet Tables for Backyard Parties",
-    "subtitle": "The 5 best outdoor buffet tables for backyard entertaining in 2026, from a $55 aluminum folding table to a grill-side Weber work station.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-buffet-tables-backyard-parties"
-  },
-  {
-    "title": "Best Teak Outdoor Furniture for Patios",
-    "subtitle": "Grade A teak lasts decades outdoors. Our top picks include dining tables, benches, and chairs from Amazonia starting at $149.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-teak-outdoor-furniture-patio"
-  },
-  {
     "title": "Best Fire Pits With Cooking Grates Included",
     "subtitle": "Six fire pits that double as outdoor grills, from $109 to $699. Wood-burning and propane options purpose-built for cooking over an open flame.",
     "readTime": "12 min read",
     "image": "/images/products/hero-best-fire-pits-with-cooking-grates-included.jpg",
     "href": "/blog/best-fire-pits-with-cooking-grates-included"
-  },
-  {
-    "title": "Best String Light Poles for Backyard Patios",
-    "subtitle": "The 5 best freestanding string light poles for your backyard in 2026, starting at $49. No drilling, no permanent fixtures.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-string-light-poles-stands-backyard"
-  },
-  {
-    "title": "How to Set Up a Backyard Taco Bar Party",
-    "subtitle": "Set up a backyard taco bar for Cinco de Mayo with the Keter Unity XL serving station and a rolling margarita cart. Full gear guide inside.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-set-up-backyard-taco-bar"
   },
   {
     "title": "Solo Stove vs Breeo: Which Fire Pit Is Worth It?",
@@ -812,102 +1155,11 @@
     "href": "/blog/how-to-build-fire-pit-seating-area"
   },
   {
-    "title": "Best Backyard Fountains and Water Features 2026",
-    "subtitle": "The 6 best backyard fountains for 2026, from a $89 solar bamboo fountain to a classic 3-tier that fits a 10x10 patio. Real picks that add real calm.",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-backyard-fountains-water-features"
-  },
-  {
-    "title": "Best Porch Rocking Chairs for Any Budget",
-    "subtitle": "From $85 resin rockers to $379 POLYWOOD classics, these are the best porch rocking chairs tested for comfort, weather resistance, and lasting value.",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-porch-rocking-chairs-any-budget"
-  },
-  {
-    "title": "How to Plan Your Backyard Entertaining Layout",
-    "subtitle": "A practical guide to zoning your backyard for dining, lounging, fire pits, and bars. Product picks starting under $90 to anchor each space.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-plan-backyard-entertaining-layout"
-  },
-  {
-    "title": "Best Wood Pellets for Smoking Meat at Home",
-    "subtitle": "The right pellet wood changes everything. Bear Mountain hickory, Traeger cherry, and 4 more top picks for every meat, starting at $19.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-wood-pellets-smoking-meat-home"
-  },
-  {
-    "title": "How to Create a Pollinator Garden on Your Patio",
-    "subtitle": "Turn any patio into a habitat for bees and butterflies. Native seed mixes, self-watering planters, and a mason bee house starting around $22.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-create-pollinator-garden-patio"
-  },
-  {
-    "title": "Best Pellet Grills Under $500 for Beginners",
-    "subtitle": "The best pellet grills under $500 for backyard beginners. From the $299 GMG Davy Crockett to the Camp Chef SmokePro LD at $469.",
-    "readTime": "13 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-pellet-grills-under-500"
-  },
-  {
-    "title": "Best Hardtop Gazebo Kits for Backyard Shade",
-    "subtitle": "The best hardtop gazebo kits for real weather protection. Aluminum vs steel frames, 10x10 to 12x14 sizes, from $849 to $1,999.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-hardtop-gazebo-kits-backyard-shade"
-  },
-  {
-    "title": "Best Chaise Lounges for Small Patios 2026",
-    "subtitle": "Six slim chaise lounges for compact patios and balconies, starting at $89. Folding, sling, and wicker picks that actually fit small spaces.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-chaise-lounge-small-patio"
-  },
-  {
     "title": "Best Solar Post Cap Lights for Decks and Fences",
     "subtitle": "The 7 best solar post cap lights for decks and fences in 2026, from $22 flat caps to lantern styles that run 8+ hours on a single charge.",
     "readTime": "13 min read",
     "image": "/images/products/hero-best-solar-post-cap-lights-deck-fence.jpg",
     "href": "/blog/best-solar-post-cap-lights-deck-fence"
-  },
-  {
-    "title": "Best Solar Outdoor Lights for Pathways and Gardens",
-    "subtitle": "The 7 best solar landscape lights for 2026, from $22 path stakes to decorative garden lanterns. Real picks for real yards.",
-    "readTime": "13 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-solar-outdoor-lights-garden-landscape"
-  },
-  {
-    "title": "Best Outdoor Lounge Sets With Ottoman Included",
-    "subtitle": "Six outdoor lounge sets that include an ottoman, starting around $369. Wicker, aluminum, and sectional options sized for real patios.",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-lounge-sets-with-ottoman"
-  },
-  {
-    "title": "Best Outdoor Benches for Gardens and Patios",
-    "subtitle": "Six outdoor benches worth buying in 2026, from POLYWOOD poly lumber to teak and storage styles starting around $129.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-benches-garden-patio"
-  },
-  {
-    "title": "Best Outdoor Bar Carts for Entertaining",
-    "subtitle": "The 6 best weather-resistant outdoor bar carts for patios and decks in 2026, including the Crosley Palm Harbor wicker cart at $189.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-bar-carts-entertaining"
-  },
-  {
-    "title": "Best Gas Fire Pit Burner Inserts for DIY Builds",
-    "subtitle": "Top propane and natural gas burner insert kits for DIY fire pits, from $55 ring burners to the Warming Trends Crossfire for serious flame.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-gas-fire-pit-inserts-diy-outdoor"
   },
   {
     "title": "Best Tiki Torches for Backyard Ambiance",
@@ -917,95 +1169,11 @@
     "href": "/blog/best-tiki-torches-backyard-ambiance"
   },
   {
-    "title": "Best Landscape Uplights for Backyard Trees",
-    "subtitle": "Six real uplighting picks, from $22 solar stakes to $57 brass fixtures, to make your backyard trees look stunning after dark.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-landscape-uplights-backyard-trees"
-  },
-  {
-    "title": "Best Outdoor Privacy Screens for Decks and Patios",
-    "subtitle": "Top privacy screens for decks and patios in 2026. Bamboo, metal, and fabric options from $42. Block neighbors without blocking your style.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-privacy-screens-deck-patio"
-  },
-  {
     "title": "Pergola vs. Gazebo: Which Is Right for You?",
     "subtitle": "Pergola or gazebo? Compare cost, shade, and installation with top picks starting at $349, including the Purple Leaf aluminum pergola and Sunjoy 10x12 gazebo.",
     "readTime": "10 min read",
     "image": "/images/products/hero-pergola-vs-gazebo-which-is-right-for-you.jpg",
     "href": "/blog/pergola-vs-gazebo-which-is-right-for-you"
-  },
-  {
-    "title": "Best Vertical Planters and Living Wall Kits",
-    "subtitle": "The best vertical planters for fences, pergola posts, and small patios. From the Greenstalk 5-Tier at $89 to felt pocket systems under $30.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-vertical-planters-living-wall-kits"
-  },
-  {
-    "title": "Best Smoker Boxes for Gas Grills 2026",
-    "subtitle": "Add real wood smoke to your gas grill. We tested cast iron, stainless, and V-shaped smoker boxes starting at $17 to find what actually works.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-smoker-boxes-gas-grill-wood-flavor"
-  },
-  {
-    "title": "How to Build an Outdoor Kitchen Under $1,000",
-    "subtitle": "Build a functional outdoor kitchen for under $1,000 using modular components. Starts with the Blackstone 22",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-build-outdoor-kitchen-budget"
-  },
-  {
-    "title": "Best Outdoor Sectional Covers for All Weather",
-    "subtitle": "Protect your sectional sofa year-round. From L-shaped to modular designs, these heavy-duty covers start around $60 and actually stay put in wind.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-sectional-cover-sets-all-weather"
-  },
-  {
-    "title": "Best Outdoor Dining Chairs Sold Separately",
-    "subtitle": "Mix-and-match outdoor dining chairs from $70 to $175. Our picks cover stackable steel, teak folding, and resin sling styles for any patio table.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-dining-chairs-sold-separately"
-  },
-  {
-    "title": "How to Landscape Around a Backyard Fire Pit",
-    "subtitle": "Build a safe, clean fire pit zone with gravel, pavers, and edging. Practical guide with products starting at $22, no contractor required.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-landscape-around-backyard-fire-pit"
-  },
-  {
-    "title": "How to Clean & Restore Patio Furniture This Spring",
-    "subtitle": "Step-by-step spring guide to restoring teak, wicker, aluminum, and cushions. Top picks starting at $14, including Mothers Mag and 303 Protectant.",
-    "readTime": "9 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-clean-restore-patio-furniture-spring"
-  },
-  {
-    "title": "How to Stain and Seal a Cedar Pergola",
-    "subtitle": "Step-by-step spring guide to cleaning, staining, and sealing your cedar pergola. Protect against UV and graying with picks starting at $18.",
-    "readTime": "9 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-stain-seal-cedar-pergola"
-  },
-  {
-    "title": "Kamado vs. Pellet Grill: Which Should You Buy?",
-    "subtitle": "Kamado or pellet grill? Compare flavor, fuel costs, and ease of use with picks like the Kamado Joe Classic III and Traeger Pro 575 to find your match.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/kamado-vs-pellet-grill-comparison"
-  },
-  {
-    "title": "Best Outdoor Daybed Loungers for the Patio",
-    "subtitle": "The best outdoor daybeds for pool decks and patios in 2026, including canopy options starting around $479.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-daybed-loungers-patio"
   },
   {
     "title": "Patio Shade Ideas: Pergolas, Umbrellas, Shade Sails & More",
@@ -1120,39 +1288,11 @@
     "href": "/blog/best-outdoor-folding-chairs-backyard-parties"
   },
   {
-    "title": "Best Replacement Cushions for Porch Swings",
-    "subtitle": "The best porch swing replacement cushions in 2026, from $36 budget picks to Sunbrella options that outlast everything else. Tie-on designs, oversized fits, real outdoor fabrics.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-replacement-cushions-porch-swings"
-  },
-  {
-    "title": "Best Outdoor Serving Platters & Shatterproof Barware",
-    "subtitle": "Top picks for shatterproof acrylic wine glasses, melamine platters, and outdoor cocktail sets. Govino 4-pack starts at $20.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-serving-platters-shatterproof-barware"
-  },
-  {
-    "title": "How to Clean and Seal Your Deck for Spring",
-    "subtitle": "Step-by-step guide to cleaning, brightening, and sealing your deck this spring. Top picks include Ready Seal starting at $48.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-clean-seal-deck-spring"
-  },
-  {
     "title": "Best Hammock Chairs with Stands for Backyard",
     "subtitle": "Top hammock and egg chairs with freestanding stands for any backyard. Cotton rope, wicker pod, and macrame styles from $100 to $230.",
     "readTime": "11 min read",
     "image": "/images/products/hero-best-hammock-chairs-with-stands-backyard.jpg",
     "href": "/blog/best-hammock-chairs-with-stands-backyard"
-  },
-  {
-    "title": "Pellet Grill vs Offset Smoker: Which Is Right for You?",
-    "subtitle": "A head-to-head breakdown of pellet grills vs offset smokers, covering smoke flavor and fuel cost, with real picks like the Recteq RT-700 at $999.",
-    "readTime": "9 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/pellet-grill-vs-offset-smoker-comparison"
   },
   {
     "title": "Best Outdoor Floor Lamps for Patio and Deck",
@@ -1162,88 +1302,11 @@
     "href": "/blog/best-outdoor-floor-lamps-patio-deck"
   },
   {
-    "title": "Best Outdoor Kitchen Carts and Grill Islands 2026",
-    "subtitle": "The best outdoor kitchen carts and grill islands for 2026, from a $89 fold-flat table to a $279 full prep station with cabinet storage.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-kitchen-carts-grill-islands"
-  },
-  {
-    "title": "Best Outdoor Accent Lighting for Patios",
-    "subtitle": "Go beyond string lights with solar stake lights, LED pergola strips, flameless candles, and tabletop lanterns that cost under $50.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-accent-lighting-patio-ideas"
-  },
-  {
-    "title": "Best Outdoor Accent Tables Under $100",
-    "subtitle": "Seven weather-resistant outdoor accent tables under $100, from a $40 folding steel tray table to a real teak round. Picks for patios of any size.",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-accent-tables-under-100"
-  },
-  {
-    "title": "Father\\",
-    "subtitle": "The best Father\\",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/fathers-day-backyard-grilling-gift-guide"
-  },
-  {
-    "title": "Best Outdoor Accent Chairs for Patios 2026",
-    "subtitle": "The best outdoor accent chairs for patios, from a $89 GCI rocker to a $289 hanging egg chair. Real picks that make your porch look intentional.",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-accent-chairs-patio"
-  },
-  {
-    "title": "Best Infrared Patio Heaters for 2026",
-    "subtitle": "Six infrared patio heaters from $110 to $720, including wall-mount, ceiling, and freestanding options for covered patios and open decks.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-infrared-patio-heaters-outdoor"
-  },
-  {
-    "title": "Best Outdoor Dining Sets for 6 to 8 People",
-    "subtitle": "The best outdoor dining sets for 6-8 people, from a $449 acacia wood set to Grade-A teak. Real picks for summer entertaining on a large patio or deck.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-dining-sets-6-to-8-people"
-  },
-  {
     "title": "How to Set Up an Outdoor Cocktail Station",
     "subtitle": "Build a stylish mobile outdoor bar with the Keter Unity XL for $329. No construction needed. Just roll it out and start pouring.",
     "readTime": "12 min read",
     "image": "/images/products/hero-how-to-set-up-outdoor-cocktail-station.jpg",
     "href": "/blog/how-to-set-up-outdoor-cocktail-station"
-  },
-  {
-    "title": "Best Outdoor Lantern String Lights for Pergolas",
-    "subtitle": "The 6 best outdoor lantern string lights for pergolas in 2026, from $17 paper lanterns to the weatherproof Soji Stella fabric lights built to last.",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-lantern-string-lights-pergola"
-  },
-  {
-    "title": "How to Build a DIY Pergola: Beginner\\",
-    "subtitle": "Build a freestanding backyard pergola with confidence. Covers permits, post spacing, beam sizing, and 4 pergola kits starting at $389.",
-    "readTime": "9 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-build-diy-pergola-beginners-guide"
-  },
-  {
-    "title": "Best Raised Garden Bed Kits for Backyard Veggies",
-    "subtitle": "Top raised garden bed kits for 2026. Modular metal, cedar, and composite options starting at $59 that last through full growing seasons.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-raised-garden-bed-kits-backyard"
-  },
-  {
-    "title": "How to Set Up a Backyard S\\",
-    "subtitle": "Turn your fire pit into a full s\\",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-set-up-backyard-smores-bar"
   },
   {
     "title": "How to Hang a Porch Swing: Step-by-Step",
@@ -1253,74 +1316,11 @@
     "href": "/blog/how-to-hang-porch-swing-step-by-step"
   },
   {
-    "title": "Best Grill Covers for Every Grill Type",
-    "subtitle": "Best grill covers for gas, pellet, kamado, and charcoal grills. Top picks from Weber, Classic Accessories, and Unicook starting at $23.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-grill-covers-every-grill-type"
-  },
-  {
-    "title": "Gas Grill vs Pellet Grill: Which Should You Buy?",
-    "subtitle": "Gas or pellet grill? We break down cost, flavor, and real-world use to help you pick. The Traeger Pro 575 starts at $699.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/gas-grill-vs-pellet-grill-which-to-buy"
-  },
-  {
-    "title": "Best Outdoor Sectional Sofas Under $800",
-    "subtitle": "Six affordable outdoor sectionals with cushions and covers for real patios. Top pick: Suncrown 5-piece wicker set with cover for $649.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-sectional-sofas-under-800"
-  },
-  {
     "title": "Best Outdoor Cushions for Patio Furniture 2026",
     "subtitle": "Top outdoor cushions and pillows for patio furniture, from $28 lumbar accents to full deep-seat sets with fade-resistant Sunbrella fabric.",
     "readTime": "13 min read",
     "image": "/images/products/hero-best-outdoor-cushions-patio-furniture.jpg",
     "href": "/blog/best-outdoor-cushions-patio-furniture"
-  },
-  {
-    "title": "Memorial Day BBQ Setup Guide 2026",
-    "subtitle": "How to stage the perfect Memorial Day cookout, from the Napoleon Rogue XT 425 grill to cooler placement and string lights for the long evening ahead.",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/memorial-day-backyard-bbq-setup-guide"
-  },
-  {
-    "title": "Patio Herb Garden Setup Guide for Containers",
-    "subtitle": "Grow basil, mint, and rosemary on any patio. Top picks include the Mr. Stacky 5-tier vertical planter for under $40.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/how-to-set-up-patio-herb-garden-containers"
-  },
-  {
-    "title": "Best Outdoor Wet Bar Setup for Backyard",
-    "subtitle": "Build a real backyard bar with the right cabinet, beverage fridge, and tools. The Keter Unity XL starts at $250 and anchors the whole setup.",
-    "readTime": "11 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-wet-bar-setup-backyard"
-  },
-  {
-    "title": "Best Outdoor Curtains for Pergola and Patio",
-    "subtitle": "The best outdoor curtains for pergolas and patios. UV-resistant picks from $26 per panel for privacy, shade, and wind protection.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-outdoor-curtains-pergola-patio"
-  },
-  {
-    "title": "Best Tabletop Fire Pits for Small Patios 2026",
-    "subtitle": "The best tabletop fire pits for small patios and balconies. Bio ethanol and propane picks starting under $50, including Solo Stove Mesa.",
-    "readTime": "12 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/best-tabletop-fire-pits-small-patios"
-  },
-  {
-    "title": "Backyard Herb Garden Setup for Patio Cooks",
-    "subtitle": "Grow fresh basil, rosemary, and thyme steps from your grill. Five real container setups starting at $18, from raised beds to railing planters.",
-    "readTime": "10 min read",
-    "image": "https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "href": "/blog/backyard-herb-kitchen-garden-setup"
   },
   {
     "title": "Best Portable Fire Pits for Camping, Tailgating & Beach Trips",

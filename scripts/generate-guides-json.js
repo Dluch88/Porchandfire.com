@@ -47,7 +47,7 @@ function discoverPosts() {
       title,
       subtitle,
       readTime: `${minutes} min read`,
-      image: image || 'https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: image || null,
       href: `/blog/${entry.name}`,
       mtime: stat.mtime.getTime(),
     });

@@ -12,7 +12,7 @@ export default function Article() {
       {/* Hero */}
       <div className="relative h-[50vh] min-h-[360px] w-full overflow-hidden">
         <img
-          src="https://images.pexels.com/photos/6271631/pexels-photo-6271631.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          src="/images/products/hero-best-outdoor-dining-sets-6-to-8-people.jpg"
           alt="Best Outdoor Dining Sets for 6 to 8 People"
           className="w-full h-full object-cover"
         />
