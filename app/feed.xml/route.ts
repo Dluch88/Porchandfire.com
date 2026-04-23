@@ -3,7 +3,6 @@ import path from 'path';
 
 const SITE_URL = 'https://porchandfire.com';
 const BLOG_DIR = path.join(process.cwd(), 'app', 'blog');
-const IMG_DIR = path.join(process.cwd(), 'public', 'images', 'products');
 
 interface BlogPost {
   title: string;
@@ -56,10 +55,8 @@ function extractCategory(content: string): string {
 }
 
 function extractBestImage(content: string, slug: string): string | null {
-  const heroPath = path.join(IMG_DIR, `hero-${slug}.jpg`);
-  if (fs.existsSync(heroPath)) {
-    return `${SITE_URL}/images/products/hero-${slug}.jpg`;
-  }
+  const heroSlugRef = content.match(new RegExp(`(/images/products/hero-${slug}\\.(?:jpg|jpeg|png|webp))`));
+  if (heroSlugRef) return `${SITE_URL}${heroSlugRef[1]}`;
 
   const heroRef = content.match(/(\/images\/products\/hero-[^"'`\s]+\.(?:jpg|jpeg|png|webp))/);
   if (heroRef) return `${SITE_URL}${heroRef[1]}`;
