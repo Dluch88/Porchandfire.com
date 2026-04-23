@@ -3,10 +3,12 @@ import path from 'path';
 
 const SITE_URL = 'https://porchandfire.com';
 const BLOG_DIR = path.join(process.cwd(), 'app', 'blog');
+const IMG_DIR = path.join(process.cwd(), 'public', 'images', 'products');
 
 interface BlogPost {
   title: string;
   description: string;
+  category: string;
   slug: string;
   pubDate: Date;
   image: string | null;
@@ -41,27 +43,67 @@ function extractMetadata(content: string): { title: string; description: string 
   };
 }
 
-function extractFirstImage(content: string): string | null {
-  // Try multiple image patterns in priority order
+function extractCategory(content: string): string {
+  const patterns = [
+    /category:\s*['"`]([^'"`]+)['"`]/i,
+    />([\w\s&]+)<\/span>\s*<span[^>]*>Blog/i,
+  ];
+  for (const p of patterns) {
+    const m = content.match(p);
+    if (m && m[1]) return m[1].trim();
+  }
+  return '';
+}
+
+function extractBestImage(content: string, slug: string): string | null {
+  const heroPath = path.join(IMG_DIR, `hero-${slug}.jpg`);
+  if (fs.existsSync(heroPath)) {
+    return `${SITE_URL}/images/products/hero-${slug}.jpg`;
+  }
+
+  const heroRef = content.match(/(\/images\/products\/hero-[^"'`\s]+\.(?:jpg|jpeg|png|webp))/);
+  if (heroRef) return `${SITE_URL}${heroRef[1]}`;
+
   const pexels = content.match(/(https:\/\/images\.pexels\.com\/photos\/[^\s'"`,]+)/);
   if (pexels) return pexels[1];
-
   const unsplash = content.match(/(https:\/\/images\.unsplash\.com\/[^\s'"`,]+)/);
   if (unsplash) return unsplash[1];
 
-  // Hero images, src="..." in JSX
-  const heroImg = content.match(/src="(\/images\/[^"]+)"/);
-  if (heroImg) return `${SITE_URL}${heroImg[1]}`;
+  const heroImgJsx = content.match(/src="(\/images\/[^"]*hero[^"]+)"/i);
+  if (heroImgJsx) return `${SITE_URL}${heroImgJsx[1]}`;
 
-  // Image property in JS objects: image: '/images/...'
+  const anyJsxImg = content.match(/src="(\/images\/[^"]+)"/);
+  if (anyJsxImg) return `${SITE_URL}${anyJsxImg[1]}`;
+
   const objImg = content.match(/image:\s*'(\/images\/[^']+)'/);
   if (objImg) return `${SITE_URL}${objImg[1]}`;
 
-  // Any quoted /images/ path
   const anyImg = content.match(/['"`](\/images\/[^'"`\s]+\.(?:jpg|jpeg|png|webp))['"`]/);
   if (anyImg) return `${SITE_URL}${anyImg[1]}`;
 
   return null;
+}
+
+function buildPinterestDescription(description: string, title: string, slug: string, category: string): string {
+  const base = description.trim();
+
+  const slugWords = slug
+    .replace(/-/g, ' ')
+    .replace(/\b(the|a|an|and|or|for|to|of|with|vs|best)\b/gi, '')
+    .trim();
+
+  const categoryPhrase = category
+    ? `${category.toLowerCase()} ideas`
+    : 'backyard and outdoor living ideas';
+
+  const tail = `Explore ${slugWords} and more ${categoryPhrase} at PorchAndFire.com. #backyardideas #outdoorliving #affiliate`;
+
+  const combined = `${base} ${tail}`;
+
+  if (combined.length > 490) {
+    return `${base} ${categoryPhrase} at PorchAndFire.com. #affiliate`.slice(0, 490);
+  }
+  return combined;
 }
 
 function discoverPosts(): BlogPost[] {
@@ -75,7 +117,6 @@ function discoverPosts(): BlogPost[] {
     const pagePath = path.join(BLOG_DIR, entry.name, 'page.tsx');
     if (!fs.existsSync(pagePath)) continue;
 
-    // Skip the blog index page itself
     if (entry.name === '[mdslug]') continue;
 
     const content = fs.readFileSync(pagePath, 'utf-8');
@@ -83,18 +124,19 @@ function discoverPosts(): BlogPost[] {
     if (!meta) continue;
 
     const stat = fs.statSync(pagePath);
-    const image = extractFirstImage(content);
+    const image = extractBestImage(content, entry.name);
+    const category = extractCategory(content);
 
     posts.push({
       title: meta.title,
       description: meta.description,
+      category,
       slug: entry.name,
       pubDate: stat.mtime,
       image,
     });
   }
 
-  // Sort newest first
   posts.sort((a, b) => b.pubDate.getTime() - a.pubDate.getTime());
 
   return posts;
@@ -111,19 +153,25 @@ function buildRss(): string {
   const lastBuildDate = posts[0].pubDate.toUTCString();
 
   const itemsXml = posts
-    .map(
-      (post) => `    <item>
+    .map((post) => {
+      const pinterestDesc = buildPinterestDescription(
+        post.description,
+        post.title,
+        post.slug,
+        post.category
+      );
+      return `    <item>
       <title>${escapeXml(post.title)}</title>
       <link>${SITE_URL}/blog/${post.slug}</link>
       <guid>${SITE_URL}/blog/${post.slug}</guid>
-      <description>${escapeXml(post.description)}</description>
+      <description>${escapeXml(pinterestDesc)}</description>
       <pubDate>${post.pubDate.toUTCString()}</pubDate>${
         post.image
           ? `\n      <enclosure url="${escapeXml(post.image)}" type="image/jpeg" length="0" />`
           : ''
       }
-    </item>`
-    )
+    </item>`;
+    })
     .join('\n');
 
   return `<?xml version="1.0" encoding="UTF-8"?>
